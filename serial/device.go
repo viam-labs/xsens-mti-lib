@@ -1,4 +1,4 @@
-package mti
+package mtiserial
 
 import (
 	"context"
@@ -24,7 +24,7 @@ type Device struct {
 	closeOnce sync.Once
 }
 
-func New(deviceID string, path string, baudRate int) (compass.Device, error) {
+func NewDevice(deviceID string, path string, baudRate int) (compass.Device, error) {
 	control := mtigen.XsControlConstruct()
 
 	portInfoArray := mtigen.XSScannerScanPorts()

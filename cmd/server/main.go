@@ -31,7 +31,7 @@ func main() {
 		port = int(portParsed)
 	}
 
-	sensor, err := mtiserial.New("02782090", "/dev/ttyUSB0", 115200)
+	sensor, err := mtiserial.NewDevice("02782090", "/dev/ttyUSB0", 115200)
 	if err != nil {
 		golog.Global.Fatal(err)
 	}
