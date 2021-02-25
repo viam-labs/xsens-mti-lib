@@ -1,4 +1,4 @@
-package rplidarws
+package mtiws
 
 import (
 	"context"

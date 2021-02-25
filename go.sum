@@ -804,10 +804,7 @@ github.com/valyala/tcplisten v0.0.0-20161114210144-ceec8f93295a/go.mod h1:v3UYOV
 github.com/veandco/go-sdl2 v0.3.3/go.mod h1:FB+kTpX9YTE+urhYiClnRzpOXbiWgaU3+5F2AB78DPg=
 github.com/viamrobotics/dynamixel v0.0.0-20210218153524-e52f765b9997/go.mod h1:cnviaku/Hs1rKlwToSzGmxx86kRl9z8rQGiOxNJhaT8=
 github.com/viamrobotics/robotcore v0.0.0-20210224164541-498581e635aa/go.mod h1:JWlwjovjxgxfP773PNRo1B9Ig6lwrVAA0130tqLRFAw=
-github.com/viamrobotics/robotcore v0.0.0-20210224232800-3538afe89682 h1:AWOnQtwt2oSnoi4sYbGUWJxg7h+Yd+1uk0icahKNIDw=
 github.com/viamrobotics/robotcore v0.0.0-20210224232800-3538afe89682/go.mod h1:d1L5mmuInOVR2dRJsSEHbREki240WxHnrVa48cbEr4M=
-github.com/viamrobotics/robotcore v0.0.0-20210225164211-bbe64578ce19 h1:q/mhQ5pySj1KEf0CHYia2vLC0FtDq/GXaJCAQTdVwCY=
-github.com/viamrobotics/robotcore v0.0.0-20210225164211-bbe64578ce19/go.mod h1:PXlGniKZ+BnWK3jbGIyoFvXkWcvl+3QXtUgWh+GXRJc=
 github.com/viamrobotics/robotcore v0.0.0-20210225172749-b778e1c9e3eb h1:Limd+FUhoFhI3G0rkcfEpX5GgnI6U9W+sTvAqfRPKn0=
 github.com/viamrobotics/robotcore v0.0.0-20210225172749-b778e1c9e3eb/go.mod h1:PXlGniKZ+BnWK3jbGIyoFvXkWcvl+3QXtUgWh+GXRJc=
 github.com/viamrobotics/rplidar v0.0.0-20210224232235-7ae3ca01ba11/go.mod h1:SKswhNlYsYqYF3TEQrfW5bF4uyOxswyeH4/ZhfbBTM4=
@@ -956,8 +953,8 @@ golang.org/x/net v0.0.0-20201021035429-f5854403a974/go.mod h1:sp8m0HH+o8qH0wwXwY
 golang.org/x/net v0.0.0-20201031054903-ff519b6c9102/go.mod h1:sp8m0HH+o8qH0wwXwYZr8TS3Oi6o0r6Gce1SSxlDquU=
 golang.org/x/net v0.0.0-20201110031124-69a78807bb2b/go.mod h1:sp8m0HH+o8qH0wwXwYZr8TS3Oi6o0r6Gce1SSxlDquU=
 golang.org/x/net v0.0.0-20201201195509-5d6afe98e0b7/go.mod h1:sp8m0HH+o8qH0wwXwYZr8TS3Oi6o0r6Gce1SSxlDquU=
-golang.org/x/net v0.0.0-20201202161906-c7110b5ffcbb h1:eBmm0M9fYhWpKZLjQUUKka/LtIxf46G4fxeEz5KJr9U=
 golang.org/x/net v0.0.0-20201202161906-c7110b5ffcbb/go.mod h1:sp8m0HH+o8qH0wwXwYZr8TS3Oi6o0r6Gce1SSxlDquU=
+golang.org/x/net v0.0.0-20210119194325-5f4716e94777 h1:003p0dJM77cxMSyCPFphvZf/Y5/NXf5fzg6ufd1/Oew=
 golang.org/x/net v0.0.0-20210119194325-5f4716e94777/go.mod h1:m0MpNAwzfU5UDzcl9v0D8zg8gWTRqZa9RBIspLL5mdg=
 golang.org/x/oauth2 v0.0.0-20180821212333-d2e6202438be/go.mod h1:N/0e6XlmueqKjAGxoOufVs8QHGRruUQn6yWY3a++T0U=
 golang.org/x/oauth2 v0.0.0-20181203162652-d668ce993890/go.mod h1:N/0e6XlmueqKjAGxoOufVs8QHGRruUQn6yWY3a++T0U=
@@ -1286,7 +1283,6 @@ honnef.co/go/tools v0.0.1-2020.1.3/go.mod h1:X/FiERA/W4tHapMX5mGpAtMSVEeEUOyHaw9
 honnef.co/go/tools v0.0.1-2020.1.4/go.mod h1:X/FiERA/W4tHapMX5mGpAtMSVEeEUOyHaw9vFzvIQ3k=
 honnef.co/go/tools v0.0.1-2020.1.6 h1:W18jzjh8mfPez+AwGLxmOImucz/IFjpNlrKVnaj2YVc=
 honnef.co/go/tools v0.0.1-2020.1.6/go.mod h1:pyyisuGw24ruLjrr1ddx39WE0y9OooInRzEYLhQB2YY=
-howett.net/plist v0.0.0-20201203080718-1454fab16a06 h1:QDxUo/w2COstK1wIBYpzQlHX/NqaQTcf9jyz347nI58=
 howett.net/plist v0.0.0-20201203080718-1454fab16a06/go.mod h1:vMygbs4qMhSZSc4lCUl2OEE+rDiIIJAIdR4m7MiMcm0=
 modernc.org/cc v1.0.0/go.mod h1:1Sk4//wdnYJiUIxnW8ddKpaOJCF37yAdqYnkxUpaYxw=
 modernc.org/golex v1.0.0/go.mod h1:b/QX9oBD/LhixY6NDh+IdGv17hgB+51fET1i2kPSmvk=

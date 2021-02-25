@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	mtigen "github.com/viamrobotics/robotcore/sensor/compass/mti/gen"
+	mtigen "github.com/viamrobotics/mti/gen"
 
 	"github.com/edaniels/golog"
 )
