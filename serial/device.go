@@ -12,7 +12,7 @@ import (
 	mtigen "github.com/viamrobotics/mti/gen"
 
 	"github.com/edaniels/golog"
-	"github.com/viamrobotics/robotcore/sensor/compass"
+	"go.viam.com/robotcore/sensor/compass"
 )
 
 type Device struct {

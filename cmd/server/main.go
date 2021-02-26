@@ -12,7 +12,7 @@ import (
 
 	mtiserial "github.com/viamrobotics/mti/serial"
 	mtiws "github.com/viamrobotics/mti/ws"
-	"github.com/viamrobotics/robotcore/sensor/compass"
+	"go.viam.com/robotcore/sensor/compass"
 
 	"github.com/edaniels/golog"
 	"github.com/edaniels/wsapi"

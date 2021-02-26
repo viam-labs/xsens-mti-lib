@@ -5,7 +5,7 @@ import (
 	"math"
 
 	"github.com/edaniels/wsapi"
-	"github.com/viamrobotics/robotcore/sensor/compass"
+	"go.viam.com/robotcore/sensor/compass"
 	"nhooyr.io/websocket"
 )
 
