@@ -1,4 +1,4 @@
-%module mtigen
+%module gen
 %feature("flatnested", "1");
 
 %include <stdint.i>
@@ -11,7 +11,7 @@
 	Journaller* gJournal = 0;
 %}
 
-// swig -v -go -cgo -c++ -intgosize 64 mtigen.i
+// swig -v -go -cgo -c++ -intgosize 64 gen.i
 
 %rename(opIndex) operator[];
 %rename(opLeftShift) operator<<;

@@ -10,12 +10,11 @@ import (
 	"strconv"
 	"time"
 
-	mtiserial "github.com/viamrobotics/mti/serial"
-	mtiws "github.com/viamrobotics/mti/ws"
-	"go.viam.com/robotcore/sensor/compass"
+	"go.viam.com/mti/serial"
 
 	"github.com/edaniels/golog"
 	"github.com/edaniels/wsapi"
+	"go.viam.com/robotcore/sensor/compass"
 	"nhooyr.io/websocket"
 )
 
@@ -31,7 +30,7 @@ func main() {
 		port = int(portParsed)
 	}
 
-	sensor, err := mtiserial.NewDevice("02782090", "/dev/ttyUSB0", 115200)
+	sensor, err := serial.NewDevice("02782090", "/dev/ttyUSB0", 115200)
 	if err != nil {
 		golog.Global.Fatal(err)
 	}
@@ -65,14 +64,14 @@ func main() {
 			}
 			result, err := processCommand(r.Context(), cmd, sensor)
 			if err != nil {
-				resp := wsapi.NewErrorResponse(err)
-				if err := wsapi.WriteJSONResponse(r.Context(), resp, conn); err != nil {
+				resp := wsapi.NewErrorCommandResponse(err)
+				if err := wsapi.WriteJSONCommandResponse(r.Context(), resp, conn); err != nil {
 					golog.Global.Errorw("error writing", "error", err)
 					continue
 				}
 				continue
 			}
-			if err := wsapi.WriteJSONResponse(r.Context(), wsapi.NewSuccessfulResponse(result), conn); err != nil {
+			if err := wsapi.WriteJSONCommandResponse(r.Context(), wsapi.NewSuccessfulCommandResponse(result), conn); err != nil {
 				golog.Global.Errorw("error writing", "error", err)
 				continue
 			}
@@ -102,7 +101,7 @@ func main() {
 
 func processCommand(ctx context.Context, cmd *wsapi.Command, sensor compass.Device) (interface{}, error) {
 	switch cmd.Name {
-	case mtiws.CommandHeading:
+	case compass.WSCommandHeading:
 		return sensor.Heading(ctx)
 	default:
 		return nil, fmt.Errorf("unknown command %s", cmd.Name)

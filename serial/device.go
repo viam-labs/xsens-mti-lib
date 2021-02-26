@@ -1,4 +1,4 @@
-package mtiserial
+package serial
 
 import (
 	"context"
@@ -9,26 +9,26 @@ import (
 	"sync/atomic"
 	"time"
 
-	mtigen "github.com/viamrobotics/mti/gen"
+	"go.viam.com/mti/gen"
 
 	"github.com/edaniels/golog"
 	"go.viam.com/robotcore/sensor/compass"
 )
 
 type Device struct {
-	control   mtigen.XsControl
-	device    mtigen.XSDevice
-	callback  mtigen.CallbackHandler
+	control   gen.XsControl
+	device    gen.XSDevice
+	callback  gen.CallbackHandler
 	heading   atomic.Value
 	closeCh   chan struct{}
 	closeOnce sync.Once
 }
 
 func NewDevice(deviceID string, path string, baudRate int) (compass.Device, error) {
-	control := mtigen.XsControlConstruct()
+	control := gen.XsControlConstruct()
 
-	portInfoArray := mtigen.XSScannerScanPorts()
-	portInfoArrayPtr := mtigen.SwigcptrXsArrayXsPortInfo(portInfoArray.Swigcptr())
+	portInfoArray := gen.XSScannerScanPorts()
+	portInfoArrayPtr := gen.SwigcptrXsArrayXsPortInfo(portInfoArray.Swigcptr())
 
 	if portInfoArrayPtr.Size() == 0 {
 		return nil, errors.New("no mti device found")
@@ -41,25 +41,25 @@ func NewDevice(deviceID string, path string, baudRate int) (compass.Device, erro
 		"baudrate", mtPort.Baudrate(),
 	)
 
-	var useBaudRate mtigen.XsBaudRate
+	var useBaudRate gen.XsBaudRate
 	switch baudRate {
 	case 115200:
-		useBaudRate = mtigen.XBR_115k2
+		useBaudRate = gen.XBR_115k2
 	default:
 		return nil, fmt.Errorf("unknown baudrate %d", baudRate)
 	}
 
-	pathStr := mtigen.NewXSString(path)
-	defer mtigen.DeleteXSString(pathStr)
+	pathStr := gen.NewXSString(path)
+	defer gen.DeleteXSString(pathStr)
 	if !control.OpenPort(pathStr, useBaudRate) {
 		defer control.Destruct()
 		return nil, errors.New("failed to open port")
 	}
 
-	devID := mtigen.NewXSDeviceId()
-	defer mtigen.DeleteXSDeviceId(devID)
-	devIDStr := mtigen.NewXSString(deviceID)
-	defer mtigen.DeleteXSString(devIDStr)
+	devID := gen.NewXSDeviceId()
+	defer gen.DeleteXSDeviceId(devID)
+	devIDStr := gen.NewXSString(deviceID)
+	defer gen.DeleteXSString(devIDStr)
 	devID.FromString(devIDStr)
 
 	device := control.Device(devID)
@@ -68,8 +68,8 @@ func NewDevice(deviceID string, path string, baudRate int) (compass.Device, erro
 		return nil, errors.New("expected device")
 	}
 
-	callback := mtigen.NewCallbackHandler()
-	mtigen.AddCallbackHandler(callback, device)
+	callback := gen.NewCallbackHandler()
+	gen.AddCallbackHandler(callback, device)
 
 	if !device.GotoMeasurement() {
 		return nil, errors.New("failed to go to measurement mode")
@@ -132,7 +132,7 @@ func (d *Device) Close(ctx context.Context) error {
 	d.closeOnce.Do(func() {
 		close(d.closeCh)
 		defer d.control.Destruct()
-		defer mtigen.DeleteCallbackHandler(d.callback)
+		defer gen.DeleteCallbackHandler(d.callback)
 	})
 	return nil
 }

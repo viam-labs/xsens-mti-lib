@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	mtigen "github.com/viamrobotics/mti/gen"
+	mtigen "go.viam.com/mti/gen"
 
 	"github.com/edaniels/golog"
 )

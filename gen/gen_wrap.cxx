@@ -8,9 +8,9 @@
  * interface file instead.
  * ----------------------------------------------------------------------------- */
 
-// source: mtigen.i
+// source: gen.i
 
-#define SWIGMODULE mtigen
+#define SWIGMODULE gen
 
 #ifdef __cplusplus
 /* SwigValueWrapper is described in swig.swg */
@@ -329,7 +329,7 @@ void addCallbackHandler(CallbackHandler* cb, XsDevice* dev) {
 extern "C" {
 #endif
 
-void _wrap_Swig_free_mtigen_083b31a658b8ff73(void *_swig_go_0) {
+void _wrap_Swig_free_gen_58fb7b870f09ff4a(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -339,7 +339,7 @@ void _wrap_Swig_free_mtigen_083b31a658b8ff73(void *_swig_go_0) {
 }
 
 
-void *_wrap_Swig_malloc_mtigen_083b31a658b8ff73(intgo _swig_go_0) {
+void *_wrap_Swig_malloc_gen_58fb7b870f09ff4a(intgo _swig_go_0) {
   int arg1 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -352,7 +352,7 @@ void *_wrap_Swig_malloc_mtigen_083b31a658b8ff73(intgo _swig_go_0) {
 }
 
 
-_gostring_ _wrap_XSENS_PFPRE_mtigen_083b31a658b8ff73() {
+_gostring_ _wrap_XSENS_PFPRE_gen_58fb7b870f09ff4a() {
   char *result = 0 ;
   _gostring_ _swig_go_result;
   
@@ -363,7 +363,7 @@ _gostring_ _wrap_XSENS_PFPRE_mtigen_083b31a658b8ff73() {
 }
 
 
-_gostring_ _wrap_XSENS_PFCONF_mtigen_083b31a658b8ff73() {
+_gostring_ _wrap_XSENS_PFCONF_gen_58fb7b870f09ff4a() {
   char *result = 0 ;
   _gostring_ _swig_go_result;
   
@@ -374,7 +374,7 @@ _gostring_ _wrap_XSENS_PFCONF_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XSDF_None_mtigen_083b31a658b8ff73() {
+intgo _wrap_XSDF_None_gen_58fb7b870f09ff4a() {
   XsDataFlags result;
   intgo _swig_go_result;
   
@@ -386,7 +386,7 @@ intgo _wrap_XSDF_None_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XSDF_Managed_mtigen_083b31a658b8ff73() {
+intgo _wrap_XSDF_Managed_gen_58fb7b870f09ff4a() {
   XsDataFlags result;
   intgo _swig_go_result;
   
@@ -398,7 +398,7 @@ intgo _wrap_XSDF_Managed_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XSDF_FixedSize_mtigen_083b31a658b8ff73() {
+intgo _wrap_XSDF_FixedSize_gen_58fb7b870f09ff4a() {
   XsDataFlags result;
   intgo _swig_go_result;
   
@@ -410,7 +410,7 @@ intgo _wrap_XSDF_FixedSize_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XSDF_Empty_mtigen_083b31a658b8ff73() {
+intgo _wrap_XSDF_Empty_gen_58fb7b870f09ff4a() {
   XsDataFlags result;
   intgo _swig_go_result;
   
@@ -422,7 +422,7 @@ intgo _wrap_XSDF_Empty_mtigen_083b31a658b8ff73() {
 }
 
 
-_gostring_ _wrap_XsDataFlags_toString_mtigen_083b31a658b8ff73(intgo _swig_go_0) {
+_gostring_ _wrap_XsDataFlags_toString_gen_58fb7b870f09ff4a(intgo _swig_go_0) {
   XsDataFlags arg1 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -435,7 +435,7 @@ _gostring_ _wrap_XsDataFlags_toString_mtigen_083b31a658b8ff73(intgo _swig_go_0) 
 }
 
 
-_gostring_ _wrap_toString_mtigen_083b31a658b8ff73(intgo _swig_go_0) {
+_gostring_ _wrap_toString_gen_58fb7b870f09ff4a(intgo _swig_go_0) {
   XsDataFlags arg1 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -448,7 +448,7 @@ _gostring_ _wrap_toString_mtigen_083b31a658b8ff73(intgo _swig_go_0) {
 }
 
 
-XsArrayDescriptor *_wrap_new_XsArrayDescriptor_mtigen_083b31a658b8ff73() {
+XsArrayDescriptor *_wrap_new_XsArrayDescriptor_gen_58fb7b870f09ff4a() {
   XsArrayDescriptor *result = 0 ;
   XsArrayDescriptor *_swig_go_result;
   
@@ -459,7 +459,7 @@ XsArrayDescriptor *_wrap_new_XsArrayDescriptor_mtigen_083b31a658b8ff73() {
 }
 
 
-void _wrap_delete_XsArrayDescriptor_mtigen_083b31a658b8ff73(XsArrayDescriptor *_swig_go_0) {
+void _wrap_delete_XsArrayDescriptor_gen_58fb7b870f09ff4a(XsArrayDescriptor *_swig_go_0) {
   XsArrayDescriptor *arg1 = (XsArrayDescriptor *) 0 ;
   
   arg1 = *(XsArrayDescriptor **)&_swig_go_0; 
@@ -469,7 +469,7 @@ void _wrap_delete_XsArrayDescriptor_mtigen_083b31a658b8ff73(XsArrayDescriptor *_
 }
 
 
-void _wrap_XsArray_construct_mtigen_083b31a658b8ff73(void *_swig_go_0, XsArrayDescriptor *_swig_go_1, long long _swig_go_2, void *_swig_go_3) {
+void _wrap_XsArray_construct_gen_58fb7b870f09ff4a(void *_swig_go_0, XsArrayDescriptor *_swig_go_1, long long _swig_go_2, void *_swig_go_3) {
   void *arg1 = (void *) 0 ;
   XsArrayDescriptor *arg2 = (XsArrayDescriptor *) (XsArrayDescriptor *)0 ;
   XsSize arg3 ;
@@ -485,7 +485,7 @@ void _wrap_XsArray_construct_mtigen_083b31a658b8ff73(void *_swig_go_0, XsArrayDe
 }
 
 
-void _wrap_XsArray_copyConstruct_mtigen_083b31a658b8ff73(void *_swig_go_0, void *_swig_go_1) {
+void _wrap_XsArray_copyConstruct_gen_58fb7b870f09ff4a(void *_swig_go_0, void *_swig_go_1) {
   void *arg1 = (void *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -497,7 +497,7 @@ void _wrap_XsArray_copyConstruct_mtigen_083b31a658b8ff73(void *_swig_go_0, void 
 }
 
 
-void _wrap_XsArray_destruct_mtigen_083b31a658b8ff73(void *_swig_go_0) {
+void _wrap_XsArray_destruct_gen_58fb7b870f09ff4a(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -507,7 +507,7 @@ void _wrap_XsArray_destruct_mtigen_083b31a658b8ff73(void *_swig_go_0) {
 }
 
 
-void _wrap_XsArray_assign_mtigen_083b31a658b8ff73(void *_swig_go_0, long long _swig_go_1, void *_swig_go_2) {
+void _wrap_XsArray_assign_gen_58fb7b870f09ff4a(void *_swig_go_0, long long _swig_go_1, void *_swig_go_2) {
   void *arg1 = (void *) 0 ;
   XsSize arg2 ;
   void *arg3 = (void *) 0 ;
@@ -521,7 +521,7 @@ void _wrap_XsArray_assign_mtigen_083b31a658b8ff73(void *_swig_go_0, long long _s
 }
 
 
-void _wrap_XsArray_resize_mtigen_083b31a658b8ff73(void *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArray_resize_gen_58fb7b870f09ff4a(void *_swig_go_0, long long _swig_go_1) {
   void *arg1 = (void *) 0 ;
   XsSize arg2 ;
   
@@ -533,7 +533,7 @@ void _wrap_XsArray_resize_mtigen_083b31a658b8ff73(void *_swig_go_0, long long _s
 }
 
 
-void _wrap_XsArray_reserve_mtigen_083b31a658b8ff73(void *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArray_reserve_gen_58fb7b870f09ff4a(void *_swig_go_0, long long _swig_go_1) {
   void *arg1 = (void *) 0 ;
   XsSize arg2 ;
   
@@ -545,7 +545,7 @@ void _wrap_XsArray_reserve_mtigen_083b31a658b8ff73(void *_swig_go_0, long long _
 }
 
 
-void _wrap_XsArray_copy_mtigen_083b31a658b8ff73(void *_swig_go_0, void *_swig_go_1) {
+void _wrap_XsArray_copy_gen_58fb7b870f09ff4a(void *_swig_go_0, void *_swig_go_1) {
   void *arg1 = (void *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -557,7 +557,7 @@ void _wrap_XsArray_copy_mtigen_083b31a658b8ff73(void *_swig_go_0, void *_swig_go
 }
 
 
-void _wrap_XsArray_append_mtigen_083b31a658b8ff73(void *_swig_go_0, void *_swig_go_1) {
+void _wrap_XsArray_append_gen_58fb7b870f09ff4a(void *_swig_go_0, void *_swig_go_1) {
   void *arg1 = (void *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -569,7 +569,7 @@ void _wrap_XsArray_append_mtigen_083b31a658b8ff73(void *_swig_go_0, void *_swig_
 }
 
 
-void _wrap_XsArray_insert_mtigen_083b31a658b8ff73(void *_swig_go_0, long long _swig_go_1, long long _swig_go_2, void *_swig_go_3) {
+void _wrap_XsArray_insert_gen_58fb7b870f09ff4a(void *_swig_go_0, long long _swig_go_1, long long _swig_go_2, void *_swig_go_3) {
   void *arg1 = (void *) 0 ;
   XsSize arg2 ;
   XsSize arg3 ;
@@ -585,7 +585,7 @@ void _wrap_XsArray_insert_mtigen_083b31a658b8ff73(void *_swig_go_0, long long _s
 }
 
 
-void _wrap_XsArray_erase_mtigen_083b31a658b8ff73(void *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_XsArray_erase_gen_58fb7b870f09ff4a(void *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   void *arg1 = (void *) 0 ;
   XsSize arg2 ;
   XsSize arg3 ;
@@ -599,7 +599,7 @@ void _wrap_XsArray_erase_mtigen_083b31a658b8ff73(void *_swig_go_0, long long _sw
 }
 
 
-void _wrap_XsArray_swap_mtigen_083b31a658b8ff73(void *_swig_go_0, void *_swig_go_1) {
+void _wrap_XsArray_swap_gen_58fb7b870f09ff4a(void *_swig_go_0, void *_swig_go_1) {
   void *arg1 = (void *) 0 ;
   void *arg2 = (void *) 0 ;
   
@@ -611,7 +611,7 @@ void _wrap_XsArray_swap_mtigen_083b31a658b8ff73(void *_swig_go_0, void *_swig_go
 }
 
 
-intgo _wrap_XsArray_compare_mtigen_083b31a658b8ff73(void *_swig_go_0, void *_swig_go_1) {
+intgo _wrap_XsArray_compare_gen_58fb7b870f09ff4a(void *_swig_go_0, void *_swig_go_1) {
   void *arg1 = (void *) 0 ;
   void *arg2 = (void *) 0 ;
   int result;
@@ -626,7 +626,7 @@ intgo _wrap_XsArray_compare_mtigen_083b31a658b8ff73(void *_swig_go_0, void *_swi
 }
 
 
-intgo _wrap_XsArray_compareSet_mtigen_083b31a658b8ff73(void *_swig_go_0, void *_swig_go_1) {
+intgo _wrap_XsArray_compareSet_gen_58fb7b870f09ff4a(void *_swig_go_0, void *_swig_go_1) {
   void *arg1 = (void *) 0 ;
   void *arg2 = (void *) 0 ;
   int result;
@@ -641,7 +641,7 @@ intgo _wrap_XsArray_compareSet_mtigen_083b31a658b8ff73(void *_swig_go_0, void *_
 }
 
 
-intgo _wrap_XsArray_comparePredicate_mtigen_083b31a658b8ff73(void *_swig_go_0, void *_swig_go_1, void* _swig_go_2) {
+intgo _wrap_XsArray_comparePredicate_gen_58fb7b870f09ff4a(void *_swig_go_0, void *_swig_go_1, void* _swig_go_2) {
   void *arg1 = (void *) 0 ;
   void *arg2 = (void *) 0 ;
   XsArrayItemCompareFunc arg3 = (XsArrayItemCompareFunc) 0 ;
@@ -658,7 +658,7 @@ intgo _wrap_XsArray_comparePredicate_mtigen_083b31a658b8ff73(void *_swig_go_0, v
 }
 
 
-intgo _wrap_XsArray_find_mtigen_083b31a658b8ff73(void *_swig_go_0, void *_swig_go_1) {
+intgo _wrap_XsArray_find_gen_58fb7b870f09ff4a(void *_swig_go_0, void *_swig_go_1) {
   void *arg1 = (void *) 0 ;
   void *arg2 = (void *) 0 ;
   int result;
@@ -673,7 +673,7 @@ intgo _wrap_XsArray_find_mtigen_083b31a658b8ff73(void *_swig_go_0, void *_swig_g
 }
 
 
-intgo _wrap_XsArray_findPredicate_mtigen_083b31a658b8ff73(void *_swig_go_0, void *_swig_go_1, void* _swig_go_2) {
+intgo _wrap_XsArray_findPredicate_gen_58fb7b870f09ff4a(void *_swig_go_0, void *_swig_go_1, void* _swig_go_2) {
   void *arg1 = (void *) 0 ;
   void *arg2 = (void *) 0 ;
   XsArrayItemCompareFunc arg3 = (XsArrayItemCompareFunc) 0 ;
@@ -690,7 +690,7 @@ intgo _wrap_XsArray_findPredicate_mtigen_083b31a658b8ff73(void *_swig_go_0, void
 }
 
 
-intgo _wrap_XsArray_empty_mtigen_083b31a658b8ff73(void *_swig_go_0) {
+intgo _wrap_XsArray_empty_gen_58fb7b870f09ff4a(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -703,7 +703,7 @@ intgo _wrap_XsArray_empty_mtigen_083b31a658b8ff73(void *_swig_go_0) {
 }
 
 
-void *_wrap_XsArray_at_mtigen_083b31a658b8ff73(void *_swig_go_0, long long _swig_go_1) {
+void *_wrap_XsArray_at_gen_58fb7b870f09ff4a(void *_swig_go_0, long long _swig_go_1) {
   void *arg1 = (void *) 0 ;
   XsSize arg2 ;
   void *result = 0 ;
@@ -718,7 +718,7 @@ void *_wrap_XsArray_at_mtigen_083b31a658b8ff73(void *_swig_go_0, long long _swig
 }
 
 
-void *_wrap_XsArray_atIndex_mtigen_083b31a658b8ff73(void *_swig_go_0, long long _swig_go_1) {
+void *_wrap_XsArray_atIndex_gen_58fb7b870f09ff4a(void *_swig_go_0, long long _swig_go_1) {
   void *arg1 = (void *) 0 ;
   XsSize arg2 ;
   void *result = 0 ;
@@ -733,7 +733,7 @@ void *_wrap_XsArray_atIndex_mtigen_083b31a658b8ff73(void *_swig_go_0, long long 
 }
 
 
-void _wrap_XsArray_removeDuplicates_mtigen_083b31a658b8ff73(void *_swig_go_0) {
+void _wrap_XsArray_removeDuplicates_gen_58fb7b870f09ff4a(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -743,7 +743,7 @@ void _wrap_XsArray_removeDuplicates_mtigen_083b31a658b8ff73(void *_swig_go_0) {
 }
 
 
-void _wrap_XsArray_removeDuplicatesPredicate_mtigen_083b31a658b8ff73(void *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsArray_removeDuplicatesPredicate_gen_58fb7b870f09ff4a(void *_swig_go_0, void* _swig_go_1) {
   void *arg1 = (void *) 0 ;
   XsArrayItemCompareFunc arg2 = (XsArrayItemCompareFunc) 0 ;
   
@@ -755,7 +755,7 @@ void _wrap_XsArray_removeDuplicatesPredicate_mtigen_083b31a658b8ff73(void *_swig
 }
 
 
-void _wrap_XsArray_rawCopy_mtigen_083b31a658b8ff73(void *_swig_go_0, void *_swig_go_1, long long _swig_go_2, long long _swig_go_3) {
+void _wrap_XsArray_rawCopy_gen_58fb7b870f09ff4a(void *_swig_go_0, void *_swig_go_1, long long _swig_go_2, long long _swig_go_3) {
   void *arg1 = (void *) 0 ;
   void *arg2 = (void *) 0 ;
   XsSize arg3 ;
@@ -771,7 +771,7 @@ void _wrap_XsArray_rawCopy_mtigen_083b31a658b8ff73(void *_swig_go_0, void *_swig
 }
 
 
-void _wrap_XsArray_sort_mtigen_083b31a658b8ff73(void *_swig_go_0) {
+void _wrap_XsArray_sort_gen_58fb7b870f09ff4a(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -781,7 +781,7 @@ void _wrap_XsArray_sort_mtigen_083b31a658b8ff73(void *_swig_go_0) {
 }
 
 
-void _wrap_XsArray_reverse_mtigen_083b31a658b8ff73(void *_swig_go_0) {
+void _wrap_XsArray_reverse_gen_58fb7b870f09ff4a(void *_swig_go_0) {
   void *arg1 = (void *) 0 ;
   
   arg1 = *(void **)&_swig_go_0; 
@@ -791,7 +791,7 @@ void _wrap_XsArray_reverse_mtigen_083b31a658b8ff73(void *_swig_go_0) {
 }
 
 
-void *_wrap_XsArray_m_data_get_mtigen_083b31a658b8ff73(XsArray *_swig_go_0) {
+void *_wrap_XsArray_m_data_get_gen_58fb7b870f09ff4a(XsArray *_swig_go_0) {
   XsArray *arg1 = (XsArray *) 0 ;
   void *result = 0 ;
   void *_swig_go_result;
@@ -804,7 +804,7 @@ void *_wrap_XsArray_m_data_get_mtigen_083b31a658b8ff73(XsArray *_swig_go_0) {
 }
 
 
-long long _wrap_XsArray_m_size_get_mtigen_083b31a658b8ff73(XsArray *_swig_go_0) {
+long long _wrap_XsArray_m_size_get_gen_58fb7b870f09ff4a(XsArray *_swig_go_0) {
   XsArray *arg1 = (XsArray *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -817,7 +817,7 @@ long long _wrap_XsArray_m_size_get_mtigen_083b31a658b8ff73(XsArray *_swig_go_0) 
 }
 
 
-long long _wrap_XsArray_m_reserved_get_mtigen_083b31a658b8ff73(XsArray *_swig_go_0) {
+long long _wrap_XsArray_m_reserved_get_gen_58fb7b870f09ff4a(XsArray *_swig_go_0) {
   XsArray *arg1 = (XsArray *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -830,7 +830,7 @@ long long _wrap_XsArray_m_reserved_get_mtigen_083b31a658b8ff73(XsArray *_swig_go
 }
 
 
-long long _wrap_XsArray_m_flags_get_mtigen_083b31a658b8ff73(XsArray *_swig_go_0) {
+long long _wrap_XsArray_m_flags_get_gen_58fb7b870f09ff4a(XsArray *_swig_go_0) {
   XsArray *arg1 = (XsArray *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -843,7 +843,7 @@ long long _wrap_XsArray_m_flags_get_mtigen_083b31a658b8ff73(XsArray *_swig_go_0)
 }
 
 
-XsArrayDescriptor *_wrap_XsArray_m_descriptor_get_mtigen_083b31a658b8ff73(XsArray *_swig_go_0) {
+XsArrayDescriptor *_wrap_XsArray_m_descriptor_get_gen_58fb7b870f09ff4a(XsArray *_swig_go_0) {
   XsArray *arg1 = (XsArray *) 0 ;
   XsArrayDescriptor *result = 0 ;
   XsArrayDescriptor *_swig_go_result;
@@ -856,7 +856,7 @@ XsArrayDescriptor *_wrap_XsArray_m_descriptor_get_mtigen_083b31a658b8ff73(XsArra
 }
 
 
-XsArray *_wrap_new_XsArray__SWIG_0_mtigen_083b31a658b8ff73(intgo _swig_optargc, XsArrayDescriptor *_swig_go_0, long long _swig_go_1, void *_swig_go_2) {
+XsArray *_wrap_new_XsArray__SWIG_0_gen_58fb7b870f09ff4a(intgo _swig_optargc, XsArrayDescriptor *_swig_go_0, long long _swig_go_1, void *_swig_go_2) {
   XsArrayDescriptor *arg1 = (XsArrayDescriptor *) 0 ;
   XsSize arg2 = (XsSize) 0 ;
   void *arg3 = (void *) 0 ;
@@ -877,7 +877,7 @@ XsArray *_wrap_new_XsArray__SWIG_0_mtigen_083b31a658b8ff73(intgo _swig_optargc, 
 }
 
 
-XsArray *_wrap_new_XsArray__SWIG_1_mtigen_083b31a658b8ff73(XsArray *_swig_go_0) {
+XsArray *_wrap_new_XsArray__SWIG_1_gen_58fb7b870f09ff4a(XsArray *_swig_go_0) {
   XsArray *arg1 = 0 ;
   XsArray *result = 0 ;
   XsArray *_swig_go_result;
@@ -890,7 +890,7 @@ XsArray *_wrap_new_XsArray__SWIG_1_mtigen_083b31a658b8ff73(XsArray *_swig_go_0) 
 }
 
 
-XsArray *_wrap_new_XsArray__SWIG_2_mtigen_083b31a658b8ff73(XsArrayDescriptor *_swig_go_0, void *_swig_go_1, long long _swig_go_2, intgo _swig_go_3) {
+XsArray *_wrap_new_XsArray__SWIG_2_gen_58fb7b870f09ff4a(XsArrayDescriptor *_swig_go_0, void *_swig_go_1, long long _swig_go_2, intgo _swig_go_3) {
   XsArrayDescriptor *arg1 = (XsArrayDescriptor *) 0 ;
   void *arg2 = (void *) 0 ;
   XsSize arg3 ;
@@ -909,7 +909,7 @@ XsArray *_wrap_new_XsArray__SWIG_2_mtigen_083b31a658b8ff73(XsArrayDescriptor *_s
 }
 
 
-void _wrap_delete_XsArray_mtigen_083b31a658b8ff73(XsArray *_swig_go_0) {
+void _wrap_delete_XsArray_gen_58fb7b870f09ff4a(XsArray *_swig_go_0) {
   XsArray *arg1 = (XsArray *) 0 ;
   
   arg1 = *(XsArray **)&_swig_go_0; 
@@ -919,7 +919,7 @@ void _wrap_delete_XsArray_mtigen_083b31a658b8ff73(XsArray *_swig_go_0) {
 }
 
 
-XsArray *_wrap_XsArray_opAssign_mtigen_083b31a658b8ff73(XsArray *_swig_go_0, XsArray *_swig_go_1) {
+XsArray *_wrap_XsArray_opAssign_gen_58fb7b870f09ff4a(XsArray *_swig_go_0, XsArray *_swig_go_1) {
   XsArray *arg1 = (XsArray *) 0 ;
   XsArray *arg2 = 0 ;
   XsArray *result = 0 ;
@@ -934,7 +934,7 @@ XsArray *_wrap_XsArray_opAssign_mtigen_083b31a658b8ff73(XsArray *_swig_go_0, XsA
 }
 
 
-XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_wrap_new_XsArrayXsPortInfo__SWIG_0_mtigen_083b31a658b8ff73(long long _swig_go_0, XsPortInfo *_swig_go_1) {
+XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_wrap_new_XsArrayXsPortInfo__SWIG_0_gen_58fb7b870f09ff4a(long long _swig_go_0, XsPortInfo *_swig_go_1) {
   XsSize arg1 ;
   XsPortInfo *arg2 = (XsPortInfo *) 0 ;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *result = 0 ;
@@ -949,7 +949,7 @@ XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_wrap_new
 }
 
 
-XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_wrap_new_XsArrayXsPortInfo__SWIG_1_mtigen_083b31a658b8ff73(long long _swig_go_0) {
+XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_wrap_new_XsArrayXsPortInfo__SWIG_1_gen_58fb7b870f09ff4a(long long _swig_go_0) {
   XsSize arg1 ;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *result = 0 ;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_result;
@@ -962,7 +962,7 @@ XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_wrap_new
 }
 
 
-XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_wrap_new_XsArrayXsPortInfo__SWIG_2_mtigen_083b31a658b8ff73() {
+XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_wrap_new_XsArrayXsPortInfo__SWIG_2_gen_58fb7b870f09ff4a() {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *result = 0 ;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_result;
   
@@ -973,7 +973,7 @@ XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_wrap_new
 }
 
 
-XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_wrap_new_XsArrayXsPortInfo__SWIG_3_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_wrap_new_XsArrayXsPortInfo__SWIG_3_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::ArrayImpl *arg1 = 0 ;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *result = 0 ;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_result;
@@ -986,7 +986,7 @@ XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_wrap_new
 }
 
 
-XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_wrap_new_XsArrayXsPortInfo__SWIG_4_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, long long _swig_go_1, intgo _swig_go_2) {
+XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_wrap_new_XsArrayXsPortInfo__SWIG_4_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0, long long _swig_go_1, intgo _swig_go_2) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   XsSize arg2 ;
   XsDataFlags arg3 ;
@@ -1003,7 +1003,7 @@ XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_wrap_new
 }
 
 
-void _wrap_delete_XsArrayXsPortInfo_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+void _wrap_delete_XsArrayXsPortInfo_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > **)&_swig_go_0; 
@@ -1013,7 +1013,7 @@ void _wrap_delete_XsArrayXsPortInfo_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortI
 }
 
 
-void _wrap_XsArrayXsPortInfo_clear_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+void _wrap_XsArrayXsPortInfo_clear_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > **)&_swig_go_0; 
@@ -1023,7 +1023,7 @@ void _wrap_XsArrayXsPortInfo_clear_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortIn
 }
 
 
-bool _wrap_XsArrayXsPortInfo_opEq_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_1) {
+bool _wrap_XsArrayXsPortInfo_opEq_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::ArrayImpl *arg2 = 0 ;
   bool result;
@@ -1038,7 +1038,7 @@ bool _wrap_XsArrayXsPortInfo_opEq_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInf
 }
 
 
-bool _wrap_XsArrayXsPortInfo_opNEq_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_1) {
+bool _wrap_XsArrayXsPortInfo_opNEq_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::ArrayImpl *arg2 = 0 ;
   bool result;
@@ -1053,7 +1053,7 @@ bool _wrap_XsArrayXsPortInfo_opNEq_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortIn
 }
 
 
-void _wrap_XsArrayXsPortInfo_reserve_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayXsPortInfo_reserve_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsSize arg2 ;
   
@@ -1065,7 +1065,7 @@ void _wrap_XsArrayXsPortInfo_reserve_mtigen_083b31a658b8ff73(XsArrayImpl< XsPort
 }
 
 
-long long _wrap_XsArrayXsPortInfo_reserved_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+long long _wrap_XsArrayXsPortInfo_reserved_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -1078,7 +1078,7 @@ long long _wrap_XsArrayXsPortInfo_reserved_mtigen_083b31a658b8ff73(XsArrayImpl< 
 }
 
 
-XsArrayDescriptor *_wrap_XsArrayXsPortInfo_descriptor_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+XsArrayDescriptor *_wrap_XsArrayXsPortInfo_descriptor_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsArrayDescriptor *result = 0 ;
   XsArrayDescriptor *_swig_go_result;
@@ -1091,7 +1091,7 @@ XsArrayDescriptor *_wrap_XsArrayXsPortInfo_descriptor_mtigen_083b31a658b8ff73(Xs
 }
 
 
-XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< 1 > *_wrap_XsArrayXsPortInfo_begin__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< 1 > *_wrap_XsArrayXsPortInfo_begin__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< 1 > > result;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< 1 > *_swig_go_result;
@@ -1104,7 +1104,7 @@ XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorI
 }
 
 
-XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< 1 > *_wrap_XsArrayXsPortInfo_end__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< 1 > *_wrap_XsArrayXsPortInfo_end__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< 1 > > result;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< 1 > *_swig_go_result;
@@ -1117,7 +1117,7 @@ XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorI
 }
 
 
-XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< -1 > *_wrap_XsArrayXsPortInfo_rbegin__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< -1 > *_wrap_XsArrayXsPortInfo_rbegin__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< -1 > > result;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< -1 > *_swig_go_result;
@@ -1130,7 +1130,7 @@ XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorI
 }
 
 
-XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< -1 > *_wrap_XsArrayXsPortInfo_rend__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< -1 > *_wrap_XsArrayXsPortInfo_rend__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< -1 > > result;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< -1 > *_swig_go_result;
@@ -1143,7 +1143,7 @@ XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorI
 }
 
 
-XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< 1 > *_wrap_XsArrayXsPortInfo_begin__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< 1 > *_wrap_XsArrayXsPortInfo_begin__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< 1 > > result;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< 1 > *_swig_go_result;
@@ -1156,7 +1156,7 @@ XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorI
 }
 
 
-XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< 1 > *_wrap_XsArrayXsPortInfo_end__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< 1 > *_wrap_XsArrayXsPortInfo_end__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< 1 > > result;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< 1 > *_swig_go_result;
@@ -1169,7 +1169,7 @@ XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorI
 }
 
 
-XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< -1 > *_wrap_XsArrayXsPortInfo_rbegin__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< -1 > *_wrap_XsArrayXsPortInfo_rbegin__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< -1 > > result;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< -1 > *_swig_go_result;
@@ -1182,7 +1182,7 @@ XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorI
 }
 
 
-XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< -1 > *_wrap_XsArrayXsPortInfo_rend__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< -1 > *_wrap_XsArrayXsPortInfo_rend__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< -1 > > result;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< -1 > *_swig_go_result;
@@ -1195,7 +1195,7 @@ XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorI
 }
 
 
-XsPortInfo *_wrap_XsArrayXsPortInfo_opIndex__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
+XsPortInfo *_wrap_XsArrayXsPortInfo_opIndex__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsSize arg2 ;
   XsPortInfo *result = 0 ;
@@ -1210,7 +1210,7 @@ XsPortInfo *_wrap_XsArrayXsPortInfo_opIndex__SWIG_0_mtigen_083b31a658b8ff73(XsAr
 }
 
 
-XsPortInfo *_wrap_XsArrayXsPortInfo_opIndex__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
+XsPortInfo *_wrap_XsArrayXsPortInfo_opIndex__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsSize arg2 ;
   XsPortInfo *result = 0 ;
@@ -1225,7 +1225,7 @@ XsPortInfo *_wrap_XsArrayXsPortInfo_opIndex__SWIG_1_mtigen_083b31a658b8ff73(XsAr
 }
 
 
-XsPortInfo *_wrap_XsArrayXsPortInfo_value_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
+XsPortInfo *_wrap_XsArrayXsPortInfo_value_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsSize arg2 ;
   XsPortInfo result;
@@ -1240,7 +1240,7 @@ XsPortInfo *_wrap_XsArrayXsPortInfo_value_mtigen_083b31a658b8ff73(XsArrayImpl< X
 }
 
 
-XsPortInfo *_wrap_XsArrayXsPortInfo_first_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+XsPortInfo *_wrap_XsArrayXsPortInfo_first_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsPortInfo result;
   XsPortInfo *_swig_go_result;
@@ -1253,7 +1253,7 @@ XsPortInfo *_wrap_XsArrayXsPortInfo_first_mtigen_083b31a658b8ff73(XsArrayImpl< X
 }
 
 
-XsPortInfo *_wrap_XsArrayXsPortInfo_last_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+XsPortInfo *_wrap_XsArrayXsPortInfo_last_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsPortInfo result;
   XsPortInfo *_swig_go_result;
@@ -1266,7 +1266,7 @@ XsPortInfo *_wrap_XsArrayXsPortInfo_last_mtigen_083b31a658b8ff73(XsArrayImpl< Xs
 }
 
 
-XsPortInfo *_wrap_XsArrayXsPortInfo_at__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
+XsPortInfo *_wrap_XsArrayXsPortInfo_at__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsSize arg2 ;
   XsPortInfo *result = 0 ;
@@ -1281,7 +1281,7 @@ XsPortInfo *_wrap_XsArrayXsPortInfo_at__SWIG_0_mtigen_083b31a658b8ff73(XsArrayIm
 }
 
 
-XsPortInfo *_wrap_XsArrayXsPortInfo_at__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
+XsPortInfo *_wrap_XsArrayXsPortInfo_at__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsSize arg2 ;
   XsPortInfo *result = 0 ;
@@ -1296,7 +1296,7 @@ XsPortInfo *_wrap_XsArrayXsPortInfo_at__SWIG_1_mtigen_083b31a658b8ff73(XsArrayIm
 }
 
 
-void _wrap_XsArrayXsPortInfo_insert__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1, long long _swig_go_2) {
+void _wrap_XsArrayXsPortInfo_insert__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1, long long _swig_go_2) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsPortInfo *arg2 = 0 ;
   XsSize arg3 ;
@@ -1310,7 +1310,7 @@ void _wrap_XsArrayXsPortInfo_insert__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl<
 }
 
 
-void _wrap_XsArrayXsPortInfo_insert__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1, long long _swig_go_2, long long _swig_go_3) {
+void _wrap_XsArrayXsPortInfo_insert__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1, long long _swig_go_2, long long _swig_go_3) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsPortInfo *arg2 = (XsPortInfo *) 0 ;
   XsSize arg3 ;
@@ -1326,7 +1326,7 @@ void _wrap_XsArrayXsPortInfo_insert__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl<
 }
 
 
-void _wrap_XsArrayXsPortInfo_insert__SWIG_2_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< 1 > *_swig_go_2) {
+void _wrap_XsArrayXsPortInfo_insert__SWIG_2_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< 1 > *_swig_go_2) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsPortInfo *arg2 = 0 ;
   SwigValueWrapper< XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< 1 > > arg3 ;
@@ -1347,7 +1347,7 @@ void _wrap_XsArrayXsPortInfo_insert__SWIG_2_mtigen_083b31a658b8ff73(XsArrayImpl<
 }
 
 
-void _wrap_XsArrayXsPortInfo_insert__SWIG_3_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< -1 > *_swig_go_2) {
+void _wrap_XsArrayXsPortInfo_insert__SWIG_3_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< -1 > *_swig_go_2) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsPortInfo *arg2 = 0 ;
   SwigValueWrapper< XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< -1 > > arg3 ;
@@ -1368,7 +1368,7 @@ void _wrap_XsArrayXsPortInfo_insert__SWIG_3_mtigen_083b31a658b8ff73(XsArrayImpl<
 }
 
 
-void _wrap_XsArrayXsPortInfo_insert__SWIG_4_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< 1 > *_swig_go_2, long long _swig_go_3) {
+void _wrap_XsArrayXsPortInfo_insert__SWIG_4_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< 1 > *_swig_go_2, long long _swig_go_3) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsPortInfo *arg2 = (XsPortInfo *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< 1 > > arg3 ;
@@ -1391,7 +1391,7 @@ void _wrap_XsArrayXsPortInfo_insert__SWIG_4_mtigen_083b31a658b8ff73(XsArrayImpl<
 }
 
 
-void _wrap_XsArrayXsPortInfo_insert__SWIG_5_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< -1 > *_swig_go_2, long long _swig_go_3) {
+void _wrap_XsArrayXsPortInfo_insert__SWIG_5_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< -1 > *_swig_go_2, long long _swig_go_3) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsPortInfo *arg2 = (XsPortInfo *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImplConst< -1 > > arg3 ;
@@ -1414,7 +1414,7 @@ void _wrap_XsArrayXsPortInfo_insert__SWIG_5_mtigen_083b31a658b8ff73(XsArrayImpl<
 }
 
 
-void _wrap_XsArrayXsPortInfo_push_back_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1) {
+void _wrap_XsArrayXsPortInfo_push_back_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsPortInfo *arg2 = 0 ;
   
@@ -1426,7 +1426,7 @@ void _wrap_XsArrayXsPortInfo_push_back_mtigen_083b31a658b8ff73(XsArrayImpl< XsPo
 }
 
 
-void _wrap_XsArrayXsPortInfo_pop_back__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayXsPortInfo_pop_back__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsSize arg2 ;
   
@@ -1438,7 +1438,7 @@ void _wrap_XsArrayXsPortInfo_pop_back__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImp
 }
 
 
-void _wrap_XsArrayXsPortInfo_pop_back__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+void _wrap_XsArrayXsPortInfo_pop_back__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > **)&_swig_go_0; 
@@ -1448,7 +1448,7 @@ void _wrap_XsArrayXsPortInfo_pop_back__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImp
 }
 
 
-void _wrap_XsArrayXsPortInfo_push_front_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1) {
+void _wrap_XsArrayXsPortInfo_push_front_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsPortInfo *arg2 = 0 ;
   
@@ -1460,7 +1460,7 @@ void _wrap_XsArrayXsPortInfo_push_front_mtigen_083b31a658b8ff73(XsArrayImpl< XsP
 }
 
 
-void _wrap_XsArrayXsPortInfo_pop_front__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayXsPortInfo_pop_front__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsSize arg2 ;
   
@@ -1472,7 +1472,7 @@ void _wrap_XsArrayXsPortInfo_pop_front__SWIG_0_mtigen_083b31a658b8ff73(XsArrayIm
 }
 
 
-void _wrap_XsArrayXsPortInfo_pop_front__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+void _wrap_XsArrayXsPortInfo_pop_front__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > **)&_swig_go_0; 
@@ -1482,7 +1482,7 @@ void _wrap_XsArrayXsPortInfo_pop_front__SWIG_1_mtigen_083b31a658b8ff73(XsArrayIm
 }
 
 
-long long _wrap_XsArrayXsPortInfo_size_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+long long _wrap_XsArrayXsPortInfo_size_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -1495,7 +1495,7 @@ long long _wrap_XsArrayXsPortInfo_size_mtigen_083b31a658b8ff73(XsArrayImpl< XsPo
 }
 
 
-void _wrap_XsArrayXsPortInfo_erase__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_XsArrayXsPortInfo_erase__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsSize arg2 ;
   XsSize arg3 ;
@@ -1509,7 +1509,7 @@ void _wrap_XsArrayXsPortInfo_erase__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< 
 }
 
 
-void _wrap_XsArrayXsPortInfo_erase__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayXsPortInfo_erase__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsSize arg2 ;
   
@@ -1521,7 +1521,7 @@ void _wrap_XsArrayXsPortInfo_erase__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< 
 }
 
 
-XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< 1 > *_wrap_XsArrayXsPortInfo_erase__SWIG_2_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< 1 > *_swig_go_1) {
+XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< 1 > *_wrap_XsArrayXsPortInfo_erase__SWIG_2_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< 1 > *_swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< 1 > > arg2 ;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::iterator *argp2 ;
@@ -1543,7 +1543,7 @@ XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorI
 }
 
 
-XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< -1 > *_wrap_XsArrayXsPortInfo_erase__SWIG_3_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< -1 > *_swig_go_1) {
+XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< -1 > *_wrap_XsArrayXsPortInfo_erase__SWIG_3_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< -1 > *_swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorImpl< -1 > > arg2 ;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::reverse_iterator *argp2 ;
@@ -1565,7 +1565,7 @@ XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::IteratorI
 }
 
 
-void _wrap_XsArrayXsPortInfo_assign_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1, XsPortInfo *_swig_go_2) {
+void _wrap_XsArrayXsPortInfo_assign_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1, XsPortInfo *_swig_go_2) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsSize arg2 ;
   XsPortInfo *arg3 = (XsPortInfo *) 0 ;
@@ -1579,7 +1579,7 @@ void _wrap_XsArrayXsPortInfo_assign_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortI
 }
 
 
-void _wrap_XsArrayXsPortInfo_resize_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayXsPortInfo_resize_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsSize arg2 ;
   
@@ -1591,7 +1591,7 @@ void _wrap_XsArrayXsPortInfo_resize_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortI
 }
 
 
-void _wrap_XsArrayXsPortInfo_setSize_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayXsPortInfo_setSize_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsSize arg2 ;
   
@@ -1603,7 +1603,7 @@ void _wrap_XsArrayXsPortInfo_setSize_mtigen_083b31a658b8ff73(XsArrayImpl< XsPort
 }
 
 
-void _wrap_XsArrayXsPortInfo_append_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_1) {
+void _wrap_XsArrayXsPortInfo_append_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::ArrayImpl *arg2 = 0 ;
   
@@ -1615,7 +1615,7 @@ void _wrap_XsArrayXsPortInfo_append_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortI
 }
 
 
-XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_wrap_XsArrayXsPortInfo_opAssign_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_1) {
+XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_wrap_XsArrayXsPortInfo_opAssign_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::ArrayImpl *arg2 = 0 ;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::ArrayImpl *result = 0 ;
@@ -1630,7 +1630,7 @@ XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_wrap_XsA
 }
 
 
-bool _wrap_XsArrayXsPortInfo_empty_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+bool _wrap_XsArrayXsPortInfo_empty_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -1643,7 +1643,7 @@ bool _wrap_XsArrayXsPortInfo_empty_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortIn
 }
 
 
-XsPortInfoArray *_wrap_XsArrayXsPortInfo_inherited__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+XsPortInfoArray *_wrap_XsArrayXsPortInfo_inherited__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsPortInfoArray *result = 0 ;
   XsPortInfoArray *_swig_go_result;
@@ -1656,7 +1656,7 @@ XsPortInfoArray *_wrap_XsArrayXsPortInfo_inherited__SWIG_0_mtigen_083b31a658b8ff
 }
 
 
-XsPortInfoArray *_wrap_XsArrayXsPortInfo_inherited__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+XsPortInfoArray *_wrap_XsArrayXsPortInfo_inherited__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsPortInfoArray *result = 0 ;
   XsPortInfoArray *_swig_go_result;
@@ -1669,7 +1669,7 @@ XsPortInfoArray *_wrap_XsArrayXsPortInfo_inherited__SWIG_1_mtigen_083b31a658b8ff
 }
 
 
-void _wrap_XsArrayXsPortInfo_swap__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_1) {
+void _wrap_XsArrayXsPortInfo_swap__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray >::ArrayImpl *arg2 = 0 ;
   
@@ -1681,7 +1681,7 @@ void _wrap_XsArrayXsPortInfo_swap__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< X
 }
 
 
-void _wrap_XsArrayXsPortInfo_swap__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_XsArrayXsPortInfo_swap__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsSize arg2 ;
   XsSize arg3 ;
@@ -1695,7 +1695,7 @@ void _wrap_XsArrayXsPortInfo_swap__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< X
 }
 
 
-XsPortInfoArray *_wrap_XsArrayXsPortInfo_opLeftShift_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1) {
+XsPortInfoArray *_wrap_XsArrayXsPortInfo_opLeftShift_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsPortInfo *arg2 = 0 ;
   XsPortInfoArray *result = 0 ;
@@ -1710,7 +1710,7 @@ XsPortInfoArray *_wrap_XsArrayXsPortInfo_opLeftShift_mtigen_083b31a658b8ff73(XsA
 }
 
 
-intgo _wrap_XsArrayXsPortInfo_find_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1) {
+intgo _wrap_XsArrayXsPortInfo_find_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, XsPortInfo *_swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsPortInfo *arg2 = 0 ;
   int result;
@@ -1725,7 +1725,7 @@ intgo _wrap_XsArrayXsPortInfo_find_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortIn
 }
 
 
-void _wrap_XsArrayXsPortInfo_removeDuplicates_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+void _wrap_XsArrayXsPortInfo_removeDuplicates_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > **)&_swig_go_0; 
@@ -1735,7 +1735,7 @@ void _wrap_XsArrayXsPortInfo_removeDuplicates_mtigen_083b31a658b8ff73(XsArrayImp
 }
 
 
-void _wrap_XsArrayXsPortInfo_removeDuplicatesPredicate_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsArrayXsPortInfo_removeDuplicatesPredicate_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0, void* _swig_go_1) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   XsArrayItemCompareFunc arg2 = (XsArrayItemCompareFunc) 0 ;
   
@@ -1747,7 +1747,7 @@ void _wrap_XsArrayXsPortInfo_removeDuplicatesPredicate_mtigen_083b31a658b8ff73(X
 }
 
 
-void _wrap_XsArrayXsPortInfo_sort_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+void _wrap_XsArrayXsPortInfo_sort_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > **)&_swig_go_0; 
@@ -1757,7 +1757,7 @@ void _wrap_XsArrayXsPortInfo_sort_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInf
 }
 
 
-void _wrap_XsArrayXsPortInfo_reverse_mtigen_083b31a658b8ff73(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
+void _wrap_XsArrayXsPortInfo_reverse_gen_58fb7b870f09ff4a(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *_swig_go_0) {
   XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *arg1 = (XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsPortInfo,g_xsPortInfoArrayDescriptor,XsPortInfoArray > **)&_swig_go_0; 
@@ -1767,7 +1767,7 @@ void _wrap_XsArrayXsPortInfo_reverse_mtigen_083b31a658b8ff73(XsArrayImpl< XsPort
 }
 
 
-void _wrap_XsPortInfo_clear_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+void _wrap_XsPortInfo_clear_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   
   arg1 = *(XsPortInfo **)&_swig_go_0; 
@@ -1777,7 +1777,7 @@ void _wrap_XsPortInfo_clear_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
 }
 
 
-intgo _wrap_XsPortInfo_empty_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+intgo _wrap_XsPortInfo_empty_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1790,7 +1790,7 @@ intgo _wrap_XsPortInfo_empty_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
 }
 
 
-intgo _wrap_XsPortInfo_portNumber_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+intgo _wrap_XsPortInfo_portNumber_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1803,7 +1803,7 @@ intgo _wrap_XsPortInfo_portNumber_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0
 }
 
 
-intgo _wrap_XsPortInfo_isUsb_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+intgo _wrap_XsPortInfo_isUsb_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1816,7 +1816,7 @@ intgo _wrap_XsPortInfo_isUsb_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
 }
 
 
-intgo _wrap_XsPortInfo_isNetwork_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+intgo _wrap_XsPortInfo_isNetwork_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1829,7 +1829,7 @@ intgo _wrap_XsPortInfo_isNetwork_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0)
 }
 
 
-_gostring_ _wrap_XsPortInfo_networkServiceName_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+_gostring_ _wrap_XsPortInfo_networkServiceName_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -1842,7 +1842,7 @@ _gostring_ _wrap_XsPortInfo_networkServiceName_mtigen_083b31a658b8ff73(XsPortInf
 }
 
 
-intgo _wrap_XsPortInfo_usbBus_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+intgo _wrap_XsPortInfo_usbBus_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1855,7 +1855,7 @@ intgo _wrap_XsPortInfo_usbBus_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
 }
 
 
-intgo _wrap_XsPortInfo_usbAddress_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+intgo _wrap_XsPortInfo_usbAddress_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -1868,7 +1868,7 @@ intgo _wrap_XsPortInfo_usbAddress_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0
 }
 
 
-void _wrap_XsPortInfo_swap_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, XsPortInfo *_swig_go_1) {
+void _wrap_XsPortInfo_swap_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0, XsPortInfo *_swig_go_1) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   XsPortInfo *arg2 = (XsPortInfo *) 0 ;
   
@@ -1880,7 +1880,7 @@ void _wrap_XsPortInfo_swap_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, XsPor
 }
 
 
-intgo _wrap_XPLO_Invalid_mtigen_083b31a658b8ff73() {
+intgo _wrap_XPLO_Invalid_gen_58fb7b870f09ff4a() {
   XsPortLinesOptions result;
   intgo _swig_go_result;
   
@@ -1892,7 +1892,7 @@ intgo _wrap_XPLO_Invalid_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XPLO_RTS_Set_mtigen_083b31a658b8ff73() {
+intgo _wrap_XPLO_RTS_Set_gen_58fb7b870f09ff4a() {
   XsPortLinesOptions result;
   intgo _swig_go_result;
   
@@ -1904,7 +1904,7 @@ intgo _wrap_XPLO_RTS_Set_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XPLO_RTS_Clear_mtigen_083b31a658b8ff73() {
+intgo _wrap_XPLO_RTS_Clear_gen_58fb7b870f09ff4a() {
   XsPortLinesOptions result;
   intgo _swig_go_result;
   
@@ -1916,7 +1916,7 @@ intgo _wrap_XPLO_RTS_Clear_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XPLO_RTS_Ignore_mtigen_083b31a658b8ff73() {
+intgo _wrap_XPLO_RTS_Ignore_gen_58fb7b870f09ff4a() {
   XsPortLinesOptions result;
   intgo _swig_go_result;
   
@@ -1928,7 +1928,7 @@ intgo _wrap_XPLO_RTS_Ignore_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XPLO_DTR_Set_mtigen_083b31a658b8ff73() {
+intgo _wrap_XPLO_DTR_Set_gen_58fb7b870f09ff4a() {
   XsPortLinesOptions result;
   intgo _swig_go_result;
   
@@ -1940,7 +1940,7 @@ intgo _wrap_XPLO_DTR_Set_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XPLO_DTR_Clear_mtigen_083b31a658b8ff73() {
+intgo _wrap_XPLO_DTR_Clear_gen_58fb7b870f09ff4a() {
   XsPortLinesOptions result;
   intgo _swig_go_result;
   
@@ -1952,7 +1952,7 @@ intgo _wrap_XPLO_DTR_Clear_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XPLO_DTR_Ignore_mtigen_083b31a658b8ff73() {
+intgo _wrap_XPLO_DTR_Ignore_gen_58fb7b870f09ff4a() {
   XsPortLinesOptions result;
   intgo _swig_go_result;
   
@@ -1964,7 +1964,7 @@ intgo _wrap_XPLO_DTR_Ignore_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XPLO_All_Set_mtigen_083b31a658b8ff73() {
+intgo _wrap_XPLO_All_Set_gen_58fb7b870f09ff4a() {
   XsPortLinesOptions result;
   intgo _swig_go_result;
   
@@ -1976,7 +1976,7 @@ intgo _wrap_XPLO_All_Set_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XPLO_All_Clear_mtigen_083b31a658b8ff73() {
+intgo _wrap_XPLO_All_Clear_gen_58fb7b870f09ff4a() {
   XsPortLinesOptions result;
   intgo _swig_go_result;
   
@@ -1988,7 +1988,7 @@ intgo _wrap_XPLO_All_Clear_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XPLO_All_Ignore_mtigen_083b31a658b8ff73() {
+intgo _wrap_XPLO_All_Ignore_gen_58fb7b870f09ff4a() {
   XsPortLinesOptions result;
   intgo _swig_go_result;
   
@@ -2000,7 +2000,7 @@ intgo _wrap_XPLO_All_Ignore_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XPLO_RtsCtsFlowControl_mtigen_083b31a658b8ff73() {
+intgo _wrap_XPLO_RtsCtsFlowControl_gen_58fb7b870f09ff4a() {
   XsPortLinesOptions result;
   intgo _swig_go_result;
   
@@ -2012,7 +2012,7 @@ intgo _wrap_XPLO_RtsCtsFlowControl_mtigen_083b31a658b8ff73() {
 }
 
 
-XsPortInfo *_wrap_new_XSPortInfo__SWIG_0_mtigen_083b31a658b8ff73() {
+XsPortInfo *_wrap_new_XSPortInfo__SWIG_0_gen_58fb7b870f09ff4a() {
   XsPortInfo *result = 0 ;
   XsPortInfo *_swig_go_result;
   
@@ -2023,7 +2023,7 @@ XsPortInfo *_wrap_new_XSPortInfo__SWIG_0_mtigen_083b31a658b8ff73() {
 }
 
 
-XsPortInfo *_wrap_new_XSPortInfo__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+XsPortInfo *_wrap_new_XSPortInfo__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   XsString *arg1 = 0 ;
   XsBaudRate arg2 ;
   XsPortLinesOptions arg3 ;
@@ -2040,7 +2040,7 @@ XsPortInfo *_wrap_new_XSPortInfo__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig
 }
 
 
-XsPortInfo *_wrap_new_XSPortInfo__SWIG_2_mtigen_083b31a658b8ff73(XsString *_swig_go_0, intgo _swig_go_1) {
+XsPortInfo *_wrap_new_XSPortInfo__SWIG_2_gen_58fb7b870f09ff4a(XsString *_swig_go_0, intgo _swig_go_1) {
   XsString *arg1 = 0 ;
   XsBaudRate arg2 ;
   XsPortInfo *result = 0 ;
@@ -2055,7 +2055,7 @@ XsPortInfo *_wrap_new_XSPortInfo__SWIG_2_mtigen_083b31a658b8ff73(XsString *_swig
 }
 
 
-XsPortInfo *_wrap_new_XSPortInfo__SWIG_3_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+XsPortInfo *_wrap_new_XSPortInfo__SWIG_3_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = 0 ;
   XsPortInfo *result = 0 ;
   XsPortInfo *_swig_go_result;
@@ -2068,7 +2068,7 @@ XsPortInfo *_wrap_new_XSPortInfo__SWIG_3_mtigen_083b31a658b8ff73(XsString *_swig
 }
 
 
-void _wrap_XSPortInfo_clear_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+void _wrap_XSPortInfo_clear_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   
   arg1 = *(XsPortInfo **)&_swig_go_0; 
@@ -2078,7 +2078,7 @@ void _wrap_XSPortInfo_clear_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
 }
 
 
-bool _wrap_XSPortInfo_empty_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+bool _wrap_XSPortInfo_empty_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -2091,7 +2091,7 @@ bool _wrap_XSPortInfo_empty_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
 }
 
 
-bool _wrap_XSPortInfo_opGt_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, XsPortInfo *_swig_go_1) {
+bool _wrap_XSPortInfo_opGt_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0, XsPortInfo *_swig_go_1) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   XsPortInfo *arg2 = 0 ;
   bool result;
@@ -2106,7 +2106,7 @@ bool _wrap_XSPortInfo_opGt_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, XsPor
 }
 
 
-bool _wrap_XSPortInfo_opLt_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, XsPortInfo *_swig_go_1) {
+bool _wrap_XSPortInfo_opLt_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0, XsPortInfo *_swig_go_1) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   XsPortInfo *arg2 = 0 ;
   bool result;
@@ -2121,7 +2121,7 @@ bool _wrap_XSPortInfo_opLt_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, XsPor
 }
 
 
-bool _wrap_XSPortInfo_opEq__SWIG_0_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, XsPortInfo *_swig_go_1) {
+bool _wrap_XSPortInfo_opEq__SWIG_0_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0, XsPortInfo *_swig_go_1) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   XsPortInfo *arg2 = 0 ;
   bool result;
@@ -2136,7 +2136,7 @@ bool _wrap_XSPortInfo_opEq__SWIG_0_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_
 }
 
 
-bool _wrap_XSPortInfo_opEq__SWIG_1_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, _gostring_ _swig_go_1) {
+bool _wrap_XSPortInfo_opEq__SWIG_1_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0, _gostring_ _swig_go_1) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   char *arg2 = (char *) 0 ;
   bool result;
@@ -2156,7 +2156,7 @@ bool _wrap_XSPortInfo_opEq__SWIG_1_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_
 }
 
 
-intgo _wrap_XSPortInfo_portNumber_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+intgo _wrap_XSPortInfo_portNumber_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2169,7 +2169,7 @@ intgo _wrap_XSPortInfo_portNumber_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0
 }
 
 
-XsString *_wrap_XSPortInfo_portName_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+XsString *_wrap_XSPortInfo_portName_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   XsString result;
   XsString *_swig_go_result;
@@ -2182,7 +2182,7 @@ XsString *_wrap_XSPortInfo_portName_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go
 }
 
 
-_gostring_ _wrap_XSPortInfo_portName_c_str_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+_gostring_ _wrap_XSPortInfo_portName_c_str_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -2195,7 +2195,7 @@ _gostring_ _wrap_XSPortInfo_portName_c_str_mtigen_083b31a658b8ff73(XsPortInfo *_
 }
 
 
-void _wrap_XSPortInfo_setPortName_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, XsString *_swig_go_1) {
+void _wrap_XSPortInfo_setPortName_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0, XsString *_swig_go_1) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   XsString *arg2 = 0 ;
   
@@ -2207,7 +2207,7 @@ void _wrap_XSPortInfo_setPortName_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0
 }
 
 
-bool _wrap_XSPortInfo_isUsb_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+bool _wrap_XSPortInfo_isUsb_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -2220,7 +2220,7 @@ bool _wrap_XSPortInfo_isUsb_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
 }
 
 
-bool _wrap_XSPortInfo_isNetwork_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+bool _wrap_XSPortInfo_isNetwork_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -2233,7 +2233,7 @@ bool _wrap_XSPortInfo_isNetwork_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) 
 }
 
 
-XsString *_wrap_XSPortInfo_networkServiceName_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+XsString *_wrap_XSPortInfo_networkServiceName_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   XsString result;
   XsString *_swig_go_result;
@@ -2246,7 +2246,7 @@ XsString *_wrap_XSPortInfo_networkServiceName_mtigen_083b31a658b8ff73(XsPortInfo
 }
 
 
-intgo _wrap_XSPortInfo_usbBus_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+intgo _wrap_XSPortInfo_usbBus_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2259,7 +2259,7 @@ intgo _wrap_XSPortInfo_usbBus_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
 }
 
 
-intgo _wrap_XSPortInfo_usbAddress_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+intgo _wrap_XSPortInfo_usbAddress_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -2272,7 +2272,7 @@ intgo _wrap_XSPortInfo_usbAddress_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0
 }
 
 
-intgo _wrap_XSPortInfo_baudrate_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+intgo _wrap_XSPortInfo_baudrate_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   XsBaudRate result;
   intgo _swig_go_result;
@@ -2285,7 +2285,7 @@ intgo _wrap_XSPortInfo_baudrate_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) 
 }
 
 
-void _wrap_XSPortInfo_setBaudrate_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_XSPortInfo_setBaudrate_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0, intgo _swig_go_1) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   XsBaudRate arg2 ;
   
@@ -2297,7 +2297,7 @@ void _wrap_XSPortInfo_setBaudrate_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0
 }
 
 
-XsDeviceId *_wrap_XSPortInfo_deviceId_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+XsDeviceId *_wrap_XSPortInfo_deviceId_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   XsDeviceId result;
   XsDeviceId *_swig_go_result;
@@ -2310,7 +2310,7 @@ XsDeviceId *_wrap_XSPortInfo_deviceId_mtigen_083b31a658b8ff73(XsPortInfo *_swig_
 }
 
 
-void _wrap_XSPortInfo_setDeviceId_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, XsDeviceId *_swig_go_1) {
+void _wrap_XSPortInfo_setDeviceId_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   XsDeviceId arg2 ;
   XsDeviceId *argp2 ;
@@ -2329,7 +2329,7 @@ void _wrap_XSPortInfo_setDeviceId_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0
 }
 
 
-intgo _wrap_XSPortInfo_linesOptions_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+intgo _wrap_XSPortInfo_linesOptions_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   XsPortLinesOptions result;
   intgo _swig_go_result;
@@ -2342,7 +2342,7 @@ intgo _wrap_XSPortInfo_linesOptions_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go
 }
 
 
-void _wrap_XSPortInfo_setLinesOptions_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, intgo _swig_go_1) {
+void _wrap_XSPortInfo_setLinesOptions_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0, intgo _swig_go_1) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   XsPortLinesOptions arg2 ;
   
@@ -2354,7 +2354,7 @@ void _wrap_XSPortInfo_setLinesOptions_mtigen_083b31a658b8ff73(XsPortInfo *_swig_
 }
 
 
-void _wrap_XSPortInfo_getVidPid_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, uint16_t *_swig_go_1, uint16_t *_swig_go_2) {
+void _wrap_XSPortInfo_getVidPid_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0, uint16_t *_swig_go_1, uint16_t *_swig_go_2) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   uint16_t *arg2 = 0 ;
   uint16_t *arg3 = 0 ;
@@ -2368,7 +2368,7 @@ void _wrap_XSPortInfo_getVidPid_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, 
 }
 
 
-void _wrap_XSPortInfo_setVidPid_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, short _swig_go_1, short _swig_go_2) {
+void _wrap_XSPortInfo_setVidPid_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0, short _swig_go_1, short _swig_go_2) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   uint16_t arg2 ;
   uint16_t arg3 ;
@@ -2382,7 +2382,7 @@ void _wrap_XSPortInfo_setVidPid_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, 
 }
 
 
-void _wrap_delete_XSPortInfo_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+void _wrap_delete_XSPortInfo_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   
   arg1 = *(XsPortInfo **)&_swig_go_0; 
@@ -2392,7 +2392,7 @@ void _wrap_delete_XSPortInfo_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_new_XsArrayImplXsDevice__SWIG_0_mtigen_083b31a658b8ff73(long long _swig_go_0, XsDevicePtr *_swig_go_1) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_new_XsArrayImplXsDevice__SWIG_0_gen_58fb7b870f09ff4a(long long _swig_go_0, XsDevicePtr *_swig_go_1) {
   XsSize arg1 ;
   XsDevicePtr *arg2 = (XsDevicePtr *) 0 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *result = 0 ;
@@ -2407,7 +2407,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_new_XsArrayImplXsDevice__SWIG_1_mtigen_083b31a658b8ff73(long long _swig_go_0) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_new_XsArrayImplXsDevice__SWIG_1_gen_58fb7b870f09ff4a(long long _swig_go_0) {
   XsSize arg1 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *result = 0 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_result;
@@ -2420,7 +2420,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_new_XsArrayImplXsDevice__SWIG_2_mtigen_083b31a658b8ff73() {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_new_XsArrayImplXsDevice__SWIG_2_gen_58fb7b870f09ff4a() {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *result = 0 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_result;
   
@@ -2431,7 +2431,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_new_XsArrayImplXsDevice__SWIG_3_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_new_XsArrayImplXsDevice__SWIG_3_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::ArrayImpl *arg1 = 0 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *result = 0 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_result;
@@ -2444,7 +2444,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_new_XsArrayImplXsDevice__SWIG_4_mtigen_083b31a658b8ff73(XsDevicePtr *_swig_go_0, long long _swig_go_1, intgo _swig_go_2) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_new_XsArrayImplXsDevice__SWIG_4_gen_58fb7b870f09ff4a(XsDevicePtr *_swig_go_0, long long _swig_go_1, intgo _swig_go_2) {
   XsDevicePtr *arg1 = (XsDevicePtr *) 0 ;
   XsSize arg2 ;
   XsDataFlags arg3 ;
@@ -2461,7 +2461,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_
 }
 
 
-void _wrap_delete_XsArrayImplXsDevice_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+void _wrap_delete_XsArrayImplXsDevice_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > **)&_swig_go_0; 
@@ -2471,7 +2471,7 @@ void _wrap_delete_XsArrayImplXsDevice_mtigen_083b31a658b8ff73(XsArrayImpl< XsDev
 }
 
 
-void _wrap_XsArrayImplXsDevice_clear_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+void _wrap_XsArrayImplXsDevice_clear_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > **)&_swig_go_0; 
@@ -2481,7 +2481,7 @@ void _wrap_XsArrayImplXsDevice_clear_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevi
 }
 
 
-bool _wrap_XsArrayImplXsDevice_opEq_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
+bool _wrap_XsArrayImplXsDevice_opEq_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::ArrayImpl *arg2 = 0 ;
   bool result;
@@ -2496,7 +2496,7 @@ bool _wrap_XsArrayImplXsDevice_opEq_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevic
 }
 
 
-bool _wrap_XsArrayImplXsDevice_opNEq_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
+bool _wrap_XsArrayImplXsDevice_opNEq_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::ArrayImpl *arg2 = 0 ;
   bool result;
@@ -2511,7 +2511,7 @@ bool _wrap_XsArrayImplXsDevice_opNEq_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevi
 }
 
 
-void _wrap_XsArrayImplXsDevice_reserve_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayImplXsDevice_reserve_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsSize arg2 ;
   
@@ -2523,7 +2523,7 @@ void _wrap_XsArrayImplXsDevice_reserve_mtigen_083b31a658b8ff73(XsArrayImpl< XsDe
 }
 
 
-long long _wrap_XsArrayImplXsDevice_reserved_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+long long _wrap_XsArrayImplXsDevice_reserved_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -2536,7 +2536,7 @@ long long _wrap_XsArrayImplXsDevice_reserved_mtigen_083b31a658b8ff73(XsArrayImpl
 }
 
 
-XsArrayDescriptor *_wrap_XsArrayImplXsDevice_descriptor_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+XsArrayDescriptor *_wrap_XsArrayImplXsDevice_descriptor_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsArrayDescriptor *result = 0 ;
   XsArrayDescriptor *_swig_go_result;
@@ -2549,7 +2549,7 @@ XsArrayDescriptor *_wrap_XsArrayImplXsDevice_descriptor_mtigen_083b31a658b8ff73(
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_wrap_XsArrayImplXsDevice_begin__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_wrap_XsArrayImplXsDevice_begin__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > > result;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_swig_go_result;
@@ -2562,7 +2562,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_wrap_XsArrayImplXsDevice_end__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_wrap_XsArrayImplXsDevice_end__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > > result;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_swig_go_result;
@@ -2575,7 +2575,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_wrap_XsArrayImplXsDevice_rbegin__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_wrap_XsArrayImplXsDevice_rbegin__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > > result;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_swig_go_result;
@@ -2588,7 +2588,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_wrap_XsArrayImplXsDevice_rend__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_wrap_XsArrayImplXsDevice_rend__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > > result;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_swig_go_result;
@@ -2601,7 +2601,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_wrap_XsArrayImplXsDevice_begin__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_wrap_XsArrayImplXsDevice_begin__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > > result;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_swig_go_result;
@@ -2614,7 +2614,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_wrap_XsArrayImplXsDevice_end__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_wrap_XsArrayImplXsDevice_end__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > > result;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_swig_go_result;
@@ -2627,7 +2627,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_wrap_XsArrayImplXsDevice_rbegin__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_wrap_XsArrayImplXsDevice_rbegin__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > > result;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_swig_go_result;
@@ -2640,7 +2640,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_wrap_XsArrayImplXsDevice_rend__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_wrap_XsArrayImplXsDevice_rend__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > > result;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_swig_go_result;
@@ -2653,7 +2653,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-XsDevicePtr *_wrap_XsArrayImplXsDevice_opIndex__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
+XsDevicePtr *_wrap_XsArrayImplXsDevice_opIndex__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsSize arg2 ;
   XsDevicePtr *result = 0 ;
@@ -2668,7 +2668,7 @@ XsDevicePtr *_wrap_XsArrayImplXsDevice_opIndex__SWIG_0_mtigen_083b31a658b8ff73(X
 }
 
 
-XsDevicePtr *_wrap_XsArrayImplXsDevice_opIndex__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
+XsDevicePtr *_wrap_XsArrayImplXsDevice_opIndex__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsSize arg2 ;
   XsDevicePtr *result = 0 ;
@@ -2683,7 +2683,7 @@ XsDevicePtr *_wrap_XsArrayImplXsDevice_opIndex__SWIG_1_mtigen_083b31a658b8ff73(X
 }
 
 
-XsDevicePtr *_wrap_XsArrayImplXsDevice_value_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
+XsDevicePtr *_wrap_XsArrayImplXsDevice_value_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsSize arg2 ;
   XsDevicePtr result;
@@ -2698,7 +2698,7 @@ XsDevicePtr *_wrap_XsArrayImplXsDevice_value_mtigen_083b31a658b8ff73(XsArrayImpl
 }
 
 
-XsDevicePtr *_wrap_XsArrayImplXsDevice_first_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+XsDevicePtr *_wrap_XsArrayImplXsDevice_first_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsDevicePtr result;
   XsDevicePtr *_swig_go_result;
@@ -2711,7 +2711,7 @@ XsDevicePtr *_wrap_XsArrayImplXsDevice_first_mtigen_083b31a658b8ff73(XsArrayImpl
 }
 
 
-XsDevicePtr *_wrap_XsArrayImplXsDevice_last_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+XsDevicePtr *_wrap_XsArrayImplXsDevice_last_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsDevicePtr result;
   XsDevicePtr *_swig_go_result;
@@ -2724,7 +2724,7 @@ XsDevicePtr *_wrap_XsArrayImplXsDevice_last_mtigen_083b31a658b8ff73(XsArrayImpl<
 }
 
 
-XsDevicePtr *_wrap_XsArrayImplXsDevice_at__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
+XsDevicePtr *_wrap_XsArrayImplXsDevice_at__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsSize arg2 ;
   XsDevicePtr *result = 0 ;
@@ -2739,7 +2739,7 @@ XsDevicePtr *_wrap_XsArrayImplXsDevice_at__SWIG_0_mtigen_083b31a658b8ff73(XsArra
 }
 
 
-XsDevicePtr *_wrap_XsArrayImplXsDevice_at__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
+XsDevicePtr *_wrap_XsArrayImplXsDevice_at__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsSize arg2 ;
   XsDevicePtr *result = 0 ;
@@ -2754,7 +2754,7 @@ XsDevicePtr *_wrap_XsArrayImplXsDevice_at__SWIG_1_mtigen_083b31a658b8ff73(XsArra
 }
 
 
-void _wrap_XsArrayImplXsDevice_insert__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1, long long _swig_go_2) {
+void _wrap_XsArrayImplXsDevice_insert__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1, long long _swig_go_2) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsDevicePtr *arg2 = 0 ;
   XsSize arg3 ;
@@ -2768,7 +2768,7 @@ void _wrap_XsArrayImplXsDevice_insert__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImp
 }
 
 
-void _wrap_XsArrayImplXsDevice_insert__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1, long long _swig_go_2, long long _swig_go_3) {
+void _wrap_XsArrayImplXsDevice_insert__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1, long long _swig_go_2, long long _swig_go_3) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsDevicePtr *arg2 = (XsDevicePtr *) 0 ;
   XsSize arg3 ;
@@ -2784,7 +2784,7 @@ void _wrap_XsArrayImplXsDevice_insert__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImp
 }
 
 
-void _wrap_XsArrayImplXsDevice_insert__SWIG_2_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_swig_go_2) {
+void _wrap_XsArrayImplXsDevice_insert__SWIG_2_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_swig_go_2) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsDevicePtr *arg2 = 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > > arg3 ;
@@ -2805,7 +2805,7 @@ void _wrap_XsArrayImplXsDevice_insert__SWIG_2_mtigen_083b31a658b8ff73(XsArrayImp
 }
 
 
-void _wrap_XsArrayImplXsDevice_insert__SWIG_3_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_swig_go_2) {
+void _wrap_XsArrayImplXsDevice_insert__SWIG_3_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_swig_go_2) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsDevicePtr *arg2 = 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > > arg3 ;
@@ -2826,7 +2826,7 @@ void _wrap_XsArrayImplXsDevice_insert__SWIG_3_mtigen_083b31a658b8ff73(XsArrayImp
 }
 
 
-void _wrap_XsArrayImplXsDevice_insert__SWIG_4_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_swig_go_2, long long _swig_go_3) {
+void _wrap_XsArrayImplXsDevice_insert__SWIG_4_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_swig_go_2, long long _swig_go_3) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsDevicePtr *arg2 = (XsDevicePtr *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > > arg3 ;
@@ -2849,7 +2849,7 @@ void _wrap_XsArrayImplXsDevice_insert__SWIG_4_mtigen_083b31a658b8ff73(XsArrayImp
 }
 
 
-void _wrap_XsArrayImplXsDevice_insert__SWIG_5_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_swig_go_2, long long _swig_go_3) {
+void _wrap_XsArrayImplXsDevice_insert__SWIG_5_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_swig_go_2, long long _swig_go_3) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsDevicePtr *arg2 = (XsDevicePtr *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > > arg3 ;
@@ -2872,7 +2872,7 @@ void _wrap_XsArrayImplXsDevice_insert__SWIG_5_mtigen_083b31a658b8ff73(XsArrayImp
 }
 
 
-void _wrap_XsArrayImplXsDevice_push_back_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1) {
+void _wrap_XsArrayImplXsDevice_push_back_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsDevicePtr *arg2 = 0 ;
   
@@ -2884,7 +2884,7 @@ void _wrap_XsArrayImplXsDevice_push_back_mtigen_083b31a658b8ff73(XsArrayImpl< Xs
 }
 
 
-void _wrap_XsArrayImplXsDevice_pop_back__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayImplXsDevice_pop_back__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsSize arg2 ;
   
@@ -2896,7 +2896,7 @@ void _wrap_XsArrayImplXsDevice_pop_back__SWIG_0_mtigen_083b31a658b8ff73(XsArrayI
 }
 
 
-void _wrap_XsArrayImplXsDevice_pop_back__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+void _wrap_XsArrayImplXsDevice_pop_back__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > **)&_swig_go_0; 
@@ -2906,7 +2906,7 @@ void _wrap_XsArrayImplXsDevice_pop_back__SWIG_1_mtigen_083b31a658b8ff73(XsArrayI
 }
 
 
-void _wrap_XsArrayImplXsDevice_push_front_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1) {
+void _wrap_XsArrayImplXsDevice_push_front_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsDevicePtr *arg2 = 0 ;
   
@@ -2918,7 +2918,7 @@ void _wrap_XsArrayImplXsDevice_push_front_mtigen_083b31a658b8ff73(XsArrayImpl< X
 }
 
 
-void _wrap_XsArrayImplXsDevice_pop_front__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayImplXsDevice_pop_front__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsSize arg2 ;
   
@@ -2930,7 +2930,7 @@ void _wrap_XsArrayImplXsDevice_pop_front__SWIG_0_mtigen_083b31a658b8ff73(XsArray
 }
 
 
-void _wrap_XsArrayImplXsDevice_pop_front__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+void _wrap_XsArrayImplXsDevice_pop_front__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > **)&_swig_go_0; 
@@ -2940,7 +2940,7 @@ void _wrap_XsArrayImplXsDevice_pop_front__SWIG_1_mtigen_083b31a658b8ff73(XsArray
 }
 
 
-long long _wrap_XsArrayImplXsDevice_size_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+long long _wrap_XsArrayImplXsDevice_size_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -2953,7 +2953,7 @@ long long _wrap_XsArrayImplXsDevice_size_mtigen_083b31a658b8ff73(XsArrayImpl< Xs
 }
 
 
-void _wrap_XsArrayImplXsDevice_erase__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_XsArrayImplXsDevice_erase__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsSize arg2 ;
   XsSize arg3 ;
@@ -2967,7 +2967,7 @@ void _wrap_XsArrayImplXsDevice_erase__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl
 }
 
 
-void _wrap_XsArrayImplXsDevice_erase__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayImplXsDevice_erase__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsSize arg2 ;
   
@@ -2979,7 +2979,7 @@ void _wrap_XsArrayImplXsDevice_erase__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_wrap_XsArrayImplXsDevice_erase__SWIG_2_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_swig_go_1) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_wrap_XsArrayImplXsDevice_erase__SWIG_2_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > > arg2 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::iterator *argp2 ;
@@ -3001,7 +3001,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_wrap_XsArrayImplXsDevice_erase__SWIG_3_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_swig_go_1) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_wrap_XsArrayImplXsDevice_erase__SWIG_3_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > > arg2 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::reverse_iterator *argp2 ;
@@ -3023,7 +3023,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-void _wrap_XsArrayImplXsDevice_assign_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1, XsDevicePtr *_swig_go_2) {
+void _wrap_XsArrayImplXsDevice_assign_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1, XsDevicePtr *_swig_go_2) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsSize arg2 ;
   XsDevicePtr *arg3 = (XsDevicePtr *) 0 ;
@@ -3037,7 +3037,7 @@ void _wrap_XsArrayImplXsDevice_assign_mtigen_083b31a658b8ff73(XsArrayImpl< XsDev
 }
 
 
-void _wrap_XsArrayImplXsDevice_resize_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayImplXsDevice_resize_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsSize arg2 ;
   
@@ -3049,7 +3049,7 @@ void _wrap_XsArrayImplXsDevice_resize_mtigen_083b31a658b8ff73(XsArrayImpl< XsDev
 }
 
 
-void _wrap_XsArrayImplXsDevice_setSize_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayImplXsDevice_setSize_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsSize arg2 ;
   
@@ -3061,7 +3061,7 @@ void _wrap_XsArrayImplXsDevice_setSize_mtigen_083b31a658b8ff73(XsArrayImpl< XsDe
 }
 
 
-void _wrap_XsArrayImplXsDevice_append_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
+void _wrap_XsArrayImplXsDevice_append_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::ArrayImpl *arg2 = 0 ;
   
@@ -3073,7 +3073,7 @@ void _wrap_XsArrayImplXsDevice_append_mtigen_083b31a658b8ff73(XsArrayImpl< XsDev
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_XsArrayImplXsDevice_opAssign_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_XsArrayImplXsDevice_opAssign_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::ArrayImpl *arg2 = 0 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::ArrayImpl *result = 0 ;
@@ -3088,7 +3088,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_
 }
 
 
-bool _wrap_XsArrayImplXsDevice_empty_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+bool _wrap_XsArrayImplXsDevice_empty_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -3101,7 +3101,7 @@ bool _wrap_XsArrayImplXsDevice_empty_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevi
 }
 
 
-XsDevicePtrArray *_wrap_XsArrayImplXsDevice_inherited__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+XsDevicePtrArray *_wrap_XsArrayImplXsDevice_inherited__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsDevicePtrArray *result = 0 ;
   XsDevicePtrArray *_swig_go_result;
@@ -3114,7 +3114,7 @@ XsDevicePtrArray *_wrap_XsArrayImplXsDevice_inherited__SWIG_0_mtigen_083b31a658b
 }
 
 
-XsDevicePtrArray *_wrap_XsArrayImplXsDevice_inherited__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+XsDevicePtrArray *_wrap_XsArrayImplXsDevice_inherited__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsDevicePtrArray *result = 0 ;
   XsDevicePtrArray *_swig_go_result;
@@ -3127,7 +3127,7 @@ XsDevicePtrArray *_wrap_XsArrayImplXsDevice_inherited__SWIG_1_mtigen_083b31a658b
 }
 
 
-void _wrap_XsArrayImplXsDevice_swap__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
+void _wrap_XsArrayImplXsDevice_swap__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::ArrayImpl *arg2 = 0 ;
   
@@ -3139,7 +3139,7 @@ void _wrap_XsArrayImplXsDevice_swap__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl<
 }
 
 
-void _wrap_XsArrayImplXsDevice_swap__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_XsArrayImplXsDevice_swap__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsSize arg2 ;
   XsSize arg3 ;
@@ -3153,7 +3153,7 @@ void _wrap_XsArrayImplXsDevice_swap__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl<
 }
 
 
-XsDevicePtrArray *_wrap_XsArrayImplXsDevice_opLeftShift_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1) {
+XsDevicePtrArray *_wrap_XsArrayImplXsDevice_opLeftShift_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsDevicePtr *arg2 = 0 ;
   XsDevicePtrArray *result = 0 ;
@@ -3168,7 +3168,7 @@ XsDevicePtrArray *_wrap_XsArrayImplXsDevice_opLeftShift_mtigen_083b31a658b8ff73(
 }
 
 
-intgo _wrap_XsArrayImplXsDevice_find_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1) {
+intgo _wrap_XsArrayImplXsDevice_find_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, XsDevicePtr *_swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsDevicePtr *arg2 = 0 ;
   int result;
@@ -3183,7 +3183,7 @@ intgo _wrap_XsArrayImplXsDevice_find_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevi
 }
 
 
-void _wrap_XsArrayImplXsDevice_removeDuplicates_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+void _wrap_XsArrayImplXsDevice_removeDuplicates_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > **)&_swig_go_0; 
@@ -3193,7 +3193,7 @@ void _wrap_XsArrayImplXsDevice_removeDuplicates_mtigen_083b31a658b8ff73(XsArrayI
 }
 
 
-void _wrap_XsArrayImplXsDevice_removeDuplicatesPredicate_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsArrayImplXsDevice_removeDuplicatesPredicate_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0, void* _swig_go_1) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   XsArrayItemCompareFunc arg2 = (XsArrayItemCompareFunc) 0 ;
   
@@ -3205,7 +3205,7 @@ void _wrap_XsArrayImplXsDevice_removeDuplicatesPredicate_mtigen_083b31a658b8ff73
 }
 
 
-void _wrap_XsArrayImplXsDevice_sort_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+void _wrap_XsArrayImplXsDevice_sort_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > **)&_swig_go_0; 
@@ -3215,7 +3215,7 @@ void _wrap_XsArrayImplXsDevice_sort_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevic
 }
 
 
-void _wrap_XsArrayImplXsDevice_reverse_mtigen_083b31a658b8ff73(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
+void _wrap_XsArrayImplXsDevice_reverse_gen_58fb7b870f09ff4a(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_0) {
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *arg1 = (XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > **)&_swig_go_0; 
@@ -3225,7 +3225,7 @@ void _wrap_XsArrayImplXsDevice_reverse_mtigen_083b31a658b8ff73(XsArrayImpl< XsDe
 }
 
 
-XsArrayDescriptor *_wrap_g_xsDevicePtrArrayDescriptor_get_mtigen_083b31a658b8ff73() {
+XsArrayDescriptor *_wrap_g_xsDevicePtrArrayDescriptor_get_gen_58fb7b870f09ff4a() {
   XsArrayDescriptor *result = 0 ;
   XsArrayDescriptor *_swig_go_result;
   
@@ -3236,7 +3236,7 @@ XsArrayDescriptor *_wrap_g_xsDevicePtrArrayDescriptor_get_mtigen_083b31a658b8ff7
 }
 
 
-XsDevicePtrArray *_wrap_new_XsDevicePtrArray__SWIG_0_mtigen_083b31a658b8ff73(long long _swig_go_0, XsDevicePtr *_swig_go_1) {
+XsDevicePtrArray *_wrap_new_XsDevicePtrArray__SWIG_0_gen_58fb7b870f09ff4a(long long _swig_go_0, XsDevicePtr *_swig_go_1) {
   XsSize arg1 ;
   XsDevicePtr *arg2 = (XsDevicePtr *) 0 ;
   XsDevicePtrArray *result = 0 ;
@@ -3251,7 +3251,7 @@ XsDevicePtrArray *_wrap_new_XsDevicePtrArray__SWIG_0_mtigen_083b31a658b8ff73(lon
 }
 
 
-XsDevicePtrArray *_wrap_new_XsDevicePtrArray__SWIG_1_mtigen_083b31a658b8ff73(long long _swig_go_0) {
+XsDevicePtrArray *_wrap_new_XsDevicePtrArray__SWIG_1_gen_58fb7b870f09ff4a(long long _swig_go_0) {
   XsSize arg1 ;
   XsDevicePtrArray *result = 0 ;
   XsDevicePtrArray *_swig_go_result;
@@ -3264,7 +3264,7 @@ XsDevicePtrArray *_wrap_new_XsDevicePtrArray__SWIG_1_mtigen_083b31a658b8ff73(lon
 }
 
 
-XsDevicePtrArray *_wrap_new_XsDevicePtrArray__SWIG_2_mtigen_083b31a658b8ff73() {
+XsDevicePtrArray *_wrap_new_XsDevicePtrArray__SWIG_2_gen_58fb7b870f09ff4a() {
   XsDevicePtrArray *result = 0 ;
   XsDevicePtrArray *_swig_go_result;
   
@@ -3275,7 +3275,7 @@ XsDevicePtrArray *_wrap_new_XsDevicePtrArray__SWIG_2_mtigen_083b31a658b8ff73() {
 }
 
 
-XsDevicePtrArray *_wrap_new_XsDevicePtrArray__SWIG_3_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+XsDevicePtrArray *_wrap_new_XsDevicePtrArray__SWIG_3_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = 0 ;
   XsDevicePtrArray *result = 0 ;
   XsDevicePtrArray *_swig_go_result;
@@ -3288,7 +3288,7 @@ XsDevicePtrArray *_wrap_new_XsDevicePtrArray__SWIG_3_mtigen_083b31a658b8ff73(XsD
 }
 
 
-XsDevicePtrArray *_wrap_new_XsDevicePtrArray__SWIG_4_mtigen_083b31a658b8ff73(XsDevicePtr *_swig_go_0, long long _swig_go_1, intgo _swig_go_2) {
+XsDevicePtrArray *_wrap_new_XsDevicePtrArray__SWIG_4_gen_58fb7b870f09ff4a(XsDevicePtr *_swig_go_0, long long _swig_go_1, intgo _swig_go_2) {
   XsDevicePtr *arg1 = (XsDevicePtr *) 0 ;
   XsSize arg2 ;
   XsDataFlags arg3 ;
@@ -3305,7 +3305,7 @@ XsDevicePtrArray *_wrap_new_XsDevicePtrArray__SWIG_4_mtigen_083b31a658b8ff73(XsD
 }
 
 
-void _wrap_delete_XsDevicePtrArray_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+void _wrap_delete_XsDevicePtrArray_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   
   arg1 = *(XsDevicePtrArray **)&_swig_go_0; 
@@ -3315,7 +3315,7 @@ void _wrap_delete_XsDevicePtrArray_mtigen_083b31a658b8ff73(XsDevicePtrArray *_sw
 }
 
 
-void _wrap_XsDevicePtrArray_clear_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+void _wrap_XsDevicePtrArray_clear_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   
   arg1 = *(XsDevicePtrArray **)&_swig_go_0; 
@@ -3326,7 +3326,7 @@ void _wrap_XsDevicePtrArray_clear_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swi
 }
 
 
-bool _wrap_XsDevicePtrArray_opEq_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
+bool _wrap_XsDevicePtrArray_opEq_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::ArrayImpl *arg2 = 0 ;
   bool result;
@@ -3342,7 +3342,7 @@ bool _wrap_XsDevicePtrArray_opEq_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig
 }
 
 
-bool _wrap_XsDevicePtrArray_opNEq_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
+bool _wrap_XsDevicePtrArray_opNEq_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::ArrayImpl *arg2 = 0 ;
   bool result;
@@ -3358,7 +3358,7 @@ bool _wrap_XsDevicePtrArray_opNEq_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swi
 }
 
 
-void _wrap_XsDevicePtrArray_reserve_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsDevicePtrArray_reserve_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsSize arg2 ;
   
@@ -3371,7 +3371,7 @@ void _wrap_XsDevicePtrArray_reserve_mtigen_083b31a658b8ff73(XsDevicePtrArray *_s
 }
 
 
-long long _wrap_XsDevicePtrArray_reserved_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+long long _wrap_XsDevicePtrArray_reserved_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -3385,7 +3385,7 @@ long long _wrap_XsDevicePtrArray_reserved_mtigen_083b31a658b8ff73(XsDevicePtrArr
 }
 
 
-XsArrayDescriptor *_wrap_XsDevicePtrArray_descriptor_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+XsArrayDescriptor *_wrap_XsDevicePtrArray_descriptor_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsArrayDescriptor *result = 0 ;
   XsArrayDescriptor *_swig_go_result;
@@ -3399,7 +3399,7 @@ XsArrayDescriptor *_wrap_XsDevicePtrArray_descriptor_mtigen_083b31a658b8ff73(XsD
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_wrap_XsDevicePtrArray_begin__SWIG_0_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_wrap_XsDevicePtrArray_begin__SWIG_0_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > > result;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_swig_go_result;
@@ -3413,7 +3413,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_wrap_XsDevicePtrArray_begin__SWIG_1_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_wrap_XsDevicePtrArray_begin__SWIG_1_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > > result;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_swig_go_result;
@@ -3427,7 +3427,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_wrap_XsDevicePtrArray_end__SWIG_0_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_wrap_XsDevicePtrArray_end__SWIG_0_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > > result;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_swig_go_result;
@@ -3441,7 +3441,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_wrap_XsDevicePtrArray_end__SWIG_1_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_wrap_XsDevicePtrArray_end__SWIG_1_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > > result;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_swig_go_result;
@@ -3455,7 +3455,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_wrap_XsDevicePtrArray_rbegin__SWIG_0_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_wrap_XsDevicePtrArray_rbegin__SWIG_0_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > > result;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_swig_go_result;
@@ -3469,7 +3469,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_wrap_XsDevicePtrArray_rbegin__SWIG_1_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_wrap_XsDevicePtrArray_rbegin__SWIG_1_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > > result;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_swig_go_result;
@@ -3483,7 +3483,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_wrap_XsDevicePtrArray_rend__SWIG_0_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_wrap_XsDevicePtrArray_rend__SWIG_0_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > > result;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_swig_go_result;
@@ -3497,7 +3497,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_wrap_XsDevicePtrArray_rend__SWIG_1_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_wrap_XsDevicePtrArray_rend__SWIG_1_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > > result;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_swig_go_result;
@@ -3511,7 +3511,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-XsDevicePtr *_wrap_XsDevicePtrArray_opIndex__SWIG_0_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
+XsDevicePtr *_wrap_XsDevicePtrArray_opIndex__SWIG_0_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsSize arg2 ;
   XsDevicePtr *result = 0 ;
@@ -3527,7 +3527,7 @@ XsDevicePtr *_wrap_XsDevicePtrArray_opIndex__SWIG_0_mtigen_083b31a658b8ff73(XsDe
 }
 
 
-XsDevicePtr *_wrap_XsDevicePtrArray_opIndex__SWIG_1_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
+XsDevicePtr *_wrap_XsDevicePtrArray_opIndex__SWIG_1_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsSize arg2 ;
   XsDevicePtr *result = 0 ;
@@ -3543,7 +3543,7 @@ XsDevicePtr *_wrap_XsDevicePtrArray_opIndex__SWIG_1_mtigen_083b31a658b8ff73(XsDe
 }
 
 
-XsDevicePtr *_wrap_XsDevicePtrArray_value_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
+XsDevicePtr *_wrap_XsDevicePtrArray_value_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsSize arg2 ;
   XsDevicePtr result;
@@ -3559,7 +3559,7 @@ XsDevicePtr *_wrap_XsDevicePtrArray_value_mtigen_083b31a658b8ff73(XsDevicePtrArr
 }
 
 
-XsDevicePtr *_wrap_XsDevicePtrArray_first_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+XsDevicePtr *_wrap_XsDevicePtrArray_first_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsDevicePtr result;
   XsDevicePtr *_swig_go_result;
@@ -3573,7 +3573,7 @@ XsDevicePtr *_wrap_XsDevicePtrArray_first_mtigen_083b31a658b8ff73(XsDevicePtrArr
 }
 
 
-XsDevicePtr *_wrap_XsDevicePtrArray_last_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+XsDevicePtr *_wrap_XsDevicePtrArray_last_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsDevicePtr result;
   XsDevicePtr *_swig_go_result;
@@ -3587,7 +3587,7 @@ XsDevicePtr *_wrap_XsDevicePtrArray_last_mtigen_083b31a658b8ff73(XsDevicePtrArra
 }
 
 
-XsDevicePtr *_wrap_XsDevicePtrArray_at__SWIG_0_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
+XsDevicePtr *_wrap_XsDevicePtrArray_at__SWIG_0_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsSize arg2 ;
   XsDevicePtr *result = 0 ;
@@ -3603,7 +3603,7 @@ XsDevicePtr *_wrap_XsDevicePtrArray_at__SWIG_0_mtigen_083b31a658b8ff73(XsDeviceP
 }
 
 
-XsDevicePtr *_wrap_XsDevicePtrArray_at__SWIG_1_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
+XsDevicePtr *_wrap_XsDevicePtrArray_at__SWIG_1_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsSize arg2 ;
   XsDevicePtr *result = 0 ;
@@ -3619,7 +3619,7 @@ XsDevicePtr *_wrap_XsDevicePtrArray_at__SWIG_1_mtigen_083b31a658b8ff73(XsDeviceP
 }
 
 
-void _wrap_XsDevicePtrArray_insert__SWIG_0_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1, long long _swig_go_2) {
+void _wrap_XsDevicePtrArray_insert__SWIG_0_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1, long long _swig_go_2) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsDevicePtr *arg2 = 0 ;
   XsSize arg3 ;
@@ -3634,7 +3634,7 @@ void _wrap_XsDevicePtrArray_insert__SWIG_0_mtigen_083b31a658b8ff73(XsDevicePtrAr
 }
 
 
-void _wrap_XsDevicePtrArray_insert__SWIG_1_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1, long long _swig_go_2, long long _swig_go_3) {
+void _wrap_XsDevicePtrArray_insert__SWIG_1_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1, long long _swig_go_2, long long _swig_go_3) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsDevicePtr *arg2 = (XsDevicePtr *) 0 ;
   XsSize arg3 ;
@@ -3651,7 +3651,7 @@ void _wrap_XsDevicePtrArray_insert__SWIG_1_mtigen_083b31a658b8ff73(XsDevicePtrAr
 }
 
 
-void _wrap_XsDevicePtrArray_insert__SWIG_2_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_swig_go_2) {
+void _wrap_XsDevicePtrArray_insert__SWIG_2_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_swig_go_2) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsDevicePtr *arg2 = 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > > arg3 ;
@@ -3673,7 +3673,7 @@ void _wrap_XsDevicePtrArray_insert__SWIG_2_mtigen_083b31a658b8ff73(XsDevicePtrAr
 }
 
 
-void _wrap_XsDevicePtrArray_insert__SWIG_3_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_swig_go_2) {
+void _wrap_XsDevicePtrArray_insert__SWIG_3_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_swig_go_2) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsDevicePtr *arg2 = 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > > arg3 ;
@@ -3695,7 +3695,7 @@ void _wrap_XsDevicePtrArray_insert__SWIG_3_mtigen_083b31a658b8ff73(XsDevicePtrAr
 }
 
 
-void _wrap_XsDevicePtrArray_insert__SWIG_4_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_swig_go_2, long long _swig_go_3) {
+void _wrap_XsDevicePtrArray_insert__SWIG_4_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > *_swig_go_2, long long _swig_go_3) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsDevicePtr *arg2 = (XsDevicePtr *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< 1 > > arg3 ;
@@ -3719,7 +3719,7 @@ void _wrap_XsDevicePtrArray_insert__SWIG_4_mtigen_083b31a658b8ff73(XsDevicePtrAr
 }
 
 
-void _wrap_XsDevicePtrArray_insert__SWIG_5_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_swig_go_2, long long _swig_go_3) {
+void _wrap_XsDevicePtrArray_insert__SWIG_5_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > *_swig_go_2, long long _swig_go_3) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsDevicePtr *arg2 = (XsDevicePtr *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImplConst< -1 > > arg3 ;
@@ -3743,7 +3743,7 @@ void _wrap_XsDevicePtrArray_insert__SWIG_5_mtigen_083b31a658b8ff73(XsDevicePtrAr
 }
 
 
-void _wrap_XsDevicePtrArray_push_back_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1) {
+void _wrap_XsDevicePtrArray_push_back_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsDevicePtr *arg2 = 0 ;
   
@@ -3756,7 +3756,7 @@ void _wrap_XsDevicePtrArray_push_back_mtigen_083b31a658b8ff73(XsDevicePtrArray *
 }
 
 
-void _wrap_XsDevicePtrArray_pop_back__SWIG_0_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsDevicePtrArray_pop_back__SWIG_0_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsSize arg2 ;
   
@@ -3769,7 +3769,7 @@ void _wrap_XsDevicePtrArray_pop_back__SWIG_0_mtigen_083b31a658b8ff73(XsDevicePtr
 }
 
 
-void _wrap_XsDevicePtrArray_pop_back__SWIG_1_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+void _wrap_XsDevicePtrArray_pop_back__SWIG_1_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   
   arg1 = *(XsDevicePtrArray **)&_swig_go_0; 
@@ -3780,7 +3780,7 @@ void _wrap_XsDevicePtrArray_pop_back__SWIG_1_mtigen_083b31a658b8ff73(XsDevicePtr
 }
 
 
-void _wrap_XsDevicePtrArray_push_front_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1) {
+void _wrap_XsDevicePtrArray_push_front_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsDevicePtr *arg2 = 0 ;
   
@@ -3793,7 +3793,7 @@ void _wrap_XsDevicePtrArray_push_front_mtigen_083b31a658b8ff73(XsDevicePtrArray 
 }
 
 
-void _wrap_XsDevicePtrArray_pop_front__SWIG_0_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsDevicePtrArray_pop_front__SWIG_0_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsSize arg2 ;
   
@@ -3806,7 +3806,7 @@ void _wrap_XsDevicePtrArray_pop_front__SWIG_0_mtigen_083b31a658b8ff73(XsDevicePt
 }
 
 
-void _wrap_XsDevicePtrArray_pop_front__SWIG_1_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+void _wrap_XsDevicePtrArray_pop_front__SWIG_1_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   
   arg1 = *(XsDevicePtrArray **)&_swig_go_0; 
@@ -3817,7 +3817,7 @@ void _wrap_XsDevicePtrArray_pop_front__SWIG_1_mtigen_083b31a658b8ff73(XsDevicePt
 }
 
 
-long long _wrap_XsDevicePtrArray_size_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+long long _wrap_XsDevicePtrArray_size_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -3831,7 +3831,7 @@ long long _wrap_XsDevicePtrArray_size_mtigen_083b31a658b8ff73(XsDevicePtrArray *
 }
 
 
-void _wrap_XsDevicePtrArray_erase__SWIG_0_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_XsDevicePtrArray_erase__SWIG_0_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsSize arg2 ;
   XsSize arg3 ;
@@ -3846,7 +3846,7 @@ void _wrap_XsDevicePtrArray_erase__SWIG_0_mtigen_083b31a658b8ff73(XsDevicePtrArr
 }
 
 
-void _wrap_XsDevicePtrArray_erase__SWIG_1_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsDevicePtrArray_erase__SWIG_1_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsSize arg2 ;
   
@@ -3859,7 +3859,7 @@ void _wrap_XsDevicePtrArray_erase__SWIG_1_mtigen_083b31a658b8ff73(XsDevicePtrArr
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_wrap_XsDevicePtrArray_erase__SWIG_2_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_swig_go_1) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_wrap_XsDevicePtrArray_erase__SWIG_2_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > *_swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< 1 > > arg2 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::iterator *argp2 ;
@@ -3882,7 +3882,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_wrap_XsDevicePtrArray_erase__SWIG_3_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_swig_go_1) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_wrap_XsDevicePtrArray_erase__SWIG_3_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > *_swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::IteratorImpl< -1 > > arg2 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::reverse_iterator *argp2 ;
@@ -3905,7 +3905,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::Iterat
 }
 
 
-void _wrap_XsDevicePtrArray_assign_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, long long _swig_go_1, XsDevicePtr *_swig_go_2) {
+void _wrap_XsDevicePtrArray_assign_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, long long _swig_go_1, XsDevicePtr *_swig_go_2) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsSize arg2 ;
   XsDevicePtr *arg3 = (XsDevicePtr *) 0 ;
@@ -3920,7 +3920,7 @@ void _wrap_XsDevicePtrArray_assign_mtigen_083b31a658b8ff73(XsDevicePtrArray *_sw
 }
 
 
-void _wrap_XsDevicePtrArray_resize_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsDevicePtrArray_resize_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsSize arg2 ;
   
@@ -3933,7 +3933,7 @@ void _wrap_XsDevicePtrArray_resize_mtigen_083b31a658b8ff73(XsDevicePtrArray *_sw
 }
 
 
-void _wrap_XsDevicePtrArray_setSize_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsDevicePtrArray_setSize_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, long long _swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsSize arg2 ;
   
@@ -3946,7 +3946,7 @@ void _wrap_XsDevicePtrArray_setSize_mtigen_083b31a658b8ff73(XsDevicePtrArray *_s
 }
 
 
-void _wrap_XsDevicePtrArray_append_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
+void _wrap_XsDevicePtrArray_append_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::ArrayImpl *arg2 = 0 ;
   
@@ -3959,7 +3959,7 @@ void _wrap_XsDevicePtrArray_append_mtigen_083b31a658b8ff73(XsDevicePtrArray *_sw
 }
 
 
-XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_XsDevicePtrArray_opAssign_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
+XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_XsDevicePtrArray_opAssign_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::ArrayImpl *arg2 = 0 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::ArrayImpl *result = 0 ;
@@ -3975,7 +3975,7 @@ XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_wrap_
 }
 
 
-bool _wrap_XsDevicePtrArray_empty_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+bool _wrap_XsDevicePtrArray_empty_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -3989,7 +3989,7 @@ bool _wrap_XsDevicePtrArray_empty_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swi
 }
 
 
-XsDevicePtrArray *_wrap_XsDevicePtrArray_inherited__SWIG_0_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+XsDevicePtrArray *_wrap_XsDevicePtrArray_inherited__SWIG_0_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsDevicePtrArray *result = 0 ;
   XsDevicePtrArray *_swig_go_result;
@@ -4003,7 +4003,7 @@ XsDevicePtrArray *_wrap_XsDevicePtrArray_inherited__SWIG_0_mtigen_083b31a658b8ff
 }
 
 
-XsDevicePtrArray *_wrap_XsDevicePtrArray_inherited__SWIG_1_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+XsDevicePtrArray *_wrap_XsDevicePtrArray_inherited__SWIG_1_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsDevicePtrArray *result = 0 ;
   XsDevicePtrArray *_swig_go_result;
@@ -4017,7 +4017,7 @@ XsDevicePtrArray *_wrap_XsDevicePtrArray_inherited__SWIG_1_mtigen_083b31a658b8ff
 }
 
 
-void _wrap_XsDevicePtrArray_swap__SWIG_0_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
+void _wrap_XsDevicePtrArray_swap__SWIG_0_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray > *_swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsArrayImpl< XsDevicePtr,g_xsDevicePtrArrayDescriptor,XsDevicePtrArray >::ArrayImpl *arg2 = 0 ;
   
@@ -4030,7 +4030,7 @@ void _wrap_XsDevicePtrArray_swap__SWIG_0_mtigen_083b31a658b8ff73(XsDevicePtrArra
 }
 
 
-void _wrap_XsDevicePtrArray_swap__SWIG_1_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_XsDevicePtrArray_swap__SWIG_1_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsSize arg2 ;
   XsSize arg3 ;
@@ -4045,7 +4045,7 @@ void _wrap_XsDevicePtrArray_swap__SWIG_1_mtigen_083b31a658b8ff73(XsDevicePtrArra
 }
 
 
-XsDevicePtrArray *_wrap_XsDevicePtrArray_opLeftShift_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1) {
+XsDevicePtrArray *_wrap_XsDevicePtrArray_opLeftShift_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsDevicePtr *arg2 = 0 ;
   XsDevicePtrArray *result = 0 ;
@@ -4061,7 +4061,7 @@ XsDevicePtrArray *_wrap_XsDevicePtrArray_opLeftShift_mtigen_083b31a658b8ff73(XsD
 }
 
 
-intgo _wrap_XsDevicePtrArray_find_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1) {
+intgo _wrap_XsDevicePtrArray_find_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, XsDevicePtr *_swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsDevicePtr *arg2 = 0 ;
   int result;
@@ -4077,7 +4077,7 @@ intgo _wrap_XsDevicePtrArray_find_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swi
 }
 
 
-void _wrap_XsDevicePtrArray_removeDuplicates_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+void _wrap_XsDevicePtrArray_removeDuplicates_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   
   arg1 = *(XsDevicePtrArray **)&_swig_go_0; 
@@ -4088,7 +4088,7 @@ void _wrap_XsDevicePtrArray_removeDuplicates_mtigen_083b31a658b8ff73(XsDevicePtr
 }
 
 
-void _wrap_XsDevicePtrArray_removeDuplicatesPredicate_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsDevicePtrArray_removeDuplicatesPredicate_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0, void* _swig_go_1) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   XsArrayItemCompareFunc arg2 = (XsArrayItemCompareFunc) 0 ;
   
@@ -4101,7 +4101,7 @@ void _wrap_XsDevicePtrArray_removeDuplicatesPredicate_mtigen_083b31a658b8ff73(Xs
 }
 
 
-void _wrap_XsDevicePtrArray_sort_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+void _wrap_XsDevicePtrArray_sort_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   
   arg1 = *(XsDevicePtrArray **)&_swig_go_0; 
@@ -4112,7 +4112,7 @@ void _wrap_XsDevicePtrArray_sort_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig
 }
 
 
-void _wrap_XsDevicePtrArray_reverse_mtigen_083b31a658b8ff73(XsDevicePtrArray *_swig_go_0) {
+void _wrap_XsDevicePtrArray_reverse_gen_58fb7b870f09ff4a(XsDevicePtrArray *_swig_go_0) {
   XsDevicePtrArray *arg1 = (XsDevicePtrArray *) 0 ;
   
   arg1 = *(XsDevicePtrArray **)&_swig_go_0; 
@@ -4123,7 +4123,7 @@ void _wrap_XsDevicePtrArray_reverse_mtigen_083b31a658b8ff73(XsDevicePtrArray *_s
 }
 
 
-void _wrap_XsCallbackPlainC_m_onDeviceStateChanged_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onDeviceStateChanged_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDeviceState,XsDeviceState) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDeviceState,XsDeviceState)) 0 ;
   
@@ -4135,7 +4135,7 @@ void _wrap_XsCallbackPlainC_m_onDeviceStateChanged_set_mtigen_083b31a658b8ff73(X
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onDeviceStateChanged_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onDeviceStateChanged_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDeviceState,XsDeviceState) = 0 ;
   void* _swig_go_result;
@@ -4148,7 +4148,7 @@ void* _wrap_XsCallbackPlainC_m_onDeviceStateChanged_get_mtigen_083b31a658b8ff73(
 }
 
 
-void _wrap_XsCallbackPlainC_m_onLiveDataAvailable_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onLiveDataAvailable_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -4160,7 +4160,7 @@ void _wrap_XsCallbackPlainC_m_onLiveDataAvailable_set_mtigen_083b31a658b8ff73(Xs
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onLiveDataAvailable_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onLiveDataAvailable_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -4173,7 +4173,7 @@ void* _wrap_XsCallbackPlainC_m_onLiveDataAvailable_get_mtigen_083b31a658b8ff73(X
 }
 
 
-void _wrap_XsCallbackPlainC_m_onMissedPackets_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onMissedPackets_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,int,int,int) = (void (*)(XsCallbackPlainC *,XsDevice *,int,int,int)) 0 ;
   
@@ -4185,7 +4185,7 @@ void _wrap_XsCallbackPlainC_m_onMissedPackets_set_mtigen_083b31a658b8ff73(XsCall
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onMissedPackets_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onMissedPackets_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,int,int,int) = 0 ;
   void* _swig_go_result;
@@ -4198,7 +4198,7 @@ void* _wrap_XsCallbackPlainC_m_onMissedPackets_get_mtigen_083b31a658b8ff73(XsCal
 }
 
 
-void _wrap_XsCallbackPlainC_m_onWakeupReceived_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onWakeupReceived_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *) = (void (*)(XsCallbackPlainC *,XsDevice *)) 0 ;
   
@@ -4210,7 +4210,7 @@ void _wrap_XsCallbackPlainC_m_onWakeupReceived_set_mtigen_083b31a658b8ff73(XsCal
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onWakeupReceived_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onWakeupReceived_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *) = 0 ;
   void* _swig_go_result;
@@ -4223,7 +4223,7 @@ void* _wrap_XsCallbackPlainC_m_onWakeupReceived_get_mtigen_083b31a658b8ff73(XsCa
 }
 
 
-void _wrap_XsCallbackPlainC_m_onProgressUpdated_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onProgressUpdated_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,int,int,XsString const *) = (void (*)(XsCallbackPlainC *,XsDevice *,int,int,XsString const *)) 0 ;
   
@@ -4235,7 +4235,7 @@ void _wrap_XsCallbackPlainC_m_onProgressUpdated_set_mtigen_083b31a658b8ff73(XsCa
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onProgressUpdated_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onProgressUpdated_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,int,int,XsString const *) = 0 ;
   void* _swig_go_result;
@@ -4248,7 +4248,7 @@ void* _wrap_XsCallbackPlainC_m_onProgressUpdated_get_mtigen_083b31a658b8ff73(XsC
 }
 
 
-void _wrap_XsCallbackPlainC_m_onWriteMessageToLogFile_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onWriteMessageToLogFile_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   int (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (int (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -4260,7 +4260,7 @@ void _wrap_XsCallbackPlainC_m_onWriteMessageToLogFile_set_mtigen_083b31a658b8ff7
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onWriteMessageToLogFile_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onWriteMessageToLogFile_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   int (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -4273,7 +4273,7 @@ void* _wrap_XsCallbackPlainC_m_onWriteMessageToLogFile_get_mtigen_083b31a658b8ff
 }
 
 
-void _wrap_XsCallbackPlainC_m_onBufferedDataAvailable_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onBufferedDataAvailable_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -4285,7 +4285,7 @@ void _wrap_XsCallbackPlainC_m_onBufferedDataAvailable_set_mtigen_083b31a658b8ff7
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onBufferedDataAvailable_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onBufferedDataAvailable_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -4298,7 +4298,7 @@ void* _wrap_XsCallbackPlainC_m_onBufferedDataAvailable_get_mtigen_083b31a658b8ff
 }
 
 
-void _wrap_XsCallbackPlainC_m_onConnectivityChanged_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onConnectivityChanged_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsConnectivityState) = (void (*)(XsCallbackPlainC *,XsDevice *,XsConnectivityState)) 0 ;
   
@@ -4310,7 +4310,7 @@ void _wrap_XsCallbackPlainC_m_onConnectivityChanged_set_mtigen_083b31a658b8ff73(
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onConnectivityChanged_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onConnectivityChanged_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsConnectivityState) = 0 ;
   void* _swig_go_result;
@@ -4323,7 +4323,7 @@ void* _wrap_XsCallbackPlainC_m_onConnectivityChanged_get_mtigen_083b31a658b8ff73
 }
 
 
-void _wrap_XsCallbackPlainC_m_onInfoResponse_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onInfoResponse_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsInfoRequest) = (void (*)(XsCallbackPlainC *,XsDevice *,XsInfoRequest)) 0 ;
   
@@ -4335,7 +4335,7 @@ void _wrap_XsCallbackPlainC_m_onInfoResponse_set_mtigen_083b31a658b8ff73(XsCallb
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onInfoResponse_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onInfoResponse_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsInfoRequest) = 0 ;
   void* _swig_go_result;
@@ -4348,7 +4348,7 @@ void* _wrap_XsCallbackPlainC_m_onInfoResponse_get_mtigen_083b31a658b8ff73(XsCall
 }
 
 
-void _wrap_XsCallbackPlainC_m_onError_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onError_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsResultValue) = (void (*)(XsCallbackPlainC *,XsDevice *,XsResultValue)) 0 ;
   
@@ -4360,7 +4360,7 @@ void _wrap_XsCallbackPlainC_m_onError_set_mtigen_083b31a658b8ff73(XsCallbackPlai
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onError_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onError_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsResultValue) = 0 ;
   void* _swig_go_result;
@@ -4373,7 +4373,7 @@ void* _wrap_XsCallbackPlainC_m_onError_get_mtigen_083b31a658b8ff73(XsCallbackPla
 }
 
 
-void _wrap_XsCallbackPlainC_m_onNonDataMessage_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onNonDataMessage_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -4385,7 +4385,7 @@ void _wrap_XsCallbackPlainC_m_onNonDataMessage_set_mtigen_083b31a658b8ff73(XsCal
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onNonDataMessage_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onNonDataMessage_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -4398,7 +4398,7 @@ void* _wrap_XsCallbackPlainC_m_onNonDataMessage_get_mtigen_083b31a658b8ff73(XsCa
 }
 
 
-void _wrap_XsCallbackPlainC_m_onMessageDetected_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onMessageDetected_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsProtocolType,XsByteArray const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsProtocolType,XsByteArray const *)) 0 ;
   
@@ -4410,7 +4410,7 @@ void _wrap_XsCallbackPlainC_m_onMessageDetected_set_mtigen_083b31a658b8ff73(XsCa
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onMessageDetected_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onMessageDetected_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsProtocolType,XsByteArray const *) = 0 ;
   void* _swig_go_result;
@@ -4423,7 +4423,7 @@ void* _wrap_XsCallbackPlainC_m_onMessageDetected_get_mtigen_083b31a658b8ff73(XsC
 }
 
 
-void _wrap_XsCallbackPlainC_m_onMessageReceivedFromDevice_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onMessageReceivedFromDevice_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -4435,7 +4435,7 @@ void _wrap_XsCallbackPlainC_m_onMessageReceivedFromDevice_set_mtigen_083b31a658b
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onMessageReceivedFromDevice_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onMessageReceivedFromDevice_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -4448,7 +4448,7 @@ void* _wrap_XsCallbackPlainC_m_onMessageReceivedFromDevice_get_mtigen_083b31a658
 }
 
 
-void _wrap_XsCallbackPlainC_m_onMessageSentToDevice_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onMessageSentToDevice_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -4460,7 +4460,7 @@ void _wrap_XsCallbackPlainC_m_onMessageSentToDevice_set_mtigen_083b31a658b8ff73(
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onMessageSentToDevice_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onMessageSentToDevice_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -4473,7 +4473,7 @@ void* _wrap_XsCallbackPlainC_m_onMessageSentToDevice_get_mtigen_083b31a658b8ff73
 }
 
 
-void _wrap_XsCallbackPlainC_m_onAllLiveDataAvailable_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onAllLiveDataAvailable_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -4485,7 +4485,7 @@ void _wrap_XsCallbackPlainC_m_onAllLiveDataAvailable_set_mtigen_083b31a658b8ff73
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onAllLiveDataAvailable_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onAllLiveDataAvailable_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -4498,7 +4498,7 @@ void* _wrap_XsCallbackPlainC_m_onAllLiveDataAvailable_get_mtigen_083b31a658b8ff7
 }
 
 
-void _wrap_XsCallbackPlainC_m_onAllBufferedDataAvailable_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onAllBufferedDataAvailable_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -4510,7 +4510,7 @@ void _wrap_XsCallbackPlainC_m_onAllBufferedDataAvailable_set_mtigen_083b31a658b8
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onAllBufferedDataAvailable_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onAllBufferedDataAvailable_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -4523,7 +4523,7 @@ void* _wrap_XsCallbackPlainC_m_onAllBufferedDataAvailable_get_mtigen_083b31a658b
 }
 
 
-void _wrap_XsCallbackPlainC_m_onDataUnavailable_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onDataUnavailable_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,int64_t) = (void (*)(XsCallbackPlainC *,XsDevice *,int64_t)) 0 ;
   
@@ -4535,7 +4535,7 @@ void _wrap_XsCallbackPlainC_m_onDataUnavailable_set_mtigen_083b31a658b8ff73(XsCa
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onDataUnavailable_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onDataUnavailable_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,int64_t) = 0 ;
   void* _swig_go_result;
@@ -4548,7 +4548,7 @@ void* _wrap_XsCallbackPlainC_m_onDataUnavailable_get_mtigen_083b31a658b8ff73(XsC
 }
 
 
-void _wrap_XsCallbackPlainC_m_onDataAvailable_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onDataAvailable_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -4560,7 +4560,7 @@ void _wrap_XsCallbackPlainC_m_onDataAvailable_set_mtigen_083b31a658b8ff73(XsCall
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onDataAvailable_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onDataAvailable_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -4573,7 +4573,7 @@ void* _wrap_XsCallbackPlainC_m_onDataAvailable_get_mtigen_083b31a658b8ff73(XsCal
 }
 
 
-void _wrap_XsCallbackPlainC_m_onAllDataAvailable_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onAllDataAvailable_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -4585,7 +4585,7 @@ void _wrap_XsCallbackPlainC_m_onAllDataAvailable_set_mtigen_083b31a658b8ff73(XsC
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onAllDataAvailable_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onAllDataAvailable_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -4598,7 +4598,7 @@ void* _wrap_XsCallbackPlainC_m_onAllDataAvailable_get_mtigen_083b31a658b8ff73(Xs
 }
 
 
-void _wrap_XsCallbackPlainC_m_onRecordedDataAvailable_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onRecordedDataAvailable_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -4610,7 +4610,7 @@ void _wrap_XsCallbackPlainC_m_onRecordedDataAvailable_set_mtigen_083b31a658b8ff7
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onRecordedDataAvailable_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onRecordedDataAvailable_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -4623,7 +4623,7 @@ void* _wrap_XsCallbackPlainC_m_onRecordedDataAvailable_get_mtigen_083b31a658b8ff
 }
 
 
-void _wrap_XsCallbackPlainC_m_onAllRecordedDataAvailable_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onAllRecordedDataAvailable_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -4635,7 +4635,7 @@ void _wrap_XsCallbackPlainC_m_onAllRecordedDataAvailable_set_mtigen_083b31a658b8
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onAllRecordedDataAvailable_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onAllRecordedDataAvailable_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -4648,7 +4648,7 @@ void* _wrap_XsCallbackPlainC_m_onAllRecordedDataAvailable_get_mtigen_083b31a658b
 }
 
 
-void _wrap_XsCallbackPlainC_m_onTransmissionRequest_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onTransmissionRequest_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,int,XsByteArray const *) = (void (*)(XsCallbackPlainC *,int,XsByteArray const *)) 0 ;
   
@@ -4660,7 +4660,7 @@ void _wrap_XsCallbackPlainC_m_onTransmissionRequest_set_mtigen_083b31a658b8ff73(
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onTransmissionRequest_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onTransmissionRequest_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,int,XsByteArray const *) = 0 ;
   void* _swig_go_result;
@@ -4673,7 +4673,7 @@ void* _wrap_XsCallbackPlainC_m_onTransmissionRequest_get_mtigen_083b31a658b8ff73
 }
 
 
-void _wrap_XsCallbackPlainC_m_onRestoreCommunication_set_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsCallbackPlainC_m_onRestoreCommunication_set_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0, void* _swig_go_1) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsString const *,XsResultValue) = (void (*)(XsCallbackPlainC *,XsString const *,XsResultValue)) 0 ;
   
@@ -4685,7 +4685,7 @@ void _wrap_XsCallbackPlainC_m_onRestoreCommunication_set_mtigen_083b31a658b8ff73
 }
 
 
-void* _wrap_XsCallbackPlainC_m_onRestoreCommunication_get_mtigen_083b31a658b8ff73(XsCallbackPlainC *_swig_go_0) {
+void* _wrap_XsCallbackPlainC_m_onRestoreCommunication_get_gen_58fb7b870f09ff4a(XsCallbackPlainC *_swig_go_0) {
   XsCallbackPlainC *arg1 = (XsCallbackPlainC *) 0 ;
   void (*result)(XsCallbackPlainC *,XsString const *,XsResultValue) = 0 ;
   void* _swig_go_result;
@@ -4698,7 +4698,7 @@ void* _wrap_XsCallbackPlainC_m_onRestoreCommunication_get_mtigen_083b31a658b8ff7
 }
 
 
-XsCallback *_wrap_new_XsCallback_mtigen_083b31a658b8ff73() {
+XsCallback *_wrap_new_XsCallback_gen_58fb7b870f09ff4a() {
   XsCallback *result = 0 ;
   XsCallback *_swig_go_result;
   
@@ -4709,7 +4709,7 @@ XsCallback *_wrap_new_XsCallback_mtigen_083b31a658b8ff73() {
 }
 
 
-void _wrap_delete_XsCallback_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void _wrap_delete_XsCallback_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   
   arg1 = *(XsCallback **)&_swig_go_0; 
@@ -4719,7 +4719,7 @@ void _wrap_delete_XsCallback_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
 }
 
 
-void _wrap_SetXsCallback_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onDeviceStateChanged_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDeviceState,XsDeviceState) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDeviceState,XsDeviceState)) 0 ;
   
@@ -4732,7 +4732,7 @@ void _wrap_SetXsCallback_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(XsCallba
 }
 
 
-void* _wrap_GetXsCallback_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onDeviceStateChanged_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDeviceState,XsDeviceState) = 0 ;
   void* _swig_go_result;
@@ -4746,7 +4746,7 @@ void* _wrap_GetXsCallback_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(XsCallb
 }
 
 
-void _wrap_SetXsCallback_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onLiveDataAvailable_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -4759,7 +4759,7 @@ void _wrap_SetXsCallback_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(XsCallbac
 }
 
 
-void* _wrap_GetXsCallback_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onLiveDataAvailable_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -4773,7 +4773,7 @@ void* _wrap_GetXsCallback_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(XsCallba
 }
 
 
-void _wrap_SetXsCallback_M_onMissedPackets_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onMissedPackets_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,int,int,int) = (void (*)(XsCallbackPlainC *,XsDevice *,int,int,int)) 0 ;
   
@@ -4786,7 +4786,7 @@ void _wrap_SetXsCallback_M_onMissedPackets_mtigen_083b31a658b8ff73(XsCallback *_
 }
 
 
-void* _wrap_GetXsCallback_M_onMissedPackets_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onMissedPackets_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,int,int,int) = 0 ;
   void* _swig_go_result;
@@ -4800,7 +4800,7 @@ void* _wrap_GetXsCallback_M_onMissedPackets_mtigen_083b31a658b8ff73(XsCallback *
 }
 
 
-void _wrap_SetXsCallback_M_onWakeupReceived_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onWakeupReceived_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *) = (void (*)(XsCallbackPlainC *,XsDevice *)) 0 ;
   
@@ -4813,7 +4813,7 @@ void _wrap_SetXsCallback_M_onWakeupReceived_mtigen_083b31a658b8ff73(XsCallback *
 }
 
 
-void* _wrap_GetXsCallback_M_onWakeupReceived_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onWakeupReceived_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *) = 0 ;
   void* _swig_go_result;
@@ -4827,7 +4827,7 @@ void* _wrap_GetXsCallback_M_onWakeupReceived_mtigen_083b31a658b8ff73(XsCallback 
 }
 
 
-void _wrap_SetXsCallback_M_onProgressUpdated_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onProgressUpdated_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,int,int,XsString const *) = (void (*)(XsCallbackPlainC *,XsDevice *,int,int,XsString const *)) 0 ;
   
@@ -4840,7 +4840,7 @@ void _wrap_SetXsCallback_M_onProgressUpdated_mtigen_083b31a658b8ff73(XsCallback 
 }
 
 
-void* _wrap_GetXsCallback_M_onProgressUpdated_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onProgressUpdated_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,int,int,XsString const *) = 0 ;
   void* _swig_go_result;
@@ -4854,7 +4854,7 @@ void* _wrap_GetXsCallback_M_onProgressUpdated_mtigen_083b31a658b8ff73(XsCallback
 }
 
 
-void _wrap_SetXsCallback_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onWriteMessageToLogFile_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   int (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (int (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -4867,7 +4867,7 @@ void _wrap_SetXsCallback_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(XsCal
 }
 
 
-void* _wrap_GetXsCallback_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onWriteMessageToLogFile_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   int (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -4881,7 +4881,7 @@ void* _wrap_GetXsCallback_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(XsCa
 }
 
 
-void _wrap_SetXsCallback_M_onBufferedDataAvailable_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onBufferedDataAvailable_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -4894,7 +4894,7 @@ void _wrap_SetXsCallback_M_onBufferedDataAvailable_mtigen_083b31a658b8ff73(XsCal
 }
 
 
-void* _wrap_GetXsCallback_M_onBufferedDataAvailable_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onBufferedDataAvailable_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -4908,7 +4908,7 @@ void* _wrap_GetXsCallback_M_onBufferedDataAvailable_mtigen_083b31a658b8ff73(XsCa
 }
 
 
-void _wrap_SetXsCallback_M_onConnectivityChanged_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onConnectivityChanged_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsConnectivityState) = (void (*)(XsCallbackPlainC *,XsDevice *,XsConnectivityState)) 0 ;
   
@@ -4921,7 +4921,7 @@ void _wrap_SetXsCallback_M_onConnectivityChanged_mtigen_083b31a658b8ff73(XsCallb
 }
 
 
-void* _wrap_GetXsCallback_M_onConnectivityChanged_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onConnectivityChanged_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsConnectivityState) = 0 ;
   void* _swig_go_result;
@@ -4935,7 +4935,7 @@ void* _wrap_GetXsCallback_M_onConnectivityChanged_mtigen_083b31a658b8ff73(XsCall
 }
 
 
-void _wrap_SetXsCallback_M_onInfoResponse_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onInfoResponse_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsInfoRequest) = (void (*)(XsCallbackPlainC *,XsDevice *,XsInfoRequest)) 0 ;
   
@@ -4948,7 +4948,7 @@ void _wrap_SetXsCallback_M_onInfoResponse_mtigen_083b31a658b8ff73(XsCallback *_s
 }
 
 
-void* _wrap_GetXsCallback_M_onInfoResponse_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onInfoResponse_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsInfoRequest) = 0 ;
   void* _swig_go_result;
@@ -4962,7 +4962,7 @@ void* _wrap_GetXsCallback_M_onInfoResponse_mtigen_083b31a658b8ff73(XsCallback *_
 }
 
 
-void _wrap_SetXsCallback_M_onError_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onError_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsResultValue) = (void (*)(XsCallbackPlainC *,XsDevice *,XsResultValue)) 0 ;
   
@@ -4975,7 +4975,7 @@ void _wrap_SetXsCallback_M_onError_mtigen_083b31a658b8ff73(XsCallback *_swig_go_
 }
 
 
-void* _wrap_GetXsCallback_M_onError_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onError_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsResultValue) = 0 ;
   void* _swig_go_result;
@@ -4989,7 +4989,7 @@ void* _wrap_GetXsCallback_M_onError_mtigen_083b31a658b8ff73(XsCallback *_swig_go
 }
 
 
-void _wrap_SetXsCallback_M_onNonDataMessage_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onNonDataMessage_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -5002,7 +5002,7 @@ void _wrap_SetXsCallback_M_onNonDataMessage_mtigen_083b31a658b8ff73(XsCallback *
 }
 
 
-void* _wrap_GetXsCallback_M_onNonDataMessage_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onNonDataMessage_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -5016,7 +5016,7 @@ void* _wrap_GetXsCallback_M_onNonDataMessage_mtigen_083b31a658b8ff73(XsCallback 
 }
 
 
-void _wrap_SetXsCallback_M_onMessageDetected_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onMessageDetected_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsProtocolType,XsByteArray const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsProtocolType,XsByteArray const *)) 0 ;
   
@@ -5029,7 +5029,7 @@ void _wrap_SetXsCallback_M_onMessageDetected_mtigen_083b31a658b8ff73(XsCallback 
 }
 
 
-void* _wrap_GetXsCallback_M_onMessageDetected_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onMessageDetected_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsProtocolType,XsByteArray const *) = 0 ;
   void* _swig_go_result;
@@ -5043,7 +5043,7 @@ void* _wrap_GetXsCallback_M_onMessageDetected_mtigen_083b31a658b8ff73(XsCallback
 }
 
 
-void _wrap_SetXsCallback_M_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onMessageReceivedFromDevice_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -5056,7 +5056,7 @@ void _wrap_SetXsCallback_M_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(X
 }
 
 
-void* _wrap_GetXsCallback_M_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onMessageReceivedFromDevice_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -5070,7 +5070,7 @@ void* _wrap_GetXsCallback_M_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(
 }
 
 
-void _wrap_SetXsCallback_M_onMessageSentToDevice_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onMessageSentToDevice_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -5083,7 +5083,7 @@ void _wrap_SetXsCallback_M_onMessageSentToDevice_mtigen_083b31a658b8ff73(XsCallb
 }
 
 
-void* _wrap_GetXsCallback_M_onMessageSentToDevice_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onMessageSentToDevice_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -5097,7 +5097,7 @@ void* _wrap_GetXsCallback_M_onMessageSentToDevice_mtigen_083b31a658b8ff73(XsCall
 }
 
 
-void _wrap_SetXsCallback_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onAllLiveDataAvailable_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -5110,7 +5110,7 @@ void _wrap_SetXsCallback_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(XsCall
 }
 
 
-void* _wrap_GetXsCallback_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onAllLiveDataAvailable_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -5124,7 +5124,7 @@ void* _wrap_GetXsCallback_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(XsCal
 }
 
 
-void _wrap_SetXsCallback_M_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onAllBufferedDataAvailable_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -5137,7 +5137,7 @@ void _wrap_SetXsCallback_M_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(Xs
 }
 
 
-void* _wrap_GetXsCallback_M_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onAllBufferedDataAvailable_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -5151,7 +5151,7 @@ void* _wrap_GetXsCallback_M_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(X
 }
 
 
-void _wrap_SetXsCallback_M_onDataUnavailable_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onDataUnavailable_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,int64_t) = (void (*)(XsCallbackPlainC *,XsDevice *,int64_t)) 0 ;
   
@@ -5164,7 +5164,7 @@ void _wrap_SetXsCallback_M_onDataUnavailable_mtigen_083b31a658b8ff73(XsCallback 
 }
 
 
-void* _wrap_GetXsCallback_M_onDataUnavailable_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onDataUnavailable_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,int64_t) = 0 ;
   void* _swig_go_result;
@@ -5178,7 +5178,7 @@ void* _wrap_GetXsCallback_M_onDataUnavailable_mtigen_083b31a658b8ff73(XsCallback
 }
 
 
-void _wrap_SetXsCallback_M_onDataAvailable_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onDataAvailable_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -5191,7 +5191,7 @@ void _wrap_SetXsCallback_M_onDataAvailable_mtigen_083b31a658b8ff73(XsCallback *_
 }
 
 
-void* _wrap_GetXsCallback_M_onDataAvailable_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onDataAvailable_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -5205,7 +5205,7 @@ void* _wrap_GetXsCallback_M_onDataAvailable_mtigen_083b31a658b8ff73(XsCallback *
 }
 
 
-void _wrap_SetXsCallback_M_onAllDataAvailable_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onAllDataAvailable_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -5218,7 +5218,7 @@ void _wrap_SetXsCallback_M_onAllDataAvailable_mtigen_083b31a658b8ff73(XsCallback
 }
 
 
-void* _wrap_GetXsCallback_M_onAllDataAvailable_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onAllDataAvailable_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -5232,7 +5232,7 @@ void* _wrap_GetXsCallback_M_onAllDataAvailable_mtigen_083b31a658b8ff73(XsCallbac
 }
 
 
-void _wrap_SetXsCallback_M_onRecordedDataAvailable_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onRecordedDataAvailable_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -5245,7 +5245,7 @@ void _wrap_SetXsCallback_M_onRecordedDataAvailable_mtigen_083b31a658b8ff73(XsCal
 }
 
 
-void* _wrap_GetXsCallback_M_onRecordedDataAvailable_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onRecordedDataAvailable_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -5259,7 +5259,7 @@ void* _wrap_GetXsCallback_M_onRecordedDataAvailable_mtigen_083b31a658b8ff73(XsCa
 }
 
 
-void _wrap_SetXsCallback_M_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onAllRecordedDataAvailable_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -5272,7 +5272,7 @@ void _wrap_SetXsCallback_M_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(Xs
 }
 
 
-void* _wrap_GetXsCallback_M_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onAllRecordedDataAvailable_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -5286,7 +5286,7 @@ void* _wrap_GetXsCallback_M_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(X
 }
 
 
-void _wrap_SetXsCallback_M_onTransmissionRequest_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onTransmissionRequest_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,int,XsByteArray const *) = (void (*)(XsCallbackPlainC *,int,XsByteArray const *)) 0 ;
   
@@ -5299,7 +5299,7 @@ void _wrap_SetXsCallback_M_onTransmissionRequest_mtigen_083b31a658b8ff73(XsCallb
 }
 
 
-void* _wrap_GetXsCallback_M_onTransmissionRequest_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onTransmissionRequest_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,int,XsByteArray const *) = 0 ;
   void* _swig_go_result;
@@ -5313,7 +5313,7 @@ void* _wrap_GetXsCallback_M_onTransmissionRequest_mtigen_083b31a658b8ff73(XsCall
 }
 
 
-void _wrap_SetXsCallback_M_onRestoreCommunication_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsCallback_M_onRestoreCommunication_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0, void* _swig_go_1) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsString const *,XsResultValue) = (void (*)(XsCallbackPlainC *,XsString const *,XsResultValue)) 0 ;
   
@@ -5326,7 +5326,7 @@ void _wrap_SetXsCallback_M_onRestoreCommunication_mtigen_083b31a658b8ff73(XsCall
 }
 
 
-void* _wrap_GetXsCallback_M_onRestoreCommunication_mtigen_083b31a658b8ff73(XsCallback *_swig_go_0) {
+void* _wrap_GetXsCallback_M_onRestoreCommunication_gen_58fb7b870f09ff4a(XsCallback *_swig_go_0) {
   XsCallback *arg1 = (XsCallback *) 0 ;
   void (*result)(XsCallbackPlainC *,XsString const *,XsResultValue) = 0 ;
   void* _swig_go_result;
@@ -5340,7 +5340,7 @@ void* _wrap_GetXsCallback_M_onRestoreCommunication_mtigen_083b31a658b8ff73(XsCal
 }
 
 
-void _wrap_CallbackManagerXda_onDeviceStateChanged_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsDeviceState *_swig_go_2, XsDeviceState *_swig_go_3) {
+void _wrap_CallbackManagerXda_onDeviceStateChanged_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsDeviceState *_swig_go_2, XsDeviceState *_swig_go_3) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsDeviceState arg3 ;
@@ -5370,7 +5370,7 @@ void _wrap_CallbackManagerXda_onDeviceStateChanged_mtigen_083b31a658b8ff73(Callb
 }
 
 
-void _wrap_CallbackManagerXda_onLiveDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
+void _wrap_CallbackManagerXda_onLiveDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsDataPacket *arg3 = (XsDataPacket *) 0 ;
@@ -5384,7 +5384,7 @@ void _wrap_CallbackManagerXda_onLiveDataAvailable_mtigen_083b31a658b8ff73(Callba
 }
 
 
-void _wrap_CallbackManagerXda_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
+void _wrap_CallbackManagerXda_onAllLiveDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevicePtrArray *arg2 = (XsDevicePtrArray *) 0 ;
   XsDataPacketPtrArray *arg3 = (XsDataPacketPtrArray *) 0 ;
@@ -5398,7 +5398,7 @@ void _wrap_CallbackManagerXda_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(Cal
 }
 
 
-void _wrap_CallbackManagerXda_onMissedPackets_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
+void _wrap_CallbackManagerXda_onMissedPackets_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   int arg3 ;
@@ -5416,7 +5416,7 @@ void _wrap_CallbackManagerXda_onMissedPackets_mtigen_083b31a658b8ff73(CallbackMa
 }
 
 
-void _wrap_CallbackManagerXda_onDataUnavailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, long long _swig_go_2) {
+void _wrap_CallbackManagerXda_onDataUnavailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, long long _swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   int64_t arg3 ;
@@ -5430,7 +5430,7 @@ void _wrap_CallbackManagerXda_onDataUnavailable_mtigen_083b31a658b8ff73(Callback
 }
 
 
-void _wrap_CallbackManagerXda_onWakeupReceived_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1) {
+void _wrap_CallbackManagerXda_onWakeupReceived_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   
@@ -5442,7 +5442,7 @@ void _wrap_CallbackManagerXda_onWakeupReceived_mtigen_083b31a658b8ff73(CallbackM
 }
 
 
-void _wrap_CallbackManagerXda_onProgressUpdated_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, XsString *_swig_go_4) {
+void _wrap_CallbackManagerXda_onProgressUpdated_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, XsString *_swig_go_4) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   int arg3 ;
@@ -5460,7 +5460,7 @@ void _wrap_CallbackManagerXda_onProgressUpdated_mtigen_083b31a658b8ff73(Callback
 }
 
 
-intgo _wrap_CallbackManagerXda_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
+intgo _wrap_CallbackManagerXda_onWriteMessageToLogFile_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsMessage *arg3 = (XsMessage *) 0 ;
@@ -5477,7 +5477,7 @@ intgo _wrap_CallbackManagerXda_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(C
 }
 
 
-void _wrap_CallbackManagerXda_onBufferedDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
+void _wrap_CallbackManagerXda_onBufferedDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsDataPacket *arg3 = (XsDataPacket *) 0 ;
@@ -5491,7 +5491,7 @@ void _wrap_CallbackManagerXda_onBufferedDataAvailable_mtigen_083b31a658b8ff73(Ca
 }
 
 
-void _wrap_CallbackManagerXda_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
+void _wrap_CallbackManagerXda_onAllBufferedDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevicePtrArray *arg2 = (XsDevicePtrArray *) 0 ;
   XsDataPacketPtrArray *arg3 = (XsDataPacketPtrArray *) 0 ;
@@ -5505,7 +5505,7 @@ void _wrap_CallbackManagerXda_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73
 }
 
 
-void _wrap_CallbackManagerXda_onConnectivityChanged_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsConnectivityState *_swig_go_2) {
+void _wrap_CallbackManagerXda_onConnectivityChanged_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsConnectivityState *_swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsConnectivityState arg3 ;
@@ -5526,7 +5526,7 @@ void _wrap_CallbackManagerXda_onConnectivityChanged_mtigen_083b31a658b8ff73(Call
 }
 
 
-void _wrap_CallbackManagerXda_onInfoResponse_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsInfoRequest *_swig_go_2) {
+void _wrap_CallbackManagerXda_onInfoResponse_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsInfoRequest *_swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsInfoRequest arg3 ;
@@ -5547,7 +5547,7 @@ void _wrap_CallbackManagerXda_onInfoResponse_mtigen_083b31a658b8ff73(CallbackMan
 }
 
 
-void _wrap_CallbackManagerXda_onError_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsResultValue *_swig_go_2) {
+void _wrap_CallbackManagerXda_onError_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsResultValue *_swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsResultValue arg3 ;
@@ -5568,7 +5568,7 @@ void _wrap_CallbackManagerXda_onError_mtigen_083b31a658b8ff73(CallbackManagerXda
 }
 
 
-void _wrap_CallbackManagerXda_onNonDataMessage_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
+void _wrap_CallbackManagerXda_onNonDataMessage_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsMessage *arg3 = (XsMessage *) 0 ;
@@ -5582,7 +5582,7 @@ void _wrap_CallbackManagerXda_onNonDataMessage_mtigen_083b31a658b8ff73(CallbackM
 }
 
 
-void _wrap_CallbackManagerXda_onMessageDetected_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsProtocolType *_swig_go_2, XsByteArray *_swig_go_3) {
+void _wrap_CallbackManagerXda_onMessageDetected_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsProtocolType *_swig_go_2, XsByteArray *_swig_go_3) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsProtocolType arg3 ;
@@ -5605,7 +5605,7 @@ void _wrap_CallbackManagerXda_onMessageDetected_mtigen_083b31a658b8ff73(Callback
 }
 
 
-void _wrap_CallbackManagerXda_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
+void _wrap_CallbackManagerXda_onMessageReceivedFromDevice_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsMessage *arg3 = (XsMessage *) 0 ;
@@ -5619,7 +5619,7 @@ void _wrap_CallbackManagerXda_onMessageReceivedFromDevice_mtigen_083b31a658b8ff7
 }
 
 
-void _wrap_CallbackManagerXda_onMessageSentToDevice_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
+void _wrap_CallbackManagerXda_onMessageSentToDevice_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsMessage *arg3 = (XsMessage *) 0 ;
@@ -5633,7 +5633,7 @@ void _wrap_CallbackManagerXda_onMessageSentToDevice_mtigen_083b31a658b8ff73(Call
 }
 
 
-void _wrap_CallbackManagerXda_onDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
+void _wrap_CallbackManagerXda_onDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsDataPacket *arg3 = (XsDataPacket *) 0 ;
@@ -5647,7 +5647,7 @@ void _wrap_CallbackManagerXda_onDataAvailable_mtigen_083b31a658b8ff73(CallbackMa
 }
 
 
-void _wrap_CallbackManagerXda_onAllDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
+void _wrap_CallbackManagerXda_onAllDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevicePtrArray *arg2 = (XsDevicePtrArray *) 0 ;
   XsDataPacketPtrArray *arg3 = (XsDataPacketPtrArray *) 0 ;
@@ -5661,7 +5661,7 @@ void _wrap_CallbackManagerXda_onAllDataAvailable_mtigen_083b31a658b8ff73(Callbac
 }
 
 
-void _wrap_CallbackManagerXda_onRecordedDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
+void _wrap_CallbackManagerXda_onRecordedDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsDataPacket *arg3 = (XsDataPacket *) 0 ;
@@ -5675,7 +5675,7 @@ void _wrap_CallbackManagerXda_onRecordedDataAvailable_mtigen_083b31a658b8ff73(Ca
 }
 
 
-void _wrap_CallbackManagerXda_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
+void _wrap_CallbackManagerXda_onAllRecordedDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsDevicePtrArray *arg2 = (XsDevicePtrArray *) 0 ;
   XsDataPacketPtrArray *arg3 = (XsDataPacketPtrArray *) 0 ;
@@ -5689,7 +5689,7 @@ void _wrap_CallbackManagerXda_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73
 }
 
 
-void _wrap_CallbackManagerXda_onTransmissionRequest_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, intgo _swig_go_1, XsByteArray *_swig_go_2) {
+void _wrap_CallbackManagerXda_onTransmissionRequest_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, intgo _swig_go_1, XsByteArray *_swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   int arg2 ;
   XsByteArray *arg3 = (XsByteArray *) 0 ;
@@ -5703,7 +5703,7 @@ void _wrap_CallbackManagerXda_onTransmissionRequest_mtigen_083b31a658b8ff73(Call
 }
 
 
-void _wrap_CallbackManagerXda_onRestoreCommunication_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsString *_swig_go_1, XsResultValue *_swig_go_2) {
+void _wrap_CallbackManagerXda_onRestoreCommunication_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsString *_swig_go_1, XsResultValue *_swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsString *arg2 = (XsString *) 0 ;
   XsResultValue arg3 ;
@@ -5724,7 +5724,7 @@ void _wrap_CallbackManagerXda_onRestoreCommunication_mtigen_083b31a658b8ff73(Cal
 }
 
 
-CallbackManagerXda *_wrap_new_CallbackManagerXda_mtigen_083b31a658b8ff73() {
+CallbackManagerXda *_wrap_new_CallbackManagerXda_gen_58fb7b870f09ff4a() {
   CallbackManagerXda *result = 0 ;
   CallbackManagerXda *_swig_go_result;
   
@@ -5735,7 +5735,7 @@ CallbackManagerXda *_wrap_new_CallbackManagerXda_mtigen_083b31a658b8ff73() {
 }
 
 
-void _wrap_delete_CallbackManagerXda_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void _wrap_delete_CallbackManagerXda_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   
   arg1 = *(CallbackManagerXda **)&_swig_go_0; 
@@ -5745,7 +5745,7 @@ void _wrap_delete_CallbackManagerXda_mtigen_083b31a658b8ff73(CallbackManagerXda 
 }
 
 
-void _wrap_CallbackManagerXda_clearCallbackHandlers__SWIG_0_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, bool _swig_go_1) {
+void _wrap_CallbackManagerXda_clearCallbackHandlers__SWIG_0_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, bool _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   bool arg2 ;
   
@@ -5757,7 +5757,7 @@ void _wrap_CallbackManagerXda_clearCallbackHandlers__SWIG_0_mtigen_083b31a658b8f
 }
 
 
-void _wrap_CallbackManagerXda_clearCallbackHandlers__SWIG_1_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void _wrap_CallbackManagerXda_clearCallbackHandlers__SWIG_1_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   
   arg1 = *(CallbackManagerXda **)&_swig_go_0; 
@@ -5767,7 +5767,7 @@ void _wrap_CallbackManagerXda_clearCallbackHandlers__SWIG_1_mtigen_083b31a658b8f
 }
 
 
-void _wrap_CallbackManagerXda_addCallbackHandler__SWIG_0_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsCallbackPlainC *_swig_go_1, bool _swig_go_2) {
+void _wrap_CallbackManagerXda_addCallbackHandler__SWIG_0_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsCallbackPlainC *_swig_go_1, bool _swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsCallbackPlainC *arg2 = (XsCallbackPlainC *) 0 ;
   bool arg3 ;
@@ -5781,7 +5781,7 @@ void _wrap_CallbackManagerXda_addCallbackHandler__SWIG_0_mtigen_083b31a658b8ff73
 }
 
 
-void _wrap_CallbackManagerXda_addCallbackHandler__SWIG_1_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsCallbackPlainC *_swig_go_1) {
+void _wrap_CallbackManagerXda_addCallbackHandler__SWIG_1_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsCallbackPlainC *_swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsCallbackPlainC *arg2 = (XsCallbackPlainC *) 0 ;
   
@@ -5793,7 +5793,7 @@ void _wrap_CallbackManagerXda_addCallbackHandler__SWIG_1_mtigen_083b31a658b8ff73
 }
 
 
-void _wrap_CallbackManagerXda_removeCallbackHandler__SWIG_0_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsCallbackPlainC *_swig_go_1, bool _swig_go_2) {
+void _wrap_CallbackManagerXda_removeCallbackHandler__SWIG_0_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsCallbackPlainC *_swig_go_1, bool _swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsCallbackPlainC *arg2 = (XsCallbackPlainC *) 0 ;
   bool arg3 ;
@@ -5807,7 +5807,7 @@ void _wrap_CallbackManagerXda_removeCallbackHandler__SWIG_0_mtigen_083b31a658b8f
 }
 
 
-void _wrap_CallbackManagerXda_removeCallbackHandler__SWIG_1_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, XsCallbackPlainC *_swig_go_1) {
+void _wrap_CallbackManagerXda_removeCallbackHandler__SWIG_1_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, XsCallbackPlainC *_swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   XsCallbackPlainC *arg2 = (XsCallbackPlainC *) 0 ;
   
@@ -5819,7 +5819,7 @@ void _wrap_CallbackManagerXda_removeCallbackHandler__SWIG_1_mtigen_083b31a658b8f
 }
 
 
-void _wrap_CallbackManagerXda_clearChainedManagers_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void _wrap_CallbackManagerXda_clearChainedManagers_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   
   arg1 = *(CallbackManagerXda **)&_swig_go_0; 
@@ -5829,7 +5829,7 @@ void _wrap_CallbackManagerXda_clearChainedManagers_mtigen_083b31a658b8ff73(Callb
 }
 
 
-void _wrap_CallbackManagerXda_addChainedManager_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, CallbackManagerXda *_swig_go_1) {
+void _wrap_CallbackManagerXda_addChainedManager_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, CallbackManagerXda *_swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   CallbackManagerXda *arg2 = (CallbackManagerXda *) 0 ;
   
@@ -5841,7 +5841,7 @@ void _wrap_CallbackManagerXda_addChainedManager_mtigen_083b31a658b8ff73(Callback
 }
 
 
-void _wrap_CallbackManagerXda_removeChainedManager_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, CallbackManagerXda *_swig_go_1) {
+void _wrap_CallbackManagerXda_removeChainedManager_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, CallbackManagerXda *_swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   CallbackManagerXda *arg2 = (CallbackManagerXda *) 0 ;
   
@@ -5853,7 +5853,7 @@ void _wrap_CallbackManagerXda_removeChainedManager_mtigen_083b31a658b8ff73(Callb
 }
 
 
-void _wrap_CallbackManagerXda_copyCallbackHandlersTo__SWIG_0_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, CallbackManagerXda *_swig_go_1, bool _swig_go_2) {
+void _wrap_CallbackManagerXda_copyCallbackHandlersTo__SWIG_0_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, CallbackManagerXda *_swig_go_1, bool _swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   CallbackManagerXda *arg2 = (CallbackManagerXda *) 0 ;
   bool arg3 ;
@@ -5867,7 +5867,7 @@ void _wrap_CallbackManagerXda_copyCallbackHandlersTo__SWIG_0_mtigen_083b31a658b8
 }
 
 
-void _wrap_CallbackManagerXda_copyCallbackHandlersTo__SWIG_1_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, CallbackManagerXda *_swig_go_1) {
+void _wrap_CallbackManagerXda_copyCallbackHandlersTo__SWIG_1_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, CallbackManagerXda *_swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   CallbackManagerXda *arg2 = (CallbackManagerXda *) 0 ;
   
@@ -5879,7 +5879,7 @@ void _wrap_CallbackManagerXda_copyCallbackHandlersTo__SWIG_1_mtigen_083b31a658b8
 }
 
 
-void _wrap_CallbackManagerXda_copyCallbackHandlersFrom__SWIG_0_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, CallbackManagerXda *_swig_go_1, bool _swig_go_2) {
+void _wrap_CallbackManagerXda_copyCallbackHandlersFrom__SWIG_0_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, CallbackManagerXda *_swig_go_1, bool _swig_go_2) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   CallbackManagerXda *arg2 = (CallbackManagerXda *) 0 ;
   bool arg3 ;
@@ -5893,7 +5893,7 @@ void _wrap_CallbackManagerXda_copyCallbackHandlersFrom__SWIG_0_mtigen_083b31a658
 }
 
 
-void _wrap_CallbackManagerXda_copyCallbackHandlersFrom__SWIG_1_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, CallbackManagerXda *_swig_go_1) {
+void _wrap_CallbackManagerXda_copyCallbackHandlersFrom__SWIG_1_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, CallbackManagerXda *_swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   CallbackManagerXda *arg2 = (CallbackManagerXda *) 0 ;
   
@@ -5905,7 +5905,7 @@ void _wrap_CallbackManagerXda_copyCallbackHandlersFrom__SWIG_1_mtigen_083b31a658
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onDeviceStateChanged_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDeviceState,XsDeviceState) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDeviceState,XsDeviceState)) 0 ;
   
@@ -5919,7 +5919,7 @@ void _wrap_SetCallbackManagerXda_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onDeviceStateChanged_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDeviceState,XsDeviceState) = 0 ;
   void* _swig_go_result;
@@ -5934,7 +5934,7 @@ void* _wrap_GetCallbackManagerXda_M_onDeviceStateChanged_mtigen_083b31a658b8ff73
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onLiveDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -5948,7 +5948,7 @@ void _wrap_SetCallbackManagerXda_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(C
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onLiveDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -5963,7 +5963,7 @@ void* _wrap_GetCallbackManagerXda_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onMissedPackets_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onMissedPackets_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,int,int,int) = (void (*)(XsCallbackPlainC *,XsDevice *,int,int,int)) 0 ;
   
@@ -5977,7 +5977,7 @@ void _wrap_SetCallbackManagerXda_M_onMissedPackets_mtigen_083b31a658b8ff73(Callb
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onMissedPackets_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onMissedPackets_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,int,int,int) = 0 ;
   void* _swig_go_result;
@@ -5992,7 +5992,7 @@ void* _wrap_GetCallbackManagerXda_M_onMissedPackets_mtigen_083b31a658b8ff73(Call
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onWakeupReceived_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onWakeupReceived_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *) = (void (*)(XsCallbackPlainC *,XsDevice *)) 0 ;
   
@@ -6006,7 +6006,7 @@ void _wrap_SetCallbackManagerXda_M_onWakeupReceived_mtigen_083b31a658b8ff73(Call
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onWakeupReceived_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onWakeupReceived_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *) = 0 ;
   void* _swig_go_result;
@@ -6021,7 +6021,7 @@ void* _wrap_GetCallbackManagerXda_M_onWakeupReceived_mtigen_083b31a658b8ff73(Cal
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onProgressUpdated_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onProgressUpdated_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,int,int,XsString const *) = (void (*)(XsCallbackPlainC *,XsDevice *,int,int,XsString const *)) 0 ;
   
@@ -6035,7 +6035,7 @@ void _wrap_SetCallbackManagerXda_M_onProgressUpdated_mtigen_083b31a658b8ff73(Cal
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onProgressUpdated_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onProgressUpdated_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,int,int,XsString const *) = 0 ;
   void* _swig_go_result;
@@ -6050,7 +6050,7 @@ void* _wrap_GetCallbackManagerXda_M_onProgressUpdated_mtigen_083b31a658b8ff73(Ca
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onWriteMessageToLogFile_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   int (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (int (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -6064,7 +6064,7 @@ void _wrap_SetCallbackManagerXda_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onWriteMessageToLogFile_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   int (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -6079,7 +6079,7 @@ void* _wrap_GetCallbackManagerXda_M_onWriteMessageToLogFile_mtigen_083b31a658b8f
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onBufferedDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onBufferedDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -6093,7 +6093,7 @@ void _wrap_SetCallbackManagerXda_M_onBufferedDataAvailable_mtigen_083b31a658b8ff
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onBufferedDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onBufferedDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -6108,7 +6108,7 @@ void* _wrap_GetCallbackManagerXda_M_onBufferedDataAvailable_mtigen_083b31a658b8f
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onConnectivityChanged_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onConnectivityChanged_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsConnectivityState) = (void (*)(XsCallbackPlainC *,XsDevice *,XsConnectivityState)) 0 ;
   
@@ -6122,7 +6122,7 @@ void _wrap_SetCallbackManagerXda_M_onConnectivityChanged_mtigen_083b31a658b8ff73
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onConnectivityChanged_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onConnectivityChanged_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsConnectivityState) = 0 ;
   void* _swig_go_result;
@@ -6137,7 +6137,7 @@ void* _wrap_GetCallbackManagerXda_M_onConnectivityChanged_mtigen_083b31a658b8ff7
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onInfoResponse_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onInfoResponse_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsInfoRequest) = (void (*)(XsCallbackPlainC *,XsDevice *,XsInfoRequest)) 0 ;
   
@@ -6151,7 +6151,7 @@ void _wrap_SetCallbackManagerXda_M_onInfoResponse_mtigen_083b31a658b8ff73(Callba
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onInfoResponse_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onInfoResponse_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsInfoRequest) = 0 ;
   void* _swig_go_result;
@@ -6166,7 +6166,7 @@ void* _wrap_GetCallbackManagerXda_M_onInfoResponse_mtigen_083b31a658b8ff73(Callb
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onError_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onError_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsResultValue) = (void (*)(XsCallbackPlainC *,XsDevice *,XsResultValue)) 0 ;
   
@@ -6180,7 +6180,7 @@ void _wrap_SetCallbackManagerXda_M_onError_mtigen_083b31a658b8ff73(CallbackManag
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onError_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onError_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsResultValue) = 0 ;
   void* _swig_go_result;
@@ -6195,7 +6195,7 @@ void* _wrap_GetCallbackManagerXda_M_onError_mtigen_083b31a658b8ff73(CallbackMana
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onNonDataMessage_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onNonDataMessage_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -6209,7 +6209,7 @@ void _wrap_SetCallbackManagerXda_M_onNonDataMessage_mtigen_083b31a658b8ff73(Call
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onNonDataMessage_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onNonDataMessage_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -6224,7 +6224,7 @@ void* _wrap_GetCallbackManagerXda_M_onNonDataMessage_mtigen_083b31a658b8ff73(Cal
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onMessageDetected_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onMessageDetected_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsProtocolType,XsByteArray const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsProtocolType,XsByteArray const *)) 0 ;
   
@@ -6238,7 +6238,7 @@ void _wrap_SetCallbackManagerXda_M_onMessageDetected_mtigen_083b31a658b8ff73(Cal
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onMessageDetected_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onMessageDetected_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsProtocolType,XsByteArray const *) = 0 ;
   void* _swig_go_result;
@@ -6253,7 +6253,7 @@ void* _wrap_GetCallbackManagerXda_M_onMessageDetected_mtigen_083b31a658b8ff73(Ca
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onMessageReceivedFromDevice_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -6267,7 +6267,7 @@ void _wrap_SetCallbackManagerXda_M_onMessageReceivedFromDevice_mtigen_083b31a658
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onMessageReceivedFromDevice_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -6282,7 +6282,7 @@ void* _wrap_GetCallbackManagerXda_M_onMessageReceivedFromDevice_mtigen_083b31a65
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onMessageSentToDevice_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onMessageSentToDevice_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -6296,7 +6296,7 @@ void _wrap_SetCallbackManagerXda_M_onMessageSentToDevice_mtigen_083b31a658b8ff73
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onMessageSentToDevice_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onMessageSentToDevice_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -6311,7 +6311,7 @@ void* _wrap_GetCallbackManagerXda_M_onMessageSentToDevice_mtigen_083b31a658b8ff7
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onAllLiveDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -6325,7 +6325,7 @@ void _wrap_SetCallbackManagerXda_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff7
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onAllLiveDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -6340,7 +6340,7 @@ void* _wrap_GetCallbackManagerXda_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onAllBufferedDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -6354,7 +6354,7 @@ void _wrap_SetCallbackManagerXda_M_onAllBufferedDataAvailable_mtigen_083b31a658b
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onAllBufferedDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -6369,7 +6369,7 @@ void* _wrap_GetCallbackManagerXda_M_onAllBufferedDataAvailable_mtigen_083b31a658
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onDataUnavailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onDataUnavailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,int64_t) = (void (*)(XsCallbackPlainC *,XsDevice *,int64_t)) 0 ;
   
@@ -6383,7 +6383,7 @@ void _wrap_SetCallbackManagerXda_M_onDataUnavailable_mtigen_083b31a658b8ff73(Cal
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onDataUnavailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onDataUnavailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,int64_t) = 0 ;
   void* _swig_go_result;
@@ -6398,7 +6398,7 @@ void* _wrap_GetCallbackManagerXda_M_onDataUnavailable_mtigen_083b31a658b8ff73(Ca
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -6412,7 +6412,7 @@ void _wrap_SetCallbackManagerXda_M_onDataAvailable_mtigen_083b31a658b8ff73(Callb
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -6427,7 +6427,7 @@ void* _wrap_GetCallbackManagerXda_M_onDataAvailable_mtigen_083b31a658b8ff73(Call
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onAllDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onAllDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -6441,7 +6441,7 @@ void _wrap_SetCallbackManagerXda_M_onAllDataAvailable_mtigen_083b31a658b8ff73(Ca
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onAllDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onAllDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -6456,7 +6456,7 @@ void* _wrap_GetCallbackManagerXda_M_onAllDataAvailable_mtigen_083b31a658b8ff73(C
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onRecordedDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onRecordedDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -6470,7 +6470,7 @@ void _wrap_SetCallbackManagerXda_M_onRecordedDataAvailable_mtigen_083b31a658b8ff
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onRecordedDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onRecordedDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -6485,7 +6485,7 @@ void* _wrap_GetCallbackManagerXda_M_onRecordedDataAvailable_mtigen_083b31a658b8f
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onAllRecordedDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -6499,7 +6499,7 @@ void _wrap_SetCallbackManagerXda_M_onAllRecordedDataAvailable_mtigen_083b31a658b
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onAllRecordedDataAvailable_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -6514,7 +6514,7 @@ void* _wrap_GetCallbackManagerXda_M_onAllRecordedDataAvailable_mtigen_083b31a658
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onTransmissionRequest_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onTransmissionRequest_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,int,XsByteArray const *) = (void (*)(XsCallbackPlainC *,int,XsByteArray const *)) 0 ;
   
@@ -6528,7 +6528,7 @@ void _wrap_SetCallbackManagerXda_M_onTransmissionRequest_mtigen_083b31a658b8ff73
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onTransmissionRequest_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onTransmissionRequest_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,int,XsByteArray const *) = 0 ;
   void* _swig_go_result;
@@ -6543,7 +6543,7 @@ void* _wrap_GetCallbackManagerXda_M_onTransmissionRequest_mtigen_083b31a658b8ff7
 }
 
 
-void _wrap_SetCallbackManagerXda_M_onRestoreCommunication_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackManagerXda_M_onRestoreCommunication_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0, void* _swig_go_1) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsString const *,XsResultValue) = (void (*)(XsCallbackPlainC *,XsString const *,XsResultValue)) 0 ;
   
@@ -6557,7 +6557,7 @@ void _wrap_SetCallbackManagerXda_M_onRestoreCommunication_mtigen_083b31a658b8ff7
 }
 
 
-void* _wrap_GetCallbackManagerXda_M_onRestoreCommunication_mtigen_083b31a658b8ff73(CallbackManagerXda *_swig_go_0) {
+void* _wrap_GetCallbackManagerXda_M_onRestoreCommunication_gen_58fb7b870f09ff4a(CallbackManagerXda *_swig_go_0) {
   CallbackManagerXda *arg1 = (CallbackManagerXda *) 0 ;
   void (*result)(XsCallbackPlainC *,XsString const *,XsResultValue) = 0 ;
   void* _swig_go_result;
@@ -6572,7 +6572,7 @@ void* _wrap_GetCallbackManagerXda_M_onRestoreCommunication_mtigen_083b31a658b8ff
 }
 
 
-void _wrap_XsScanner_scanPorts_mtigen_083b31a658b8ff73(XsPortInfoArray *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
+void _wrap_XsScanner_scanPorts_gen_58fb7b870f09ff4a(XsPortInfoArray *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
   XsPortInfoArray *arg1 = (XsPortInfoArray *) 0 ;
   XsBaudRate arg2 ;
   int arg3 ;
@@ -6590,7 +6590,7 @@ void _wrap_XsScanner_scanPorts_mtigen_083b31a658b8ff73(XsPortInfoArray *_swig_go
 }
 
 
-intgo _wrap_XsScanner_scanPort_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+intgo _wrap_XsScanner_scanPort_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   XsPortInfo *arg1 = (XsPortInfo *) 0 ;
   XsBaudRate arg2 ;
   int arg3 ;
@@ -6609,7 +6609,7 @@ intgo _wrap_XsScanner_scanPort_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, i
 }
 
 
-void _wrap_XsScanner_enumerateSerialPorts_mtigen_083b31a658b8ff73(XsPortInfoArray *_swig_go_0, intgo _swig_go_1) {
+void _wrap_XsScanner_enumerateSerialPorts_gen_58fb7b870f09ff4a(XsPortInfoArray *_swig_go_0, intgo _swig_go_1) {
   XsPortInfoArray *arg1 = (XsPortInfoArray *) 0 ;
   int arg2 ;
   
@@ -6621,7 +6621,7 @@ void _wrap_XsScanner_enumerateSerialPorts_mtigen_083b31a658b8ff73(XsPortInfoArra
 }
 
 
-void _wrap_XsScanner_filterResponsiveDevices_mtigen_083b31a658b8ff73(XsPortInfoArray *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+void _wrap_XsScanner_filterResponsiveDevices_gen_58fb7b870f09ff4a(XsPortInfoArray *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   XsPortInfoArray *arg1 = (XsPortInfoArray *) 0 ;
   XsBaudRate arg2 ;
   int arg3 ;
@@ -6637,7 +6637,7 @@ void _wrap_XsScanner_filterResponsiveDevices_mtigen_083b31a658b8ff73(XsPortInfoA
 }
 
 
-void _wrap_XsScanner_enumerateUsbDevices_mtigen_083b31a658b8ff73(XsPortInfoArray *_swig_go_0) {
+void _wrap_XsScanner_enumerateUsbDevices_gen_58fb7b870f09ff4a(XsPortInfoArray *_swig_go_0) {
   XsPortInfoArray *arg1 = (XsPortInfoArray *) 0 ;
   
   arg1 = *(XsPortInfoArray **)&_swig_go_0; 
@@ -6647,7 +6647,7 @@ void _wrap_XsScanner_enumerateUsbDevices_mtigen_083b31a658b8ff73(XsPortInfoArray
 }
 
 
-void _wrap_XsScanner_scanUsbHub_mtigen_083b31a658b8ff73(XsUsbHubInfo *_swig_go_0, XsPortInfo *_swig_go_1) {
+void _wrap_XsScanner_scanUsbHub_gen_58fb7b870f09ff4a(XsUsbHubInfo *_swig_go_0, XsPortInfo *_swig_go_1) {
   XsUsbHubInfo *arg1 = (XsUsbHubInfo *) 0 ;
   XsPortInfo *arg2 = (XsPortInfo *) 0 ;
   
@@ -6659,7 +6659,7 @@ void _wrap_XsScanner_scanUsbHub_mtigen_083b31a658b8ff73(XsUsbHubInfo *_swig_go_0
 }
 
 
-void _wrap_XsScanner_enumerateNetworkDevices_mtigen_083b31a658b8ff73(XsPortInfoArray *_swig_go_0) {
+void _wrap_XsScanner_enumerateNetworkDevices_gen_58fb7b870f09ff4a(XsPortInfoArray *_swig_go_0) {
   XsPortInfoArray *arg1 = (XsPortInfoArray *) 0 ;
   
   arg1 = *(XsPortInfoArray **)&_swig_go_0; 
@@ -6669,13 +6669,13 @@ void _wrap_XsScanner_enumerateNetworkDevices_mtigen_083b31a658b8ff73(XsPortInfoA
 }
 
 
-void _wrap_XsScanner_abortScan_mtigen_083b31a658b8ff73() {
+void _wrap_XsScanner_abortScan_gen_58fb7b870f09ff4a() {
   XsScanner_abortScan();
   
 }
 
 
-void _wrap_XsScanner_setScanLogCallback_mtigen_083b31a658b8ff73(void* _swig_go_0) {
+void _wrap_XsScanner_setScanLogCallback_gen_58fb7b870f09ff4a(void* _swig_go_0) {
   XsScanLogCallbackFunc arg1 = (XsScanLogCallbackFunc) 0 ;
   
   arg1 = *(XsScanLogCallbackFunc *)&_swig_go_0; 
@@ -6685,7 +6685,7 @@ void _wrap_XsScanner_setScanLogCallback_mtigen_083b31a658b8ff73(void* _swig_go_0
 }
 
 
-XsPortInfoArray *_wrap_XSScanner_scanPorts__SWIG_0_mtigen_083b31a658b8ff73(intgo _swig_go_0, intgo _swig_go_1, bool _swig_go_2, bool _swig_go_3) {
+XsPortInfoArray *_wrap_XSScanner_scanPorts__SWIG_0_gen_58fb7b870f09ff4a(intgo _swig_go_0, intgo _swig_go_1, bool _swig_go_2, bool _swig_go_3) {
   XsBaudRate arg1 ;
   int arg2 ;
   bool arg3 ;
@@ -6704,7 +6704,7 @@ XsPortInfoArray *_wrap_XSScanner_scanPorts__SWIG_0_mtigen_083b31a658b8ff73(intgo
 }
 
 
-XsPortInfoArray *_wrap_XSScanner_scanPorts__SWIG_1_mtigen_083b31a658b8ff73(intgo _swig_go_0, intgo _swig_go_1, bool _swig_go_2) {
+XsPortInfoArray *_wrap_XSScanner_scanPorts__SWIG_1_gen_58fb7b870f09ff4a(intgo _swig_go_0, intgo _swig_go_1, bool _swig_go_2) {
   XsBaudRate arg1 ;
   int arg2 ;
   bool arg3 ;
@@ -6721,7 +6721,7 @@ XsPortInfoArray *_wrap_XSScanner_scanPorts__SWIG_1_mtigen_083b31a658b8ff73(intgo
 }
 
 
-XsPortInfoArray *_wrap_XSScanner_scanPorts__SWIG_2_mtigen_083b31a658b8ff73(intgo _swig_go_0, intgo _swig_go_1) {
+XsPortInfoArray *_wrap_XSScanner_scanPorts__SWIG_2_gen_58fb7b870f09ff4a(intgo _swig_go_0, intgo _swig_go_1) {
   XsBaudRate arg1 ;
   int arg2 ;
   XsPortInfoArray result;
@@ -6736,7 +6736,7 @@ XsPortInfoArray *_wrap_XSScanner_scanPorts__SWIG_2_mtigen_083b31a658b8ff73(intgo
 }
 
 
-XsPortInfoArray *_wrap_XSScanner_scanPorts__SWIG_3_mtigen_083b31a658b8ff73(intgo _swig_go_0) {
+XsPortInfoArray *_wrap_XSScanner_scanPorts__SWIG_3_gen_58fb7b870f09ff4a(intgo _swig_go_0) {
   XsBaudRate arg1 ;
   XsPortInfoArray result;
   XsPortInfoArray *_swig_go_result;
@@ -6749,7 +6749,7 @@ XsPortInfoArray *_wrap_XSScanner_scanPorts__SWIG_3_mtigen_083b31a658b8ff73(intgo
 }
 
 
-XsPortInfoArray *_wrap_XSScanner_scanPorts__SWIG_4_mtigen_083b31a658b8ff73() {
+XsPortInfoArray *_wrap_XSScanner_scanPorts__SWIG_4_gen_58fb7b870f09ff4a() {
   XsPortInfoArray result;
   XsPortInfoArray *_swig_go_result;
   
@@ -6760,7 +6760,7 @@ XsPortInfoArray *_wrap_XSScanner_scanPorts__SWIG_4_mtigen_083b31a658b8ff73() {
 }
 
 
-bool _wrap_XSScanner_scanPort__SWIG_0_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, bool _swig_go_3) {
+bool _wrap_XSScanner_scanPort__SWIG_0_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, bool _swig_go_3) {
   XsPortInfo *arg1 = 0 ;
   XsBaudRate arg2 ;
   int arg3 ;
@@ -6779,7 +6779,7 @@ bool _wrap_XSScanner_scanPort__SWIG_0_mtigen_083b31a658b8ff73(XsPortInfo *_swig_
 }
 
 
-bool _wrap_XSScanner_scanPort__SWIG_1_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+bool _wrap_XSScanner_scanPort__SWIG_1_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   XsPortInfo *arg1 = 0 ;
   XsBaudRate arg2 ;
   int arg3 ;
@@ -6796,7 +6796,7 @@ bool _wrap_XSScanner_scanPort__SWIG_1_mtigen_083b31a658b8ff73(XsPortInfo *_swig_
 }
 
 
-bool _wrap_XSScanner_scanPort__SWIG_2_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_XSScanner_scanPort__SWIG_2_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0, intgo _swig_go_1) {
   XsPortInfo *arg1 = 0 ;
   XsBaudRate arg2 ;
   bool result;
@@ -6811,7 +6811,7 @@ bool _wrap_XSScanner_scanPort__SWIG_2_mtigen_083b31a658b8ff73(XsPortInfo *_swig_
 }
 
 
-bool _wrap_XSScanner_scanPort__SWIG_3_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+bool _wrap_XSScanner_scanPort__SWIG_3_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = 0 ;
   bool result;
   bool _swig_go_result;
@@ -6824,7 +6824,7 @@ bool _wrap_XSScanner_scanPort__SWIG_3_mtigen_083b31a658b8ff73(XsPortInfo *_swig_
 }
 
 
-XsPortInfo *_wrap_XSScanner_scanPort__SWIG_4_mtigen_083b31a658b8ff73(XsString *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, bool _swig_go_3) {
+XsPortInfo *_wrap_XSScanner_scanPort__SWIG_4_gen_58fb7b870f09ff4a(XsString *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, bool _swig_go_3) {
   XsString *arg1 = 0 ;
   XsBaudRate arg2 ;
   int arg3 ;
@@ -6843,7 +6843,7 @@ XsPortInfo *_wrap_XSScanner_scanPort__SWIG_4_mtigen_083b31a658b8ff73(XsString *_
 }
 
 
-XsPortInfo *_wrap_XSScanner_scanPort__SWIG_5_mtigen_083b31a658b8ff73(XsString *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+XsPortInfo *_wrap_XSScanner_scanPort__SWIG_5_gen_58fb7b870f09ff4a(XsString *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   XsString *arg1 = 0 ;
   XsBaudRate arg2 ;
   int arg3 ;
@@ -6860,7 +6860,7 @@ XsPortInfo *_wrap_XSScanner_scanPort__SWIG_5_mtigen_083b31a658b8ff73(XsString *_
 }
 
 
-XsPortInfo *_wrap_XSScanner_scanPort__SWIG_6_mtigen_083b31a658b8ff73(XsString *_swig_go_0, intgo _swig_go_1) {
+XsPortInfo *_wrap_XSScanner_scanPort__SWIG_6_gen_58fb7b870f09ff4a(XsString *_swig_go_0, intgo _swig_go_1) {
   XsString *arg1 = 0 ;
   XsBaudRate arg2 ;
   XsPortInfo result;
@@ -6875,7 +6875,7 @@ XsPortInfo *_wrap_XSScanner_scanPort__SWIG_6_mtigen_083b31a658b8ff73(XsString *_
 }
 
 
-XsPortInfo *_wrap_XSScanner_scanPort__SWIG_7_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+XsPortInfo *_wrap_XSScanner_scanPort__SWIG_7_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = 0 ;
   XsPortInfo result;
   XsPortInfo *_swig_go_result;
@@ -6888,7 +6888,7 @@ XsPortInfo *_wrap_XSScanner_scanPort__SWIG_7_mtigen_083b31a658b8ff73(XsString *_
 }
 
 
-XsPortInfoArray *_wrap_XSScanner_scanComPortList__SWIG_0_mtigen_083b31a658b8ff73(XsStringArray *_swig_go_0, XsIntArray *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+XsPortInfoArray *_wrap_XSScanner_scanComPortList__SWIG_0_gen_58fb7b870f09ff4a(XsStringArray *_swig_go_0, XsIntArray *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   XsStringArray *arg1 = 0 ;
   XsIntArray *arg2 = 0 ;
   XsBaudRate arg3 ;
@@ -6907,7 +6907,7 @@ XsPortInfoArray *_wrap_XSScanner_scanComPortList__SWIG_0_mtigen_083b31a658b8ff73
 }
 
 
-XsPortInfoArray *_wrap_XSScanner_scanComPortList__SWIG_1_mtigen_083b31a658b8ff73(XsStringArray *_swig_go_0, XsIntArray *_swig_go_1, intgo _swig_go_2) {
+XsPortInfoArray *_wrap_XSScanner_scanComPortList__SWIG_1_gen_58fb7b870f09ff4a(XsStringArray *_swig_go_0, XsIntArray *_swig_go_1, intgo _swig_go_2) {
   XsStringArray *arg1 = 0 ;
   XsIntArray *arg2 = 0 ;
   XsBaudRate arg3 ;
@@ -6924,7 +6924,7 @@ XsPortInfoArray *_wrap_XSScanner_scanComPortList__SWIG_1_mtigen_083b31a658b8ff73
 }
 
 
-XsPortInfoArray *_wrap_XSScanner_scanComPortList__SWIG_2_mtigen_083b31a658b8ff73(XsStringArray *_swig_go_0, XsIntArray *_swig_go_1) {
+XsPortInfoArray *_wrap_XSScanner_scanComPortList__SWIG_2_gen_58fb7b870f09ff4a(XsStringArray *_swig_go_0, XsIntArray *_swig_go_1) {
   XsStringArray *arg1 = 0 ;
   XsIntArray *arg2 = 0 ;
   XsPortInfoArray result;
@@ -6939,7 +6939,7 @@ XsPortInfoArray *_wrap_XSScanner_scanComPortList__SWIG_2_mtigen_083b31a658b8ff73
 }
 
 
-XsPortInfoArray *_wrap_XSScanner_scanComPortList__SWIG_3_mtigen_083b31a658b8ff73(XsStringArray *_swig_go_0) {
+XsPortInfoArray *_wrap_XSScanner_scanComPortList__SWIG_3_gen_58fb7b870f09ff4a(XsStringArray *_swig_go_0) {
   XsStringArray *arg1 = 0 ;
   XsPortInfoArray result;
   XsPortInfoArray *_swig_go_result;
@@ -6952,7 +6952,7 @@ XsPortInfoArray *_wrap_XSScanner_scanComPortList__SWIG_3_mtigen_083b31a658b8ff73
 }
 
 
-XsPortInfoArray *_wrap_XSScanner_enumerateSerialPorts__SWIG_0_mtigen_083b31a658b8ff73(bool _swig_go_0) {
+XsPortInfoArray *_wrap_XSScanner_enumerateSerialPorts__SWIG_0_gen_58fb7b870f09ff4a(bool _swig_go_0) {
   bool arg1 ;
   XsPortInfoArray result;
   XsPortInfoArray *_swig_go_result;
@@ -6965,7 +6965,7 @@ XsPortInfoArray *_wrap_XSScanner_enumerateSerialPorts__SWIG_0_mtigen_083b31a658b
 }
 
 
-XsPortInfoArray *_wrap_XSScanner_enumerateSerialPorts__SWIG_1_mtigen_083b31a658b8ff73() {
+XsPortInfoArray *_wrap_XSScanner_enumerateSerialPorts__SWIG_1_gen_58fb7b870f09ff4a() {
   XsPortInfoArray result;
   XsPortInfoArray *_swig_go_result;
   
@@ -6976,7 +6976,7 @@ XsPortInfoArray *_wrap_XSScanner_enumerateSerialPorts__SWIG_1_mtigen_083b31a658b
 }
 
 
-XsPortInfoArray *_wrap_XSScanner_filterResponsiveDevices__SWIG_0_mtigen_083b31a658b8ff73(XsPortInfoArray *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, bool _swig_go_3) {
+XsPortInfoArray *_wrap_XSScanner_filterResponsiveDevices__SWIG_0_gen_58fb7b870f09ff4a(XsPortInfoArray *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, bool _swig_go_3) {
   XsPortInfoArray *arg1 = 0 ;
   XsBaudRate arg2 ;
   int arg3 ;
@@ -6995,7 +6995,7 @@ XsPortInfoArray *_wrap_XSScanner_filterResponsiveDevices__SWIG_0_mtigen_083b31a6
 }
 
 
-XsPortInfoArray *_wrap_XSScanner_filterResponsiveDevices__SWIG_1_mtigen_083b31a658b8ff73(XsPortInfoArray *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+XsPortInfoArray *_wrap_XSScanner_filterResponsiveDevices__SWIG_1_gen_58fb7b870f09ff4a(XsPortInfoArray *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   XsPortInfoArray *arg1 = 0 ;
   XsBaudRate arg2 ;
   int arg3 ;
@@ -7012,7 +7012,7 @@ XsPortInfoArray *_wrap_XSScanner_filterResponsiveDevices__SWIG_1_mtigen_083b31a6
 }
 
 
-XsPortInfoArray *_wrap_XSScanner_filterResponsiveDevices__SWIG_2_mtigen_083b31a658b8ff73(XsPortInfoArray *_swig_go_0, intgo _swig_go_1) {
+XsPortInfoArray *_wrap_XSScanner_filterResponsiveDevices__SWIG_2_gen_58fb7b870f09ff4a(XsPortInfoArray *_swig_go_0, intgo _swig_go_1) {
   XsPortInfoArray *arg1 = 0 ;
   XsBaudRate arg2 ;
   XsPortInfoArray result;
@@ -7027,7 +7027,7 @@ XsPortInfoArray *_wrap_XSScanner_filterResponsiveDevices__SWIG_2_mtigen_083b31a6
 }
 
 
-XsPortInfoArray *_wrap_XSScanner_filterResponsiveDevices__SWIG_3_mtigen_083b31a658b8ff73(XsPortInfoArray *_swig_go_0) {
+XsPortInfoArray *_wrap_XSScanner_filterResponsiveDevices__SWIG_3_gen_58fb7b870f09ff4a(XsPortInfoArray *_swig_go_0) {
   XsPortInfoArray *arg1 = 0 ;
   XsPortInfoArray result;
   XsPortInfoArray *_swig_go_result;
@@ -7040,7 +7040,7 @@ XsPortInfoArray *_wrap_XSScanner_filterResponsiveDevices__SWIG_3_mtigen_083b31a6
 }
 
 
-XsPortInfoArray *_wrap_XSScanner_enumerateUsbDevices_mtigen_083b31a658b8ff73() {
+XsPortInfoArray *_wrap_XSScanner_enumerateUsbDevices_gen_58fb7b870f09ff4a() {
   XsPortInfoArray result;
   XsPortInfoArray *_swig_go_result;
   
@@ -7051,7 +7051,7 @@ XsPortInfoArray *_wrap_XSScanner_enumerateUsbDevices_mtigen_083b31a658b8ff73() {
 }
 
 
-XsUsbHubInfo *_wrap_XSScanner_scanUsbHub_mtigen_083b31a658b8ff73(XsPortInfo *_swig_go_0) {
+XsUsbHubInfo *_wrap_XSScanner_scanUsbHub_gen_58fb7b870f09ff4a(XsPortInfo *_swig_go_0) {
   XsPortInfo *arg1 = 0 ;
   XsUsbHubInfo result;
   XsUsbHubInfo *_swig_go_result;
@@ -7064,7 +7064,7 @@ XsUsbHubInfo *_wrap_XSScanner_scanUsbHub_mtigen_083b31a658b8ff73(XsPortInfo *_sw
 }
 
 
-XsPortInfoArray *_wrap_XSScanner_enumerateNetworkDevices_mtigen_083b31a658b8ff73() {
+XsPortInfoArray *_wrap_XSScanner_enumerateNetworkDevices_gen_58fb7b870f09ff4a() {
   XsPortInfoArray result;
   XsPortInfoArray *_swig_go_result;
   
@@ -7075,13 +7075,13 @@ XsPortInfoArray *_wrap_XSScanner_enumerateNetworkDevices_mtigen_083b31a658b8ff73
 }
 
 
-void _wrap_XSScanner_abortScan_mtigen_083b31a658b8ff73() {
+void _wrap_XSScanner_abortScan_gen_58fb7b870f09ff4a() {
   XsScanner::abortScan();
   
 }
 
 
-void _wrap_XSScanner_setScanLogCallback_mtigen_083b31a658b8ff73(void* _swig_go_0) {
+void _wrap_XSScanner_setScanLogCallback_gen_58fb7b870f09ff4a(void* _swig_go_0) {
   XsScanLogCallbackFunc arg1 = (XsScanLogCallbackFunc) 0 ;
   
   arg1 = *(XsScanLogCallbackFunc *)&_swig_go_0; 
@@ -7091,7 +7091,7 @@ void _wrap_XSScanner_setScanLogCallback_mtigen_083b31a658b8ff73(void* _swig_go_0
 }
 
 
-XsScanner *_wrap_new_XSScanner_mtigen_083b31a658b8ff73() {
+XsScanner *_wrap_new_XSScanner_gen_58fb7b870f09ff4a() {
   XsScanner *result = 0 ;
   XsScanner *_swig_go_result;
   
@@ -7102,7 +7102,7 @@ XsScanner *_wrap_new_XSScanner_mtigen_083b31a658b8ff73() {
 }
 
 
-void _wrap_delete_XSScanner_mtigen_083b31a658b8ff73(XsScanner *_swig_go_0) {
+void _wrap_delete_XSScanner_gen_58fb7b870f09ff4a(XsScanner *_swig_go_0) {
   XsScanner *arg1 = (XsScanner *) 0 ;
   
   arg1 = *(XsScanner **)&_swig_go_0; 
@@ -7112,7 +7112,7 @@ void _wrap_delete_XSScanner_mtigen_083b31a658b8ff73(XsScanner *_swig_go_0) {
 }
 
 
-void _wrap_delete_XSDevice_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void _wrap_delete_XSDevice_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   
   arg1 = *(XsDevice **)&_swig_go_0; 
@@ -7122,7 +7122,7 @@ void _wrap_delete_XSDevice_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-void _wrap_XSDevice_addRef_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void _wrap_XSDevice_addRef_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   
   arg1 = *(XsDevice **)&_swig_go_0; 
@@ -7132,7 +7132,7 @@ void _wrap_XSDevice_addRef_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-void _wrap_XSDevice_removeRef_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void _wrap_XSDevice_removeRef_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   
   arg1 = *(XsDevice **)&_swig_go_0; 
@@ -7142,7 +7142,7 @@ void _wrap_XSDevice_removeRef_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-long long _wrap_XSDevice_refCounter_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+long long _wrap_XSDevice_refCounter_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -7155,7 +7155,7 @@ long long _wrap_XSDevice_refCounter_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0
 }
 
 
-XsDevice *_wrap_XSDevice_master_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsDevice *_wrap_XSDevice_master_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *result = 0 ;
   XsDevice *_swig_go_result;
@@ -7168,7 +7168,7 @@ XsDevice *_wrap_XSDevice_master_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-XsDevice *_wrap_XSDevice_findDevice_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDeviceId *_swig_go_1) {
+XsDevice *_wrap_XSDevice_findDevice_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDeviceId *arg2 = 0 ;
   XsDevice *result = 0 ;
@@ -7183,7 +7183,7 @@ XsDevice *_wrap_XSDevice_findDevice_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0
 }
 
 
-XsDevice *_wrap_XSDevice_findDeviceConst_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDeviceId *_swig_go_1) {
+XsDevice *_wrap_XSDevice_findDeviceConst_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDeviceId *arg2 = 0 ;
   XsDevice *result = 0 ;
@@ -7198,7 +7198,7 @@ XsDevice *_wrap_XSDevice_findDeviceConst_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-intgo _wrap_XSDevice_busId_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+intgo _wrap_XSDevice_busId_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7211,7 +7211,7 @@ intgo _wrap_XSDevice_busId_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-XsDeviceId *_wrap_XSDevice_deviceId_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsDeviceId *_wrap_XSDevice_deviceId_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDeviceId *result = 0 ;
   XsDeviceId *_swig_go_result;
@@ -7224,7 +7224,7 @@ XsDeviceId *_wrap_XSDevice_deviceId_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0
 }
 
 
-XsVersion *_wrap_XSDevice_firmwareVersion_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsVersion *_wrap_XSDevice_firmwareVersion_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsVersion result;
   XsVersion *_swig_go_result;
@@ -7237,7 +7237,7 @@ XsVersion *_wrap_XSDevice_firmwareVersion_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-bool _wrap_XSDevice_isMasterDevice_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isMasterDevice_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -7250,7 +7250,7 @@ bool _wrap_XSDevice_isMasterDevice_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0)
 }
 
 
-bool _wrap_XSDevice_isContainerDevice_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isContainerDevice_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -7263,7 +7263,7 @@ bool _wrap_XSDevice_isContainerDevice_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-bool _wrap_XSDevice_isInitialized_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isInitialized_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -7276,7 +7276,7 @@ bool _wrap_XSDevice_isInitialized_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) 
 }
 
 
-bool _wrap_XSDevice_isStandaloneDevice_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isStandaloneDevice_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -7289,7 +7289,7 @@ bool _wrap_XSDevice_isStandaloneDevice_mtigen_083b31a658b8ff73(XsDevice *_swig_g
 }
 
 
-XsDevice *_wrap_XSDevice_deviceAtBusIdConst_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, intgo _swig_go_1) {
+XsDevice *_wrap_XSDevice_deviceAtBusIdConst_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, intgo _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int arg2 ;
   XsDevice *result = 0 ;
@@ -7304,7 +7304,7 @@ XsDevice *_wrap_XSDevice_deviceAtBusIdConst_mtigen_083b31a658b8ff73(XsDevice *_s
 }
 
 
-XsDevice *_wrap_XSDevice_deviceAtBusId_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, intgo _swig_go_1) {
+XsDevice *_wrap_XSDevice_deviceAtBusId_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, intgo _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int arg2 ;
   XsDevice *result = 0 ;
@@ -7319,7 +7319,7 @@ XsDevice *_wrap_XSDevice_deviceAtBusId_mtigen_083b31a658b8ff73(XsDevice *_swig_g
 }
 
 
-Communicator *_wrap_XSDevice_communicator_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+Communicator *_wrap_XSDevice_communicator_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   Communicator *result = 0 ;
   Communicator *_swig_go_result;
@@ -7332,7 +7332,7 @@ Communicator *_wrap_XSDevice_communicator_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-DataLogger *_wrap_XSDevice_logFileInterface_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, std::unique_ptr< xsens::Lock > *_swig_go_1) {
+DataLogger *_wrap_XSDevice_logFileInterface_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, std::unique_ptr< xsens::Lock > *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   std::unique_ptr< xsens::Lock > *arg2 = 0 ;
   DataLogger *result = 0 ;
@@ -7347,7 +7347,7 @@ DataLogger *_wrap_XSDevice_logFileInterface_mtigen_083b31a658b8ff73(XsDevice *_s
 }
 
 
-XsResultValue *_wrap_XSDevice_updatePortInfo_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsPortInfo *_swig_go_1) {
+XsResultValue *_wrap_XSDevice_updatePortInfo_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsPortInfo *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsPortInfo *arg2 = 0 ;
   XsResultValue result;
@@ -7362,7 +7362,7 @@ XsResultValue *_wrap_XSDevice_updatePortInfo_mtigen_083b31a658b8ff73(XsDevice *_
 }
 
 
-void _wrap_XSDevice_setGotoConfigOnClose_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, bool _swig_go_1) {
+void _wrap_XSDevice_setGotoConfigOnClose_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, bool _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool arg2 ;
   
@@ -7374,7 +7374,7 @@ void _wrap_XSDevice_setGotoConfigOnClose_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-XsResultValue *_wrap_XSDevice_createLogFile_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsString *_swig_go_1) {
+XsResultValue *_wrap_XSDevice_createLogFile_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsString *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsString *arg2 = 0 ;
   XsResultValue result;
@@ -7389,7 +7389,7 @@ XsResultValue *_wrap_XSDevice_createLogFile_mtigen_083b31a658b8ff73(XsDevice *_s
 }
 
 
-bool _wrap_XSDevice_closeLogFile_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_closeLogFile_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -7402,7 +7402,7 @@ bool _wrap_XSDevice_closeLogFile_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-bool _wrap_XSDevice_isMeasuring_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isMeasuring_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -7415,7 +7415,7 @@ bool _wrap_XSDevice_isMeasuring_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-bool _wrap_XSDevice_isRecording_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isRecording_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -7428,7 +7428,7 @@ bool _wrap_XSDevice_isRecording_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-bool _wrap_XSDevice_isReadingFromFile_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isReadingFromFile_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -7441,7 +7441,7 @@ bool _wrap_XSDevice_isReadingFromFile_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-void _wrap_XSDevice_checkDataCache_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void _wrap_XSDevice_checkDataCache_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   
   arg1 = *(XsDevice **)&_swig_go_0; 
@@ -7451,7 +7451,7 @@ void _wrap_XSDevice_checkDataCache_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0)
 }
 
 
-void _wrap_XSDevice_restartFilter_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void _wrap_XSDevice_restartFilter_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   
   arg1 = *(XsDevice **)&_swig_go_0; 
@@ -7461,7 +7461,7 @@ void _wrap_XSDevice_restartFilter_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) 
 }
 
 
-XsResultValue *_wrap_XSDevice_lastResult_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsResultValue *_wrap_XSDevice_lastResult_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsResultValue result;
   XsResultValue *_swig_go_result;
@@ -7474,7 +7474,7 @@ XsResultValue *_wrap_XSDevice_lastResult_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-XsString *_wrap_XSDevice_lastResultText_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsString *_wrap_XSDevice_lastResultText_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsString result;
   XsString *_swig_go_result;
@@ -7487,7 +7487,7 @@ XsString *_wrap_XSDevice_lastResultText_mtigen_083b31a658b8ff73(XsDevice *_swig_
 }
 
 
-intgo _wrap_XSDevice_recordingQueueLength_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+intgo _wrap_XSDevice_recordingQueueLength_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7500,7 +7500,7 @@ intgo _wrap_XSDevice_recordingQueueLength_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-intgo _wrap_XSDevice_cacheSize_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+intgo _wrap_XSDevice_cacheSize_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7513,7 +7513,7 @@ intgo _wrap_XSDevice_cacheSize_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-XsDeviceState *_wrap_XSDevice_deviceState_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsDeviceState *_wrap_XSDevice_deviceState_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDeviceState result;
   XsDeviceState *_swig_go_result;
@@ -7526,7 +7526,7 @@ XsDeviceState *_wrap_XSDevice_deviceState_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-bool _wrap_XSDevice_supportsSyncSettings_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDevice_supportsSyncSettings_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = 0 ;
   bool result;
   bool _swig_go_result;
@@ -7539,7 +7539,7 @@ bool _wrap_XSDevice_supportsSyncSettings_mtigen_083b31a658b8ff73(XsDeviceId *_sw
 }
 
 
-bool _wrap_XSDevice_isCompatibleSyncSetting_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsSyncSetting *_swig_go_1, XsSyncSetting *_swig_go_2) {
+bool _wrap_XSDevice_isCompatibleSyncSetting_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsSyncSetting *_swig_go_1, XsSyncSetting *_swig_go_2) {
   XsDeviceId *arg1 = 0 ;
   XsSyncSetting *arg2 = 0 ;
   XsSyncSetting *arg3 = 0 ;
@@ -7556,7 +7556,7 @@ bool _wrap_XSDevice_isCompatibleSyncSetting_mtigen_083b31a658b8ff73(XsDeviceId *
 }
 
 
-intgo _wrap_XSDevice_syncSettingsTimeResolutionInMicroSeconds_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XSDevice_syncSettingsTimeResolutionInMicroSeconds_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = 0 ;
   unsigned int result;
   intgo _swig_go_result;
@@ -7569,7 +7569,7 @@ intgo _wrap_XSDevice_syncSettingsTimeResolutionInMicroSeconds_mtigen_083b31a658b
 }
 
 
-bool _wrap_XSDevice_opLt__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1) {
+bool _wrap_XSDevice_opLt__SWIG_0_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = 0 ;
   bool result;
@@ -7584,7 +7584,7 @@ bool _wrap_XSDevice_opLt__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, X
 }
 
 
-bool _wrap_XSDevice_opEq__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1) {
+bool _wrap_XSDevice_opEq__SWIG_0_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = 0 ;
   bool result;
@@ -7599,7 +7599,7 @@ bool _wrap_XSDevice_opEq__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, X
 }
 
 
-bool _wrap_XSDevice_opLt__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDeviceId *_swig_go_1) {
+bool _wrap_XSDevice_opLt__SWIG_1_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDeviceId *arg2 = 0 ;
   bool result;
@@ -7614,7 +7614,7 @@ bool _wrap_XSDevice_opLt__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, X
 }
 
 
-bool _wrap_XSDevice_opEq__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDeviceId *_swig_go_1) {
+bool _wrap_XSDevice_opEq__SWIG_1_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDeviceId *arg2 = 0 ;
   bool result;
@@ -7629,7 +7629,7 @@ bool _wrap_XSDevice_opEq__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, X
 }
 
 
-XsDeviceConfiguration *_wrap_XSDevice_deviceConfiguration_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsDeviceConfiguration *_wrap_XSDevice_deviceConfiguration_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDeviceConfiguration result;
   XsDeviceConfiguration *_swig_go_result;
@@ -7642,7 +7642,7 @@ XsDeviceConfiguration *_wrap_XSDevice_deviceConfiguration_mtigen_083b31a658b8ff7
 }
 
 
-XsDeviceConfiguration *_wrap_XSDevice_deviceConfigurationRef_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsDeviceConfiguration *_wrap_XSDevice_deviceConfigurationRef_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDeviceConfiguration *result = 0 ;
   XsDeviceConfiguration *_swig_go_result;
@@ -7655,7 +7655,7 @@ XsDeviceConfiguration *_wrap_XSDevice_deviceConfigurationRef_mtigen_083b31a658b8
 }
 
 
-XsDeviceConfiguration *_wrap_XSDevice_deviceConfigurationConst_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsDeviceConfiguration *_wrap_XSDevice_deviceConfigurationConst_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDeviceConfiguration *result = 0 ;
   XsDeviceConfiguration *_swig_go_result;
@@ -7668,7 +7668,7 @@ XsDeviceConfiguration *_wrap_XSDevice_deviceConfigurationConst_mtigen_083b31a658
 }
 
 
-bool _wrap_XSDevice_initialize_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_initialize_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -7681,7 +7681,7 @@ bool _wrap_XSDevice_initialize_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-bool _wrap_XSDevice_initializeSoftwareCalibration_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_initializeSoftwareCalibration_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -7694,7 +7694,7 @@ bool _wrap_XSDevice_initializeSoftwareCalibration_mtigen_083b31a658b8ff73(XsDevi
 }
 
 
-void _wrap_XSDevice_deinitializeSoftwareCalibration_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void _wrap_XSDevice_deinitializeSoftwareCalibration_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   
   arg1 = *(XsDevice **)&_swig_go_0; 
@@ -7704,7 +7704,7 @@ void _wrap_XSDevice_deinitializeSoftwareCalibration_mtigen_083b31a658b8ff73(XsDe
 }
 
 
-intgo _wrap_XSDevice_batteryLevel_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+intgo _wrap_XSDevice_batteryLevel_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7717,7 +7717,7 @@ intgo _wrap_XSDevice_batteryLevel_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) 
 }
 
 
-intgo _wrap_XSDevice_updateRateForDataIdentifier_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDataIdentifier *_swig_go_1) {
+intgo _wrap_XSDevice_updateRateForDataIdentifier_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDataIdentifier *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDataIdentifier arg2 ;
   XsDataIdentifier *argp2 ;
@@ -7739,7 +7739,7 @@ intgo _wrap_XSDevice_updateRateForDataIdentifier_mtigen_083b31a658b8ff73(XsDevic
 }
 
 
-intgo _wrap_XSDevice_updateRateForProcessedDataIdentifier_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDataIdentifier *_swig_go_1) {
+intgo _wrap_XSDevice_updateRateForProcessedDataIdentifier_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDataIdentifier *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDataIdentifier arg2 ;
   XsDataIdentifier *argp2 ;
@@ -7761,7 +7761,7 @@ intgo _wrap_XSDevice_updateRateForProcessedDataIdentifier_mtigen_083b31a658b8ff7
 }
 
 
-std::vector< int > *_wrap_XSDevice_supportedUpdateRates__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDataIdentifier *_swig_go_1) {
+std::vector< int > *_wrap_XSDevice_supportedUpdateRates__SWIG_0_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDataIdentifier *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDataIdentifier arg2 ;
   XsDataIdentifier *argp2 ;
@@ -7783,7 +7783,7 @@ std::vector< int > *_wrap_XSDevice_supportedUpdateRates__SWIG_0_mtigen_083b31a65
 }
 
 
-std::vector< int > *_wrap_XSDevice_supportedUpdateRates__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+std::vector< int > *_wrap_XSDevice_supportedUpdateRates__SWIG_1_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   std::vector< int > result;
   std::vector< int > *_swig_go_result;
@@ -7796,7 +7796,7 @@ std::vector< int > *_wrap_XSDevice_supportedUpdateRates__SWIG_1_mtigen_083b31a65
 }
 
 
-intgo _wrap_XSDevice_maximumUpdateRate_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+intgo _wrap_XSDevice_maximumUpdateRate_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -7809,7 +7809,7 @@ intgo _wrap_XSDevice_maximumUpdateRate_mtigen_083b31a658b8ff73(XsDevice *_swig_g
 }
 
 
-bool _wrap_XSDevice_hasDataEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDataIdentifier *_swig_go_1) {
+bool _wrap_XSDevice_hasDataEnabled_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDataIdentifier *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDataIdentifier arg2 ;
   XsDataIdentifier *argp2 ;
@@ -7831,7 +7831,7 @@ bool _wrap_XSDevice_hasDataEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0,
 }
 
 
-bool _wrap_XSDevice_hasProcessedDataEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDataIdentifier *_swig_go_1) {
+bool _wrap_XSDevice_hasProcessedDataEnabled_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDataIdentifier *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDataIdentifier arg2 ;
   XsDataIdentifier *argp2 ;
@@ -7853,7 +7853,7 @@ bool _wrap_XSDevice_hasProcessedDataEnabled_mtigen_083b31a658b8ff73(XsDevice *_s
 }
 
 
-XsString *_wrap_XSDevice_productCode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsString *_wrap_XSDevice_productCode_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsString result;
   XsString *_swig_go_result;
@@ -7866,7 +7866,7 @@ XsString *_wrap_XSDevice_productCode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_
 }
 
 
-XsString *_wrap_XSDevice_shortProductCode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsString *_wrap_XSDevice_shortProductCode_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsString result;
   XsString *_swig_go_result;
@@ -7879,7 +7879,7 @@ XsString *_wrap_XSDevice_shortProductCode_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-XsString *_wrap_XSDevice_portName_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsString *_wrap_XSDevice_portName_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsString result;
   XsString *_swig_go_result;
@@ -7892,7 +7892,7 @@ XsString *_wrap_XSDevice_portName_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) 
 }
 
 
-XsPortInfo *_wrap_XSDevice_portInfo_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsPortInfo *_wrap_XSDevice_portInfo_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsPortInfo result;
   XsPortInfo *_swig_go_result;
@@ -7905,7 +7905,7 @@ XsPortInfo *_wrap_XSDevice_portInfo_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0
 }
 
 
-intgo _wrap_XSDevice_baudRate_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+intgo _wrap_XSDevice_baudRate_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsBaudRate result;
   intgo _swig_go_result;
@@ -7918,7 +7918,7 @@ intgo _wrap_XSDevice_baudRate_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-intgo _wrap_XSDevice_serialBaudRate_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+intgo _wrap_XSDevice_serialBaudRate_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsBaudRate result;
   intgo _swig_go_result;
@@ -7931,7 +7931,7 @@ intgo _wrap_XSDevice_serialBaudRate_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0
 }
 
 
-XsVersion *_wrap_XSDevice_hardwareVersion_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsVersion *_wrap_XSDevice_hardwareVersion_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsVersion result;
   XsVersion *_swig_go_result;
@@ -7944,7 +7944,7 @@ XsVersion *_wrap_XSDevice_hardwareVersion_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-bool _wrap_XSDevice_startRecording_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_startRecording_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -7957,7 +7957,7 @@ bool _wrap_XSDevice_startRecording_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0)
 }
 
 
-bool _wrap_XSDevice_triggerStartRecording_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_triggerStartRecording_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -7970,7 +7970,7 @@ bool _wrap_XSDevice_triggerStartRecording_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-bool _wrap_XSDevice_stopRecording_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_stopRecording_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -7983,7 +7983,7 @@ bool _wrap_XSDevice_stopRecording_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) 
 }
 
 
-long long _wrap_XSDevice_getStartRecordingPacketId_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+long long _wrap_XSDevice_getStartRecordingPacketId_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int64_t result;
   long long _swig_go_result;
@@ -7996,7 +7996,7 @@ long long _wrap_XSDevice_getStartRecordingPacketId_mtigen_083b31a658b8ff73(XsDev
 }
 
 
-long long _wrap_XSDevice_getStopRecordingPacketId_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+long long _wrap_XSDevice_getStopRecordingPacketId_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int64_t result;
   long long _swig_go_result;
@@ -8009,7 +8009,7 @@ long long _wrap_XSDevice_getStopRecordingPacketId_mtigen_083b31a658b8ff73(XsDevi
 }
 
 
-void _wrap_XSDevice_setOptions_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsOption *_swig_go_1, XsOption *_swig_go_2) {
+void _wrap_XSDevice_setOptions_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsOption *_swig_go_1, XsOption *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsOption arg2 ;
   XsOption arg3 ;
@@ -8037,7 +8037,7 @@ void _wrap_XSDevice_setOptions_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsO
 }
 
 
-bool _wrap_XSDevice_areOptionsEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsOption *_swig_go_1) {
+bool _wrap_XSDevice_areOptionsEnabled_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsOption *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsOption arg2 ;
   XsOption *argp2 ;
@@ -8059,7 +8059,7 @@ bool _wrap_XSDevice_areOptionsEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-XsOption *_wrap_XSDevice_getOptions_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsOption *_wrap_XSDevice_getOptions_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsOption result;
   XsOption *_swig_go_result;
@@ -8072,7 +8072,7 @@ XsOption *_wrap_XSDevice_getOptions_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0
 }
 
 
-bool _wrap_XSDevice_sendCustomMessage__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsMessage *_swig_go_1, bool _swig_go_2, XsMessage *_swig_go_3, intgo _swig_go_4) {
+bool _wrap_XSDevice_sendCustomMessage__SWIG_0_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsMessage *_swig_go_1, bool _swig_go_2, XsMessage *_swig_go_3, intgo _swig_go_4) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsMessage *arg2 = 0 ;
   bool arg3 ;
@@ -8093,7 +8093,7 @@ bool _wrap_XSDevice_sendCustomMessage__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *
 }
 
 
-bool _wrap_XSDevice_sendCustomMessage__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsMessage *_swig_go_1, bool _swig_go_2, XsMessage *_swig_go_3) {
+bool _wrap_XSDevice_sendCustomMessage__SWIG_1_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsMessage *_swig_go_1, bool _swig_go_2, XsMessage *_swig_go_3) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsMessage *arg2 = 0 ;
   bool arg3 ;
@@ -8112,7 +8112,7 @@ bool _wrap_XSDevice_sendCustomMessage__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *
 }
 
 
-bool _wrap_XSDevice_sendRawMessage_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
+bool _wrap_XSDevice_sendRawMessage_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsMessage *arg2 = 0 ;
   bool result;
@@ -8127,7 +8127,7 @@ bool _wrap_XSDevice_sendRawMessage_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0,
 }
 
 
-bool _wrap_XSDevice_sendCustomMessage__SWIG_2_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsMessage *_swig_go_1, bool _swig_go_2, XsXbusMessageId *_swig_go_3, XsMessage *_swig_go_4, intgo _swig_go_5) {
+bool _wrap_XSDevice_sendCustomMessage__SWIG_2_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsMessage *_swig_go_1, bool _swig_go_2, XsXbusMessageId *_swig_go_3, XsMessage *_swig_go_4, intgo _swig_go_5) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsMessage *arg2 = 0 ;
   bool arg3 ;
@@ -8157,7 +8157,7 @@ bool _wrap_XSDevice_sendCustomMessage__SWIG_2_mtigen_083b31a658b8ff73(XsDevice *
 }
 
 
-bool _wrap_XSDevice_sendCustomMessage__SWIG_3_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsMessage *_swig_go_1, bool _swig_go_2, XsXbusMessageId *_swig_go_3, XsMessage *_swig_go_4) {
+bool _wrap_XSDevice_sendCustomMessage__SWIG_3_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsMessage *_swig_go_1, bool _swig_go_2, XsXbusMessageId *_swig_go_3, XsMessage *_swig_go_4) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsMessage *arg2 = 0 ;
   bool arg3 ;
@@ -8185,7 +8185,7 @@ bool _wrap_XSDevice_sendCustomMessage__SWIG_3_mtigen_083b31a658b8ff73(XsDevice *
 }
 
 
-bool _wrap_XSDevice_waitForCustomMessage__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsXbusMessageId *_swig_go_1, XsMessage *_swig_go_2, intgo _swig_go_3) {
+bool _wrap_XSDevice_waitForCustomMessage__SWIG_0_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsXbusMessageId *_swig_go_1, XsMessage *_swig_go_2, intgo _swig_go_3) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsXbusMessageId arg2 ;
   XsMessage *arg3 = 0 ;
@@ -8211,7 +8211,7 @@ bool _wrap_XSDevice_waitForCustomMessage__SWIG_0_mtigen_083b31a658b8ff73(XsDevic
 }
 
 
-bool _wrap_XSDevice_waitForCustomMessage__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsXbusMessageId *_swig_go_1, XsMessage *_swig_go_2) {
+bool _wrap_XSDevice_waitForCustomMessage__SWIG_1_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsXbusMessageId *_swig_go_1, XsMessage *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsXbusMessageId arg2 ;
   XsMessage *arg3 = 0 ;
@@ -8235,7 +8235,7 @@ bool _wrap_XSDevice_waitForCustomMessage__SWIG_1_mtigen_083b31a658b8ff73(XsDevic
 }
 
 
-bool _wrap_XSDevice_waitForCustomMessage__SWIG_2_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, std::shared_ptr< ReplyObject > *_swig_go_1, XsMessage *_swig_go_2, intgo _swig_go_3) {
+bool _wrap_XSDevice_waitForCustomMessage__SWIG_2_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, std::shared_ptr< ReplyObject > *_swig_go_1, XsMessage *_swig_go_2, intgo _swig_go_3) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   std::shared_ptr< ReplyObject > arg2 ;
   XsMessage *arg3 = 0 ;
@@ -8261,7 +8261,7 @@ bool _wrap_XSDevice_waitForCustomMessage__SWIG_2_mtigen_083b31a658b8ff73(XsDevic
 }
 
 
-std::shared_ptr< ReplyObject > *_wrap_XSDevice_addReplyObject_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsXbusMessageId *_swig_go_1, char _swig_go_2) {
+std::shared_ptr< ReplyObject > *_wrap_XSDevice_addReplyObject_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsXbusMessageId *_swig_go_1, char _swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsXbusMessageId arg2 ;
   uint8_t arg3 ;
@@ -8285,7 +8285,7 @@ std::shared_ptr< ReplyObject > *_wrap_XSDevice_addReplyObject_mtigen_083b31a658b
 }
 
 
-void _wrap_XSDevice_handleMessage_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
+void _wrap_XSDevice_handleMessage_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsMessage *arg2 = 0 ;
   
@@ -8297,7 +8297,7 @@ void _wrap_XSDevice_handleMessage_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, 
 }
 
 
-void _wrap_XSDevice_handleDataPacket_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDataPacket *_swig_go_1) {
+void _wrap_XSDevice_handleDataPacket_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDataPacket *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDataPacket *arg2 = 0 ;
   
@@ -8309,7 +8309,7 @@ void _wrap_XSDevice_handleDataPacket_mtigen_083b31a658b8ff73(XsDevice *_swig_go_
 }
 
 
-void _wrap_XSDevice_handleNonDataMessage_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
+void _wrap_XSDevice_handleNonDataMessage_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsMessage *arg2 = 0 ;
   
@@ -8321,7 +8321,7 @@ void _wrap_XSDevice_handleNonDataMessage_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-void _wrap_XSDevice_handleErrorMessage_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
+void _wrap_XSDevice_handleErrorMessage_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsMessage *arg2 = 0 ;
   
@@ -8333,7 +8333,7 @@ void _wrap_XSDevice_handleErrorMessage_mtigen_083b31a658b8ff73(XsDevice *_swig_g
 }
 
 
-void _wrap_XSDevice_handleWarningMessage_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
+void _wrap_XSDevice_handleWarningMessage_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsMessage *arg2 = 0 ;
   
@@ -8345,7 +8345,7 @@ void _wrap_XSDevice_handleWarningMessage_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-void _wrap_XSDevice_handleWakeupMessage_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
+void _wrap_XSDevice_handleWakeupMessage_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsMessage *arg2 = 0 ;
   
@@ -8357,7 +8357,7 @@ void _wrap_XSDevice_handleWakeupMessage_mtigen_083b31a658b8ff73(XsDevice *_swig_
 }
 
 
-bool _wrap_XSDevice_setSerialBaudRate_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_XSDevice_setSerialBaudRate_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, intgo _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsBaudRate arg2 ;
   bool result;
@@ -8372,7 +8372,7 @@ bool _wrap_XSDevice_setSerialBaudRate_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-XsIntArray *_wrap_XSDevice_portConfiguration_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsIntArray *_wrap_XSDevice_portConfiguration_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsIntArray result;
   XsIntArray *_swig_go_result;
@@ -8385,7 +8385,7 @@ XsIntArray *_wrap_XSDevice_portConfiguration_mtigen_083b31a658b8ff73(XsDevice *_
 }
 
 
-bool _wrap_XSDevice_setPortConfiguration_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsIntArray *_swig_go_1) {
+bool _wrap_XSDevice_setPortConfiguration_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsIntArray *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsIntArray *arg2 = 0 ;
   bool result;
@@ -8400,7 +8400,7 @@ bool _wrap_XSDevice_setPortConfiguration_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-bool _wrap_XSDevice_isMotionTracker_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isMotionTracker_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -8413,7 +8413,7 @@ bool _wrap_XSDevice_isMotionTracker_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0
 }
 
 
-XsOperationalMode *_wrap_XSDevice_operationalMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsOperationalMode *_wrap_XSDevice_operationalMode_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsOperationalMode result;
   XsOperationalMode *_swig_go_result;
@@ -8426,7 +8426,7 @@ XsOperationalMode *_wrap_XSDevice_operationalMode_mtigen_083b31a658b8ff73(XsDevi
 }
 
 
-bool _wrap_XSDevice_setOperationalMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsOperationalMode *_swig_go_1) {
+bool _wrap_XSDevice_setOperationalMode_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsOperationalMode *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsOperationalMode arg2 ;
   XsOperationalMode *argp2 ;
@@ -8448,7 +8448,7 @@ bool _wrap_XSDevice_setOperationalMode_mtigen_083b31a658b8ff73(XsDevice *_swig_g
 }
 
 
-intgo _wrap_XSDevice_updateRate_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+intgo _wrap_XSDevice_updateRate_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8461,7 +8461,7 @@ intgo _wrap_XSDevice_updateRate_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-bool _wrap_XSDevice_setUpdateRate_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_XSDevice_setUpdateRate_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, intgo _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int arg2 ;
   bool result;
@@ -8476,7 +8476,7 @@ bool _wrap_XSDevice_setUpdateRate_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, 
 }
 
 
-XsDeviceOptionFlag *_wrap_XSDevice_deviceOptionFlags_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsDeviceOptionFlag *_wrap_XSDevice_deviceOptionFlags_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDeviceOptionFlag result;
   XsDeviceOptionFlag *_swig_go_result;
@@ -8489,7 +8489,7 @@ XsDeviceOptionFlag *_wrap_XSDevice_deviceOptionFlags_mtigen_083b31a658b8ff73(XsD
 }
 
 
-bool _wrap_XSDevice_setDeviceOptionFlags_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDeviceOptionFlag *_swig_go_1, XsDeviceOptionFlag *_swig_go_2) {
+bool _wrap_XSDevice_setDeviceOptionFlags_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDeviceOptionFlag *_swig_go_1, XsDeviceOptionFlag *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDeviceOptionFlag arg2 ;
   XsDeviceOptionFlag arg3 ;
@@ -8520,7 +8520,7 @@ bool _wrap_XSDevice_setDeviceOptionFlags_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-XsOutputConfigurationArray *_wrap_XSDevice_outputConfiguration_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsOutputConfigurationArray *_wrap_XSDevice_outputConfiguration_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsOutputConfigurationArray result;
   XsOutputConfigurationArray *_swig_go_result;
@@ -8533,7 +8533,7 @@ XsOutputConfigurationArray *_wrap_XSDevice_outputConfiguration_mtigen_083b31a658
 }
 
 
-XsOutputConfigurationArray *_wrap_XSDevice_processedOutputConfiguration_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsOutputConfigurationArray *_wrap_XSDevice_processedOutputConfiguration_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsOutputConfigurationArray result;
   XsOutputConfigurationArray *_swig_go_result;
@@ -8546,7 +8546,7 @@ XsOutputConfigurationArray *_wrap_XSDevice_processedOutputConfiguration_mtigen_0
 }
 
 
-bool _wrap_XSDevice_setOutputConfiguration_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsOutputConfigurationArray *_swig_go_1) {
+bool _wrap_XSDevice_setOutputConfiguration_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsOutputConfigurationArray *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsOutputConfigurationArray *arg2 = 0 ;
   bool result;
@@ -8561,7 +8561,7 @@ bool _wrap_XSDevice_setOutputConfiguration_mtigen_083b31a658b8ff73(XsDevice *_sw
 }
 
 
-bool _wrap_XSDevice_isInStringOutputMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isInStringOutputMode_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -8574,7 +8574,7 @@ bool _wrap_XSDevice_isInStringOutputMode_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-XsCanOutputConfigurationArray *_wrap_XSDevice_canOutputConfiguration_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsCanOutputConfigurationArray *_wrap_XSDevice_canOutputConfiguration_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsCanOutputConfigurationArray result;
   XsCanOutputConfigurationArray *_swig_go_result;
@@ -8587,7 +8587,7 @@ XsCanOutputConfigurationArray *_wrap_XSDevice_canOutputConfiguration_mtigen_083b
 }
 
 
-bool _wrap_XSDevice_setCanOutputConfiguration_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsCanOutputConfigurationArray *_swig_go_1) {
+bool _wrap_XSDevice_setCanOutputConfiguration_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsCanOutputConfigurationArray *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsCanOutputConfigurationArray *arg2 = 0 ;
   bool result;
@@ -8602,7 +8602,7 @@ bool _wrap_XSDevice_setCanOutputConfiguration_mtigen_083b31a658b8ff73(XsDevice *
 }
 
 
-intgo _wrap_XSDevice_canConfiguration_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+intgo _wrap_XSDevice_canConfiguration_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   uint32_t result;
   intgo _swig_go_result;
@@ -8615,7 +8615,7 @@ intgo _wrap_XSDevice_canConfiguration_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-bool _wrap_XSDevice_setCanConfiguration_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_XSDevice_setCanConfiguration_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, intgo _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   uint32_t arg2 ;
   bool result;
@@ -8630,7 +8630,7 @@ bool _wrap_XSDevice_setCanConfiguration_mtigen_083b31a658b8ff73(XsDevice *_swig_
 }
 
 
-bool _wrap_XSDevice_usesLegacyDeviceMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_usesLegacyDeviceMode_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -8643,7 +8643,7 @@ bool _wrap_XSDevice_usesLegacyDeviceMode_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-short _wrap_XSDevice_stringOutputType_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+short _wrap_XSDevice_stringOutputType_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   uint16_t result;
   short _swig_go_result;
@@ -8656,7 +8656,7 @@ short _wrap_XSDevice_stringOutputType_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-short _wrap_XSDevice_stringSamplePeriod_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+short _wrap_XSDevice_stringSamplePeriod_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   uint16_t result;
   short _swig_go_result;
@@ -8669,7 +8669,7 @@ short _wrap_XSDevice_stringSamplePeriod_mtigen_083b31a658b8ff73(XsDevice *_swig_
 }
 
 
-short _wrap_XSDevice_stringSkipFactor_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+short _wrap_XSDevice_stringSkipFactor_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   uint16_t result;
   short _swig_go_result;
@@ -8682,7 +8682,7 @@ short _wrap_XSDevice_stringSkipFactor_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-bool _wrap_XSDevice_setStringOutputMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, short _swig_go_1, short _swig_go_2, short _swig_go_3) {
+bool _wrap_XSDevice_setStringOutputMode_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, short _swig_go_1, short _swig_go_2, short _swig_go_3) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   uint16_t arg2 ;
   uint16_t arg3 ;
@@ -8701,7 +8701,7 @@ bool _wrap_XSDevice_setStringOutputMode_mtigen_083b31a658b8ff73(XsDevice *_swig_
 }
 
 
-XsStringOutputTypeArray *_wrap_XSDevice_supportedStringOutputTypes_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsStringOutputTypeArray *_wrap_XSDevice_supportedStringOutputTypes_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsStringOutputTypeArray result;
   XsStringOutputTypeArray *_swig_go_result;
@@ -8714,7 +8714,7 @@ XsStringOutputTypeArray *_wrap_XSDevice_supportedStringOutputTypes_mtigen_083b31
 }
 
 
-intgo _wrap_XSDevice_dataLength_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+intgo _wrap_XSDevice_dataLength_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -8727,7 +8727,7 @@ intgo _wrap_XSDevice_dataLength_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-XsSyncSettingArray *_wrap_XSDevice_syncSettings_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsSyncSettingArray *_wrap_XSDevice_syncSettings_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsSyncSettingArray result;
   XsSyncSettingArray *_swig_go_result;
@@ -8740,7 +8740,7 @@ XsSyncSettingArray *_wrap_XSDevice_syncSettings_mtigen_083b31a658b8ff73(XsDevice
 }
 
 
-bool _wrap_XSDevice_setSyncSettings_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsSyncSettingArray *_swig_go_1) {
+bool _wrap_XSDevice_setSyncSettings_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsSyncSettingArray *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsSyncSettingArray *arg2 = 0 ;
   bool result;
@@ -8755,7 +8755,7 @@ bool _wrap_XSDevice_setSyncSettings_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0
 }
 
 
-bool _wrap_XSDevice_isSyncMaster_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isSyncMaster_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -8768,7 +8768,7 @@ bool _wrap_XSDevice_isSyncMaster_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-bool _wrap_XSDevice_isSyncSlave_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isSyncSlave_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -8781,7 +8781,7 @@ bool _wrap_XSDevice_isSyncSlave_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-XsSyncSettingArray *_wrap_XSDevice_supportedSyncSettings__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsSyncSettingArray *_wrap_XSDevice_supportedSyncSettings__SWIG_0_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsSyncSettingArray result;
   XsSyncSettingArray *_swig_go_result;
@@ -8794,7 +8794,7 @@ XsSyncSettingArray *_wrap_XSDevice_supportedSyncSettings__SWIG_0_mtigen_083b31a6
 }
 
 
-XsSyncSettingArray *_wrap_XSDevice_supportedSyncSettings__SWIG_1_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+XsSyncSettingArray *_wrap_XSDevice_supportedSyncSettings__SWIG_1_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = 0 ;
   XsSyncSettingArray result;
   XsSyncSettingArray *_swig_go_result;
@@ -8807,7 +8807,7 @@ XsSyncSettingArray *_wrap_XSDevice_supportedSyncSettings__SWIG_1_mtigen_083b31a6
 }
 
 
-bool _wrap_XSDevice_gotoMeasurement_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_gotoMeasurement_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -8820,7 +8820,7 @@ bool _wrap_XSDevice_gotoMeasurement_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0
 }
 
 
-bool _wrap_XSDevice_gotoConfig_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_gotoConfig_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -8833,7 +8833,7 @@ bool _wrap_XSDevice_gotoConfig_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-bool _wrap_XSDevice_restoreFactoryDefaults_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_restoreFactoryDefaults_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -8846,7 +8846,7 @@ bool _wrap_XSDevice_restoreFactoryDefaults_mtigen_083b31a658b8ff73(XsDevice *_sw
 }
 
 
-bool _wrap_XSDevice_reset__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_reset__SWIG_0_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -8859,7 +8859,7 @@ bool _wrap_XSDevice_reset__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) 
 }
 
 
-bool _wrap_XSDevice_reset__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, bool _swig_go_1) {
+bool _wrap_XSDevice_reset__SWIG_1_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, bool _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool arg2 ;
   bool result;
@@ -8874,7 +8874,7 @@ bool _wrap_XSDevice_reset__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, 
 }
 
 
-bool _wrap_XSDevice_reopenPort__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, bool _swig_go_1, bool _swig_go_2) {
+bool _wrap_XSDevice_reopenPort__SWIG_0_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, bool _swig_go_1, bool _swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool arg2 ;
   bool arg3 ;
@@ -8891,7 +8891,7 @@ bool _wrap_XSDevice_reopenPort__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_g
 }
 
 
-bool _wrap_XSDevice_reopenPort__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, bool _swig_go_1) {
+bool _wrap_XSDevice_reopenPort__SWIG_1_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, bool _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool arg2 ;
   bool result;
@@ -8906,7 +8906,7 @@ bool _wrap_XSDevice_reopenPort__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *_swig_g
 }
 
 
-void _wrap_XSDevice_writeDeviceSettingsToFile_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void _wrap_XSDevice_writeDeviceSettingsToFile_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   
   arg1 = *(XsDevice **)&_swig_go_0; 
@@ -8916,7 +8916,7 @@ void _wrap_XSDevice_writeDeviceSettingsToFile_mtigen_083b31a658b8ff73(XsDevice *
 }
 
 
-void _wrap_XSDevice_flushInputBuffers_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void _wrap_XSDevice_flushInputBuffers_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   
   arg1 = *(XsDevice **)&_swig_go_0; 
@@ -8926,7 +8926,7 @@ void _wrap_XSDevice_flushInputBuffers_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-XsSyncRole *_wrap_XSDevice_syncRole_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsSyncRole *_wrap_XSDevice_syncRole_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsSyncRole result;
   XsSyncRole *_swig_go_result;
@@ -8939,7 +8939,7 @@ XsSyncRole *_wrap_XSDevice_syncRole_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0
 }
 
 
-bool _wrap_XSDevice_loadLogFile_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_loadLogFile_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -8952,7 +8952,7 @@ bool _wrap_XSDevice_loadLogFile_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-bool _wrap_XSDevice_abortLoadLogFile_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_abortLoadLogFile_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -8965,7 +8965,7 @@ bool _wrap_XSDevice_abortLoadLogFile_mtigen_083b31a658b8ff73(XsDevice *_swig_go_
 }
 
 
-XsString *_wrap_XSDevice_logFileName_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsString *_wrap_XSDevice_logFileName_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsString result;
   XsString *_swig_go_result;
@@ -8978,7 +8978,7 @@ XsString *_wrap_XSDevice_logFileName_mtigen_083b31a658b8ff73(XsDevice *_swig_go_
 }
 
 
-bool _wrap_XSDevice_resetOrientation_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsResetMethod *_swig_go_1) {
+bool _wrap_XSDevice_resetOrientation_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsResetMethod *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsResetMethod arg2 ;
   XsResetMethod *argp2 ;
@@ -9000,7 +9000,7 @@ bool _wrap_XSDevice_resetOrientation_mtigen_083b31a658b8ff73(XsDevice *_swig_go_
 }
 
 
-bool _wrap_XSDevice_resetLogFileReadPosition_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_resetLogFileReadPosition_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -9013,7 +9013,7 @@ bool _wrap_XSDevice_resetLogFileReadPosition_mtigen_083b31a658b8ff73(XsDevice *_
 }
 
 
-XsFilePos *_wrap_XSDevice_logFileSize_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsFilePos *_wrap_XSDevice_logFileSize_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsFilePos result;
   XsFilePos *_swig_go_result;
@@ -9026,7 +9026,7 @@ XsFilePos *_wrap_XSDevice_logFileSize_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-XsFilePos *_wrap_XSDevice_logFileReadPosition_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsFilePos *_wrap_XSDevice_logFileReadPosition_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsFilePos result;
   XsFilePos *_swig_go_result;
@@ -9039,7 +9039,7 @@ XsFilePos *_wrap_XSDevice_logFileReadPosition_mtigen_083b31a658b8ff73(XsDevice *
 }
 
 
-bool _wrap_XSDevice_updateCachedDeviceInformation_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_updateCachedDeviceInformation_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -9052,7 +9052,7 @@ bool _wrap_XSDevice_updateCachedDeviceInformation_mtigen_083b31a658b8ff73(XsDevi
 }
 
 
-bool _wrap_XSDevice_enableProtocol_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsProtocolType *_swig_go_1) {
+bool _wrap_XSDevice_enableProtocol_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsProtocolType *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsProtocolType arg2 ;
   XsProtocolType *argp2 ;
@@ -9074,7 +9074,7 @@ bool _wrap_XSDevice_enableProtocol_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0,
 }
 
 
-bool _wrap_XSDevice_disableProtocol_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsProtocolType *_swig_go_1) {
+bool _wrap_XSDevice_disableProtocol_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsProtocolType *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsProtocolType arg2 ;
   XsProtocolType *argp2 ;
@@ -9096,7 +9096,7 @@ bool _wrap_XSDevice_disableProtocol_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0
 }
 
 
-bool _wrap_XSDevice_isProtocolEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsProtocolType *_swig_go_1) {
+bool _wrap_XSDevice_isProtocolEnabled_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsProtocolType *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsProtocolType arg2 ;
   XsProtocolType *argp2 ;
@@ -9118,7 +9118,7 @@ bool _wrap_XSDevice_isProtocolEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-intgo _wrap_XSDevice_deviceBufferSize_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+intgo _wrap_XSDevice_deviceBufferSize_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   uint32_t result;
   intgo _swig_go_result;
@@ -9131,7 +9131,7 @@ intgo _wrap_XSDevice_deviceBufferSize_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-bool _wrap_XSDevice_setDeviceBufferSize_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_XSDevice_setDeviceBufferSize_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, intgo _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   uint32_t arg2 ;
   bool result;
@@ -9146,7 +9146,7 @@ bool _wrap_XSDevice_setDeviceBufferSize_mtigen_083b31a658b8ff73(XsDevice *_swig_
 }
 
 
-XsConnectivityState *_wrap_XSDevice_connectivityState_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsConnectivityState *_wrap_XSDevice_connectivityState_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsConnectivityState result;
   XsConnectivityState *_swig_go_result;
@@ -9159,7 +9159,7 @@ XsConnectivityState *_wrap_XSDevice_connectivityState_mtigen_083b31a658b8ff73(Xs
 }
 
 
-void _wrap_XSDevice_waitForAllDevicesInitialized_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void _wrap_XSDevice_waitForAllDevicesInitialized_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   
   arg1 = *(XsDevice **)&_swig_go_0; 
@@ -9169,7 +9169,7 @@ void _wrap_XSDevice_waitForAllDevicesInitialized_mtigen_083b31a658b8ff73(XsDevic
 }
 
 
-std::vector< XsDevice * > *_wrap_XSDevice_children_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+std::vector< XsDevice * > *_wrap_XSDevice_children_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   SwigValueWrapper< std::vector< XsDevice * > > result;
   std::vector< XsDevice * > *_swig_go_result;
@@ -9182,7 +9182,7 @@ std::vector< XsDevice * > *_wrap_XSDevice_children_mtigen_083b31a658b8ff73(XsDev
 }
 
 
-intgo _wrap_XSDevice_childCount_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+intgo _wrap_XSDevice_childCount_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9195,7 +9195,7 @@ intgo _wrap_XSDevice_childCount_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-bool _wrap_XSDevice_enableRadio_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_XSDevice_enableRadio_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, intgo _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int arg2 ;
   bool result;
@@ -9210,7 +9210,7 @@ bool _wrap_XSDevice_enableRadio_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, in
 }
 
 
-bool _wrap_XSDevice_disableRadio_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_disableRadio_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -9223,7 +9223,7 @@ bool _wrap_XSDevice_disableRadio_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-intgo _wrap_XSDevice_radioChannel_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+intgo _wrap_XSDevice_radioChannel_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9236,7 +9236,7 @@ intgo _wrap_XSDevice_radioChannel_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) 
 }
 
 
-bool _wrap_XSDevice_isRadioEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isRadioEnabled_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -9249,7 +9249,7 @@ bool _wrap_XSDevice_isRadioEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0)
 }
 
 
-bool _wrap_XSDevice_makeOperational_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_makeOperational_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -9262,7 +9262,7 @@ bool _wrap_XSDevice_makeOperational_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0
 }
 
 
-bool _wrap_XSDevice_isOperational_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isOperational_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -9275,7 +9275,7 @@ bool _wrap_XSDevice_isOperational_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) 
 }
 
 
-bool _wrap_XSDevice_isInSyncStationMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isInSyncStationMode_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -9288,7 +9288,7 @@ bool _wrap_XSDevice_isInSyncStationMode_mtigen_083b31a658b8ff73(XsDevice *_swig_
 }
 
 
-bool _wrap_XSDevice_setSyncStationMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, bool _swig_go_1) {
+bool _wrap_XSDevice_setSyncStationMode_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, bool _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool arg2 ;
   bool result;
@@ -9303,7 +9303,7 @@ bool _wrap_XSDevice_setSyncStationMode_mtigen_083b31a658b8ff73(XsDevice *_swig_g
 }
 
 
-bool _wrap_XSDevice_stealthMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_stealthMode_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -9316,7 +9316,7 @@ bool _wrap_XSDevice_stealthMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-bool _wrap_XSDevice_setStealthMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, bool _swig_go_1) {
+bool _wrap_XSDevice_setStealthMode_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, bool _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool arg2 ;
   bool result;
@@ -9331,7 +9331,7 @@ bool _wrap_XSDevice_setStealthMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0,
 }
 
 
-void _wrap_XSDevice_discardRetransmissions_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, long long _swig_go_1) {
+void _wrap_XSDevice_discardRetransmissions_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, long long _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int64_t arg2 ;
   
@@ -9343,7 +9343,7 @@ void _wrap_XSDevice_discardRetransmissions_mtigen_083b31a658b8ff73(XsDevice *_sw
 }
 
 
-void _wrap_XSDevice_handleMasterIndication_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
+void _wrap_XSDevice_handleMasterIndication_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsMessage *arg2 = 0 ;
   
@@ -9355,7 +9355,7 @@ void _wrap_XSDevice_handleMasterIndication_mtigen_083b31a658b8ff73(XsDevice *_sw
 }
 
 
-bool _wrap_XSDevice_abortFlushing_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_abortFlushing_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -9368,7 +9368,7 @@ bool _wrap_XSDevice_abortFlushing_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) 
 }
 
 
-bool _wrap_XSDevice_setDeviceAccepted_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDeviceId *_swig_go_1) {
+bool _wrap_XSDevice_setDeviceAccepted_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDeviceId *arg2 = 0 ;
   bool result;
@@ -9383,7 +9383,7 @@ bool _wrap_XSDevice_setDeviceAccepted_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-bool _wrap_XSDevice_setDeviceRejected_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDeviceId *_swig_go_1) {
+bool _wrap_XSDevice_setDeviceRejected_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDeviceId *arg2 = 0 ;
   bool result;
@@ -9398,7 +9398,7 @@ bool _wrap_XSDevice_setDeviceRejected_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-bool _wrap_XSDevice_setAccessControlMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsAccessControlMode *_swig_go_1, XsDeviceIdArray *_swig_go_2) {
+bool _wrap_XSDevice_setAccessControlMode_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsAccessControlMode *_swig_go_1, XsDeviceIdArray *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsAccessControlMode arg2 ;
   XsDeviceIdArray *arg3 = 0 ;
@@ -9422,7 +9422,7 @@ bool _wrap_XSDevice_setAccessControlMode_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-XsAccessControlMode *_wrap_XSDevice_accessControlMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsAccessControlMode *_wrap_XSDevice_accessControlMode_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsAccessControlMode result;
   XsAccessControlMode *_swig_go_result;
@@ -9435,7 +9435,7 @@ XsAccessControlMode *_wrap_XSDevice_accessControlMode_mtigen_083b31a658b8ff73(Xs
 }
 
 
-XsDeviceIdArray *_wrap_XSDevice_currentAccessControlList_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsDeviceIdArray *_wrap_XSDevice_currentAccessControlList_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDeviceIdArray result;
   XsDeviceIdArray *_swig_go_result;
@@ -9448,7 +9448,7 @@ XsDeviceIdArray *_wrap_XSDevice_currentAccessControlList_mtigen_083b31a658b8ff73
 }
 
 
-XsResultValue *_wrap_XSDevice_setDeviceParameter_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDeviceParameter *_swig_go_1) {
+XsResultValue *_wrap_XSDevice_setDeviceParameter_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDeviceParameter *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDeviceParameter *arg2 = 0 ;
   XsResultValue result;
@@ -9463,7 +9463,7 @@ XsResultValue *_wrap_XSDevice_setDeviceParameter_mtigen_083b31a658b8ff73(XsDevic
 }
 
 
-XsResultValue *_wrap_XSDevice_deviceParameter_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDeviceParameter *_swig_go_1) {
+XsResultValue *_wrap_XSDevice_deviceParameter_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDeviceParameter *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDeviceParameter *arg2 = 0 ;
   XsResultValue result;
@@ -9478,7 +9478,7 @@ XsResultValue *_wrap_XSDevice_deviceParameter_mtigen_083b31a658b8ff73(XsDevice *
 }
 
 
-XsGnssPlatform *_wrap_XSDevice_gnssPlatform_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsGnssPlatform *_wrap_XSDevice_gnssPlatform_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsGnssPlatform result;
   XsGnssPlatform *_swig_go_result;
@@ -9491,7 +9491,7 @@ XsGnssPlatform *_wrap_XSDevice_gnssPlatform_mtigen_083b31a658b8ff73(XsDevice *_s
 }
 
 
-bool _wrap_XSDevice_setGnssPlatform_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsGnssPlatform *_swig_go_1) {
+bool _wrap_XSDevice_setGnssPlatform_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsGnssPlatform *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsGnssPlatform arg2 ;
   XsGnssPlatform *argp2 ;
@@ -9513,7 +9513,7 @@ bool _wrap_XSDevice_setGnssPlatform_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0
 }
 
 
-bool _wrap_XSDevice_acceptConnection_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_acceptConnection_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -9526,7 +9526,7 @@ bool _wrap_XSDevice_acceptConnection_mtigen_083b31a658b8ff73(XsDevice *_swig_go_
 }
 
 
-bool _wrap_XSDevice_rejectConnection_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_rejectConnection_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -9539,7 +9539,7 @@ bool _wrap_XSDevice_rejectConnection_mtigen_083b31a658b8ff73(XsDevice *_swig_go_
 }
 
 
-intgo _wrap_XSDevice_wirelessPriority_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+intgo _wrap_XSDevice_wirelessPriority_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9552,7 +9552,7 @@ intgo _wrap_XSDevice_wirelessPriority_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-bool _wrap_XSDevice_setWirelessPriority_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_XSDevice_setWirelessPriority_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, intgo _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int arg2 ;
   bool result;
@@ -9567,7 +9567,7 @@ bool _wrap_XSDevice_setWirelessPriority_mtigen_083b31a658b8ff73(XsDevice *_swig_
 }
 
 
-XsRejectReason *_wrap_XSDevice_rejectReason_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsRejectReason *_wrap_XSDevice_rejectReason_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsRejectReason result;
   XsRejectReason *_swig_go_result;
@@ -9580,7 +9580,7 @@ XsRejectReason *_wrap_XSDevice_rejectReason_mtigen_083b31a658b8ff73(XsDevice *_s
 }
 
 
-bool _wrap_XSDevice_requestBatteryLevel_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_requestBatteryLevel_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -9593,7 +9593,7 @@ bool _wrap_XSDevice_requestBatteryLevel_mtigen_083b31a658b8ff73(XsDevice *_swig_
 }
 
 
-XsTimeStamp *_wrap_XSDevice_batteryLevelTime_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsTimeStamp *_wrap_XSDevice_batteryLevelTime_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsTimeStamp result;
   XsTimeStamp *_swig_go_result;
@@ -9606,7 +9606,7 @@ XsTimeStamp *_wrap_XSDevice_batteryLevelTime_mtigen_083b31a658b8ff73(XsDevice *_
 }
 
 
-bool _wrap_XSDevice_setTransportMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, bool _swig_go_1) {
+bool _wrap_XSDevice_setTransportMode_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, bool _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool arg2 ;
   bool result;
@@ -9621,7 +9621,7 @@ bool _wrap_XSDevice_setTransportMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_
 }
 
 
-bool _wrap_XSDevice_transportMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_transportMode_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -9634,7 +9634,7 @@ bool _wrap_XSDevice_transportMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) 
 }
 
 
-short _wrap_XSDevice_lastKnownRssi_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+short _wrap_XSDevice_lastKnownRssi_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int16_t result;
   short _swig_go_result;
@@ -9647,7 +9647,7 @@ short _wrap_XSDevice_lastKnownRssi_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0)
 }
 
 
-void _wrap_XSDevice_setPacketErrorRate_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, intgo _swig_go_1) {
+void _wrap_XSDevice_setPacketErrorRate_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, intgo _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int arg2 ;
   
@@ -9659,7 +9659,7 @@ void _wrap_XSDevice_setPacketErrorRate_mtigen_083b31a658b8ff73(XsDevice *_swig_g
 }
 
 
-intgo _wrap_XSDevice_packetErrorRate_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+intgo _wrap_XSDevice_packetErrorRate_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9672,7 +9672,7 @@ intgo _wrap_XSDevice_packetErrorRate_mtigen_083b31a658b8ff73(XsDevice *_swig_go_
 }
 
 
-bool _wrap_XSDevice_isBlueToothEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isBlueToothEnabled_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -9685,7 +9685,7 @@ bool _wrap_XSDevice_isBlueToothEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_g
 }
 
 
-bool _wrap_XSDevice_setBlueToothEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, bool _swig_go_1) {
+bool _wrap_XSDevice_setBlueToothEnabled_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, bool _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool arg2 ;
   bool result;
@@ -9700,7 +9700,7 @@ bool _wrap_XSDevice_setBlueToothEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_
 }
 
 
-bool _wrap_XSDevice_isBusPowerEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isBusPowerEnabled_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -9713,7 +9713,7 @@ bool _wrap_XSDevice_isBusPowerEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-bool _wrap_XSDevice_setBusPowerEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, bool _swig_go_1) {
+bool _wrap_XSDevice_setBusPowerEnabled_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, bool _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool arg2 ;
   bool result;
@@ -9728,7 +9728,7 @@ bool _wrap_XSDevice_setBusPowerEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_g
 }
 
 
-bool _wrap_XSDevice_powerDown_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_powerDown_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -9741,7 +9741,7 @@ bool _wrap_XSDevice_powerDown_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-XsErrorMode *_wrap_XSDevice_errorMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsErrorMode *_wrap_XSDevice_errorMode_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsErrorMode result;
   XsErrorMode *_swig_go_result;
@@ -9754,7 +9754,7 @@ XsErrorMode *_wrap_XSDevice_errorMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-bool _wrap_XSDevice_setErrorMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsErrorMode *_swig_go_1) {
+bool _wrap_XSDevice_setErrorMode_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsErrorMode *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsErrorMode arg2 ;
   XsErrorMode *argp2 ;
@@ -9776,7 +9776,7 @@ bool _wrap_XSDevice_setErrorMode_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, X
 }
 
 
-bool _wrap_XSDevice_setHeadingOffset_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, double _swig_go_1) {
+bool _wrap_XSDevice_setHeadingOffset_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, double _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   double arg2 ;
   bool result;
@@ -9791,7 +9791,7 @@ bool _wrap_XSDevice_setHeadingOffset_mtigen_083b31a658b8ff73(XsDevice *_swig_go_
 }
 
 
-double _wrap_XSDevice_headingOffset_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+double _wrap_XSDevice_headingOffset_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   double result;
   double _swig_go_result;
@@ -9804,7 +9804,7 @@ double _wrap_XSDevice_headingOffset_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0
 }
 
 
-bool _wrap_XSDevice_setLocationId_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_XSDevice_setLocationId_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, intgo _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int arg2 ;
   bool result;
@@ -9819,7 +9819,7 @@ bool _wrap_XSDevice_setLocationId_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, 
 }
 
 
-intgo _wrap_XSDevice_locationId_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+intgo _wrap_XSDevice_locationId_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -9832,7 +9832,7 @@ intgo _wrap_XSDevice_locationId_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-XsDevice *_wrap_XSDevice_getDeviceFromLocationId_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, short _swig_go_1) {
+XsDevice *_wrap_XSDevice_getDeviceFromLocationId_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, short _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   uint16_t arg2 ;
   XsDevice *result = 0 ;
@@ -9847,7 +9847,7 @@ XsDevice *_wrap_XSDevice_getDeviceFromLocationId_mtigen_083b31a658b8ff73(XsDevic
 }
 
 
-XsMatrix *_wrap_XSDevice_objectAlignment_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsMatrix *_wrap_XSDevice_objectAlignment_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsMatrix result;
   XsMatrix *_swig_go_result;
@@ -9860,7 +9860,7 @@ XsMatrix *_wrap_XSDevice_objectAlignment_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-bool _wrap_XSDevice_setObjectAlignment_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsMatrix *_swig_go_1) {
+bool _wrap_XSDevice_setObjectAlignment_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsMatrix *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsMatrix *arg2 = 0 ;
   bool result;
@@ -9875,7 +9875,7 @@ bool _wrap_XSDevice_setObjectAlignment_mtigen_083b31a658b8ff73(XsDevice *_swig_g
 }
 
 
-double _wrap_XSDevice_gravityMagnitude_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+double _wrap_XSDevice_gravityMagnitude_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   double result;
   double _swig_go_result;
@@ -9888,7 +9888,7 @@ double _wrap_XSDevice_gravityMagnitude_mtigen_083b31a658b8ff73(XsDevice *_swig_g
 }
 
 
-bool _wrap_XSDevice_setGravityMagnitude_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, double _swig_go_1) {
+bool _wrap_XSDevice_setGravityMagnitude_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, double _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   double arg2 ;
   bool result;
@@ -9903,7 +9903,7 @@ bool _wrap_XSDevice_setGravityMagnitude_mtigen_083b31a658b8ff73(XsDevice *_swig_
 }
 
 
-XsVector *_wrap_XSDevice_initialPositionLLA_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsVector *_wrap_XSDevice_initialPositionLLA_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsVector result;
   XsVector *_swig_go_result;
@@ -9916,7 +9916,7 @@ XsVector *_wrap_XSDevice_initialPositionLLA_mtigen_083b31a658b8ff73(XsDevice *_s
 }
 
 
-bool _wrap_XSDevice_setInitialPositionLLA_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsVector *_swig_go_1) {
+bool _wrap_XSDevice_setInitialPositionLLA_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsVector *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsVector *arg2 = 0 ;
   bool result;
@@ -9931,7 +9931,7 @@ bool _wrap_XSDevice_setInitialPositionLLA_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-XsTimeInfo *_wrap_XSDevice_utcTime_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsTimeInfo *_wrap_XSDevice_utcTime_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsTimeInfo result;
   XsTimeInfo *_swig_go_result;
@@ -9944,7 +9944,7 @@ XsTimeInfo *_wrap_XSDevice_utcTime_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0)
 }
 
 
-bool _wrap_XSDevice_setUtcTime_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsTimeInfo *_swig_go_1) {
+bool _wrap_XSDevice_setUtcTime_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsTimeInfo *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsTimeInfo *arg2 = 0 ;
   bool result;
@@ -9959,7 +9959,7 @@ bool _wrap_XSDevice_setUtcTime_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsT
 }
 
 
-bool _wrap_XSDevice_reinitialize_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_reinitialize_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -9972,7 +9972,7 @@ bool _wrap_XSDevice_reinitialize_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-XsFilterProfile *_wrap_XSDevice_xdaFilterProfile_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsFilterProfile *_wrap_XSDevice_xdaFilterProfile_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsFilterProfile result;
   XsFilterProfile *_swig_go_result;
@@ -9985,7 +9985,7 @@ XsFilterProfile *_wrap_XSDevice_xdaFilterProfile_mtigen_083b31a658b8ff73(XsDevic
 }
 
 
-bool _wrap_XSDevice_setXdaFilterProfile__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_XSDevice_setXdaFilterProfile__SWIG_0_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, intgo _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int arg2 ;
   bool result;
@@ -10000,7 +10000,7 @@ bool _wrap_XSDevice_setXdaFilterProfile__SWIG_0_mtigen_083b31a658b8ff73(XsDevice
 }
 
 
-bool _wrap_XSDevice_setXdaFilterProfile__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsString *_swig_go_1) {
+bool _wrap_XSDevice_setXdaFilterProfile__SWIG_1_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsString *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsString *arg2 = 0 ;
   bool result;
@@ -10015,7 +10015,7 @@ bool _wrap_XSDevice_setXdaFilterProfile__SWIG_1_mtigen_083b31a658b8ff73(XsDevice
 }
 
 
-XsFilterProfile *_wrap_XSDevice_onboardFilterProfile_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsFilterProfile *_wrap_XSDevice_onboardFilterProfile_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsFilterProfile result;
   XsFilterProfile *_swig_go_result;
@@ -10028,7 +10028,7 @@ XsFilterProfile *_wrap_XSDevice_onboardFilterProfile_mtigen_083b31a658b8ff73(XsD
 }
 
 
-bool _wrap_XSDevice_setOnboardFilterProfile__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, intgo _swig_go_1) {
+bool _wrap_XSDevice_setOnboardFilterProfile__SWIG_0_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, intgo _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int arg2 ;
   bool result;
@@ -10043,7 +10043,7 @@ bool _wrap_XSDevice_setOnboardFilterProfile__SWIG_0_mtigen_083b31a658b8ff73(XsDe
 }
 
 
-bool _wrap_XSDevice_setOnboardFilterProfile__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsString *_swig_go_1) {
+bool _wrap_XSDevice_setOnboardFilterProfile__SWIG_1_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsString *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsString *arg2 = 0 ;
   bool result;
@@ -10058,7 +10058,7 @@ bool _wrap_XSDevice_setOnboardFilterProfile__SWIG_1_mtigen_083b31a658b8ff73(XsDe
 }
 
 
-bool _wrap_XSDevice_replaceFilterProfile_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsFilterProfile *_swig_go_1, XsFilterProfile *_swig_go_2) {
+bool _wrap_XSDevice_replaceFilterProfile_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsFilterProfile *_swig_go_1, XsFilterProfile *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsFilterProfile *arg2 = 0 ;
   XsFilterProfile *arg3 = 0 ;
@@ -10075,7 +10075,7 @@ bool _wrap_XSDevice_replaceFilterProfile_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-XsFilterProfileArray *_wrap_XSDevice_availableOnboardFilterProfiles_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsFilterProfileArray *_wrap_XSDevice_availableOnboardFilterProfiles_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsFilterProfileArray result;
   XsFilterProfileArray *_swig_go_result;
@@ -10088,7 +10088,7 @@ XsFilterProfileArray *_wrap_XSDevice_availableOnboardFilterProfiles_mtigen_083b3
 }
 
 
-XsFilterProfileArray *_wrap_XSDevice_availableXdaFilterProfiles_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsFilterProfileArray *_wrap_XSDevice_availableXdaFilterProfiles_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsFilterProfileArray result;
   XsFilterProfileArray *_swig_go_result;
@@ -10101,7 +10101,7 @@ XsFilterProfileArray *_wrap_XSDevice_availableXdaFilterProfiles_mtigen_083b31a65
 }
 
 
-double _wrap_XSDevice_accelerometerRange_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+double _wrap_XSDevice_accelerometerRange_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   double result;
   double _swig_go_result;
@@ -10114,7 +10114,7 @@ double _wrap_XSDevice_accelerometerRange_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-double _wrap_XSDevice_gyroscopeRange_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+double _wrap_XSDevice_gyroscopeRange_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   double result;
   double _swig_go_result;
@@ -10127,7 +10127,7 @@ double _wrap_XSDevice_gyroscopeRange_mtigen_083b31a658b8ff73(XsDevice *_swig_go_
 }
 
 
-bool _wrap_XSDevice_setNoRotation_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, short _swig_go_1) {
+bool _wrap_XSDevice_setNoRotation_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, short _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   uint16_t arg2 ;
   bool result;
@@ -10142,7 +10142,7 @@ bool _wrap_XSDevice_setNoRotation_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, 
 }
 
 
-bool _wrap_XSDevice_startRepresentativeMotion_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_startRepresentativeMotion_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -10155,7 +10155,7 @@ bool _wrap_XSDevice_startRepresentativeMotion_mtigen_083b31a658b8ff73(XsDevice *
 }
 
 
-bool _wrap_XSDevice_representativeMotionState_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_representativeMotionState_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -10168,7 +10168,7 @@ bool _wrap_XSDevice_representativeMotionState_mtigen_083b31a658b8ff73(XsDevice *
 }
 
 
-XsIccRepMotionResult *_wrap_XSDevice_stopRepresentativeMotion_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsIccRepMotionResult *_wrap_XSDevice_stopRepresentativeMotion_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsIccRepMotionResult result;
   XsIccRepMotionResult *_swig_go_result;
@@ -10181,7 +10181,7 @@ XsIccRepMotionResult *_wrap_XSDevice_stopRepresentativeMotion_mtigen_083b31a658b
 }
 
 
-bool _wrap_XSDevice_storeIccResults_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_storeIccResults_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -10194,7 +10194,7 @@ bool _wrap_XSDevice_storeIccResults_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0
 }
 
 
-short _wrap_XSDevice_rs485TransmissionDelay_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+short _wrap_XSDevice_rs485TransmissionDelay_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   uint16_t result;
   short _swig_go_result;
@@ -10207,7 +10207,7 @@ short _wrap_XSDevice_rs485TransmissionDelay_mtigen_083b31a658b8ff73(XsDevice *_s
 }
 
 
-bool _wrap_XSDevice_setRs485TransmissionDelay_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, short _swig_go_1) {
+bool _wrap_XSDevice_setRs485TransmissionDelay_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, short _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   uint16_t arg2 ;
   bool result;
@@ -10222,7 +10222,7 @@ bool _wrap_XSDevice_setRs485TransmissionDelay_mtigen_083b31a658b8ff73(XsDevice *
 }
 
 
-XsSelfTestResult *_wrap_XSDevice_runSelfTest_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsSelfTestResult *_wrap_XSDevice_runSelfTest_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsSelfTestResult result;
   XsSelfTestResult *_swig_go_result;
@@ -10235,7 +10235,7 @@ XsSelfTestResult *_wrap_XSDevice_runSelfTest_mtigen_083b31a658b8ff73(XsDevice *_
 }
 
 
-bool _wrap_XSDevice_requestData_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_requestData_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -10248,7 +10248,7 @@ bool _wrap_XSDevice_requestData_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-bool _wrap_XSDevice_storeFilterState_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_storeFilterState_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -10261,7 +10261,7 @@ bool _wrap_XSDevice_storeFilterState_mtigen_083b31a658b8ff73(XsDevice *_swig_go_
 }
 
 
-XsDataPacket *_wrap_XSDevice_getDataPacketByIndex_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, long long _swig_go_1) {
+XsDataPacket *_wrap_XSDevice_getDataPacketByIndex_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, long long _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsSize arg2 ;
   XsDataPacket result;
@@ -10276,7 +10276,7 @@ XsDataPacket *_wrap_XSDevice_getDataPacketByIndex_mtigen_083b31a658b8ff73(XsDevi
 }
 
 
-long long _wrap_XSDevice_getDataPacketCount_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+long long _wrap_XSDevice_getDataPacketCount_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -10289,7 +10289,7 @@ long long _wrap_XSDevice_getDataPacketCount_mtigen_083b31a658b8ff73(XsDevice *_s
 }
 
 
-XsDataPacket *_wrap_XSDevice_lastAvailableLiveData_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsDataPacket *_wrap_XSDevice_lastAvailableLiveData_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDataPacket result;
   XsDataPacket *_swig_go_result;
@@ -10302,7 +10302,7 @@ XsDataPacket *_wrap_XSDevice_lastAvailableLiveData_mtigen_083b31a658b8ff73(XsDev
 }
 
 
-XsDataPacket *_wrap_XSDevice_takeFirstDataPacketInQueue_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsDataPacket *_wrap_XSDevice_takeFirstDataPacketInQueue_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDataPacket result;
   XsDataPacket *_swig_go_result;
@@ -10315,7 +10315,7 @@ XsDataPacket *_wrap_XSDevice_takeFirstDataPacketInQueue_mtigen_083b31a658b8ff73(
 }
 
 
-bool _wrap_XSDevice_isInitialBiasUpdateEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isInitialBiasUpdateEnabled_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -10328,7 +10328,7 @@ bool _wrap_XSDevice_isInitialBiasUpdateEnabled_mtigen_083b31a658b8ff73(XsDevice 
 }
 
 
-bool _wrap_XSDevice_setInitialBiasUpdateEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, bool _swig_go_1) {
+bool _wrap_XSDevice_setInitialBiasUpdateEnabled_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, bool _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool arg2 ;
   bool result;
@@ -10343,7 +10343,7 @@ bool _wrap_XSDevice_setInitialBiasUpdateEnabled_mtigen_083b31a658b8ff73(XsDevice
 }
 
 
-bool _wrap_XSDevice_isFixedGravityEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isFixedGravityEnabled_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -10356,7 +10356,7 @@ bool _wrap_XSDevice_isFixedGravityEnabled_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-bool _wrap_XSDevice_setFixedGravityEnabled_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, bool _swig_go_1) {
+bool _wrap_XSDevice_setFixedGravityEnabled_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, bool _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool arg2 ;
   bool result;
@@ -10371,7 +10371,7 @@ bool _wrap_XSDevice_setFixedGravityEnabled_mtigen_083b31a658b8ff73(XsDevice *_sw
 }
 
 
-XsResultValue *_wrap_XSDevice_createConfigFile_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsString *_swig_go_1) {
+XsResultValue *_wrap_XSDevice_createConfigFile_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsString *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsString *arg2 = 0 ;
   XsResultValue result;
@@ -10386,7 +10386,7 @@ XsResultValue *_wrap_XSDevice_createConfigFile_mtigen_083b31a658b8ff73(XsDevice 
 }
 
 
-XsResultValue *_wrap_XSDevice_applyConfigFile_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsString *_swig_go_1) {
+XsResultValue *_wrap_XSDevice_applyConfigFile_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsString *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsString *arg2 = 0 ;
   XsResultValue result;
@@ -10401,7 +10401,7 @@ XsResultValue *_wrap_XSDevice_applyConfigFile_mtigen_083b31a658b8ff73(XsDevice *
 }
 
 
-bool _wrap_XSDevice_setAlignmentRotationMatrix_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsAlignmentFrame *_swig_go_1, XsMatrix *_swig_go_2) {
+bool _wrap_XSDevice_setAlignmentRotationMatrix_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsAlignmentFrame *_swig_go_1, XsMatrix *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsAlignmentFrame arg2 ;
   XsMatrix *arg3 = 0 ;
@@ -10425,7 +10425,7 @@ bool _wrap_XSDevice_setAlignmentRotationMatrix_mtigen_083b31a658b8ff73(XsDevice 
 }
 
 
-XsMatrix *_wrap_XSDevice_alignmentRotationMatrix_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsAlignmentFrame *_swig_go_1) {
+XsMatrix *_wrap_XSDevice_alignmentRotationMatrix_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsAlignmentFrame *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsAlignmentFrame arg2 ;
   XsAlignmentFrame *argp2 ;
@@ -10447,7 +10447,7 @@ XsMatrix *_wrap_XSDevice_alignmentRotationMatrix_mtigen_083b31a658b8ff73(XsDevic
 }
 
 
-bool _wrap_XSDevice_setAlignmentRotationQuaternion_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsAlignmentFrame *_swig_go_1, XsQuaternion *_swig_go_2) {
+bool _wrap_XSDevice_setAlignmentRotationQuaternion_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsAlignmentFrame *_swig_go_1, XsQuaternion *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsAlignmentFrame arg2 ;
   XsQuaternion *arg3 = 0 ;
@@ -10471,7 +10471,7 @@ bool _wrap_XSDevice_setAlignmentRotationQuaternion_mtigen_083b31a658b8ff73(XsDev
 }
 
 
-XsQuaternion *_wrap_XSDevice_alignmentRotationQuaternion_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsAlignmentFrame *_swig_go_1) {
+XsQuaternion *_wrap_XSDevice_alignmentRotationQuaternion_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsAlignmentFrame *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsAlignmentFrame arg2 ;
   XsAlignmentFrame *argp2 ;
@@ -10493,7 +10493,7 @@ XsQuaternion *_wrap_XSDevice_alignmentRotationQuaternion_mtigen_083b31a658b8ff73
 }
 
 
-xsens::GuardedMutex *_wrap_XSDevice_mutex_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+xsens::GuardedMutex *_wrap_XSDevice_mutex_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   xsens::GuardedMutex *result = 0 ;
   xsens::GuardedMutex *_swig_go_result;
@@ -10506,7 +10506,7 @@ xsens::GuardedMutex *_wrap_XSDevice_mutex_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-bool _wrap_XSDevice_deviceIsDocked_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1) {
+bool _wrap_XSDevice_deviceIsDocked_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   bool result;
@@ -10521,7 +10521,7 @@ bool _wrap_XSDevice_deviceIsDocked_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0,
 }
 
 
-bool _wrap_XSDevice_isLoadLogFileInProgress_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_isLoadLogFileInProgress_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -10534,7 +10534,7 @@ bool _wrap_XSDevice_isLoadLogFileInProgress_mtigen_083b31a658b8ff73(XsDevice *_s
 }
 
 
-void _wrap_XSDevice_waitForLoadLogFileDone_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void _wrap_XSDevice_waitForLoadLogFileDone_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   
   arg1 = *(XsDevice **)&_swig_go_0; 
@@ -10544,7 +10544,7 @@ void _wrap_XSDevice_waitForLoadLogFileDone_mtigen_083b31a658b8ff73(XsDevice *_sw
 }
 
 
-bool _wrap_XSDevice_messageLooksSane_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
+bool _wrap_XSDevice_messageLooksSane_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsMessage *arg2 = 0 ;
   bool result;
@@ -10559,7 +10559,7 @@ bool _wrap_XSDevice_messageLooksSane_mtigen_083b31a658b8ff73(XsDevice *_swig_go_
 }
 
 
-void _wrap_XSDevice_prepareForTermination_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void _wrap_XSDevice_prepareForTermination_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   
   arg1 = *(XsDevice **)&_swig_go_0; 
@@ -10569,7 +10569,7 @@ void _wrap_XSDevice_prepareForTermination_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-bool _wrap_XSDevice_setGnssLeverArm_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsVector *_swig_go_1) {
+bool _wrap_XSDevice_setGnssLeverArm_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsVector *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsVector *arg2 = 0 ;
   bool result;
@@ -10584,7 +10584,7 @@ bool _wrap_XSDevice_setGnssLeverArm_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0
 }
 
 
-XsVector *_wrap_XSDevice_gnssLeverArm_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+XsVector *_wrap_XSDevice_gnssLeverArm_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsVector result;
   XsVector *_swig_go_result;
@@ -10597,7 +10597,7 @@ XsVector *_wrap_XSDevice_gnssLeverArm_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-bool _wrap_XSDevice_requestUtcTime_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_requestUtcTime_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -10610,7 +10610,7 @@ bool _wrap_XSDevice_requestUtcTime_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0)
 }
 
 
-void _wrap_XSDevice_handleUnavailableData_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, long long _swig_go_1) {
+void _wrap_XSDevice_handleUnavailableData_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, long long _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int64_t arg2 ;
   
@@ -10622,7 +10622,7 @@ void _wrap_XSDevice_handleUnavailableData_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-bool _wrap_XSDevice_writeEmtsPage_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, char *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+bool _wrap_XSDevice_writeEmtsPage_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, char *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   uint8_t *arg2 = (uint8_t *) 0 ;
   int arg3 ;
@@ -10641,7 +10641,7 @@ bool _wrap_XSDevice_writeEmtsPage_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, 
 }
 
 
-void _wrap_XSDevice_setSkipEmtsReadOnInit_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, bool _swig_go_1) {
+void _wrap_XSDevice_setSkipEmtsReadOnInit_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, bool _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool arg2 ;
   
@@ -10653,7 +10653,7 @@ void _wrap_XSDevice_setSkipEmtsReadOnInit_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-bool _wrap_XSDevice_readEmtsAndDeviceConfiguration_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+bool _wrap_XSDevice_readEmtsAndDeviceConfiguration_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -10666,7 +10666,7 @@ bool _wrap_XSDevice_readEmtsAndDeviceConfiguration_mtigen_083b31a658b8ff73(XsDev
 }
 
 
-intgo _wrap_XSDevice_supportedStatusFlags_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+intgo _wrap_XSDevice_supportedStatusFlags_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   uint32_t result;
   intgo _swig_go_result;
@@ -10679,7 +10679,7 @@ intgo _wrap_XSDevice_supportedStatusFlags_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-void _wrap_XSDevice_onMessageSent_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
+void _wrap_XSDevice_onMessageSent_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsMessage *arg2 = 0 ;
   
@@ -10691,7 +10691,7 @@ void _wrap_XSDevice_onMessageSent_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, 
 }
 
 
-void _wrap_XSDevice_onMessageReceived_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
+void _wrap_XSDevice_onMessageReceived_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsMessage *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsMessage *arg2 = 0 ;
   
@@ -10703,7 +10703,7 @@ void _wrap_XSDevice_onMessageReceived_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-void _wrap_XSDevice_onMessageDetected2_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsProtocolType *_swig_go_1, XsByteArray *_swig_go_2) {
+void _wrap_XSDevice_onMessageDetected2_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsProtocolType *_swig_go_1, XsByteArray *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsProtocolType arg2 ;
   XsByteArray *arg3 = 0 ;
@@ -10724,7 +10724,7 @@ void _wrap_XSDevice_onMessageDetected2_mtigen_083b31a658b8ff73(XsDevice *_swig_g
 }
 
 
-void _wrap_XSDevice_onSessionRestarted_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void _wrap_XSDevice_onSessionRestarted_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   
   arg1 = *(XsDevice **)&_swig_go_0; 
@@ -10734,7 +10734,7 @@ void _wrap_XSDevice_onSessionRestarted_mtigen_083b31a658b8ff73(XsDevice *_swig_g
 }
 
 
-void _wrap_XSDevice_onConnectionLost_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void _wrap_XSDevice_onConnectionLost_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   
   arg1 = *(XsDevice **)&_swig_go_0; 
@@ -10744,7 +10744,7 @@ void _wrap_XSDevice_onConnectionLost_mtigen_083b31a658b8ff73(XsDevice *_swig_go_
 }
 
 
-void _wrap_XSDevice_onEofReached_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void _wrap_XSDevice_onEofReached_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   
   arg1 = *(XsDevice **)&_swig_go_0; 
@@ -10754,7 +10754,7 @@ void _wrap_XSDevice_onEofReached_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
 }
 
 
-void _wrap_XSDevice_onWirelessConnectionLost_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void _wrap_XSDevice_onWirelessConnectionLost_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   
   arg1 = *(XsDevice **)&_swig_go_0; 
@@ -10764,7 +10764,7 @@ void _wrap_XSDevice_onWirelessConnectionLost_mtigen_083b31a658b8ff73(XsDevice *_
 }
 
 
-long long _wrap_XSDevice_deviceRecordingBufferItemCount_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, int64_t *_swig_go_1) {
+long long _wrap_XSDevice_deviceRecordingBufferItemCount_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, int64_t *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int64_t *arg2 = 0 ;
   int64_t result;
@@ -10779,7 +10779,7 @@ long long _wrap_XSDevice_deviceRecordingBufferItemCount_mtigen_083b31a658b8ff73(
 }
 
 
-void _wrap_XSDevice_onDeviceStateChanged_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsDeviceState *_swig_go_2, XsDeviceState *_swig_go_3) {
+void _wrap_XSDevice_onDeviceStateChanged_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsDeviceState *_swig_go_2, XsDeviceState *_swig_go_3) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsDeviceState arg3 ;
@@ -10810,7 +10810,7 @@ void _wrap_XSDevice_onDeviceStateChanged_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-void _wrap_XSDevice_onLiveDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
+void _wrap_XSDevice_onLiveDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsDataPacket *arg3 = (XsDataPacket *) 0 ;
@@ -10825,7 +10825,7 @@ void _wrap_XSDevice_onLiveDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_
 }
 
 
-void _wrap_XSDevice_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
+void _wrap_XSDevice_onAllLiveDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevicePtrArray *arg2 = (XsDevicePtrArray *) 0 ;
   XsDataPacketPtrArray *arg3 = (XsDataPacketPtrArray *) 0 ;
@@ -10840,7 +10840,7 @@ void _wrap_XSDevice_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_sw
 }
 
 
-void _wrap_XSDevice_onMissedPackets_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
+void _wrap_XSDevice_onMissedPackets_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   int arg3 ;
@@ -10859,7 +10859,7 @@ void _wrap_XSDevice_onMissedPackets_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0
 }
 
 
-void _wrap_XSDevice_onDataUnavailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1, long long _swig_go_2) {
+void _wrap_XSDevice_onDataUnavailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1, long long _swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   int64_t arg3 ;
@@ -10874,7 +10874,7 @@ void _wrap_XSDevice_onDataUnavailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-void _wrap_XSDevice_onWakeupReceived_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1) {
+void _wrap_XSDevice_onWakeupReceived_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   
@@ -10887,7 +10887,7 @@ void _wrap_XSDevice_onWakeupReceived_mtigen_083b31a658b8ff73(XsDevice *_swig_go_
 }
 
 
-void _wrap_XSDevice_onProgressUpdated_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, XsString *_swig_go_4) {
+void _wrap_XSDevice_onProgressUpdated_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, XsString *_swig_go_4) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   int arg3 ;
@@ -10906,7 +10906,7 @@ void _wrap_XSDevice_onProgressUpdated_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-intgo _wrap_XSDevice_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
+intgo _wrap_XSDevice_onWriteMessageToLogFile_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsMessage *arg3 = (XsMessage *) 0 ;
@@ -10924,7 +10924,7 @@ intgo _wrap_XSDevice_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(XsDevice *_
 }
 
 
-void _wrap_XSDevice_onBufferedDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
+void _wrap_XSDevice_onBufferedDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsDataPacket *arg3 = (XsDataPacket *) 0 ;
@@ -10939,7 +10939,7 @@ void _wrap_XSDevice_onBufferedDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_s
 }
 
 
-void _wrap_XSDevice_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
+void _wrap_XSDevice_onAllBufferedDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevicePtrArray *arg2 = (XsDevicePtrArray *) 0 ;
   XsDataPacketPtrArray *arg3 = (XsDataPacketPtrArray *) 0 ;
@@ -10954,7 +10954,7 @@ void _wrap_XSDevice_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(XsDevice 
 }
 
 
-void _wrap_XSDevice_onConnectivityChanged_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsConnectivityState *_swig_go_2) {
+void _wrap_XSDevice_onConnectivityChanged_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsConnectivityState *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsConnectivityState arg3 ;
@@ -10976,7 +10976,7 @@ void _wrap_XSDevice_onConnectivityChanged_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-void _wrap_XSDevice_onInfoResponse_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsInfoRequest *_swig_go_2) {
+void _wrap_XSDevice_onInfoResponse_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsInfoRequest *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsInfoRequest arg3 ;
@@ -10998,7 +10998,7 @@ void _wrap_XSDevice_onInfoResponse_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0,
 }
 
 
-void _wrap_XSDevice_onError_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsResultValue *_swig_go_2) {
+void _wrap_XSDevice_onError_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsResultValue *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsResultValue arg3 ;
@@ -11020,7 +11020,7 @@ void _wrap_XSDevice_onError_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevi
 }
 
 
-void _wrap_XSDevice_onNonDataMessage_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
+void _wrap_XSDevice_onNonDataMessage_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsMessage *arg3 = (XsMessage *) 0 ;
@@ -11035,7 +11035,7 @@ void _wrap_XSDevice_onNonDataMessage_mtigen_083b31a658b8ff73(XsDevice *_swig_go_
 }
 
 
-void _wrap_XSDevice_onMessageDetected_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsProtocolType *_swig_go_2, XsByteArray *_swig_go_3) {
+void _wrap_XSDevice_onMessageDetected_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsProtocolType *_swig_go_2, XsByteArray *_swig_go_3) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsProtocolType arg3 ;
@@ -11059,7 +11059,7 @@ void _wrap_XSDevice_onMessageDetected_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-void _wrap_XSDevice_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
+void _wrap_XSDevice_onMessageReceivedFromDevice_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsMessage *arg3 = (XsMessage *) 0 ;
@@ -11074,7 +11074,7 @@ void _wrap_XSDevice_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(XsDevice
 }
 
 
-void _wrap_XSDevice_onMessageSentToDevice_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
+void _wrap_XSDevice_onMessageSentToDevice_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsMessage *arg3 = (XsMessage *) 0 ;
@@ -11089,7 +11089,7 @@ void _wrap_XSDevice_onMessageSentToDevice_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-void _wrap_XSDevice_onDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
+void _wrap_XSDevice_onDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsDataPacket *arg3 = (XsDataPacket *) 0 ;
@@ -11104,7 +11104,7 @@ void _wrap_XSDevice_onDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0
 }
 
 
-void _wrap_XSDevice_onAllDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
+void _wrap_XSDevice_onAllDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevicePtrArray *arg2 = (XsDevicePtrArray *) 0 ;
   XsDataPacketPtrArray *arg3 = (XsDataPacketPtrArray *) 0 ;
@@ -11119,7 +11119,7 @@ void _wrap_XSDevice_onAllDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_g
 }
 
 
-void _wrap_XSDevice_onRecordedDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
+void _wrap_XSDevice_onRecordedDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsDataPacket *arg3 = (XsDataPacket *) 0 ;
@@ -11134,7 +11134,7 @@ void _wrap_XSDevice_onRecordedDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_s
 }
 
 
-void _wrap_XSDevice_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
+void _wrap_XSDevice_onAllRecordedDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsDevicePtrArray *arg2 = (XsDevicePtrArray *) 0 ;
   XsDataPacketPtrArray *arg3 = (XsDataPacketPtrArray *) 0 ;
@@ -11149,7 +11149,7 @@ void _wrap_XSDevice_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(XsDevice 
 }
 
 
-void _wrap_XSDevice_onTransmissionRequest_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, intgo _swig_go_1, XsByteArray *_swig_go_2) {
+void _wrap_XSDevice_onTransmissionRequest_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, intgo _swig_go_1, XsByteArray *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int arg2 ;
   XsByteArray *arg3 = (XsByteArray *) 0 ;
@@ -11164,7 +11164,7 @@ void _wrap_XSDevice_onTransmissionRequest_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-void _wrap_XSDevice_onRestoreCommunication_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsString *_swig_go_1, XsResultValue *_swig_go_2) {
+void _wrap_XSDevice_onRestoreCommunication_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsString *_swig_go_1, XsResultValue *_swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsString *arg2 = (XsString *) 0 ;
   XsResultValue arg3 ;
@@ -11186,7 +11186,7 @@ void _wrap_XSDevice_onRestoreCommunication_mtigen_083b31a658b8ff73(XsDevice *_sw
 }
 
 
-void _wrap_XSDevice_clearCallbackHandlers__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, bool _swig_go_1) {
+void _wrap_XSDevice_clearCallbackHandlers__SWIG_0_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, bool _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   bool arg2 ;
   
@@ -11199,7 +11199,7 @@ void _wrap_XSDevice_clearCallbackHandlers__SWIG_0_mtigen_083b31a658b8ff73(XsDevi
 }
 
 
-void _wrap_XSDevice_clearCallbackHandlers__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void _wrap_XSDevice_clearCallbackHandlers__SWIG_1_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   
   arg1 = *(XsDevice **)&_swig_go_0; 
@@ -11210,7 +11210,7 @@ void _wrap_XSDevice_clearCallbackHandlers__SWIG_1_mtigen_083b31a658b8ff73(XsDevi
 }
 
 
-void _wrap_XSDevice_addCallbackHandler__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsCallbackPlainC *_swig_go_1, bool _swig_go_2) {
+void _wrap_XSDevice_addCallbackHandler__SWIG_0_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsCallbackPlainC *_swig_go_1, bool _swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsCallbackPlainC *arg2 = (XsCallbackPlainC *) 0 ;
   bool arg3 ;
@@ -11225,7 +11225,7 @@ void _wrap_XSDevice_addCallbackHandler__SWIG_0_mtigen_083b31a658b8ff73(XsDevice 
 }
 
 
-void _wrap_XSDevice_addCallbackHandler__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsCallbackPlainC *_swig_go_1) {
+void _wrap_XSDevice_addCallbackHandler__SWIG_1_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsCallbackPlainC *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsCallbackPlainC *arg2 = (XsCallbackPlainC *) 0 ;
   
@@ -11238,7 +11238,7 @@ void _wrap_XSDevice_addCallbackHandler__SWIG_1_mtigen_083b31a658b8ff73(XsDevice 
 }
 
 
-void _wrap_XSDevice_removeCallbackHandler__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsCallbackPlainC *_swig_go_1, bool _swig_go_2) {
+void _wrap_XSDevice_removeCallbackHandler__SWIG_0_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsCallbackPlainC *_swig_go_1, bool _swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsCallbackPlainC *arg2 = (XsCallbackPlainC *) 0 ;
   bool arg3 ;
@@ -11253,7 +11253,7 @@ void _wrap_XSDevice_removeCallbackHandler__SWIG_0_mtigen_083b31a658b8ff73(XsDevi
 }
 
 
-void _wrap_XSDevice_removeCallbackHandler__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, XsCallbackPlainC *_swig_go_1) {
+void _wrap_XSDevice_removeCallbackHandler__SWIG_1_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, XsCallbackPlainC *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   XsCallbackPlainC *arg2 = (XsCallbackPlainC *) 0 ;
   
@@ -11266,7 +11266,7 @@ void _wrap_XSDevice_removeCallbackHandler__SWIG_1_mtigen_083b31a658b8ff73(XsDevi
 }
 
 
-void _wrap_XSDevice_clearChainedManagers_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void _wrap_XSDevice_clearChainedManagers_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   
   arg1 = *(XsDevice **)&_swig_go_0; 
@@ -11277,7 +11277,7 @@ void _wrap_XSDevice_clearChainedManagers_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-void _wrap_XSDevice_addChainedManager_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, CallbackManagerXda *_swig_go_1) {
+void _wrap_XSDevice_addChainedManager_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, CallbackManagerXda *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   CallbackManagerXda *arg2 = (CallbackManagerXda *) 0 ;
   
@@ -11290,7 +11290,7 @@ void _wrap_XSDevice_addChainedManager_mtigen_083b31a658b8ff73(XsDevice *_swig_go
 }
 
 
-void _wrap_XSDevice_removeChainedManager_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, CallbackManagerXda *_swig_go_1) {
+void _wrap_XSDevice_removeChainedManager_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, CallbackManagerXda *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   CallbackManagerXda *arg2 = (CallbackManagerXda *) 0 ;
   
@@ -11303,7 +11303,7 @@ void _wrap_XSDevice_removeChainedManager_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-void _wrap_XSDevice_copyCallbackHandlersTo__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, CallbackManagerXda *_swig_go_1, bool _swig_go_2) {
+void _wrap_XSDevice_copyCallbackHandlersTo__SWIG_0_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, CallbackManagerXda *_swig_go_1, bool _swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   CallbackManagerXda *arg2 = (CallbackManagerXda *) 0 ;
   bool arg3 ;
@@ -11318,7 +11318,7 @@ void _wrap_XSDevice_copyCallbackHandlersTo__SWIG_0_mtigen_083b31a658b8ff73(XsDev
 }
 
 
-void _wrap_XSDevice_copyCallbackHandlersTo__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, CallbackManagerXda *_swig_go_1) {
+void _wrap_XSDevice_copyCallbackHandlersTo__SWIG_1_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, CallbackManagerXda *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   CallbackManagerXda *arg2 = (CallbackManagerXda *) 0 ;
   
@@ -11331,7 +11331,7 @@ void _wrap_XSDevice_copyCallbackHandlersTo__SWIG_1_mtigen_083b31a658b8ff73(XsDev
 }
 
 
-void _wrap_XSDevice_copyCallbackHandlersFrom__SWIG_0_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, CallbackManagerXda *_swig_go_1, bool _swig_go_2) {
+void _wrap_XSDevice_copyCallbackHandlersFrom__SWIG_0_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, CallbackManagerXda *_swig_go_1, bool _swig_go_2) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   CallbackManagerXda *arg2 = (CallbackManagerXda *) 0 ;
   bool arg3 ;
@@ -11346,7 +11346,7 @@ void _wrap_XSDevice_copyCallbackHandlersFrom__SWIG_0_mtigen_083b31a658b8ff73(XsD
 }
 
 
-void _wrap_XSDevice_copyCallbackHandlersFrom__SWIG_1_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, CallbackManagerXda *_swig_go_1) {
+void _wrap_XSDevice_copyCallbackHandlersFrom__SWIG_1_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, CallbackManagerXda *_swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   CallbackManagerXda *arg2 = (CallbackManagerXda *) 0 ;
   
@@ -11359,7 +11359,7 @@ void _wrap_XSDevice_copyCallbackHandlersFrom__SWIG_1_mtigen_083b31a658b8ff73(XsD
 }
 
 
-void _wrap_SetXSDevice_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onDeviceStateChanged_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDeviceState,XsDeviceState) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDeviceState,XsDeviceState)) 0 ;
   
@@ -11374,7 +11374,7 @@ void _wrap_SetXSDevice_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(XsDevice *
 }
 
 
-void* _wrap_GetXSDevice_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onDeviceStateChanged_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDeviceState,XsDeviceState) = 0 ;
   void* _swig_go_result;
@@ -11390,7 +11390,7 @@ void* _wrap_GetXSDevice_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(XsDevice 
 }
 
 
-void _wrap_SetXSDevice_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onLiveDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -11405,7 +11405,7 @@ void _wrap_SetXSDevice_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_
 }
 
 
-void* _wrap_GetXSDevice_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onLiveDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -11421,7 +11421,7 @@ void* _wrap_GetXSDevice_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(XsDevice *
 }
 
 
-void _wrap_SetXSDevice_M_onMissedPackets_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onMissedPackets_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,int,int,int) = (void (*)(XsCallbackPlainC *,XsDevice *,int,int,int)) 0 ;
   
@@ -11436,7 +11436,7 @@ void _wrap_SetXSDevice_M_onMissedPackets_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-void* _wrap_GetXSDevice_M_onMissedPackets_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onMissedPackets_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,int,int,int) = 0 ;
   void* _swig_go_result;
@@ -11452,7 +11452,7 @@ void* _wrap_GetXSDevice_M_onMissedPackets_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-void _wrap_SetXSDevice_M_onWakeupReceived_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onWakeupReceived_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *) = (void (*)(XsCallbackPlainC *,XsDevice *)) 0 ;
   
@@ -11467,7 +11467,7 @@ void _wrap_SetXSDevice_M_onWakeupReceived_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-void* _wrap_GetXSDevice_M_onWakeupReceived_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onWakeupReceived_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *) = 0 ;
   void* _swig_go_result;
@@ -11483,7 +11483,7 @@ void* _wrap_GetXSDevice_M_onWakeupReceived_mtigen_083b31a658b8ff73(XsDevice *_sw
 }
 
 
-void _wrap_SetXSDevice_M_onProgressUpdated_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onProgressUpdated_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,int,int,XsString const *) = (void (*)(XsCallbackPlainC *,XsDevice *,int,int,XsString const *)) 0 ;
   
@@ -11498,7 +11498,7 @@ void _wrap_SetXSDevice_M_onProgressUpdated_mtigen_083b31a658b8ff73(XsDevice *_sw
 }
 
 
-void* _wrap_GetXSDevice_M_onProgressUpdated_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onProgressUpdated_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,int,int,XsString const *) = 0 ;
   void* _swig_go_result;
@@ -11514,7 +11514,7 @@ void* _wrap_GetXSDevice_M_onProgressUpdated_mtigen_083b31a658b8ff73(XsDevice *_s
 }
 
 
-void _wrap_SetXSDevice_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onWriteMessageToLogFile_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (int (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -11529,7 +11529,7 @@ void _wrap_SetXSDevice_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(XsDevic
 }
 
 
-void* _wrap_GetXSDevice_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onWriteMessageToLogFile_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   int (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -11545,7 +11545,7 @@ void* _wrap_GetXSDevice_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(XsDevi
 }
 
 
-void _wrap_SetXSDevice_M_onBufferedDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onBufferedDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -11560,7 +11560,7 @@ void _wrap_SetXSDevice_M_onBufferedDataAvailable_mtigen_083b31a658b8ff73(XsDevic
 }
 
 
-void* _wrap_GetXSDevice_M_onBufferedDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onBufferedDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -11576,7 +11576,7 @@ void* _wrap_GetXSDevice_M_onBufferedDataAvailable_mtigen_083b31a658b8ff73(XsDevi
 }
 
 
-void _wrap_SetXSDevice_M_onConnectivityChanged_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onConnectivityChanged_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsConnectivityState) = (void (*)(XsCallbackPlainC *,XsDevice *,XsConnectivityState)) 0 ;
   
@@ -11591,7 +11591,7 @@ void _wrap_SetXSDevice_M_onConnectivityChanged_mtigen_083b31a658b8ff73(XsDevice 
 }
 
 
-void* _wrap_GetXSDevice_M_onConnectivityChanged_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onConnectivityChanged_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsConnectivityState) = 0 ;
   void* _swig_go_result;
@@ -11607,7 +11607,7 @@ void* _wrap_GetXSDevice_M_onConnectivityChanged_mtigen_083b31a658b8ff73(XsDevice
 }
 
 
-void _wrap_SetXSDevice_M_onInfoResponse_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onInfoResponse_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsInfoRequest) = (void (*)(XsCallbackPlainC *,XsDevice *,XsInfoRequest)) 0 ;
   
@@ -11622,7 +11622,7 @@ void _wrap_SetXSDevice_M_onInfoResponse_mtigen_083b31a658b8ff73(XsDevice *_swig_
 }
 
 
-void* _wrap_GetXSDevice_M_onInfoResponse_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onInfoResponse_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsInfoRequest) = 0 ;
   void* _swig_go_result;
@@ -11638,7 +11638,7 @@ void* _wrap_GetXSDevice_M_onInfoResponse_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-void _wrap_SetXSDevice_M_onError_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onError_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsResultValue) = (void (*)(XsCallbackPlainC *,XsDevice *,XsResultValue)) 0 ;
   
@@ -11653,7 +11653,7 @@ void _wrap_SetXSDevice_M_onError_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, v
 }
 
 
-void* _wrap_GetXSDevice_M_onError_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onError_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsResultValue) = 0 ;
   void* _swig_go_result;
@@ -11669,7 +11669,7 @@ void* _wrap_GetXSDevice_M_onError_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) 
 }
 
 
-void _wrap_SetXSDevice_M_onNonDataMessage_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onNonDataMessage_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -11684,7 +11684,7 @@ void _wrap_SetXSDevice_M_onNonDataMessage_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-void* _wrap_GetXSDevice_M_onNonDataMessage_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onNonDataMessage_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -11700,7 +11700,7 @@ void* _wrap_GetXSDevice_M_onNonDataMessage_mtigen_083b31a658b8ff73(XsDevice *_sw
 }
 
 
-void _wrap_SetXSDevice_M_onMessageDetected_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onMessageDetected_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsProtocolType,XsByteArray const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsProtocolType,XsByteArray const *)) 0 ;
   
@@ -11715,7 +11715,7 @@ void _wrap_SetXSDevice_M_onMessageDetected_mtigen_083b31a658b8ff73(XsDevice *_sw
 }
 
 
-void* _wrap_GetXSDevice_M_onMessageDetected_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onMessageDetected_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsProtocolType,XsByteArray const *) = 0 ;
   void* _swig_go_result;
@@ -11731,7 +11731,7 @@ void* _wrap_GetXSDevice_M_onMessageDetected_mtigen_083b31a658b8ff73(XsDevice *_s
 }
 
 
-void _wrap_SetXSDevice_M_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onMessageReceivedFromDevice_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -11746,7 +11746,7 @@ void _wrap_SetXSDevice_M_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(XsD
 }
 
 
-void* _wrap_GetXSDevice_M_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onMessageReceivedFromDevice_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -11762,7 +11762,7 @@ void* _wrap_GetXSDevice_M_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(Xs
 }
 
 
-void _wrap_SetXSDevice_M_onMessageSentToDevice_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onMessageSentToDevice_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -11777,7 +11777,7 @@ void _wrap_SetXSDevice_M_onMessageSentToDevice_mtigen_083b31a658b8ff73(XsDevice 
 }
 
 
-void* _wrap_GetXSDevice_M_onMessageSentToDevice_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onMessageSentToDevice_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -11793,7 +11793,7 @@ void* _wrap_GetXSDevice_M_onMessageSentToDevice_mtigen_083b31a658b8ff73(XsDevice
 }
 
 
-void _wrap_SetXSDevice_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onAllLiveDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -11808,7 +11808,7 @@ void _wrap_SetXSDevice_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(XsDevice
 }
 
 
-void* _wrap_GetXSDevice_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onAllLiveDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -11824,7 +11824,7 @@ void* _wrap_GetXSDevice_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(XsDevic
 }
 
 
-void _wrap_SetXSDevice_M_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onAllBufferedDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -11839,7 +11839,7 @@ void _wrap_SetXSDevice_M_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(XsDe
 }
 
 
-void* _wrap_GetXSDevice_M_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onAllBufferedDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -11855,7 +11855,7 @@ void* _wrap_GetXSDevice_M_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(XsD
 }
 
 
-void _wrap_SetXSDevice_M_onDataUnavailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onDataUnavailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,int64_t) = (void (*)(XsCallbackPlainC *,XsDevice *,int64_t)) 0 ;
   
@@ -11870,7 +11870,7 @@ void _wrap_SetXSDevice_M_onDataUnavailable_mtigen_083b31a658b8ff73(XsDevice *_sw
 }
 
 
-void* _wrap_GetXSDevice_M_onDataUnavailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onDataUnavailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,int64_t) = 0 ;
   void* _swig_go_result;
@@ -11886,7 +11886,7 @@ void* _wrap_GetXSDevice_M_onDataUnavailable_mtigen_083b31a658b8ff73(XsDevice *_s
 }
 
 
-void _wrap_SetXSDevice_M_onDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -11901,7 +11901,7 @@ void _wrap_SetXSDevice_M_onDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig
 }
 
 
-void* _wrap_GetXSDevice_M_onDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -11917,7 +11917,7 @@ void* _wrap_GetXSDevice_M_onDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swi
 }
 
 
-void _wrap_SetXSDevice_M_onAllDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onAllDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -11932,7 +11932,7 @@ void _wrap_SetXSDevice_M_onAllDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_s
 }
 
 
-void* _wrap_GetXSDevice_M_onAllDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onAllDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -11948,7 +11948,7 @@ void* _wrap_GetXSDevice_M_onAllDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_
 }
 
 
-void _wrap_SetXSDevice_M_onRecordedDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onRecordedDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -11963,7 +11963,7 @@ void _wrap_SetXSDevice_M_onRecordedDataAvailable_mtigen_083b31a658b8ff73(XsDevic
 }
 
 
-void* _wrap_GetXSDevice_M_onRecordedDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onRecordedDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -11979,7 +11979,7 @@ void* _wrap_GetXSDevice_M_onRecordedDataAvailable_mtigen_083b31a658b8ff73(XsDevi
 }
 
 
-void _wrap_SetXSDevice_M_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onAllRecordedDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -11994,7 +11994,7 @@ void _wrap_SetXSDevice_M_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(XsDe
 }
 
 
-void* _wrap_GetXSDevice_M_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onAllRecordedDataAvailable_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -12010,7 +12010,7 @@ void* _wrap_GetXSDevice_M_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(XsD
 }
 
 
-void _wrap_SetXSDevice_M_onTransmissionRequest_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onTransmissionRequest_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,int,XsByteArray const *) = (void (*)(XsCallbackPlainC *,int,XsByteArray const *)) 0 ;
   
@@ -12025,7 +12025,7 @@ void _wrap_SetXSDevice_M_onTransmissionRequest_mtigen_083b31a658b8ff73(XsDevice 
 }
 
 
-void* _wrap_GetXSDevice_M_onTransmissionRequest_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onTransmissionRequest_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,int,XsByteArray const *) = 0 ;
   void* _swig_go_result;
@@ -12041,7 +12041,7 @@ void* _wrap_GetXSDevice_M_onTransmissionRequest_mtigen_083b31a658b8ff73(XsDevice
 }
 
 
-void _wrap_SetXSDevice_M_onRestoreCommunication_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXSDevice_M_onRestoreCommunication_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0, void* _swig_go_1) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsString const *,XsResultValue) = (void (*)(XsCallbackPlainC *,XsString const *,XsResultValue)) 0 ;
   
@@ -12056,7 +12056,7 @@ void _wrap_SetXSDevice_M_onRestoreCommunication_mtigen_083b31a658b8ff73(XsDevice
 }
 
 
-void* _wrap_GetXSDevice_M_onRestoreCommunication_mtigen_083b31a658b8ff73(XsDevice *_swig_go_0) {
+void* _wrap_GetXSDevice_M_onRestoreCommunication_gen_58fb7b870f09ff4a(XsDevice *_swig_go_0) {
   XsDevice *arg1 = (XsDevice *) 0 ;
   void (*result)(XsCallbackPlainC *,XsString const *,XsResultValue) = 0 ;
   void* _swig_go_result;
@@ -12072,7 +12072,7 @@ void* _wrap_GetXSDevice_M_onRestoreCommunication_mtigen_083b31a658b8ff73(XsDevic
 }
 
 
-_gostring_ _wrap_XSDEVICEID_PRODUCT_CODE_INIT_mtigen_083b31a658b8ff73() {
+_gostring_ _wrap_XSDEVICEID_PRODUCT_CODE_INIT_gen_58fb7b870f09ff4a() {
   char *result = 0 ;
   _gostring_ _swig_go_result;
   
@@ -12083,7 +12083,7 @@ _gostring_ _wrap_XSDEVICEID_PRODUCT_CODE_INIT_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XsDeviceId_isLegacyDeviceId_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isLegacyDeviceId_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12096,7 +12096,7 @@ intgo _wrap_XsDeviceId_isLegacyDeviceId_mtigen_083b31a658b8ff73(XsDeviceId *_swi
 }
 
 
-long long _wrap_XsDeviceId_legacyBit_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+long long _wrap_XsDeviceId_legacyBit_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   uint64_t result;
   long long _swig_go_result;
@@ -12109,7 +12109,7 @@ long long _wrap_XsDeviceId_legacyBit_mtigen_083b31a658b8ff73(XsDeviceId *_swig_g
 }
 
 
-intgo _wrap_XsDeviceId_isMtiX_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtiX_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12122,7 +12122,7 @@ intgo _wrap_XsDeviceId_isMtiX_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-intgo _wrap_XsDeviceId_isMtiX0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtiX0_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12135,7 +12135,7 @@ intgo _wrap_XsDeviceId_isMtiX0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-intgo _wrap_XsDeviceId_isMtiX00_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtiX00_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12148,7 +12148,7 @@ intgo _wrap_XsDeviceId_isMtiX00_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) 
 }
 
 
-intgo _wrap_XsDeviceId_isMtigX00_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtigX00_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12161,7 +12161,7 @@ intgo _wrap_XsDeviceId_isMtigX00_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-intgo _wrap_XsDeviceId_isMtigX10_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtigX10_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12174,7 +12174,7 @@ intgo _wrap_XsDeviceId_isMtigX10_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-intgo _wrap_XsDeviceId_isMti3X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMti3X0_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12187,7 +12187,7 @@ intgo _wrap_XsDeviceId_isMti3X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) 
 }
 
 
-intgo _wrap_XsDeviceId_isMti6X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMti6X0_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12200,7 +12200,7 @@ intgo _wrap_XsDeviceId_isMti6X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) 
 }
 
 
-intgo _wrap_XsDeviceId_isMti8X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMti8X0_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12213,7 +12213,7 @@ intgo _wrap_XsDeviceId_isMti8X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) 
 }
 
 
-intgo _wrap_XsDeviceId_isMtw_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtw_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12226,7 +12226,7 @@ intgo _wrap_XsDeviceId_isMtw_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-intgo _wrap_XsDeviceId_isMtw2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtw2_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12239,7 +12239,7 @@ intgo _wrap_XsDeviceId_isMtw2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-intgo _wrap_XsDeviceId_isMtx_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtx_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12252,7 +12252,7 @@ intgo _wrap_XsDeviceId_isMtx_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-intgo _wrap_XsDeviceId_isMtx2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtx2_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12265,7 +12265,7 @@ intgo _wrap_XsDeviceId_isMtx2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-intgo _wrap_XsDeviceId_isBodyPack_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isBodyPack_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12278,7 +12278,7 @@ intgo _wrap_XsDeviceId_isBodyPack_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-intgo _wrap_XsDeviceId_isBodyPackV1_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isBodyPackV1_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12291,7 +12291,7 @@ intgo _wrap_XsDeviceId_isBodyPackV1_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go
 }
 
 
-intgo _wrap_XsDeviceId_isBodyPackV2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isBodyPackV2_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12304,7 +12304,7 @@ intgo _wrap_XsDeviceId_isBodyPackV2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go
 }
 
 
-intgo _wrap_XsDeviceId_isWirelessMaster_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isWirelessMaster_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12317,7 +12317,7 @@ intgo _wrap_XsDeviceId_isWirelessMaster_mtigen_083b31a658b8ff73(XsDeviceId *_swi
 }
 
 
-intgo _wrap_XsDeviceId_isAwindaX_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isAwindaX_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12330,7 +12330,7 @@ intgo _wrap_XsDeviceId_isAwindaX_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-intgo _wrap_XsDeviceId_isAwindaXStation_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isAwindaXStation_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12343,7 +12343,7 @@ intgo _wrap_XsDeviceId_isAwindaXStation_mtigen_083b31a658b8ff73(XsDeviceId *_swi
 }
 
 
-intgo _wrap_XsDeviceId_isAwindaXDongle_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isAwindaXDongle_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12356,7 +12356,7 @@ intgo _wrap_XsDeviceId_isAwindaXDongle_mtigen_083b31a658b8ff73(XsDeviceId *_swig
 }
 
 
-intgo _wrap_XsDeviceId_isAwindaXOem_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isAwindaXOem_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12369,7 +12369,7 @@ intgo _wrap_XsDeviceId_isAwindaXOem_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go
 }
 
 
-intgo _wrap_XsDeviceId_isAwinda2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isAwinda2_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12382,7 +12382,7 @@ intgo _wrap_XsDeviceId_isAwinda2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-intgo _wrap_XsDeviceId_isAwinda2Station_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isAwinda2Station_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12395,7 +12395,7 @@ intgo _wrap_XsDeviceId_isAwinda2Station_mtigen_083b31a658b8ff73(XsDeviceId *_swi
 }
 
 
-intgo _wrap_XsDeviceId_isAwinda2Dongle_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isAwinda2Dongle_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12408,7 +12408,7 @@ intgo _wrap_XsDeviceId_isAwinda2Dongle_mtigen_083b31a658b8ff73(XsDeviceId *_swig
 }
 
 
-intgo _wrap_XsDeviceId_isAwinda2Oem_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isAwinda2Oem_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12421,7 +12421,7 @@ intgo _wrap_XsDeviceId_isAwinda2Oem_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go
 }
 
 
-intgo _wrap_XsDeviceId_isSyncStationX_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isSyncStationX_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12434,7 +12434,7 @@ intgo _wrap_XsDeviceId_isSyncStationX_mtigen_083b31a658b8ff73(XsDeviceId *_swig_
 }
 
 
-intgo _wrap_XsDeviceId_isSyncStation2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isSyncStation2_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12447,7 +12447,7 @@ intgo _wrap_XsDeviceId_isSyncStation2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_
 }
 
 
-intgo _wrap_XsDeviceId_isHilDevice_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isHilDevice_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12460,7 +12460,7 @@ intgo _wrap_XsDeviceId_isHilDevice_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-intgo _wrap_XsDeviceId_isGlove_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isGlove_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12473,7 +12473,7 @@ intgo _wrap_XsDeviceId_isGlove_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-intgo _wrap_XsDeviceId_isDot_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isDot_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12486,7 +12486,7 @@ intgo _wrap_XsDeviceId_isDot_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-intgo _wrap_XsDeviceId_isRugged_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isRugged_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12499,7 +12499,7 @@ intgo _wrap_XsDeviceId_isRugged_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) 
 }
 
 
-intgo _wrap_XsDeviceId_isImu_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isImu_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12512,7 +12512,7 @@ intgo _wrap_XsDeviceId_isImu_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-intgo _wrap_XsDeviceId_isVru_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isVru_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12525,7 +12525,7 @@ intgo _wrap_XsDeviceId_isVru_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-intgo _wrap_XsDeviceId_isAhrs_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isAhrs_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12538,7 +12538,7 @@ intgo _wrap_XsDeviceId_isAhrs_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-intgo _wrap_XsDeviceId_isGnss_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isGnss_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12551,7 +12551,7 @@ intgo _wrap_XsDeviceId_isGnss_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-intgo _wrap_XsDeviceId_isRtk_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isRtk_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12564,7 +12564,7 @@ intgo _wrap_XsDeviceId_isRtk_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-intgo _wrap_XsDeviceId_hasInternalGnss_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_hasInternalGnss_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12577,7 +12577,7 @@ intgo _wrap_XsDeviceId_hasInternalGnss_mtigen_083b31a658b8ff73(XsDeviceId *_swig
 }
 
 
-intgo _wrap_XsDeviceId_isContainerDevice_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isContainerDevice_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12590,7 +12590,7 @@ intgo _wrap_XsDeviceId_isContainerDevice_mtigen_083b31a658b8ff73(XsDeviceId *_sw
 }
 
 
-intgo _wrap_XsDeviceId_isMt_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMt_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12603,7 +12603,7 @@ intgo _wrap_XsDeviceId_isMt_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-intgo _wrap_XsDeviceId_isMti_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMti_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12616,7 +12616,7 @@ intgo _wrap_XsDeviceId_isMti_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-intgo _wrap_XsDeviceId_isMtig_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtig_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12629,7 +12629,7 @@ intgo _wrap_XsDeviceId_isMtig_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-intgo _wrap_XsDeviceId_isMtMark4_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMark4_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12642,7 +12642,7 @@ intgo _wrap_XsDeviceId_isMtMark4_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-intgo _wrap_XsDeviceId_isMtMark5_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMark5_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12655,7 +12655,7 @@ intgo _wrap_XsDeviceId_isMtMark5_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-void _wrap_XsDeviceId_toString_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsString *_swig_go_1) {
+void _wrap_XsDeviceId_toString_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsString *_swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsString *arg2 = (XsString *) 0 ;
   
@@ -12667,7 +12667,7 @@ void _wrap_XsDeviceId_toString_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, X
 }
 
 
-void _wrap_XsDeviceId_fromString_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsString *_swig_go_1) {
+void _wrap_XsDeviceId_fromString_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsString *_swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsString *arg2 = (XsString *) 0 ;
   
@@ -12679,7 +12679,7 @@ void _wrap_XsDeviceId_fromString_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0,
 }
 
 
-void _wrap_XsDeviceId_toDeviceTypeString_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsString *_swig_go_1, intgo _swig_go_2) {
+void _wrap_XsDeviceId_toDeviceTypeString_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsString *_swig_go_1, intgo _swig_go_2) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsString *arg2 = (XsString *) 0 ;
   int arg3 ;
@@ -12693,7 +12693,7 @@ void _wrap_XsDeviceId_toDeviceTypeString_mtigen_083b31a658b8ff73(XsDeviceId *_sw
 }
 
 
-void _wrap_XsDeviceId_fromDeviceTypeString_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsString *_swig_go_1) {
+void _wrap_XsDeviceId_fromDeviceTypeString_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsString *_swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsString *arg2 = (XsString *) 0 ;
   
@@ -12705,7 +12705,7 @@ void _wrap_XsDeviceId_fromDeviceTypeString_mtigen_083b31a658b8ff73(XsDeviceId *_
 }
 
 
-intgo _wrap_XsDeviceId_isValid_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isValid_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12718,7 +12718,7 @@ intgo _wrap_XsDeviceId_isValid_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-void _wrap_XsDeviceId_swap_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
+void _wrap_XsDeviceId_swap_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsDeviceId *arg2 = (XsDeviceId *) 0 ;
   
@@ -12730,7 +12730,7 @@ void _wrap_XsDeviceId_swap_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsDev
 }
 
 
-intgo _wrap_XsDeviceId_contains_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
+intgo _wrap_XsDeviceId_contains_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsDeviceId *arg2 = (XsDeviceId *) 0 ;
   int result;
@@ -12745,7 +12745,7 @@ intgo _wrap_XsDeviceId_contains_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, 
 }
 
 
-intgo _wrap_XsDeviceId_isType_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isType_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12758,7 +12758,7 @@ intgo _wrap_XsDeviceId_isType_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-void _wrap_XsDeviceId_typeName_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsString *_swig_go_1) {
+void _wrap_XsDeviceId_typeName_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsString *_swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsString *arg2 = (XsString *) 0 ;
   
@@ -12770,7 +12770,7 @@ void _wrap_XsDeviceId_typeName_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, X
 }
 
 
-void _wrap_XsDeviceId_type_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
+void _wrap_XsDeviceId_type_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsDeviceId *arg2 = (XsDeviceId *) 0 ;
   
@@ -12782,7 +12782,7 @@ void _wrap_XsDeviceId_type_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsDev
 }
 
 
-void _wrap_XsDeviceId_deviceType_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, intgo _swig_go_1, XsDeviceId *_swig_go_2) {
+void _wrap_XsDeviceId_deviceType_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, intgo _swig_go_1, XsDeviceId *_swig_go_2) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int arg2 ;
   XsDeviceId *arg3 = (XsDeviceId *) 0 ;
@@ -12796,7 +12796,7 @@ void _wrap_XsDeviceId_deviceType_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0,
 }
 
 
-void _wrap_XsDeviceId_deviceTypeMask_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, intgo _swig_go_1, XsDeviceId *_swig_go_2) {
+void _wrap_XsDeviceId_deviceTypeMask_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, intgo _swig_go_1, XsDeviceId *_swig_go_2) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int arg2 ;
   XsDeviceId *arg3 = (XsDeviceId *) 0 ;
@@ -12810,7 +12810,7 @@ void _wrap_XsDeviceId_deviceTypeMask_mtigen_083b31a658b8ff73(XsDeviceId *_swig_g
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12823,7 +12823,7 @@ intgo _wrap_XsDeviceId_isMtMk4_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_X_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_X_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12836,7 +12836,7 @@ intgo _wrap_XsDeviceId_isMtMk4_X_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_1_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_1_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12849,7 +12849,7 @@ intgo _wrap_XsDeviceId_isMtMk4_1_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_2_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12862,7 +12862,7 @@ intgo _wrap_XsDeviceId_isMtMk4_2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_3_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_3_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12875,7 +12875,7 @@ intgo _wrap_XsDeviceId_isMtMk4_3_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_7_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_7_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12888,7 +12888,7 @@ intgo _wrap_XsDeviceId_isMtMk4_7_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_X0_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12901,7 +12901,7 @@ intgo _wrap_XsDeviceId_isMtMk4_X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_10_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_10_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12914,7 +12914,7 @@ intgo _wrap_XsDeviceId_isMtMk4_10_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_20_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_20_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12927,7 +12927,7 @@ intgo _wrap_XsDeviceId_isMtMk4_20_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_30_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_30_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12940,7 +12940,7 @@ intgo _wrap_XsDeviceId_isMtMk4_30_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_X00_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_X00_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12953,7 +12953,7 @@ intgo _wrap_XsDeviceId_isMtMk4_X00_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_100_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_100_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12966,7 +12966,7 @@ intgo _wrap_XsDeviceId_isMtMk4_100_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_200_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_200_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12979,7 +12979,7 @@ intgo _wrap_XsDeviceId_isMtMk4_200_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_300_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_300_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -12992,7 +12992,7 @@ intgo _wrap_XsDeviceId_isMtMk4_300_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_400_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_400_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13005,7 +13005,7 @@ intgo _wrap_XsDeviceId_isMtMk4_400_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_500_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_500_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13018,7 +13018,7 @@ intgo _wrap_XsDeviceId_isMtMk4_500_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_600_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_600_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13031,7 +13031,7 @@ intgo _wrap_XsDeviceId_isMtMk4_600_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_700_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_700_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13044,7 +13044,7 @@ intgo _wrap_XsDeviceId_isMtMk4_700_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_710_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_710_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13057,7 +13057,7 @@ intgo _wrap_XsDeviceId_isMtMk4_710_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_800_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_800_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13070,7 +13070,7 @@ intgo _wrap_XsDeviceId_isMtMk4_800_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk4_900_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk4_900_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13083,7 +13083,7 @@ intgo _wrap_XsDeviceId_isMtMk4_900_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk5_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk5_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13096,7 +13096,7 @@ intgo _wrap_XsDeviceId_isMtMk5_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk5_X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk5_X0_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13109,7 +13109,7 @@ intgo _wrap_XsDeviceId_isMtMk5_X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk5_10_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk5_10_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13122,7 +13122,7 @@ intgo _wrap_XsDeviceId_isMtMk5_10_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk5_20_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk5_20_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13135,7 +13135,7 @@ intgo _wrap_XsDeviceId_isMtMk5_20_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk5_30_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk5_30_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13148,7 +13148,7 @@ intgo _wrap_XsDeviceId_isMtMk5_30_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk5_X00_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk5_X00_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13161,7 +13161,7 @@ intgo _wrap_XsDeviceId_isMtMk5_X00_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk5_100_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk5_100_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13174,7 +13174,7 @@ intgo _wrap_XsDeviceId_isMtMk5_100_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk5_200_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk5_200_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13187,7 +13187,7 @@ intgo _wrap_XsDeviceId_isMtMk5_200_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk5_300_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk5_300_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13200,7 +13200,7 @@ intgo _wrap_XsDeviceId_isMtMk5_300_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-intgo _wrap_XsDeviceId_isMtMk5_710_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XsDeviceId_isMtMk5_710_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -13213,7 +13213,7 @@ intgo _wrap_XsDeviceId_isMtMk5_710_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-XsDeviceId *_wrap_new_XSDeviceId__SWIG_0_mtigen_083b31a658b8ff73(_gostring_ _swig_go_0, short _swig_go_1, intgo _swig_go_2, long long _swig_go_3) {
+XsDeviceId *_wrap_new_XSDeviceId__SWIG_0_gen_58fb7b870f09ff4a(_gostring_ _swig_go_0, short _swig_go_1, intgo _swig_go_2, long long _swig_go_3) {
   char *arg1 = (char *) 0 ;
   uint16_t arg2 ;
   uint32_t arg3 ;
@@ -13237,7 +13237,7 @@ XsDeviceId *_wrap_new_XSDeviceId__SWIG_0_mtigen_083b31a658b8ff73(_gostring_ _swi
 }
 
 
-XsDeviceId *_wrap_new_XSDeviceId__SWIG_1_mtigen_083b31a658b8ff73(long long _swig_go_0) {
+XsDeviceId *_wrap_new_XSDeviceId__SWIG_1_gen_58fb7b870f09ff4a(long long _swig_go_0) {
   uint64_t arg1 ;
   XsDeviceId *result = 0 ;
   XsDeviceId *_swig_go_result;
@@ -13250,7 +13250,7 @@ XsDeviceId *_wrap_new_XSDeviceId__SWIG_1_mtigen_083b31a658b8ff73(long long _swig
 }
 
 
-XsDeviceId *_wrap_new_XSDeviceId__SWIG_2_mtigen_083b31a658b8ff73() {
+XsDeviceId *_wrap_new_XSDeviceId__SWIG_2_gen_58fb7b870f09ff4a() {
   XsDeviceId *result = 0 ;
   XsDeviceId *_swig_go_result;
   
@@ -13261,7 +13261,7 @@ XsDeviceId *_wrap_new_XSDeviceId__SWIG_2_mtigen_083b31a658b8ff73() {
 }
 
 
-XsDeviceId *_wrap_new_XSDeviceId__SWIG_3_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+XsDeviceId *_wrap_new_XSDeviceId__SWIG_3_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = 0 ;
   XsDeviceId *result = 0 ;
   XsDeviceId *_swig_go_result;
@@ -13274,7 +13274,7 @@ XsDeviceId *_wrap_new_XSDeviceId__SWIG_3_mtigen_083b31a658b8ff73(XsDeviceId *_sw
 }
 
 
-XsDeviceId *_wrap_XSDeviceId_opAssign_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
+XsDeviceId *_wrap_XSDeviceId_opAssign_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsDeviceId *arg2 = 0 ;
   XsDeviceId *result = 0 ;
@@ -13289,7 +13289,7 @@ XsDeviceId *_wrap_XSDeviceId_opAssign_mtigen_083b31a658b8ff73(XsDeviceId *_swig_
 }
 
 
-long long _wrap_XSDeviceId_legacyBit_mtigen_083b31a658b8ff73() {
+long long _wrap_XSDeviceId_legacyBit_gen_58fb7b870f09ff4a() {
   uint64_t result;
   long long _swig_go_result;
   
@@ -13300,7 +13300,7 @@ long long _wrap_XSDeviceId_legacyBit_mtigen_083b31a658b8ff73() {
 }
 
 
-bool _wrap_XSDeviceId_isLegacyDeviceId_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isLegacyDeviceId_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13313,7 +13313,7 @@ bool _wrap_XSDeviceId_isLegacyDeviceId_mtigen_083b31a658b8ff73(XsDeviceId *_swig
 }
 
 
-long long _wrap_XSDeviceId_toInt_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+long long _wrap_XSDeviceId_toInt_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   uint64_t result;
   long long _swig_go_result;
@@ -13326,7 +13326,7 @@ long long _wrap_XSDeviceId_toInt_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-XsString *_wrap_XSDeviceId_productCode_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+XsString *_wrap_XSDeviceId_productCode_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsString result;
   XsString *_swig_go_result;
@@ -13339,7 +13339,7 @@ XsString *_wrap_XSDeviceId_productCode_mtigen_083b31a658b8ff73(XsDeviceId *_swig
 }
 
 
-intgo _wrap_XSDeviceId_productVariant_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XSDeviceId_productVariant_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   uint32_t result;
   intgo _swig_go_result;
@@ -13352,7 +13352,7 @@ intgo _wrap_XSDeviceId_productVariant_mtigen_083b31a658b8ff73(XsDeviceId *_swig_
 }
 
 
-short _wrap_XSDeviceId_hardwareVersion_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+short _wrap_XSDeviceId_hardwareVersion_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   uint16_t result;
   short _swig_go_result;
@@ -13365,7 +13365,7 @@ short _wrap_XSDeviceId_hardwareVersion_mtigen_083b31a658b8ff73(XsDeviceId *_swig
 }
 
 
-intgo _wrap_XSDeviceId_legacyDeviceId_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+intgo _wrap_XSDeviceId_legacyDeviceId_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   uint32_t result;
   intgo _swig_go_result;
@@ -13378,7 +13378,7 @@ intgo _wrap_XSDeviceId_legacyDeviceId_mtigen_083b31a658b8ff73(XsDeviceId *_swig_
 }
 
 
-bool _wrap_XSDeviceId_isMtiX_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtiX_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13391,7 +13391,7 @@ bool _wrap_XSDeviceId_isMtiX_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isMtiX0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtiX0_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13404,7 +13404,7 @@ bool _wrap_XSDeviceId_isMtiX0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isMtiX00_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtiX00_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13417,7 +13417,7 @@ bool _wrap_XSDeviceId_isMtiX00_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isMtigX00_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtigX00_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13430,7 +13430,7 @@ bool _wrap_XSDeviceId_isMtigX00_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) 
 }
 
 
-bool _wrap_XSDeviceId_isMtigX10_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtigX10_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13443,7 +13443,7 @@ bool _wrap_XSDeviceId_isMtigX10_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) 
 }
 
 
-bool _wrap_XSDeviceId_isMti3X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMti3X0_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13456,7 +13456,7 @@ bool _wrap_XSDeviceId_isMti3X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isMti6X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMti6X0_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13469,7 +13469,7 @@ bool _wrap_XSDeviceId_isMti6X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isMti8X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMti8X0_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13482,7 +13482,7 @@ bool _wrap_XSDeviceId_isMti8X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isGlove_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isGlove_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13495,7 +13495,7 @@ bool _wrap_XSDeviceId_isGlove_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isRugged_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isRugged_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13508,7 +13508,7 @@ bool _wrap_XSDeviceId_isRugged_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isMtw_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtw_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13521,7 +13521,7 @@ bool _wrap_XSDeviceId_isMtw_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isMtw2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtw2_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13534,7 +13534,7 @@ bool _wrap_XSDeviceId_isMtw2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isMtx_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtx_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13547,7 +13547,7 @@ bool _wrap_XSDeviceId_isMtx_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isMtx2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtx2_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13560,7 +13560,7 @@ bool _wrap_XSDeviceId_isMtx2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isBodyPack_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isBodyPack_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13573,7 +13573,7 @@ bool _wrap_XSDeviceId_isBodyPack_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-bool _wrap_XSDeviceId_isBodyPackV1_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isBodyPackV1_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13586,7 +13586,7 @@ bool _wrap_XSDeviceId_isBodyPackV1_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-bool _wrap_XSDeviceId_isBodyPackV2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isBodyPackV2_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13599,7 +13599,7 @@ bool _wrap_XSDeviceId_isBodyPackV2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-bool _wrap_XSDeviceId_isWirelessMaster_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isWirelessMaster_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13612,7 +13612,7 @@ bool _wrap_XSDeviceId_isWirelessMaster_mtigen_083b31a658b8ff73(XsDeviceId *_swig
 }
 
 
-bool _wrap_XSDeviceId_isAwindaX_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isAwindaX_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13625,7 +13625,7 @@ bool _wrap_XSDeviceId_isAwindaX_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) 
 }
 
 
-bool _wrap_XSDeviceId_isAwindaXStation_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isAwindaXStation_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13638,7 +13638,7 @@ bool _wrap_XSDeviceId_isAwindaXStation_mtigen_083b31a658b8ff73(XsDeviceId *_swig
 }
 
 
-bool _wrap_XSDeviceId_isAwindaXDongle_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isAwindaXDongle_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13651,7 +13651,7 @@ bool _wrap_XSDeviceId_isAwindaXDongle_mtigen_083b31a658b8ff73(XsDeviceId *_swig_
 }
 
 
-bool _wrap_XSDeviceId_isAwindaXOem_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isAwindaXOem_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13664,7 +13664,7 @@ bool _wrap_XSDeviceId_isAwindaXOem_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-bool _wrap_XSDeviceId_isAwinda2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isAwinda2_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13677,7 +13677,7 @@ bool _wrap_XSDeviceId_isAwinda2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) 
 }
 
 
-bool _wrap_XSDeviceId_isAwinda2Station_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isAwinda2Station_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13690,7 +13690,7 @@ bool _wrap_XSDeviceId_isAwinda2Station_mtigen_083b31a658b8ff73(XsDeviceId *_swig
 }
 
 
-bool _wrap_XSDeviceId_isAwinda2Dongle_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isAwinda2Dongle_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13703,7 +13703,7 @@ bool _wrap_XSDeviceId_isAwinda2Dongle_mtigen_083b31a658b8ff73(XsDeviceId *_swig_
 }
 
 
-bool _wrap_XSDeviceId_isAwinda2Oem_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isAwinda2Oem_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13716,7 +13716,7 @@ bool _wrap_XSDeviceId_isAwinda2Oem_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-bool _wrap_XSDeviceId_isSyncStationX_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isSyncStationX_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13729,7 +13729,7 @@ bool _wrap_XSDeviceId_isSyncStationX_mtigen_083b31a658b8ff73(XsDeviceId *_swig_g
 }
 
 
-bool _wrap_XSDeviceId_isSyncStation2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isSyncStation2_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13742,7 +13742,7 @@ bool _wrap_XSDeviceId_isSyncStation2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_g
 }
 
 
-bool _wrap_XSDeviceId_isHilDevice_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isHilDevice_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13755,7 +13755,7 @@ bool _wrap_XSDeviceId_isHilDevice_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-bool _wrap_XSDeviceId_isImu_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isImu_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13768,7 +13768,7 @@ bool _wrap_XSDeviceId_isImu_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isVru_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isVru_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13781,7 +13781,7 @@ bool _wrap_XSDeviceId_isVru_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isAhrs_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isAhrs_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13794,7 +13794,7 @@ bool _wrap_XSDeviceId_isAhrs_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isGnss_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isGnss_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13807,7 +13807,7 @@ bool _wrap_XSDeviceId_isGnss_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isRtk_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isRtk_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13820,7 +13820,7 @@ bool _wrap_XSDeviceId_isRtk_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_hasInternalGnss_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_hasInternalGnss_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13833,7 +13833,7 @@ bool _wrap_XSDeviceId_hasInternalGnss_mtigen_083b31a658b8ff73(XsDeviceId *_swig_
 }
 
 
-bool _wrap_XSDeviceId_isContainerDevice_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isContainerDevice_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13846,7 +13846,7 @@ bool _wrap_XSDeviceId_isContainerDevice_mtigen_083b31a658b8ff73(XsDeviceId *_swi
 }
 
 
-bool _wrap_XSDeviceId_isMt_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMt_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13859,7 +13859,7 @@ bool _wrap_XSDeviceId_isMt_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isMti_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMti_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13872,7 +13872,7 @@ bool _wrap_XSDeviceId_isMti_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isMtig_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtig_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13885,7 +13885,7 @@ bool _wrap_XSDeviceId_isMtig_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isMtMark4_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMark4_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13898,7 +13898,7 @@ bool _wrap_XSDeviceId_isMtMark4_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) 
 }
 
 
-bool _wrap_XSDeviceId_isMtMark5_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMark5_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13911,7 +13911,7 @@ bool _wrap_XSDeviceId_isMtMark5_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) 
 }
 
 
-XsString *_wrap_XSDeviceId_toString_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+XsString *_wrap_XSDeviceId_toString_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsString result;
   XsString *_swig_go_result;
@@ -13924,7 +13924,7 @@ XsString *_wrap_XSDeviceId_toString_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go
 }
 
 
-void _wrap_XSDeviceId_fromString_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsString *_swig_go_1) {
+void _wrap_XSDeviceId_fromString_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsString *_swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsString *arg2 = 0 ;
   
@@ -13936,7 +13936,7 @@ void _wrap_XSDeviceId_fromString_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0,
 }
 
 
-XsString *_wrap_XSDeviceId_toDeviceTypeString__SWIG_0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, bool _swig_go_1) {
+XsString *_wrap_XSDeviceId_toDeviceTypeString__SWIG_0_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, bool _swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool arg2 ;
   XsString result;
@@ -13951,7 +13951,7 @@ XsString *_wrap_XSDeviceId_toDeviceTypeString__SWIG_0_mtigen_083b31a658b8ff73(Xs
 }
 
 
-XsString *_wrap_XSDeviceId_toDeviceTypeString__SWIG_1_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+XsString *_wrap_XSDeviceId_toDeviceTypeString__SWIG_1_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsString result;
   XsString *_swig_go_result;
@@ -13964,7 +13964,7 @@ XsString *_wrap_XSDeviceId_toDeviceTypeString__SWIG_1_mtigen_083b31a658b8ff73(Xs
 }
 
 
-void _wrap_XSDeviceId_fromDeviceTypeString_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsString *_swig_go_1) {
+void _wrap_XSDeviceId_fromDeviceTypeString_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsString *_swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsString *arg2 = 0 ;
   
@@ -13976,7 +13976,7 @@ void _wrap_XSDeviceId_fromDeviceTypeString_mtigen_083b31a658b8ff73(XsDeviceId *_
 }
 
 
-bool _wrap_XSDeviceId_isValid_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isValid_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -13989,7 +13989,7 @@ bool _wrap_XSDeviceId_isValid_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_contains_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
+bool _wrap_XSDeviceId_contains_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsDeviceId *arg2 = 0 ;
   bool result;
@@ -14004,7 +14004,7 @@ bool _wrap_XSDeviceId_contains_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, X
 }
 
 
-bool _wrap_XSDeviceId_isType_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isType_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14017,7 +14017,7 @@ bool _wrap_XSDeviceId_isType_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-XsString *_wrap_XSDeviceId_typeName_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+XsString *_wrap_XSDeviceId_typeName_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsString result;
   XsString *_swig_go_result;
@@ -14030,7 +14030,7 @@ XsString *_wrap_XSDeviceId_typeName_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go
 }
 
 
-XsDeviceId *_wrap_XSDeviceId_Xtype_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+XsDeviceId *_wrap_XSDeviceId_Xtype_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsDeviceId result;
   XsDeviceId *_swig_go_result;
@@ -14043,7 +14043,7 @@ XsDeviceId *_wrap_XSDeviceId_Xtype_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_
 }
 
 
-XsDeviceId *_wrap_XSDeviceId_deviceType__SWIG_0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, bool _swig_go_1) {
+XsDeviceId *_wrap_XSDeviceId_deviceType__SWIG_0_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, bool _swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool arg2 ;
   XsDeviceId result;
@@ -14058,7 +14058,7 @@ XsDeviceId *_wrap_XSDeviceId_deviceType__SWIG_0_mtigen_083b31a658b8ff73(XsDevice
 }
 
 
-XsDeviceId *_wrap_XSDeviceId_deviceType__SWIG_1_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+XsDeviceId *_wrap_XSDeviceId_deviceType__SWIG_1_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsDeviceId result;
   XsDeviceId *_swig_go_result;
@@ -14071,7 +14071,7 @@ XsDeviceId *_wrap_XSDeviceId_deviceType__SWIG_1_mtigen_083b31a658b8ff73(XsDevice
 }
 
 
-XsDeviceId *_wrap_XSDeviceId_deviceTypeMask__SWIG_0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, bool _swig_go_1) {
+XsDeviceId *_wrap_XSDeviceId_deviceTypeMask__SWIG_0_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, bool _swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool arg2 ;
   XsDeviceId result;
@@ -14086,7 +14086,7 @@ XsDeviceId *_wrap_XSDeviceId_deviceTypeMask__SWIG_0_mtigen_083b31a658b8ff73(XsDe
 }
 
 
-XsDeviceId *_wrap_XSDeviceId_deviceTypeMask__SWIG_1_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+XsDeviceId *_wrap_XSDeviceId_deviceTypeMask__SWIG_1_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsDeviceId result;
   XsDeviceId *_swig_go_result;
@@ -14099,7 +14099,7 @@ XsDeviceId *_wrap_XSDeviceId_deviceTypeMask__SWIG_1_mtigen_083b31a658b8ff73(XsDe
 }
 
 
-bool _wrap_XSDeviceId_opEq_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
+bool _wrap_XSDeviceId_opEq_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsDeviceId *arg2 = 0 ;
   bool result;
@@ -14114,7 +14114,7 @@ bool _wrap_XSDeviceId_opEq_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsDev
 }
 
 
-bool _wrap_XSDeviceId_opNEq_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
+bool _wrap_XSDeviceId_opNEq_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsDeviceId *arg2 = 0 ;
   bool result;
@@ -14129,7 +14129,7 @@ bool _wrap_XSDeviceId_opNEq_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsDe
 }
 
 
-bool _wrap_XSDeviceId_opLt_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
+bool _wrap_XSDeviceId_opLt_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsDeviceId *arg2 = 0 ;
   bool result;
@@ -14144,7 +14144,7 @@ bool _wrap_XSDeviceId_opLt_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsDev
 }
 
 
-bool _wrap_XSDeviceId_opLtEq_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
+bool _wrap_XSDeviceId_opLtEq_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsDeviceId *arg2 = 0 ;
   bool result;
@@ -14159,7 +14159,7 @@ bool _wrap_XSDeviceId_opLtEq_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsD
 }
 
 
-bool _wrap_XSDeviceId_opGt_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
+bool _wrap_XSDeviceId_opGt_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsDeviceId *arg2 = 0 ;
   bool result;
@@ -14174,7 +14174,7 @@ bool _wrap_XSDeviceId_opGt_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsDev
 }
 
 
-bool _wrap_XSDeviceId_opGtEq_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
+bool _wrap_XSDeviceId_opGtEq_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   XsDeviceId *arg2 = 0 ;
   bool result;
@@ -14189,7 +14189,7 @@ bool _wrap_XSDeviceId_opGtEq_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0, XsD
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14202,7 +14202,7 @@ bool _wrap_XSDeviceId_isMtMk4_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_X_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_X_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14215,7 +14215,7 @@ bool _wrap_XSDeviceId_isMtMk4_X_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) 
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_1_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_1_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14228,7 +14228,7 @@ bool _wrap_XSDeviceId_isMtMk4_1_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) 
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_2_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14241,7 +14241,7 @@ bool _wrap_XSDeviceId_isMtMk4_2_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) 
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_3_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_3_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14254,7 +14254,7 @@ bool _wrap_XSDeviceId_isMtMk4_3_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) 
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_7_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_7_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14267,7 +14267,7 @@ bool _wrap_XSDeviceId_isMtMk4_7_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) 
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_X0_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14280,7 +14280,7 @@ bool _wrap_XSDeviceId_isMtMk4_X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_10_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_10_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14293,7 +14293,7 @@ bool _wrap_XSDeviceId_isMtMk4_10_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_20_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_20_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14306,7 +14306,7 @@ bool _wrap_XSDeviceId_isMtMk4_20_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_30_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_30_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14319,7 +14319,7 @@ bool _wrap_XSDeviceId_isMtMk4_30_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_X00_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_X00_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14332,7 +14332,7 @@ bool _wrap_XSDeviceId_isMtMk4_X00_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_100_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_100_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14345,7 +14345,7 @@ bool _wrap_XSDeviceId_isMtMk4_100_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_200_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_200_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14358,7 +14358,7 @@ bool _wrap_XSDeviceId_isMtMk4_200_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_300_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_300_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14371,7 +14371,7 @@ bool _wrap_XSDeviceId_isMtMk4_300_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_400_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_400_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14384,7 +14384,7 @@ bool _wrap_XSDeviceId_isMtMk4_400_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_500_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_500_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14397,7 +14397,7 @@ bool _wrap_XSDeviceId_isMtMk4_500_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_600_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_600_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14410,7 +14410,7 @@ bool _wrap_XSDeviceId_isMtMk4_600_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_700_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_700_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14423,7 +14423,7 @@ bool _wrap_XSDeviceId_isMtMk4_700_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_710_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_710_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14436,7 +14436,7 @@ bool _wrap_XSDeviceId_isMtMk4_710_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_800_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_800_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14449,7 +14449,7 @@ bool _wrap_XSDeviceId_isMtMk4_800_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-bool _wrap_XSDeviceId_isMtMk4_900_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk4_900_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14462,7 +14462,7 @@ bool _wrap_XSDeviceId_isMtMk4_900_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-bool _wrap_XSDeviceId_isMtMk5_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk5_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14475,7 +14475,7 @@ bool _wrap_XSDeviceId_isMtMk5_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-bool _wrap_XSDeviceId_isMtMk5_X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk5_X0_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14488,7 +14488,7 @@ bool _wrap_XSDeviceId_isMtMk5_X0_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-bool _wrap_XSDeviceId_isMtMk5_10_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk5_10_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14501,7 +14501,7 @@ bool _wrap_XSDeviceId_isMtMk5_10_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-bool _wrap_XSDeviceId_isMtMk5_20_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk5_20_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14514,7 +14514,7 @@ bool _wrap_XSDeviceId_isMtMk5_20_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-bool _wrap_XSDeviceId_isMtMk5_30_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk5_30_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14527,7 +14527,7 @@ bool _wrap_XSDeviceId_isMtMk5_30_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0)
 }
 
 
-bool _wrap_XSDeviceId_isMtMk5_X00_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk5_X00_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14540,7 +14540,7 @@ bool _wrap_XSDeviceId_isMtMk5_X00_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-bool _wrap_XSDeviceId_isMtMk5_100_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk5_100_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14553,7 +14553,7 @@ bool _wrap_XSDeviceId_isMtMk5_100_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-bool _wrap_XSDeviceId_isMtMk5_200_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk5_200_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14566,7 +14566,7 @@ bool _wrap_XSDeviceId_isMtMk5_200_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-bool _wrap_XSDeviceId_isMtMk5_300_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk5_300_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14579,7 +14579,7 @@ bool _wrap_XSDeviceId_isMtMk5_300_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-bool _wrap_XSDeviceId_isMtMk5_710_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+bool _wrap_XSDeviceId_isMtMk5_710_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -14592,7 +14592,7 @@ bool _wrap_XSDeviceId_isMtMk5_710_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0
 }
 
 
-void _wrap_delete_XSDeviceId_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
+void _wrap_delete_XSDeviceId_gen_58fb7b870f09ff4a(XsDeviceId *_swig_go_0) {
   XsDeviceId *arg1 = (XsDeviceId *) 0 ;
   
   arg1 = *(XsDeviceId **)&_swig_go_0; 
@@ -14602,7 +14602,7 @@ void _wrap_delete_XSDeviceId_mtigen_083b31a658b8ff73(XsDeviceId *_swig_go_0) {
 }
 
 
-XsString *_wrap_opLeftShift_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsDeviceId *_swig_go_1) {
+XsString *_wrap_opLeftShift_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsString *arg1 = 0 ;
   XsDeviceId *arg2 = 0 ;
   XsString *result = 0 ;
@@ -14617,7 +14617,7 @@ XsString *_wrap_opLeftShift_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsDevi
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_new_XsArrayXsString__SWIG_0_mtigen_083b31a658b8ff73(long long _swig_go_0, _gostring_ _swig_go_1) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_new_XsArrayXsString__SWIG_0_gen_58fb7b870f09ff4a(long long _swig_go_0, _gostring_ _swig_go_1) {
   XsSize arg1 ;
   char *arg2 = (char *) 0 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *result = 0 ;
@@ -14637,7 +14637,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_new_XsArrayXsString__SW
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_new_XsArrayXsString__SWIG_1_mtigen_083b31a658b8ff73(long long _swig_go_0) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_new_XsArrayXsString__SWIG_1_gen_58fb7b870f09ff4a(long long _swig_go_0) {
   XsSize arg1 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *result = 0 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_result;
@@ -14650,7 +14650,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_new_XsArrayXsString__SW
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_new_XsArrayXsString__SWIG_2_mtigen_083b31a658b8ff73() {
+XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_new_XsArrayXsString__SWIG_2_gen_58fb7b870f09ff4a() {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *result = 0 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_result;
   
@@ -14661,7 +14661,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_new_XsArrayXsString__SW
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_new_XsArrayXsString__SWIG_3_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_new_XsArrayXsString__SWIG_3_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::ArrayImpl *arg1 = 0 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *result = 0 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_result;
@@ -14674,7 +14674,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_new_XsArrayXsString__SW
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_new_XsArrayXsString__SWIG_4_mtigen_083b31a658b8ff73(_gostring_ _swig_go_0, long long _swig_go_1, intgo _swig_go_2) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_new_XsArrayXsString__SWIG_4_gen_58fb7b870f09ff4a(_gostring_ _swig_go_0, long long _swig_go_1, intgo _swig_go_2) {
   char *arg1 = (char *) 0 ;
   XsSize arg2 ;
   XsDataFlags arg3 ;
@@ -14696,7 +14696,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_new_XsArrayXsString__SW
 }
 
 
-void _wrap_delete_XsArrayXsString_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+void _wrap_delete_XsArrayXsString_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   
   arg1 = *(XsArrayImpl< char,g_xsStringDescriptor,XsString > **)&_swig_go_0; 
@@ -14706,7 +14706,7 @@ void _wrap_delete_XsArrayXsString_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xs
 }
 
 
-void _wrap_XsArrayXsString_clear_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+void _wrap_XsArrayXsString_clear_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   
   arg1 = *(XsArrayImpl< char,g_xsStringDescriptor,XsString > **)&_swig_go_0; 
@@ -14716,7 +14716,7 @@ void _wrap_XsArrayXsString_clear_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsS
 }
 
 
-bool _wrap_XsArrayXsString_opEq_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_1) {
+bool _wrap_XsArrayXsString_opEq_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::ArrayImpl *arg2 = 0 ;
   bool result;
@@ -14731,7 +14731,7 @@ bool _wrap_XsArrayXsString_opEq_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsSt
 }
 
 
-bool _wrap_XsArrayXsString_opNEq_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_1) {
+bool _wrap_XsArrayXsString_opNEq_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::ArrayImpl *arg2 = 0 ;
   bool result;
@@ -14746,7 +14746,7 @@ bool _wrap_XsArrayXsString_opNEq_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsS
 }
 
 
-void _wrap_XsArrayXsString_reserve_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayXsString_reserve_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsSize arg2 ;
   
@@ -14758,7 +14758,7 @@ void _wrap_XsArrayXsString_reserve_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_x
 }
 
 
-long long _wrap_XsArrayXsString_reserved_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+long long _wrap_XsArrayXsString_reserved_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -14771,7 +14771,7 @@ long long _wrap_XsArrayXsString_reserved_mtigen_083b31a658b8ff73(XsArrayImpl< ch
 }
 
 
-XsArrayDescriptor *_wrap_XsArrayXsString_descriptor_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+XsArrayDescriptor *_wrap_XsArrayXsString_descriptor_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsArrayDescriptor *result = 0 ;
   XsArrayDescriptor *_swig_go_result;
@@ -14784,7 +14784,7 @@ XsArrayDescriptor *_wrap_XsArrayXsString_descriptor_mtigen_083b31a658b8ff73(XsAr
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_wrap_XsArrayXsString_begin__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_wrap_XsArrayXsString_begin__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > > result;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_swig_go_result;
@@ -14797,7 +14797,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_wrap
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_wrap_XsArrayXsString_end__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_wrap_XsArrayXsString_end__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > > result;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_swig_go_result;
@@ -14810,7 +14810,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_wrap
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_wrap_XsArrayXsString_rbegin__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_wrap_XsArrayXsString_rbegin__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > > result;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_swig_go_result;
@@ -14823,7 +14823,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_wra
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_wrap_XsArrayXsString_rend__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_wrap_XsArrayXsString_rend__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > > result;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_swig_go_result;
@@ -14836,7 +14836,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_wra
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_wrap_XsArrayXsString_begin__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_wrap_XsArrayXsString_begin__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > > result;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_swig_go_result;
@@ -14849,7 +14849,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_wrap_XsAr
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_wrap_XsArrayXsString_end__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_wrap_XsArrayXsString_end__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > > result;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_swig_go_result;
@@ -14862,7 +14862,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_wrap_XsAr
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_wrap_XsArrayXsString_rbegin__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_wrap_XsArrayXsString_rbegin__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > > result;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_swig_go_result;
@@ -14875,7 +14875,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_wrap_XsA
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_wrap_XsArrayXsString_rend__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_wrap_XsArrayXsString_rend__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > > result;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_swig_go_result;
@@ -14888,7 +14888,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_wrap_XsA
 }
 
 
-char _wrap_XsArrayXsString_opIndex__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
+char _wrap_XsArrayXsString_opIndex__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsSize arg2 ;
   char *result = 0 ;
@@ -14903,7 +14903,7 @@ char _wrap_XsArrayXsString_opIndex__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< 
 }
 
 
-char *_wrap_XsArrayXsString_opIndex__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
+char *_wrap_XsArrayXsString_opIndex__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsSize arg2 ;
   char *result = 0 ;
@@ -14918,7 +14918,7 @@ char *_wrap_XsArrayXsString_opIndex__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl<
 }
 
 
-char _wrap_XsArrayXsString_value_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
+char _wrap_XsArrayXsString_value_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsSize arg2 ;
   char result;
@@ -14933,7 +14933,7 @@ char _wrap_XsArrayXsString_value_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsS
 }
 
 
-char _wrap_XsArrayXsString_first_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+char _wrap_XsArrayXsString_first_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   char result;
   char _swig_go_result;
@@ -14946,7 +14946,7 @@ char _wrap_XsArrayXsString_first_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsS
 }
 
 
-char _wrap_XsArrayXsString_last_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+char _wrap_XsArrayXsString_last_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   char result;
   char _swig_go_result;
@@ -14959,7 +14959,7 @@ char _wrap_XsArrayXsString_last_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsSt
 }
 
 
-char _wrap_XsArrayXsString_at__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
+char _wrap_XsArrayXsString_at__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsSize arg2 ;
   char *result = 0 ;
@@ -14974,7 +14974,7 @@ char _wrap_XsArrayXsString_at__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< char,
 }
 
 
-char *_wrap_XsArrayXsString_at__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
+char *_wrap_XsArrayXsString_at__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsSize arg2 ;
   char *result = 0 ;
@@ -14989,7 +14989,7 @@ char *_wrap_XsArrayXsString_at__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< char
 }
 
 
-void _wrap_XsArrayXsString_insert__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, char _swig_go_1, long long _swig_go_2) {
+void _wrap_XsArrayXsString_insert__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, char _swig_go_1, long long _swig_go_2) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   char *arg2 = 0 ;
   XsSize arg3 ;
@@ -15003,7 +15003,7 @@ void _wrap_XsArrayXsString_insert__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< c
 }
 
 
-void _wrap_XsArrayXsString_insert__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2, long long _swig_go_3) {
+void _wrap_XsArrayXsString_insert__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2, long long _swig_go_3) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   char *arg2 = (char *) 0 ;
   XsSize arg3 ;
@@ -15024,7 +15024,7 @@ void _wrap_XsArrayXsString_insert__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< c
 }
 
 
-void _wrap_XsArrayXsString_insert__SWIG_2_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, char _swig_go_1, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_swig_go_2) {
+void _wrap_XsArrayXsString_insert__SWIG_2_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, char _swig_go_1, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_swig_go_2) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   char *arg2 = 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > > arg3 ;
@@ -15045,7 +15045,7 @@ void _wrap_XsArrayXsString_insert__SWIG_2_mtigen_083b31a658b8ff73(XsArrayImpl< c
 }
 
 
-void _wrap_XsArrayXsString_insert__SWIG_3_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, char _swig_go_1, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_swig_go_2) {
+void _wrap_XsArrayXsString_insert__SWIG_3_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, char _swig_go_1, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_swig_go_2) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   char *arg2 = 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > > arg3 ;
@@ -15066,7 +15066,7 @@ void _wrap_XsArrayXsString_insert__SWIG_3_mtigen_083b31a658b8ff73(XsArrayImpl< c
 }
 
 
-void _wrap_XsArrayXsString_insert__SWIG_4_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, _gostring_ _swig_go_1, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_swig_go_2, long long _swig_go_3) {
+void _wrap_XsArrayXsString_insert__SWIG_4_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, _gostring_ _swig_go_1, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_swig_go_2, long long _swig_go_3) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   char *arg2 = (char *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > > arg3 ;
@@ -15094,7 +15094,7 @@ void _wrap_XsArrayXsString_insert__SWIG_4_mtigen_083b31a658b8ff73(XsArrayImpl< c
 }
 
 
-void _wrap_XsArrayXsString_insert__SWIG_5_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, _gostring_ _swig_go_1, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_swig_go_2, long long _swig_go_3) {
+void _wrap_XsArrayXsString_insert__SWIG_5_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, _gostring_ _swig_go_1, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_swig_go_2, long long _swig_go_3) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   char *arg2 = (char *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > > arg3 ;
@@ -15122,7 +15122,7 @@ void _wrap_XsArrayXsString_insert__SWIG_5_mtigen_083b31a658b8ff73(XsArrayImpl< c
 }
 
 
-void _wrap_XsArrayXsString_push_back_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, char _swig_go_1) {
+void _wrap_XsArrayXsString_push_back_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, char _swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   char *arg2 = 0 ;
   
@@ -15134,7 +15134,7 @@ void _wrap_XsArrayXsString_push_back_mtigen_083b31a658b8ff73(XsArrayImpl< char,g
 }
 
 
-void _wrap_XsArrayXsString_pop_back__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayXsString_pop_back__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsSize arg2 ;
   
@@ -15146,7 +15146,7 @@ void _wrap_XsArrayXsString_pop_back__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl<
 }
 
 
-void _wrap_XsArrayXsString_pop_back__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+void _wrap_XsArrayXsString_pop_back__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   
   arg1 = *(XsArrayImpl< char,g_xsStringDescriptor,XsString > **)&_swig_go_0; 
@@ -15156,7 +15156,7 @@ void _wrap_XsArrayXsString_pop_back__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl<
 }
 
 
-void _wrap_XsArrayXsString_push_front_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, char _swig_go_1) {
+void _wrap_XsArrayXsString_push_front_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, char _swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   char *arg2 = 0 ;
   
@@ -15168,7 +15168,7 @@ void _wrap_XsArrayXsString_push_front_mtigen_083b31a658b8ff73(XsArrayImpl< char,
 }
 
 
-void _wrap_XsArrayXsString_pop_front__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayXsString_pop_front__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsSize arg2 ;
   
@@ -15180,7 +15180,7 @@ void _wrap_XsArrayXsString_pop_front__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl
 }
 
 
-void _wrap_XsArrayXsString_pop_front__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+void _wrap_XsArrayXsString_pop_front__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   
   arg1 = *(XsArrayImpl< char,g_xsStringDescriptor,XsString > **)&_swig_go_0; 
@@ -15190,7 +15190,7 @@ void _wrap_XsArrayXsString_pop_front__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl
 }
 
 
-long long _wrap_XsArrayXsString_size_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+long long _wrap_XsArrayXsString_size_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -15203,7 +15203,7 @@ long long _wrap_XsArrayXsString_size_mtigen_083b31a658b8ff73(XsArrayImpl< char,g
 }
 
 
-void _wrap_XsArrayXsString_erase__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_XsArrayXsString_erase__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsSize arg2 ;
   XsSize arg3 ;
@@ -15217,7 +15217,7 @@ void _wrap_XsArrayXsString_erase__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< ch
 }
 
 
-void _wrap_XsArrayXsString_erase__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayXsString_erase__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsSize arg2 ;
   
@@ -15229,7 +15229,7 @@ void _wrap_XsArrayXsString_erase__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< ch
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_wrap_XsArrayXsString_erase__SWIG_2_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_swig_go_1) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_wrap_XsArrayXsString_erase__SWIG_2_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > > arg2 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::iterator *argp2 ;
@@ -15251,7 +15251,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_wrap_XsAr
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_wrap_XsArrayXsString_erase__SWIG_3_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_swig_go_1) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_wrap_XsArrayXsString_erase__SWIG_3_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > > arg2 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::reverse_iterator *argp2 ;
@@ -15273,7 +15273,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_wrap_XsA
 }
 
 
-void _wrap_XsArrayXsString_assign_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_XsArrayXsString_assign_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1, _gostring_ _swig_go_2) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsSize arg2 ;
   char *arg3 = (char *) 0 ;
@@ -15292,7 +15292,7 @@ void _wrap_XsArrayXsString_assign_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xs
 }
 
 
-void _wrap_XsArrayXsString_resize_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayXsString_resize_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsSize arg2 ;
   
@@ -15304,7 +15304,7 @@ void _wrap_XsArrayXsString_resize_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xs
 }
 
 
-void _wrap_XsArrayXsString_setSize_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayXsString_setSize_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsSize arg2 ;
   
@@ -15316,7 +15316,7 @@ void _wrap_XsArrayXsString_setSize_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_x
 }
 
 
-void _wrap_XsArrayXsString_append_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_1) {
+void _wrap_XsArrayXsString_append_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::ArrayImpl *arg2 = 0 ;
   
@@ -15328,7 +15328,7 @@ void _wrap_XsArrayXsString_append_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xs
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_XsArrayXsString_opAssign_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_1) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_XsArrayXsString_opAssign_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::ArrayImpl *arg2 = 0 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::ArrayImpl *result = 0 ;
@@ -15343,7 +15343,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_XsArrayXsString_opAssig
 }
 
 
-bool _wrap_XsArrayXsString_empty_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+bool _wrap_XsArrayXsString_empty_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -15356,7 +15356,7 @@ bool _wrap_XsArrayXsString_empty_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsS
 }
 
 
-XsString *_wrap_XsArrayXsString_inherited__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+XsString *_wrap_XsArrayXsString_inherited__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsString *result = 0 ;
   XsString *_swig_go_result;
@@ -15369,7 +15369,7 @@ XsString *_wrap_XsArrayXsString_inherited__SWIG_0_mtigen_083b31a658b8ff73(XsArra
 }
 
 
-XsString *_wrap_XsArrayXsString_inherited__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+XsString *_wrap_XsArrayXsString_inherited__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsString *result = 0 ;
   XsString *_swig_go_result;
@@ -15382,7 +15382,7 @@ XsString *_wrap_XsArrayXsString_inherited__SWIG_1_mtigen_083b31a658b8ff73(XsArra
 }
 
 
-void _wrap_XsArrayXsString_swap__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_1) {
+void _wrap_XsArrayXsString_swap__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::ArrayImpl *arg2 = 0 ;
   
@@ -15394,7 +15394,7 @@ void _wrap_XsArrayXsString_swap__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< cha
 }
 
 
-void _wrap_XsArrayXsString_swap__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_XsArrayXsString_swap__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsSize arg2 ;
   XsSize arg3 ;
@@ -15408,7 +15408,7 @@ void _wrap_XsArrayXsString_swap__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< cha
 }
 
 
-XsString *_wrap_XsArrayXsString_opLeftShift_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, char _swig_go_1) {
+XsString *_wrap_XsArrayXsString_opLeftShift_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, char _swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   char *arg2 = 0 ;
   XsString *result = 0 ;
@@ -15423,7 +15423,7 @@ XsString *_wrap_XsArrayXsString_opLeftShift_mtigen_083b31a658b8ff73(XsArrayImpl<
 }
 
 
-intgo _wrap_XsArrayXsString_find_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, char _swig_go_1) {
+intgo _wrap_XsArrayXsString_find_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, char _swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   char *arg2 = 0 ;
   int result;
@@ -15438,7 +15438,7 @@ intgo _wrap_XsArrayXsString_find_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsS
 }
 
 
-void _wrap_XsArrayXsString_removeDuplicates_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+void _wrap_XsArrayXsString_removeDuplicates_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   
   arg1 = *(XsArrayImpl< char,g_xsStringDescriptor,XsString > **)&_swig_go_0; 
@@ -15448,7 +15448,7 @@ void _wrap_XsArrayXsString_removeDuplicates_mtigen_083b31a658b8ff73(XsArrayImpl<
 }
 
 
-void _wrap_XsArrayXsString_removeDuplicatesPredicate_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsArrayXsString_removeDuplicatesPredicate_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0, void* _swig_go_1) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   XsArrayItemCompareFunc arg2 = (XsArrayItemCompareFunc) 0 ;
   
@@ -15460,7 +15460,7 @@ void _wrap_XsArrayXsString_removeDuplicatesPredicate_mtigen_083b31a658b8ff73(XsA
 }
 
 
-void _wrap_XsArrayXsString_sort_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+void _wrap_XsArrayXsString_sort_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   
   arg1 = *(XsArrayImpl< char,g_xsStringDescriptor,XsString > **)&_swig_go_0; 
@@ -15470,7 +15470,7 @@ void _wrap_XsArrayXsString_sort_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsSt
 }
 
 
-void _wrap_XsArrayXsString_reverse_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
+void _wrap_XsArrayXsString_reverse_gen_58fb7b870f09ff4a(XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_0) {
   XsArrayImpl< char,g_xsStringDescriptor,XsString > *arg1 = (XsArrayImpl< char,g_xsStringDescriptor,XsString > *) 0 ;
   
   arg1 = *(XsArrayImpl< char,g_xsStringDescriptor,XsString > **)&_swig_go_0; 
@@ -15480,7 +15480,7 @@ void _wrap_XsArrayXsString_reverse_mtigen_083b31a658b8ff73(XsArrayImpl< char,g_x
 }
 
 
-XsArrayDescriptor *_wrap_g_xsStringDescriptor_get_mtigen_083b31a658b8ff73() {
+XsArrayDescriptor *_wrap_g_xsStringDescriptor_get_gen_58fb7b870f09ff4a() {
   XsArrayDescriptor *result = 0 ;
   XsArrayDescriptor *_swig_go_result;
   
@@ -15491,7 +15491,7 @@ XsArrayDescriptor *_wrap_g_xsStringDescriptor_get_mtigen_083b31a658b8ff73() {
 }
 
 
-void _wrap_XsString_construct_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+void _wrap_XsString_construct_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   
   arg1 = *(XsString **)&_swig_go_0; 
@@ -15501,7 +15501,7 @@ void _wrap_XsString_construct_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
 }
 
 
-void _wrap_XsString_destruct_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+void _wrap_XsString_destruct_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   
   arg1 = *(XsString **)&_swig_go_0; 
@@ -15511,7 +15511,7 @@ void _wrap_XsString_destruct_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
 }
 
 
-void _wrap_XsString_assign_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_XsString_assign_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1, _gostring_ _swig_go_2) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   char *arg3 = (char *) 0 ;
@@ -15530,7 +15530,7 @@ void _wrap_XsString_assign_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long lo
 }
 
 
-void _wrap_XsString_assignCharArray_mtigen_083b31a658b8ff73(XsString *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_XsString_assignCharArray_gen_58fb7b870f09ff4a(XsString *_swig_go_0, _gostring_ _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -15547,7 +15547,7 @@ void _wrap_XsString_assignCharArray_mtigen_083b31a658b8ff73(XsString *_swig_go_0
 }
 
 
-void _wrap_XsString_resize_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsString_resize_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   
@@ -15559,7 +15559,7 @@ void _wrap_XsString_resize_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long lo
 }
 
 
-void _wrap_XsString_append_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1) {
+void _wrap_XsString_append_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = (XsString *) 0 ;
   
@@ -15571,7 +15571,7 @@ void _wrap_XsString_append_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsStrin
 }
 
 
-void _wrap_XsString_erase_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_XsString_erase_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   XsSize arg3 ;
@@ -15585,7 +15585,7 @@ void _wrap_XsString_erase_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long lon
 }
 
 
-void _wrap_XsString_push_back_mtigen_083b31a658b8ff73(XsString *_swig_go_0, char _swig_go_1) {
+void _wrap_XsString_push_back_gen_58fb7b870f09ff4a(XsString *_swig_go_0, char _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   char arg2 ;
   
@@ -15597,7 +15597,7 @@ void _wrap_XsString_push_back_mtigen_083b31a658b8ff73(XsString *_swig_go_0, char
 }
 
 
-long long _wrap_XsString_utf8Len_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+long long _wrap_XsString_utf8Len_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -15610,7 +15610,7 @@ long long _wrap_XsString_utf8Len_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
 }
 
 
-intgo _wrap_XsString_endsWith_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1, intgo _swig_go_2) {
+intgo _wrap_XsString_endsWith_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1, intgo _swig_go_2) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = (XsString *) 0 ;
   int arg3 ;
@@ -15627,7 +15627,7 @@ intgo _wrap_XsString_endsWith_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsSt
 }
 
 
-intgo _wrap_XsString_startsWith_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1, intgo _swig_go_2) {
+intgo _wrap_XsString_startsWith_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1, intgo _swig_go_2) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = (XsString *) 0 ;
   int arg3 ;
@@ -15644,7 +15644,7 @@ intgo _wrap_XsString_startsWith_mtigen_083b31a658b8ff73(XsString *_swig_go_0, Xs
 }
 
 
-intgo _wrap_XsString_contains_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1, intgo _swig_go_2, long long *_swig_go_3) {
+intgo _wrap_XsString_contains_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1, intgo _swig_go_2, long long *_swig_go_3) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = (XsString *) 0 ;
   int arg3 ;
@@ -15663,7 +15663,7 @@ intgo _wrap_XsString_contains_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsSt
 }
 
 
-intgo _wrap_XsString_empty_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+intgo _wrap_XsString_empty_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -15676,7 +15676,7 @@ intgo _wrap_XsString_empty_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
 }
 
 
-void _wrap_XsString_sort_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+void _wrap_XsString_sort_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   
   arg1 = *(XsString **)&_swig_go_0; 
@@ -15686,7 +15686,7 @@ void _wrap_XsString_sort_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
 }
 
 
-void _wrap_XsString_reverse_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+void _wrap_XsString_reverse_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   
   arg1 = *(XsString **)&_swig_go_0; 
@@ -15696,7 +15696,7 @@ void _wrap_XsString_reverse_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
 }
 
 
-intgo _wrap_XsString_findSubStr_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1) {
+intgo _wrap_XsString_findSubStr_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = (XsString *) 0 ;
   int result;
@@ -15711,7 +15711,7 @@ intgo _wrap_XsString_findSubStr_mtigen_083b31a658b8ff73(XsString *_swig_go_0, Xs
 }
 
 
-void _wrap_XsString_mid_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1, long long _swig_go_2, long long _swig_go_3) {
+void _wrap_XsString_mid_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1, long long _swig_go_2, long long _swig_go_3) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = (XsString *) 0 ;
   XsSize arg3 ;
@@ -15727,7 +15727,7 @@ void _wrap_XsString_mid_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *
 }
 
 
-void _wrap_XsString_replaceAll_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1, XsString *_swig_go_2) {
+void _wrap_XsString_replaceAll_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1, XsString *_swig_go_2) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = (XsString *) 0 ;
   XsString *arg3 = (XsString *) 0 ;
@@ -15741,7 +15741,7 @@ void _wrap_XsString_replaceAll_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsS
 }
 
 
-long long _wrap_XsString_copyToWCharArray_mtigen_083b31a658b8ff73(XsString *_swig_go_0, wchar_t *_swig_go_1, long long _swig_go_2) {
+long long _wrap_XsString_copyToWCharArray_gen_58fb7b870f09ff4a(XsString *_swig_go_0, wchar_t *_swig_go_1, long long _swig_go_2) {
   XsString *arg1 = (XsString *) 0 ;
   wchar_t *arg2 = (wchar_t *) 0 ;
   XsSize arg3 ;
@@ -15758,7 +15758,7 @@ long long _wrap_XsString_copyToWCharArray_mtigen_083b31a658b8ff73(XsString *_swi
 }
 
 
-wchar_t *_wrap_XsString_utf8At_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1) {
+wchar_t *_wrap_XsString_utf8At_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   wchar_t result;
@@ -15773,7 +15773,7 @@ wchar_t *_wrap_XsString_utf8At_mtigen_083b31a658b8ff73(XsString *_swig_go_0, lon
 }
 
 
-void _wrap_XsString_assignWCharArray_mtigen_083b31a658b8ff73(XsString *_swig_go_0, wchar_t *_swig_go_1) {
+void _wrap_XsString_assignWCharArray_gen_58fb7b870f09ff4a(XsString *_swig_go_0, wchar_t *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   wchar_t *arg2 = (wchar_t *) 0 ;
   
@@ -15785,7 +15785,7 @@ void _wrap_XsString_assignWCharArray_mtigen_083b31a658b8ff73(XsString *_swig_go_
 }
 
 
-void _wrap_XsString_push_backWChar_mtigen_083b31a658b8ff73(XsString *_swig_go_0, wchar_t *_swig_go_1) {
+void _wrap_XsString_push_backWChar_gen_58fb7b870f09ff4a(XsString *_swig_go_0, wchar_t *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   wchar_t arg2 ;
   wchar_t *argp2 ;
@@ -15804,7 +15804,7 @@ void _wrap_XsString_push_backWChar_mtigen_083b31a658b8ff73(XsString *_swig_go_0,
 }
 
 
-XsString *_wrap_new_XSString__SWIG_0_mtigen_083b31a658b8ff73(long long _swig_go_0, _gostring_ _swig_go_1) {
+XsString *_wrap_new_XSString__SWIG_0_gen_58fb7b870f09ff4a(long long _swig_go_0, _gostring_ _swig_go_1) {
   XsSize arg1 ;
   char *arg2 = (char *) 0 ;
   XsString *result = 0 ;
@@ -15824,7 +15824,7 @@ XsString *_wrap_new_XSString__SWIG_0_mtigen_083b31a658b8ff73(long long _swig_go_
 }
 
 
-XsString *_wrap_new_XSString__SWIG_1_mtigen_083b31a658b8ff73(long long _swig_go_0) {
+XsString *_wrap_new_XSString__SWIG_1_gen_58fb7b870f09ff4a(long long _swig_go_0) {
   XsSize arg1 ;
   XsString *result = 0 ;
   XsString *_swig_go_result;
@@ -15837,7 +15837,7 @@ XsString *_wrap_new_XSString__SWIG_1_mtigen_083b31a658b8ff73(long long _swig_go_
 }
 
 
-XsString *_wrap_new_XSString__SWIG_2_mtigen_083b31a658b8ff73() {
+XsString *_wrap_new_XSString__SWIG_2_gen_58fb7b870f09ff4a() {
   XsString *result = 0 ;
   XsString *_swig_go_result;
   
@@ -15848,7 +15848,7 @@ XsString *_wrap_new_XSString__SWIG_2_mtigen_083b31a658b8ff73() {
 }
 
 
-XsString *_wrap_new_XSString__SWIG_3_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+XsString *_wrap_new_XSString__SWIG_3_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = 0 ;
   XsString *result = 0 ;
   XsString *_swig_go_result;
@@ -15861,7 +15861,7 @@ XsString *_wrap_new_XSString__SWIG_3_mtigen_083b31a658b8ff73(XsString *_swig_go_
 }
 
 
-XsString *_wrap_new_XSString__SWIG_4_mtigen_083b31a658b8ff73(_gostring_ _swig_go_0, long long _swig_go_1, intgo _swig_go_2) {
+XsString *_wrap_new_XSString__SWIG_4_gen_58fb7b870f09ff4a(_gostring_ _swig_go_0, long long _swig_go_1, intgo _swig_go_2) {
   char *arg1 = (char *) 0 ;
   XsSize arg2 ;
   XsDataFlags arg3 ;
@@ -15883,7 +15883,7 @@ XsString *_wrap_new_XSString__SWIG_4_mtigen_083b31a658b8ff73(_gostring_ _swig_go
 }
 
 
-XsString *_wrap_new_XSString__SWIG_6_mtigen_083b31a658b8ff73(_gostring_ _swig_go_0) {
+XsString *_wrap_new_XSString__SWIG_6_gen_58fb7b870f09ff4a(_gostring_ _swig_go_0) {
   char *arg1 = (char *) 0 ;
   XsString *result = 0 ;
   XsString *_swig_go_result;
@@ -15901,7 +15901,7 @@ XsString *_wrap_new_XSString__SWIG_6_mtigen_083b31a658b8ff73(_gostring_ _swig_go
 }
 
 
-XsString *_wrap_new_XSString__SWIG_7_mtigen_083b31a658b8ff73(wchar_t *_swig_go_0) {
+XsString *_wrap_new_XSString__SWIG_7_gen_58fb7b870f09ff4a(wchar_t *_swig_go_0) {
   wchar_t *arg1 = (wchar_t *) 0 ;
   XsString *result = 0 ;
   XsString *_swig_go_result;
@@ -15914,7 +15914,7 @@ XsString *_wrap_new_XSString__SWIG_7_mtigen_083b31a658b8ff73(wchar_t *_swig_go_0
 }
 
 
-XsString *_wrap_new_XSString__SWIG_8_mtigen_083b31a658b8ff73(_gostring_ _swig_go_0) {
+XsString *_wrap_new_XSString__SWIG_8_gen_58fb7b870f09ff4a(_gostring_ _swig_go_0) {
   std::string *arg1 = 0 ;
   XsString *result = 0 ;
   XsString *_swig_go_result;
@@ -15930,7 +15930,7 @@ XsString *_wrap_new_XSString__SWIG_8_mtigen_083b31a658b8ff73(_gostring_ _swig_go
 }
 
 
-XsString *_wrap_new_XSString__SWIG_9_mtigen_083b31a658b8ff73(std::wstring *_swig_go_0) {
+XsString *_wrap_new_XSString__SWIG_9_gen_58fb7b870f09ff4a(std::wstring *_swig_go_0) {
   std::wstring *arg1 = 0 ;
   XsString *result = 0 ;
   XsString *_swig_go_result;
@@ -15943,7 +15943,7 @@ XsString *_wrap_new_XSString__SWIG_9_mtigen_083b31a658b8ff73(std::wstring *_swig
 }
 
 
-_gostring_ _wrap_XSString_c_str__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+_gostring_ _wrap_XSString_c_str__SWIG_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -15956,7 +15956,7 @@ _gostring_ _wrap_XSString_c_str__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_
 }
 
 
-_gostring_ _wrap_XSString_c_str__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+_gostring_ _wrap_XSString_c_str__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   char *result = 0 ;
   _gostring_ _swig_go_result;
@@ -15969,7 +15969,7 @@ _gostring_ _wrap_XSString_c_str__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_
 }
 
 
-_gostring_ _wrap_XSString_toStdString_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+_gostring_ _wrap_XSString_toStdString_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   std::string result;
   _gostring_ _swig_go_result;
@@ -15982,7 +15982,7 @@ _gostring_ _wrap_XSString_toStdString_mtigen_083b31a658b8ff73(XsString *_swig_go
 }
 
 
-XsString *_wrap_XSString_opPlus_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1) {
+XsString *_wrap_XSString_opPlus_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = 0 ;
   XsString result;
@@ -15997,7 +15997,7 @@ XsString *_wrap_XSString_opPlus_mtigen_083b31a658b8ff73(XsString *_swig_go_0, Xs
 }
 
 
-std::wstring *_wrap_XSString_toStdWString_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+std::wstring *_wrap_XSString_toStdWString_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   std::wstring result;
   std::wstring *_swig_go_result;
@@ -16010,7 +16010,7 @@ std::wstring *_wrap_XSString_toStdWString_mtigen_083b31a658b8ff73(XsString *_swi
 }
 
 
-bool _wrap_XSString_opEq__SWIG_0_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_1) {
+bool _wrap_XSString_opEq__SWIG_0_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::ArrayImpl *arg2 = 0 ;
   bool result;
@@ -16025,7 +16025,7 @@ bool _wrap_XSString_opEq__SWIG_0_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0,
 }
 
 
-bool _wrap_XSString_opNEq__SWIG_0_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_1) {
+bool _wrap_XSString_opNEq__SWIG_0_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::ArrayImpl *arg2 = 0 ;
   bool result;
@@ -16040,7 +16040,7 @@ bool _wrap_XSString_opNEq__SWIG_0_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0
 }
 
 
-XsString *_wrap_XSString_opLeftShift__SWIG_0_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0, char _swig_go_1) {
+XsString *_wrap_XSString_opLeftShift__SWIG_0_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0, char _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   char *arg2 = 0 ;
   XsString *result = 0 ;
@@ -16055,7 +16055,7 @@ XsString *_wrap_XSString_opLeftShift__SWIG_0_0_mtigen_083b31a658b8ff73(XsString 
 }
 
 
-bool _wrap_XSString_opEq__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, _gostring_ _swig_go_1) {
+bool _wrap_XSString_opEq__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0, _gostring_ _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   char *arg2 = (char *) 0 ;
   bool result;
@@ -16075,7 +16075,7 @@ bool _wrap_XSString_opEq__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, _
 }
 
 
-bool _wrap_XSString_opNEq__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, _gostring_ _swig_go_1) {
+bool _wrap_XSString_opNEq__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0, _gostring_ _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   char *arg2 = (char *) 0 ;
   bool result;
@@ -16095,7 +16095,7 @@ bool _wrap_XSString_opNEq__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, 
 }
 
 
-XsString *_wrap_XSString_opLeftShift__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, _gostring_ _swig_go_1) {
+XsString *_wrap_XSString_opLeftShift__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0, _gostring_ _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   char *arg2 = (char *) 0 ;
   XsString *result = 0 ;
@@ -16115,7 +16115,7 @@ XsString *_wrap_XSString_opLeftShift__SWIG_1_mtigen_083b31a658b8ff73(XsString *_
 }
 
 
-XsString *_wrap_XSString_opLeftShift__SWIG_2_mtigen_083b31a658b8ff73(XsString *_swig_go_0, intgo _swig_go_1) {
+XsString *_wrap_XSString_opLeftShift__SWIG_2_gen_58fb7b870f09ff4a(XsString *_swig_go_0, intgo _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   int arg2 ;
   XsString *result = 0 ;
@@ -16130,7 +16130,7 @@ XsString *_wrap_XSString_opLeftShift__SWIG_2_mtigen_083b31a658b8ff73(XsString *_
 }
 
 
-XsString *_wrap_XSString_opLeftShift__SWIG_3_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1) {
+XsString *_wrap_XSString_opLeftShift__SWIG_3_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = 0 ;
   XsString *result = 0 ;
@@ -16145,7 +16145,7 @@ XsString *_wrap_XSString_opLeftShift__SWIG_3_mtigen_083b31a658b8ff73(XsString *_
 }
 
 
-bool _wrap_XSString_opLt_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1) {
+bool _wrap_XSString_opLt_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = 0 ;
   bool result;
@@ -16160,7 +16160,7 @@ bool _wrap_XSString_opLt_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString 
 }
 
 
-bool _wrap_XSString_opGt_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1) {
+bool _wrap_XSString_opGt_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = 0 ;
   bool result;
@@ -16175,7 +16175,7 @@ bool _wrap_XSString_opGt_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString 
 }
 
 
-XsString *_wrap_XSString_push_back__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0, char _swig_go_1) {
+XsString *_wrap_XSString_push_back__SWIG_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0, char _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   char arg2 ;
   XsString *result = 0 ;
@@ -16190,7 +16190,7 @@ XsString *_wrap_XSString_push_back__SWIG_0_mtigen_083b31a658b8ff73(XsString *_sw
 }
 
 
-bool _wrap_XSString_empty_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+bool _wrap_XSString_empty_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -16203,7 +16203,7 @@ bool _wrap_XSString_empty_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
 }
 
 
-void _wrap_XSString_append__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1) {
+void _wrap_XSString_append__SWIG_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = 0 ;
   
@@ -16215,7 +16215,7 @@ void _wrap_XSString_append__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0,
 }
 
 
-void _wrap_XSString_append__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, _gostring_ _swig_go_1) {
+void _wrap_XSString_append__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0, _gostring_ _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   char *arg2 = (char *) 0 ;
   
@@ -16232,7 +16232,7 @@ void _wrap_XSString_append__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0,
 }
 
 
-void _wrap_XSString_append__SWIG_2_mtigen_083b31a658b8ff73(XsString *_swig_go_0, wchar_t *_swig_go_1) {
+void _wrap_XSString_append__SWIG_2_gen_58fb7b870f09ff4a(XsString *_swig_go_0, wchar_t *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   wchar_t *arg2 = (wchar_t *) 0 ;
   
@@ -16244,7 +16244,7 @@ void _wrap_XSString_append__SWIG_2_mtigen_083b31a658b8ff73(XsString *_swig_go_0,
 }
 
 
-long long _wrap_XSString_utf8Len_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+long long _wrap_XSString_utf8Len_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -16257,7 +16257,7 @@ long long _wrap_XSString_utf8Len_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
 }
 
 
-bool _wrap_XSString_endsWith__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1, bool _swig_go_2) {
+bool _wrap_XSString_endsWith__SWIG_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1, bool _swig_go_2) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = 0 ;
   bool arg3 ;
@@ -16274,7 +16274,7 @@ bool _wrap_XSString_endsWith__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_
 }
 
 
-bool _wrap_XSString_endsWith__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1) {
+bool _wrap_XSString_endsWith__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = 0 ;
   bool result;
@@ -16289,7 +16289,7 @@ bool _wrap_XSString_endsWith__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_
 }
 
 
-bool _wrap_XSString_startsWith__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1, bool _swig_go_2) {
+bool _wrap_XSString_startsWith__SWIG_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1, bool _swig_go_2) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = 0 ;
   bool arg3 ;
@@ -16306,7 +16306,7 @@ bool _wrap_XSString_startsWith__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_g
 }
 
 
-bool _wrap_XSString_startsWith__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1) {
+bool _wrap_XSString_startsWith__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = 0 ;
   bool result;
@@ -16321,7 +16321,7 @@ bool _wrap_XSString_startsWith__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_g
 }
 
 
-bool _wrap_XSString_contains__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1, bool _swig_go_2, long long *_swig_go_3) {
+bool _wrap_XSString_contains__SWIG_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1, bool _swig_go_2, long long *_swig_go_3) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = 0 ;
   bool arg3 ;
@@ -16340,7 +16340,7 @@ bool _wrap_XSString_contains__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_
 }
 
 
-bool _wrap_XSString_contains__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1, bool _swig_go_2) {
+bool _wrap_XSString_contains__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1, bool _swig_go_2) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = 0 ;
   bool arg3 ;
@@ -16357,7 +16357,7 @@ bool _wrap_XSString_contains__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_
 }
 
 
-bool _wrap_XSString_contains__SWIG_2_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1) {
+bool _wrap_XSString_contains__SWIG_2_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = 0 ;
   bool result;
@@ -16372,7 +16372,7 @@ bool _wrap_XSString_contains__SWIG_2_mtigen_083b31a658b8ff73(XsString *_swig_go_
 }
 
 
-wchar_t *_wrap_XSString_utf8At_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1) {
+wchar_t *_wrap_XSString_utf8At_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   wchar_t result;
@@ -16387,7 +16387,7 @@ wchar_t *_wrap_XSString_utf8At_mtigen_083b31a658b8ff73(XsString *_swig_go_0, lon
 }
 
 
-XsString *_wrap_XSString_push_back__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, wchar_t *_swig_go_1) {
+XsString *_wrap_XSString_push_back__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0, wchar_t *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   wchar_t arg2 ;
   wchar_t *argp2 ;
@@ -16409,7 +16409,7 @@ XsString *_wrap_XSString_push_back__SWIG_1_mtigen_083b31a658b8ff73(XsString *_sw
 }
 
 
-void _wrap_XSString_sort_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+void _wrap_XSString_sort_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   
   arg1 = *(XsString **)&_swig_go_0; 
@@ -16419,7 +16419,7 @@ void _wrap_XSString_sort_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
 }
 
 
-void _wrap_XSString_reverse_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+void _wrap_XSString_reverse_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   
   arg1 = *(XsString **)&_swig_go_0; 
@@ -16429,7 +16429,7 @@ void _wrap_XSString_reverse_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
 }
 
 
-intgo _wrap_XSString_findSubStr_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1) {
+intgo _wrap_XSString_findSubStr_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = 0 ;
   int result;
@@ -16444,7 +16444,7 @@ intgo _wrap_XSString_findSubStr_mtigen_083b31a658b8ff73(XsString *_swig_go_0, Xs
 }
 
 
-XsString *_wrap_XSString_mid_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+XsString *_wrap_XSString_mid_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   XsSize arg3 ;
@@ -16461,7 +16461,7 @@ XsString *_wrap_XSString_mid_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long 
 }
 
 
-void _wrap_XSString_replaceAll_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1, XsString *_swig_go_2) {
+void _wrap_XSString_replaceAll_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1, XsString *_swig_go_2) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = 0 ;
   XsString *arg3 = 0 ;
@@ -16475,7 +16475,7 @@ void _wrap_XSString_replaceAll_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsS
 }
 
 
-XsString *_wrap_XSString_replacedAll_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsString *_swig_go_1, XsString *_swig_go_2) {
+XsString *_wrap_XSString_replacedAll_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsString *_swig_go_1, XsString *_swig_go_2) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *arg2 = 0 ;
   XsString *arg3 = 0 ;
@@ -16492,7 +16492,7 @@ XsString *_wrap_XSString_replacedAll_mtigen_083b31a658b8ff73(XsString *_swig_go_
 }
 
 
-void _wrap_delete_XSString_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+void _wrap_delete_XSString_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   
   arg1 = *(XsString **)&_swig_go_0; 
@@ -16502,7 +16502,7 @@ void _wrap_delete_XSString_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
 }
 
 
-void _wrap_XSString_clear_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+void _wrap_XSString_clear_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   
   arg1 = *(XsString **)&_swig_go_0; 
@@ -16513,7 +16513,7 @@ void _wrap_XSString_clear_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
 }
 
 
-void _wrap_XSString_reserve_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1) {
+void _wrap_XSString_reserve_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   
@@ -16526,7 +16526,7 @@ void _wrap_XSString_reserve_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long l
 }
 
 
-long long _wrap_XSString_reserved_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+long long _wrap_XSString_reserved_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -16540,7 +16540,7 @@ long long _wrap_XSString_reserved_mtigen_083b31a658b8ff73(XsString *_swig_go_0) 
 }
 
 
-XsArrayDescriptor *_wrap_XSString_descriptor_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+XsArrayDescriptor *_wrap_XSString_descriptor_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   XsArrayDescriptor *result = 0 ;
   XsArrayDescriptor *_swig_go_result;
@@ -16554,7 +16554,7 @@ XsArrayDescriptor *_wrap_XSString_descriptor_mtigen_083b31a658b8ff73(XsString *_
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_wrap_XSString_begin__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_wrap_XSString_begin__SWIG_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > > result;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_swig_go_result;
@@ -16568,7 +16568,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_wrap
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_wrap_XSString_begin__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_wrap_XSString_begin__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > > result;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_swig_go_result;
@@ -16582,7 +16582,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_wrap_XSSt
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_wrap_XSString_end__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_wrap_XSString_end__SWIG_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > > result;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_swig_go_result;
@@ -16596,7 +16596,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_wrap
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_wrap_XSString_end__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_wrap_XSString_end__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > > result;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_swig_go_result;
@@ -16610,7 +16610,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_wrap_XSSt
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_wrap_XSString_rbegin__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_wrap_XSString_rbegin__SWIG_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > > result;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_swig_go_result;
@@ -16624,7 +16624,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_wra
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_wrap_XSString_rbegin__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_wrap_XSString_rbegin__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > > result;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_swig_go_result;
@@ -16638,7 +16638,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_wrap_XSS
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_wrap_XSString_rend__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_wrap_XSString_rend__SWIG_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > > result;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_swig_go_result;
@@ -16652,7 +16652,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_wra
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_wrap_XSString_rend__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_wrap_XSString_rend__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > > result;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_swig_go_result;
@@ -16666,7 +16666,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_wrap_XSS
 }
 
 
-char _wrap_XSString_opIndex__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1) {
+char _wrap_XSString_opIndex__SWIG_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   char *result = 0 ;
@@ -16682,7 +16682,7 @@ char _wrap_XSString_opIndex__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0
 }
 
 
-char *_wrap_XSString_opIndex__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1) {
+char *_wrap_XSString_opIndex__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   char *result = 0 ;
@@ -16698,7 +16698,7 @@ char *_wrap_XSString_opIndex__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_
 }
 
 
-char _wrap_XSString_value_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1) {
+char _wrap_XSString_value_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   char result;
@@ -16714,7 +16714,7 @@ char _wrap_XSString_value_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long lon
 }
 
 
-char _wrap_XSString_first_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+char _wrap_XSString_first_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   char result;
   char _swig_go_result;
@@ -16728,7 +16728,7 @@ char _wrap_XSString_first_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
 }
 
 
-char _wrap_XSString_last_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+char _wrap_XSString_last_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   char result;
   char _swig_go_result;
@@ -16742,7 +16742,7 @@ char _wrap_XSString_last_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
 }
 
 
-char _wrap_XSString_at__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1) {
+char _wrap_XSString_at__SWIG_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   char *result = 0 ;
@@ -16758,7 +16758,7 @@ char _wrap_XSString_at__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0, lon
 }
 
 
-char *_wrap_XSString_at__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1) {
+char *_wrap_XSString_at__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   char *result = 0 ;
@@ -16774,7 +16774,7 @@ char *_wrap_XSString_at__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, lo
 }
 
 
-void _wrap_XSString_insert__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0, char _swig_go_1, long long _swig_go_2) {
+void _wrap_XSString_insert__SWIG_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0, char _swig_go_1, long long _swig_go_2) {
   XsString *arg1 = (XsString *) 0 ;
   char *arg2 = 0 ;
   XsSize arg3 ;
@@ -16789,7 +16789,7 @@ void _wrap_XSString_insert__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0,
 }
 
 
-void _wrap_XSString_insert__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2, long long _swig_go_3) {
+void _wrap_XSString_insert__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0, _gostring_ _swig_go_1, long long _swig_go_2, long long _swig_go_3) {
   XsString *arg1 = (XsString *) 0 ;
   char *arg2 = (char *) 0 ;
   XsSize arg3 ;
@@ -16811,7 +16811,7 @@ void _wrap_XSString_insert__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0,
 }
 
 
-void _wrap_XSString_insert__SWIG_2_mtigen_083b31a658b8ff73(XsString *_swig_go_0, char _swig_go_1, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_swig_go_2) {
+void _wrap_XSString_insert__SWIG_2_gen_58fb7b870f09ff4a(XsString *_swig_go_0, char _swig_go_1, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_swig_go_2) {
   XsString *arg1 = (XsString *) 0 ;
   char *arg2 = 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > > arg3 ;
@@ -16833,7 +16833,7 @@ void _wrap_XSString_insert__SWIG_2_mtigen_083b31a658b8ff73(XsString *_swig_go_0,
 }
 
 
-void _wrap_XSString_insert__SWIG_3_mtigen_083b31a658b8ff73(XsString *_swig_go_0, char _swig_go_1, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_swig_go_2) {
+void _wrap_XSString_insert__SWIG_3_gen_58fb7b870f09ff4a(XsString *_swig_go_0, char _swig_go_1, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_swig_go_2) {
   XsString *arg1 = (XsString *) 0 ;
   char *arg2 = 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > > arg3 ;
@@ -16855,7 +16855,7 @@ void _wrap_XSString_insert__SWIG_3_mtigen_083b31a658b8ff73(XsString *_swig_go_0,
 }
 
 
-void _wrap_XSString_insert__SWIG_4_mtigen_083b31a658b8ff73(XsString *_swig_go_0, _gostring_ _swig_go_1, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_swig_go_2, long long _swig_go_3) {
+void _wrap_XSString_insert__SWIG_4_gen_58fb7b870f09ff4a(XsString *_swig_go_0, _gostring_ _swig_go_1, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > *_swig_go_2, long long _swig_go_3) {
   XsString *arg1 = (XsString *) 0 ;
   char *arg2 = (char *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< 1 > > arg3 ;
@@ -16884,7 +16884,7 @@ void _wrap_XSString_insert__SWIG_4_mtigen_083b31a658b8ff73(XsString *_swig_go_0,
 }
 
 
-void _wrap_XSString_insert__SWIG_5_mtigen_083b31a658b8ff73(XsString *_swig_go_0, _gostring_ _swig_go_1, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_swig_go_2, long long _swig_go_3) {
+void _wrap_XSString_insert__SWIG_5_gen_58fb7b870f09ff4a(XsString *_swig_go_0, _gostring_ _swig_go_1, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > *_swig_go_2, long long _swig_go_3) {
   XsString *arg1 = (XsString *) 0 ;
   char *arg2 = (char *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImplConst< -1 > > arg3 ;
@@ -16913,7 +16913,7 @@ void _wrap_XSString_insert__SWIG_5_mtigen_083b31a658b8ff73(XsString *_swig_go_0,
 }
 
 
-void _wrap_XSString_pop_back__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1) {
+void _wrap_XSString_pop_back__SWIG_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   
@@ -16926,7 +16926,7 @@ void _wrap_XSString_pop_back__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_
 }
 
 
-void _wrap_XSString_pop_back__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+void _wrap_XSString_pop_back__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   
   arg1 = *(XsString **)&_swig_go_0; 
@@ -16937,7 +16937,7 @@ void _wrap_XSString_pop_back__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_
 }
 
 
-void _wrap_XSString_push_front_mtigen_083b31a658b8ff73(XsString *_swig_go_0, char _swig_go_1) {
+void _wrap_XSString_push_front_gen_58fb7b870f09ff4a(XsString *_swig_go_0, char _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   char *arg2 = 0 ;
   
@@ -16950,7 +16950,7 @@ void _wrap_XSString_push_front_mtigen_083b31a658b8ff73(XsString *_swig_go_0, cha
 }
 
 
-void _wrap_XSString_pop_front__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1) {
+void _wrap_XSString_pop_front__SWIG_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   
@@ -16963,7 +16963,7 @@ void _wrap_XSString_pop_front__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go
 }
 
 
-void _wrap_XSString_pop_front__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+void _wrap_XSString_pop_front__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   
   arg1 = *(XsString **)&_swig_go_0; 
@@ -16974,7 +16974,7 @@ void _wrap_XSString_pop_front__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go
 }
 
 
-long long _wrap_XSString_size_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+long long _wrap_XSString_size_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -16988,7 +16988,7 @@ long long _wrap_XSString_size_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
 }
 
 
-void _wrap_XSString_erase__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_XSString_erase__SWIG_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   XsSize arg3 ;
@@ -17003,7 +17003,7 @@ void _wrap_XSString_erase__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0, 
 }
 
 
-void _wrap_XSString_erase__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1) {
+void _wrap_XSString_erase__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   
@@ -17016,7 +17016,7 @@ void _wrap_XSString_erase__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, 
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_wrap_XSString_erase__SWIG_2_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_swig_go_1) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_wrap_XSString_erase__SWIG_2_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > > arg2 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::iterator *argp2 ;
@@ -17039,7 +17039,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< 1 > *_wrap_XSSt
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_wrap_XSString_erase__SWIG_3_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_swig_go_1) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_wrap_XSString_erase__SWIG_3_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   SwigValueWrapper< XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > > arg2 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::reverse_iterator *argp2 ;
@@ -17062,7 +17062,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString >::IteratorImpl< -1 > *_wrap_XSS
 }
 
 
-void _wrap_XSString_assign_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1, _gostring_ _swig_go_2) {
+void _wrap_XSString_assign_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1, _gostring_ _swig_go_2) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   char *arg3 = (char *) 0 ;
@@ -17082,7 +17082,7 @@ void _wrap_XSString_assign_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long lo
 }
 
 
-void _wrap_XSString_resize_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1) {
+void _wrap_XSString_resize_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   
@@ -17095,7 +17095,7 @@ void _wrap_XSString_resize_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long lo
 }
 
 
-void _wrap_XSString_setSize_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1) {
+void _wrap_XSString_setSize_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   
@@ -17108,7 +17108,7 @@ void _wrap_XSString_setSize_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long l
 }
 
 
-XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_XSString_opAssign_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_1) {
+XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_XSString_opAssign_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::ArrayImpl *arg2 = 0 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::ArrayImpl *result = 0 ;
@@ -17124,7 +17124,7 @@ XsArrayImpl< char,g_xsStringDescriptor,XsString > *_wrap_XSString_opAssign_mtige
 }
 
 
-XsString *_wrap_XSString_inherited__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+XsString *_wrap_XSString_inherited__SWIG_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *result = 0 ;
   XsString *_swig_go_result;
@@ -17138,7 +17138,7 @@ XsString *_wrap_XSString_inherited__SWIG_0_mtigen_083b31a658b8ff73(XsString *_sw
 }
 
 
-XsString *_wrap_XSString_inherited__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+XsString *_wrap_XSString_inherited__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   XsString *result = 0 ;
   XsString *_swig_go_result;
@@ -17152,7 +17152,7 @@ XsString *_wrap_XSString_inherited__SWIG_1_mtigen_083b31a658b8ff73(XsString *_sw
 }
 
 
-void _wrap_XSString_swap__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_1) {
+void _wrap_XSString_swap__SWIG_0_gen_58fb7b870f09ff4a(XsString *_swig_go_0, XsArrayImpl< char,g_xsStringDescriptor,XsString > *_swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsArrayImpl< char,g_xsStringDescriptor,XsString >::ArrayImpl *arg2 = 0 ;
   
@@ -17165,7 +17165,7 @@ void _wrap_XSString_swap__SWIG_0_mtigen_083b31a658b8ff73(XsString *_swig_go_0, X
 }
 
 
-void _wrap_XSString_swap__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_XSString_swap__SWIG_1_gen_58fb7b870f09ff4a(XsString *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   XsString *arg1 = (XsString *) 0 ;
   XsSize arg2 ;
   XsSize arg3 ;
@@ -17180,7 +17180,7 @@ void _wrap_XSString_swap__SWIG_1_mtigen_083b31a658b8ff73(XsString *_swig_go_0, l
 }
 
 
-intgo _wrap_XSString_find_mtigen_083b31a658b8ff73(XsString *_swig_go_0, char _swig_go_1) {
+intgo _wrap_XSString_find_gen_58fb7b870f09ff4a(XsString *_swig_go_0, char _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   char *arg2 = 0 ;
   int result;
@@ -17196,7 +17196,7 @@ intgo _wrap_XSString_find_mtigen_083b31a658b8ff73(XsString *_swig_go_0, char _sw
 }
 
 
-void _wrap_XSString_removeDuplicates_mtigen_083b31a658b8ff73(XsString *_swig_go_0) {
+void _wrap_XSString_removeDuplicates_gen_58fb7b870f09ff4a(XsString *_swig_go_0) {
   XsString *arg1 = (XsString *) 0 ;
   
   arg1 = *(XsString **)&_swig_go_0; 
@@ -17207,7 +17207,7 @@ void _wrap_XSString_removeDuplicates_mtigen_083b31a658b8ff73(XsString *_swig_go_
 }
 
 
-void _wrap_XSString_removeDuplicatesPredicate_mtigen_083b31a658b8ff73(XsString *_swig_go_0, void* _swig_go_1) {
+void _wrap_XSString_removeDuplicatesPredicate_gen_58fb7b870f09ff4a(XsString *_swig_go_0, void* _swig_go_1) {
   XsString *arg1 = (XsString *) 0 ;
   XsArrayItemCompareFunc arg2 = (XsArrayItemCompareFunc) 0 ;
   
@@ -17220,7 +17220,7 @@ void _wrap_XSString_removeDuplicatesPredicate_mtigen_083b31a658b8ff73(XsString *
 }
 
 
-intgo _wrap_XBR_Invalid_mtigen_083b31a658b8ff73() {
+intgo _wrap_XBR_Invalid_gen_58fb7b870f09ff4a() {
   XsBaudRate result;
   intgo _swig_go_result;
   
@@ -17232,7 +17232,7 @@ intgo _wrap_XBR_Invalid_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XBR_4800_mtigen_083b31a658b8ff73() {
+intgo _wrap_XBR_4800_gen_58fb7b870f09ff4a() {
   XsBaudRate result;
   intgo _swig_go_result;
   
@@ -17244,7 +17244,7 @@ intgo _wrap_XBR_4800_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XBR_9600_mtigen_083b31a658b8ff73() {
+intgo _wrap_XBR_9600_gen_58fb7b870f09ff4a() {
   XsBaudRate result;
   intgo _swig_go_result;
   
@@ -17256,7 +17256,7 @@ intgo _wrap_XBR_9600_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XBR_19k2_mtigen_083b31a658b8ff73() {
+intgo _wrap_XBR_19k2_gen_58fb7b870f09ff4a() {
   XsBaudRate result;
   intgo _swig_go_result;
   
@@ -17268,7 +17268,7 @@ intgo _wrap_XBR_19k2_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XBR_38k4_mtigen_083b31a658b8ff73() {
+intgo _wrap_XBR_38k4_gen_58fb7b870f09ff4a() {
   XsBaudRate result;
   intgo _swig_go_result;
   
@@ -17280,7 +17280,7 @@ intgo _wrap_XBR_38k4_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XBR_57k6_mtigen_083b31a658b8ff73() {
+intgo _wrap_XBR_57k6_gen_58fb7b870f09ff4a() {
   XsBaudRate result;
   intgo _swig_go_result;
   
@@ -17292,7 +17292,7 @@ intgo _wrap_XBR_57k6_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XBR_115k2_mtigen_083b31a658b8ff73() {
+intgo _wrap_XBR_115k2_gen_58fb7b870f09ff4a() {
   XsBaudRate result;
   intgo _swig_go_result;
   
@@ -17304,7 +17304,7 @@ intgo _wrap_XBR_115k2_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XBR_230k4_mtigen_083b31a658b8ff73() {
+intgo _wrap_XBR_230k4_gen_58fb7b870f09ff4a() {
   XsBaudRate result;
   intgo _swig_go_result;
   
@@ -17316,7 +17316,7 @@ intgo _wrap_XBR_230k4_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XBR_460k8_mtigen_083b31a658b8ff73() {
+intgo _wrap_XBR_460k8_gen_58fb7b870f09ff4a() {
   XsBaudRate result;
   intgo _swig_go_result;
   
@@ -17328,7 +17328,7 @@ intgo _wrap_XBR_460k8_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XBR_921k6_mtigen_083b31a658b8ff73() {
+intgo _wrap_XBR_921k6_gen_58fb7b870f09ff4a() {
   XsBaudRate result;
   intgo _swig_go_result;
   
@@ -17340,7 +17340,7 @@ intgo _wrap_XBR_921k6_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XBR_2000k_mtigen_083b31a658b8ff73() {
+intgo _wrap_XBR_2000k_gen_58fb7b870f09ff4a() {
   XsBaudRate result;
   intgo _swig_go_result;
   
@@ -17352,7 +17352,7 @@ intgo _wrap_XBR_2000k_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XBR_3500k_mtigen_083b31a658b8ff73() {
+intgo _wrap_XBR_3500k_gen_58fb7b870f09ff4a() {
   XsBaudRate result;
   intgo _swig_go_result;
   
@@ -17364,7 +17364,7 @@ intgo _wrap_XBR_3500k_mtigen_083b31a658b8ff73() {
 }
 
 
-intgo _wrap_XBR_4000k_mtigen_083b31a658b8ff73() {
+intgo _wrap_XBR_4000k_gen_58fb7b870f09ff4a() {
   XsBaudRate result;
   intgo _swig_go_result;
   
@@ -17376,7 +17376,7 @@ intgo _wrap_XBR_4000k_mtigen_083b31a658b8ff73() {
 }
 
 
-void _wrap_XsDataPacket_construct_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+void _wrap_XsDataPacket_construct_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   
   arg1 = *(XsDataPacket **)&_swig_go_0; 
@@ -17386,7 +17386,7 @@ void _wrap_XsDataPacket_construct_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go
 }
 
 
-void _wrap_XsDataPacket_copyConstruct_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataPacket *_swig_go_1) {
+void _wrap_XsDataPacket_copyConstruct_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataPacket *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataPacket *arg2 = (XsDataPacket *) 0 ;
   
@@ -17398,7 +17398,7 @@ void _wrap_XsDataPacket_copyConstruct_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-void _wrap_XsDataPacket_destruct_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+void _wrap_XsDataPacket_destruct_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   
   arg1 = *(XsDataPacket **)&_swig_go_0; 
@@ -17408,7 +17408,7 @@ void _wrap_XsDataPacket_destruct_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_
 }
 
 
-void _wrap_XsDataPacket_clear_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
+void _wrap_XsDataPacket_clear_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier arg2 ;
   XsDataIdentifier *argp2 ;
@@ -17427,7 +17427,7 @@ void _wrap_XsDataPacket_clear_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, 
 }
 
 
-void _wrap_XsDataPacket_copy_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataPacket *_swig_go_1) {
+void _wrap_XsDataPacket_copy_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataPacket *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataPacket *arg2 = (XsDataPacket *) 0 ;
   
@@ -17439,7 +17439,7 @@ void _wrap_XsDataPacket_copy_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, X
 }
 
 
-void _wrap_XsDataPacket_swap_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataPacket *_swig_go_1) {
+void _wrap_XsDataPacket_swap_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataPacket *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataPacket *arg2 = (XsDataPacket *) 0 ;
   
@@ -17451,7 +17451,7 @@ void _wrap_XsDataPacket_swap_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, X
 }
 
 
-intgo _wrap_XsDataPacket_empty_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_empty_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17464,7 +17464,7 @@ intgo _wrap_XsDataPacket_empty_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0)
 }
 
 
-intgo _wrap_XsDataPacket_itemCount_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_itemCount_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17477,7 +17477,7 @@ intgo _wrap_XsDataPacket_itemCount_mtigen_083b31a658b8ff73(XsDataPacket *_swig_g
 }
 
 
-void _wrap_XsDataPacket_setMessage_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsMessage *_swig_go_1) {
+void _wrap_XsDataPacket_setMessage_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsMessage *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsMessage *arg2 = (XsMessage *) 0 ;
   
@@ -17489,7 +17489,7 @@ void _wrap_XsDataPacket_setMessage_mtigen_083b31a658b8ff73(XsDataPacket *_swig_g
 }
 
 
-XsDataIdentifier *_wrap_XsDataPacket_dataFormat_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
+XsDataIdentifier *_wrap_XsDataPacket_dataFormat_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier arg2 ;
   XsDataIdentifier *argp2 ;
@@ -17511,7 +17511,7 @@ XsDataIdentifier *_wrap_XsDataPacket_dataFormat_mtigen_083b31a658b8ff73(XsDataPa
 }
 
 
-XsUShortVector *_wrap_XsDataPacket_rawAcceleration_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
+XsUShortVector *_wrap_XsDataPacket_rawAcceleration_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsUShortVector *arg2 = (XsUShortVector *) 0 ;
   XsUShortVector *result = 0 ;
@@ -17526,7 +17526,7 @@ XsUShortVector *_wrap_XsDataPacket_rawAcceleration_mtigen_083b31a658b8ff73(XsDat
 }
 
 
-XsVector *_wrap_XsDataPacket_rawAccelerationConverted_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+XsVector *_wrap_XsDataPacket_rawAccelerationConverted_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   XsVector *result = 0 ;
@@ -17541,7 +17541,7 @@ XsVector *_wrap_XsDataPacket_rawAccelerationConverted_mtigen_083b31a658b8ff73(Xs
 }
 
 
-intgo _wrap_XsDataPacket_containsRawAcceleration_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsRawAcceleration_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17554,7 +17554,7 @@ intgo _wrap_XsDataPacket_containsRawAcceleration_mtigen_083b31a658b8ff73(XsDataP
 }
 
 
-void _wrap_XsDataPacket_setRawAcceleration_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
+void _wrap_XsDataPacket_setRawAcceleration_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsUShortVector *arg2 = (XsUShortVector *) 0 ;
   
@@ -17566,7 +17566,7 @@ void _wrap_XsDataPacket_setRawAcceleration_mtigen_083b31a658b8ff73(XsDataPacket 
 }
 
 
-XsUShortVector *_wrap_XsDataPacket_rawGyroscopeData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
+XsUShortVector *_wrap_XsDataPacket_rawGyroscopeData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsUShortVector *arg2 = (XsUShortVector *) 0 ;
   XsUShortVector *result = 0 ;
@@ -17581,7 +17581,7 @@ XsUShortVector *_wrap_XsDataPacket_rawGyroscopeData_mtigen_083b31a658b8ff73(XsDa
 }
 
 
-XsVector *_wrap_XsDataPacket_rawGyroscopeDataConverted_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+XsVector *_wrap_XsDataPacket_rawGyroscopeDataConverted_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   XsVector *result = 0 ;
@@ -17596,7 +17596,7 @@ XsVector *_wrap_XsDataPacket_rawGyroscopeDataConverted_mtigen_083b31a658b8ff73(X
 }
 
 
-intgo _wrap_XsDataPacket_containsRawGyroscopeData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsRawGyroscopeData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17609,7 +17609,7 @@ intgo _wrap_XsDataPacket_containsRawGyroscopeData_mtigen_083b31a658b8ff73(XsData
 }
 
 
-void _wrap_XsDataPacket_setRawGyroscopeData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
+void _wrap_XsDataPacket_setRawGyroscopeData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsUShortVector *arg2 = (XsUShortVector *) 0 ;
   
@@ -17621,7 +17621,7 @@ void _wrap_XsDataPacket_setRawGyroscopeData_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-XsUShortVector *_wrap_XsDataPacket_rawGyroscopeTemperatureData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
+XsUShortVector *_wrap_XsDataPacket_rawGyroscopeTemperatureData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsUShortVector *arg2 = (XsUShortVector *) 0 ;
   XsUShortVector *result = 0 ;
@@ -17636,7 +17636,7 @@ XsUShortVector *_wrap_XsDataPacket_rawGyroscopeTemperatureData_mtigen_083b31a658
 }
 
 
-XsVector *_wrap_XsDataPacket_rawGyroscopeTemperatureDataConverted_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+XsVector *_wrap_XsDataPacket_rawGyroscopeTemperatureDataConverted_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   XsVector *result = 0 ;
@@ -17651,7 +17651,7 @@ XsVector *_wrap_XsDataPacket_rawGyroscopeTemperatureDataConverted_mtigen_083b31a
 }
 
 
-intgo _wrap_XsDataPacket_containsRawGyroscopeTemperatureData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsRawGyroscopeTemperatureData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17664,7 +17664,7 @@ intgo _wrap_XsDataPacket_containsRawGyroscopeTemperatureData_mtigen_083b31a658b8
 }
 
 
-void _wrap_XsDataPacket_setRawGyroscopeTemperatureData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
+void _wrap_XsDataPacket_setRawGyroscopeTemperatureData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsUShortVector *arg2 = (XsUShortVector *) 0 ;
   
@@ -17676,7 +17676,7 @@ void _wrap_XsDataPacket_setRawGyroscopeTemperatureData_mtigen_083b31a658b8ff73(X
 }
 
 
-XsUShortVector *_wrap_XsDataPacket_rawMagneticField_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
+XsUShortVector *_wrap_XsDataPacket_rawMagneticField_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsUShortVector *arg2 = (XsUShortVector *) 0 ;
   XsUShortVector *result = 0 ;
@@ -17691,7 +17691,7 @@ XsUShortVector *_wrap_XsDataPacket_rawMagneticField_mtigen_083b31a658b8ff73(XsDa
 }
 
 
-XsVector *_wrap_XsDataPacket_rawMagneticFieldConverted_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+XsVector *_wrap_XsDataPacket_rawMagneticFieldConverted_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   XsVector *result = 0 ;
@@ -17706,7 +17706,7 @@ XsVector *_wrap_XsDataPacket_rawMagneticFieldConverted_mtigen_083b31a658b8ff73(X
 }
 
 
-intgo _wrap_XsDataPacket_containsRawMagneticField_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsRawMagneticField_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17719,7 +17719,7 @@ intgo _wrap_XsDataPacket_containsRawMagneticField_mtigen_083b31a658b8ff73(XsData
 }
 
 
-void _wrap_XsDataPacket_setRawMagneticField_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
+void _wrap_XsDataPacket_setRawMagneticField_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsUShortVector *arg2 = (XsUShortVector *) 0 ;
   
@@ -17731,7 +17731,7 @@ void _wrap_XsDataPacket_setRawMagneticField_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-short _wrap_XsDataPacket_rawTemperature_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+short _wrap_XsDataPacket_rawTemperature_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint16_t result;
   short _swig_go_result;
@@ -17744,7 +17744,7 @@ short _wrap_XsDataPacket_rawTemperature_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-intgo _wrap_XsDataPacket_containsRawTemperature_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsRawTemperature_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17757,7 +17757,7 @@ intgo _wrap_XsDataPacket_containsRawTemperature_mtigen_083b31a658b8ff73(XsDataPa
 }
 
 
-void _wrap_XsDataPacket_setRawTemperature_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, short _swig_go_1) {
+void _wrap_XsDataPacket_setRawTemperature_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, short _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint16_t arg2 ;
   
@@ -17769,7 +17769,7 @@ void _wrap_XsDataPacket_setRawTemperature_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-XsScrData *_wrap_XsDataPacket_rawData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsScrData *_swig_go_1) {
+XsScrData *_wrap_XsDataPacket_rawData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsScrData *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsScrData *arg2 = (XsScrData *) 0 ;
   XsScrData *result = 0 ;
@@ -17784,7 +17784,7 @@ XsScrData *_wrap_XsDataPacket_rawData_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-intgo _wrap_XsDataPacket_containsRawData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsRawData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17797,7 +17797,7 @@ intgo _wrap_XsDataPacket_containsRawData_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-void _wrap_XsDataPacket_setRawData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsScrData *_swig_go_1) {
+void _wrap_XsDataPacket_setRawData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsScrData *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsScrData *arg2 = (XsScrData *) 0 ;
   
@@ -17809,7 +17809,7 @@ void _wrap_XsDataPacket_setRawData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_g
 }
 
 
-XsVector *_wrap_XsDataPacket_velocityIncrement_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+XsVector *_wrap_XsDataPacket_velocityIncrement_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   XsVector *result = 0 ;
@@ -17824,7 +17824,7 @@ XsVector *_wrap_XsDataPacket_velocityIncrement_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-intgo _wrap_XsDataPacket_containsVelocityIncrement_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsVelocityIncrement_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17837,7 +17837,7 @@ intgo _wrap_XsDataPacket_containsVelocityIncrement_mtigen_083b31a658b8ff73(XsDat
 }
 
 
-void _wrap_XsDataPacket_setVelocityIncrement_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XsDataPacket_setVelocityIncrement_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   
@@ -17849,7 +17849,7 @@ void _wrap_XsDataPacket_setVelocityIncrement_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-XsVector *_wrap_XsDataPacket_calibratedAcceleration_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+XsVector *_wrap_XsDataPacket_calibratedAcceleration_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   XsVector *result = 0 ;
@@ -17864,7 +17864,7 @@ XsVector *_wrap_XsDataPacket_calibratedAcceleration_mtigen_083b31a658b8ff73(XsDa
 }
 
 
-intgo _wrap_XsDataPacket_containsCalibratedAcceleration_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsCalibratedAcceleration_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17877,7 +17877,7 @@ intgo _wrap_XsDataPacket_containsCalibratedAcceleration_mtigen_083b31a658b8ff73(
 }
 
 
-void _wrap_XsDataPacket_setCalibratedAcceleration_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XsDataPacket_setCalibratedAcceleration_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   
@@ -17889,7 +17889,7 @@ void _wrap_XsDataPacket_setCalibratedAcceleration_mtigen_083b31a658b8ff73(XsData
 }
 
 
-XsQuaternion *_wrap_XsDataPacket_orientationIncrement_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsQuaternion *_swig_go_1) {
+XsQuaternion *_wrap_XsDataPacket_orientationIncrement_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsQuaternion *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsQuaternion *arg2 = (XsQuaternion *) 0 ;
   XsQuaternion *result = 0 ;
@@ -17904,7 +17904,7 @@ XsQuaternion *_wrap_XsDataPacket_orientationIncrement_mtigen_083b31a658b8ff73(Xs
 }
 
 
-intgo _wrap_XsDataPacket_containsOrientationIncrement_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsOrientationIncrement_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17917,7 +17917,7 @@ intgo _wrap_XsDataPacket_containsOrientationIncrement_mtigen_083b31a658b8ff73(Xs
 }
 
 
-void _wrap_XsDataPacket_setOrientationIncrement_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsQuaternion *_swig_go_1) {
+void _wrap_XsDataPacket_setOrientationIncrement_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsQuaternion *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsQuaternion *arg2 = (XsQuaternion *) 0 ;
   
@@ -17929,7 +17929,7 @@ void _wrap_XsDataPacket_setOrientationIncrement_mtigen_083b31a658b8ff73(XsDataPa
 }
 
 
-XsVector *_wrap_XsDataPacket_calibratedGyroscopeData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+XsVector *_wrap_XsDataPacket_calibratedGyroscopeData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   XsVector *result = 0 ;
@@ -17944,7 +17944,7 @@ XsVector *_wrap_XsDataPacket_calibratedGyroscopeData_mtigen_083b31a658b8ff73(XsD
 }
 
 
-intgo _wrap_XsDataPacket_containsCalibratedGyroscopeData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsCalibratedGyroscopeData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17957,7 +17957,7 @@ intgo _wrap_XsDataPacket_containsCalibratedGyroscopeData_mtigen_083b31a658b8ff73
 }
 
 
-void _wrap_XsDataPacket_setCalibratedGyroscopeData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XsDataPacket_setCalibratedGyroscopeData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   
@@ -17969,7 +17969,7 @@ void _wrap_XsDataPacket_setCalibratedGyroscopeData_mtigen_083b31a658b8ff73(XsDat
 }
 
 
-XsVector *_wrap_XsDataPacket_calibratedMagneticField_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+XsVector *_wrap_XsDataPacket_calibratedMagneticField_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   XsVector *result = 0 ;
@@ -17984,7 +17984,7 @@ XsVector *_wrap_XsDataPacket_calibratedMagneticField_mtigen_083b31a658b8ff73(XsD
 }
 
 
-intgo _wrap_XsDataPacket_containsCalibratedMagneticField_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsCalibratedMagneticField_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -17997,7 +17997,7 @@ intgo _wrap_XsDataPacket_containsCalibratedMagneticField_mtigen_083b31a658b8ff73
 }
 
 
-void _wrap_XsDataPacket_setCalibratedMagneticField_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XsDataPacket_setCalibratedMagneticField_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   
@@ -18009,7 +18009,7 @@ void _wrap_XsDataPacket_setCalibratedMagneticField_mtigen_083b31a658b8ff73(XsDat
 }
 
 
-XsVector *_wrap_XsDataPacket_correctedMagneticField_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+XsVector *_wrap_XsDataPacket_correctedMagneticField_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   XsVector *result = 0 ;
@@ -18024,7 +18024,7 @@ XsVector *_wrap_XsDataPacket_correctedMagneticField_mtigen_083b31a658b8ff73(XsDa
 }
 
 
-intgo _wrap_XsDataPacket_containsCorrectedMagneticField_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsCorrectedMagneticField_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18037,7 +18037,7 @@ intgo _wrap_XsDataPacket_containsCorrectedMagneticField_mtigen_083b31a658b8ff73(
 }
 
 
-void _wrap_XsDataPacket_setCorrectedMagneticField_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XsDataPacket_setCorrectedMagneticField_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   
@@ -18049,7 +18049,7 @@ void _wrap_XsDataPacket_setCorrectedMagneticField_mtigen_083b31a658b8ff73(XsData
 }
 
 
-XsCalibratedData *_wrap_XsDataPacket_calibratedData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsCalibratedData *_swig_go_1) {
+XsCalibratedData *_wrap_XsDataPacket_calibratedData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsCalibratedData *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsCalibratedData *arg2 = (XsCalibratedData *) 0 ;
   XsCalibratedData *result = 0 ;
@@ -18064,7 +18064,7 @@ XsCalibratedData *_wrap_XsDataPacket_calibratedData_mtigen_083b31a658b8ff73(XsDa
 }
 
 
-intgo _wrap_XsDataPacket_containsCalibratedData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsCalibratedData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18077,7 +18077,7 @@ intgo _wrap_XsDataPacket_containsCalibratedData_mtigen_083b31a658b8ff73(XsDataPa
 }
 
 
-void _wrap_XsDataPacket_setCalibratedData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsCalibratedData *_swig_go_1) {
+void _wrap_XsDataPacket_setCalibratedData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsCalibratedData *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsCalibratedData *arg2 = (XsCalibratedData *) 0 ;
   
@@ -18089,7 +18089,7 @@ void _wrap_XsDataPacket_setCalibratedData_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-XsQuaternion *_wrap_XsDataPacket_orientationQuaternion_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsQuaternion *_swig_go_1, XsDataIdentifier *_swig_go_2) {
+XsQuaternion *_wrap_XsDataPacket_orientationQuaternion_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsQuaternion *_swig_go_1, XsDataIdentifier *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsQuaternion *arg2 = (XsQuaternion *) 0 ;
   XsDataIdentifier arg3 ;
@@ -18113,7 +18113,7 @@ XsQuaternion *_wrap_XsDataPacket_orientationQuaternion_mtigen_083b31a658b8ff73(X
 }
 
 
-void _wrap_XsDataPacket_setOrientationQuaternion_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsQuaternion *_swig_go_1, XsDataIdentifier *_swig_go_2) {
+void _wrap_XsDataPacket_setOrientationQuaternion_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsQuaternion *_swig_go_1, XsDataIdentifier *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsQuaternion *arg2 = (XsQuaternion *) 0 ;
   XsDataIdentifier arg3 ;
@@ -18134,7 +18134,7 @@ void _wrap_XsDataPacket_setOrientationQuaternion_mtigen_083b31a658b8ff73(XsDataP
 }
 
 
-XsEuler *_wrap_XsDataPacket_orientationEuler_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsEuler *_swig_go_1, XsDataIdentifier *_swig_go_2) {
+XsEuler *_wrap_XsDataPacket_orientationEuler_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsEuler *_swig_go_1, XsDataIdentifier *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsEuler *arg2 = (XsEuler *) 0 ;
   XsDataIdentifier arg3 ;
@@ -18158,7 +18158,7 @@ XsEuler *_wrap_XsDataPacket_orientationEuler_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-void _wrap_XsDataPacket_setOrientationEuler_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsEuler *_swig_go_1, XsDataIdentifier *_swig_go_2) {
+void _wrap_XsDataPacket_setOrientationEuler_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsEuler *_swig_go_1, XsDataIdentifier *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsEuler *arg2 = (XsEuler *) 0 ;
   XsDataIdentifier arg3 ;
@@ -18179,7 +18179,7 @@ void _wrap_XsDataPacket_setOrientationEuler_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-XsMatrix *_wrap_XsDataPacket_orientationMatrix_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsMatrix *_swig_go_1, XsDataIdentifier *_swig_go_2) {
+XsMatrix *_wrap_XsDataPacket_orientationMatrix_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsMatrix *_swig_go_1, XsDataIdentifier *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsMatrix *arg2 = (XsMatrix *) 0 ;
   XsDataIdentifier arg3 ;
@@ -18203,7 +18203,7 @@ XsMatrix *_wrap_XsDataPacket_orientationMatrix_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-void _wrap_XsDataPacket_setOrientationMatrix_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsMatrix *_swig_go_1, XsDataIdentifier *_swig_go_2) {
+void _wrap_XsDataPacket_setOrientationMatrix_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsMatrix *_swig_go_1, XsDataIdentifier *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsMatrix *arg2 = (XsMatrix *) 0 ;
   XsDataIdentifier arg3 ;
@@ -18224,7 +18224,7 @@ void _wrap_XsDataPacket_setOrientationMatrix_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-intgo _wrap_XsDataPacket_containsOrientation_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsOrientation_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18237,7 +18237,7 @@ intgo _wrap_XsDataPacket_containsOrientation_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-XsDataIdentifier *_wrap_XsDataPacket_orientationIdentifier_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsDataIdentifier *_wrap_XsDataPacket_orientationIdentifier_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier result;
   XsDataIdentifier *_swig_go_result;
@@ -18250,7 +18250,7 @@ XsDataIdentifier *_wrap_XsDataPacket_orientationIdentifier_mtigen_083b31a658b8ff
 }
 
 
-XsDataIdentifier *_wrap_XsDataPacket_coordinateSystemOrientation_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsDataIdentifier *_wrap_XsDataPacket_coordinateSystemOrientation_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier result;
   XsDataIdentifier *_swig_go_result;
@@ -18263,7 +18263,7 @@ XsDataIdentifier *_wrap_XsDataPacket_coordinateSystemOrientation_mtigen_083b31a6
 }
 
 
-XsSdiData *_wrap_XsDataPacket_sdiData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsSdiData *_swig_go_1) {
+XsSdiData *_wrap_XsDataPacket_sdiData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsSdiData *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsSdiData *arg2 = (XsSdiData *) 0 ;
   XsSdiData *result = 0 ;
@@ -18278,7 +18278,7 @@ XsSdiData *_wrap_XsDataPacket_sdiData_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-intgo _wrap_XsDataPacket_containsSdiData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsSdiData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18291,7 +18291,7 @@ intgo _wrap_XsDataPacket_containsSdiData_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-void _wrap_XsDataPacket_setSdiData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsSdiData *_swig_go_1) {
+void _wrap_XsDataPacket_setSdiData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsSdiData *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsSdiData *arg2 = (XsSdiData *) 0 ;
   
@@ -18303,7 +18303,7 @@ void _wrap_XsDataPacket_setSdiData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_g
 }
 
 
-XsGloveData *_wrap_XsDataPacket_gloveData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsGloveData *_swig_go_1, XsHandId *_swig_go_2) {
+XsGloveData *_wrap_XsDataPacket_gloveData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsGloveData *_swig_go_1, XsHandId *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsGloveData *arg2 = (XsGloveData *) 0 ;
   XsHandId arg3 ;
@@ -18327,7 +18327,7 @@ XsGloveData *_wrap_XsDataPacket_gloveData_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-intgo _wrap_XsDataPacket_containsGloveData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsHandId *_swig_go_1) {
+intgo _wrap_XsDataPacket_containsGloveData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsHandId *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsHandId arg2 ;
   XsHandId *argp2 ;
@@ -18349,7 +18349,7 @@ intgo _wrap_XsDataPacket_containsGloveData_mtigen_083b31a658b8ff73(XsDataPacket 
 }
 
 
-void _wrap_XsDataPacket_setGloveData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsGloveData *_swig_go_1, XsHandId *_swig_go_2) {
+void _wrap_XsDataPacket_setGloveData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsGloveData *_swig_go_1, XsHandId *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsGloveData *arg2 = (XsGloveData *) 0 ;
   XsHandId arg3 ;
@@ -18370,7 +18370,7 @@ void _wrap_XsDataPacket_setGloveData_mtigen_083b31a658b8ff73(XsDataPacket *_swig
 }
 
 
-XsDeviceId *_wrap_XsDataPacket_storedDeviceId_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDeviceId *_swig_go_1) {
+XsDeviceId *_wrap_XsDataPacket_storedDeviceId_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDeviceId *arg2 = (XsDeviceId *) 0 ;
   XsDeviceId *result = 0 ;
@@ -18385,7 +18385,7 @@ XsDeviceId *_wrap_XsDataPacket_storedDeviceId_mtigen_083b31a658b8ff73(XsDataPack
 }
 
 
-intgo _wrap_XsDataPacket_containsStoredDeviceId_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsStoredDeviceId_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18398,7 +18398,7 @@ intgo _wrap_XsDataPacket_containsStoredDeviceId_mtigen_083b31a658b8ff73(XsDataPa
 }
 
 
-void _wrap_XsDataPacket_setStoredDeviceId_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDeviceId *_swig_go_1) {
+void _wrap_XsDataPacket_setStoredDeviceId_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDeviceId *arg2 = (XsDeviceId *) 0 ;
   
@@ -18410,7 +18410,7 @@ void _wrap_XsDataPacket_setStoredDeviceId_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-short _wrap_XsDataPacket_storedLocationId_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+short _wrap_XsDataPacket_storedLocationId_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint16_t result;
   short _swig_go_result;
@@ -18423,7 +18423,7 @@ short _wrap_XsDataPacket_storedLocationId_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-intgo _wrap_XsDataPacket_containsStoredLocationId_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsStoredLocationId_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18436,7 +18436,7 @@ intgo _wrap_XsDataPacket_containsStoredLocationId_mtigen_083b31a658b8ff73(XsData
 }
 
 
-void _wrap_XsDataPacket_setStoredLocationId_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, short _swig_go_1) {
+void _wrap_XsDataPacket_setStoredLocationId_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, short _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint16_t arg2 ;
   
@@ -18448,7 +18448,7 @@ void _wrap_XsDataPacket_setStoredLocationId_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-intgo _wrap_XsDataPacket_status_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_status_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint32_t result;
   intgo _swig_go_result;
@@ -18461,7 +18461,7 @@ intgo _wrap_XsDataPacket_status_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0
 }
 
 
-intgo _wrap_XsDataPacket_containsStatus_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsStatus_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18474,7 +18474,7 @@ intgo _wrap_XsDataPacket_containsStatus_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-intgo _wrap_XsDataPacket_containsDetailedStatus_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsDetailedStatus_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18487,7 +18487,7 @@ intgo _wrap_XsDataPacket_containsDetailedStatus_mtigen_083b31a658b8ff73(XsDataPa
 }
 
 
-void _wrap_XsDataPacket_setStatus_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
+void _wrap_XsDataPacket_setStatus_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint32_t arg2 ;
   
@@ -18499,7 +18499,7 @@ void _wrap_XsDataPacket_setStatus_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go
 }
 
 
-void _wrap_XsDataPacket_setStatusByte_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, char _swig_go_1) {
+void _wrap_XsDataPacket_setStatusByte_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, char _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint8_t arg2 ;
   
@@ -18511,7 +18511,7 @@ void _wrap_XsDataPacket_setStatusByte_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-char _wrap_XsDataPacket_packetCounter8_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+char _wrap_XsDataPacket_packetCounter8_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint8_t result;
   char _swig_go_result;
@@ -18524,7 +18524,7 @@ char _wrap_XsDataPacket_packetCounter8_mtigen_083b31a658b8ff73(XsDataPacket *_sw
 }
 
 
-intgo _wrap_XsDataPacket_containsPacketCounter8_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsPacketCounter8_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18537,7 +18537,7 @@ intgo _wrap_XsDataPacket_containsPacketCounter8_mtigen_083b31a658b8ff73(XsDataPa
 }
 
 
-void _wrap_XsDataPacket_setPacketCounter8_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, char _swig_go_1) {
+void _wrap_XsDataPacket_setPacketCounter8_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, char _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint8_t arg2 ;
   
@@ -18549,7 +18549,7 @@ void _wrap_XsDataPacket_setPacketCounter8_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-short _wrap_XsDataPacket_packetCounter_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+short _wrap_XsDataPacket_packetCounter_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint16_t result;
   short _swig_go_result;
@@ -18562,7 +18562,7 @@ short _wrap_XsDataPacket_packetCounter_mtigen_083b31a658b8ff73(XsDataPacket *_sw
 }
 
 
-intgo _wrap_XsDataPacket_containsPacketCounter_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsPacketCounter_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18575,7 +18575,7 @@ intgo _wrap_XsDataPacket_containsPacketCounter_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-void _wrap_XsDataPacket_setPacketCounter_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, short _swig_go_1) {
+void _wrap_XsDataPacket_setPacketCounter_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, short _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint16_t arg2 ;
   
@@ -18587,7 +18587,7 @@ void _wrap_XsDataPacket_setPacketCounter_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-intgo _wrap_XsDataPacket_sampleTimeFine_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_sampleTimeFine_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint32_t result;
   intgo _swig_go_result;
@@ -18600,7 +18600,7 @@ intgo _wrap_XsDataPacket_sampleTimeFine_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-intgo _wrap_XsDataPacket_containsSampleTimeFine_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsSampleTimeFine_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18613,7 +18613,7 @@ intgo _wrap_XsDataPacket_containsSampleTimeFine_mtigen_083b31a658b8ff73(XsDataPa
 }
 
 
-void _wrap_XsDataPacket_setSampleTimeFine_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
+void _wrap_XsDataPacket_setSampleTimeFine_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint32_t arg2 ;
   
@@ -18625,7 +18625,7 @@ void _wrap_XsDataPacket_setSampleTimeFine_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-intgo _wrap_XsDataPacket_sampleTimeCoarse_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_sampleTimeCoarse_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint32_t result;
   intgo _swig_go_result;
@@ -18638,7 +18638,7 @@ intgo _wrap_XsDataPacket_sampleTimeCoarse_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-intgo _wrap_XsDataPacket_containsSampleTimeCoarse_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsSampleTimeCoarse_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18651,7 +18651,7 @@ intgo _wrap_XsDataPacket_containsSampleTimeCoarse_mtigen_083b31a658b8ff73(XsData
 }
 
 
-void _wrap_XsDataPacket_setSampleTimeCoarse_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
+void _wrap_XsDataPacket_setSampleTimeCoarse_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint32_t arg2 ;
   
@@ -18663,7 +18663,7 @@ void _wrap_XsDataPacket_setSampleTimeCoarse_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-long long _wrap_XsDataPacket_sampleTime64_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+long long _wrap_XsDataPacket_sampleTime64_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint64_t result;
   long long _swig_go_result;
@@ -18676,7 +18676,7 @@ long long _wrap_XsDataPacket_sampleTime64_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-intgo _wrap_XsDataPacket_containsSampleTime64_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsSampleTime64_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18689,7 +18689,7 @@ intgo _wrap_XsDataPacket_containsSampleTime64_mtigen_083b31a658b8ff73(XsDataPack
 }
 
 
-void _wrap_XsDataPacket_setSampleTime64_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsDataPacket_setSampleTime64_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, long long _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint64_t arg2 ;
   
@@ -18701,7 +18701,7 @@ void _wrap_XsDataPacket_setSampleTime64_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-XsVector *_wrap_XsDataPacket_freeAcceleration_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+XsVector *_wrap_XsDataPacket_freeAcceleration_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   XsVector *result = 0 ;
@@ -18716,7 +18716,7 @@ XsVector *_wrap_XsDataPacket_freeAcceleration_mtigen_083b31a658b8ff73(XsDataPack
 }
 
 
-intgo _wrap_XsDataPacket_containsFreeAcceleration_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsFreeAcceleration_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18729,7 +18729,7 @@ intgo _wrap_XsDataPacket_containsFreeAcceleration_mtigen_083b31a658b8ff73(XsData
 }
 
 
-void _wrap_XsDataPacket_setFreeAcceleration_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XsDataPacket_setFreeAcceleration_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   
@@ -18741,7 +18741,7 @@ void _wrap_XsDataPacket_setFreeAcceleration_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-double _wrap_XsDataPacket_temperature_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+double _wrap_XsDataPacket_temperature_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   double result;
   double _swig_go_result;
@@ -18754,7 +18754,7 @@ double _wrap_XsDataPacket_temperature_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-intgo _wrap_XsDataPacket_containsTemperature_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsTemperature_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18767,7 +18767,7 @@ intgo _wrap_XsDataPacket_containsTemperature_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-void _wrap_XsDataPacket_setTemperature_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, double _swig_go_1) {
+void _wrap_XsDataPacket_setTemperature_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, double _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   double arg2 ;
   
@@ -18779,7 +18779,7 @@ void _wrap_XsDataPacket_setTemperature_mtigen_083b31a658b8ff73(XsDataPacket *_sw
 }
 
 
-intgo _wrap_XsDataPacket_containsPressure_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsPressure_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18792,7 +18792,7 @@ intgo _wrap_XsDataPacket_containsPressure_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-XsPressure *_wrap_XsDataPacket_pressure_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsPressure *_swig_go_1) {
+XsPressure *_wrap_XsDataPacket_pressure_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsPressure *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsPressure *arg2 = (XsPressure *) 0 ;
   XsPressure *result = 0 ;
@@ -18807,7 +18807,7 @@ XsPressure *_wrap_XsDataPacket_pressure_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-intgo _wrap_XsDataPacket_containsPressureAge_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsPressureAge_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18820,7 +18820,7 @@ intgo _wrap_XsDataPacket_containsPressureAge_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-void _wrap_XsDataPacket_setPressure_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsPressure *_swig_go_1) {
+void _wrap_XsDataPacket_setPressure_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsPressure *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsPressure *arg2 = (XsPressure *) 0 ;
   
@@ -18832,7 +18832,7 @@ void _wrap_XsDataPacket_setPressure_mtigen_083b31a658b8ff73(XsDataPacket *_swig_
 }
 
 
-XsAnalogInData *_wrap_XsDataPacket_analogIn1Data_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsAnalogInData *_swig_go_1) {
+XsAnalogInData *_wrap_XsDataPacket_analogIn1Data_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsAnalogInData *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsAnalogInData *arg2 = (XsAnalogInData *) 0 ;
   XsAnalogInData *result = 0 ;
@@ -18847,7 +18847,7 @@ XsAnalogInData *_wrap_XsDataPacket_analogIn1Data_mtigen_083b31a658b8ff73(XsDataP
 }
 
 
-intgo _wrap_XsDataPacket_containsAnalogIn1Data_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsAnalogIn1Data_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18860,7 +18860,7 @@ intgo _wrap_XsDataPacket_containsAnalogIn1Data_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-void _wrap_XsDataPacket_setAnalogIn1Data_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsAnalogInData *_swig_go_1) {
+void _wrap_XsDataPacket_setAnalogIn1Data_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsAnalogInData *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsAnalogInData *arg2 = (XsAnalogInData *) 0 ;
   
@@ -18872,7 +18872,7 @@ void _wrap_XsDataPacket_setAnalogIn1Data_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-XsAnalogInData *_wrap_XsDataPacket_analogIn2Data_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsAnalogInData *_swig_go_1) {
+XsAnalogInData *_wrap_XsDataPacket_analogIn2Data_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsAnalogInData *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsAnalogInData *arg2 = (XsAnalogInData *) 0 ;
   XsAnalogInData *result = 0 ;
@@ -18887,7 +18887,7 @@ XsAnalogInData *_wrap_XsDataPacket_analogIn2Data_mtigen_083b31a658b8ff73(XsDataP
 }
 
 
-intgo _wrap_XsDataPacket_containsAnalogIn2Data_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsAnalogIn2Data_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18900,7 +18900,7 @@ intgo _wrap_XsDataPacket_containsAnalogIn2Data_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-void _wrap_XsDataPacket_setAnalogIn2Data_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsAnalogInData *_swig_go_1) {
+void _wrap_XsDataPacket_setAnalogIn2Data_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsAnalogInData *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsAnalogInData *arg2 = (XsAnalogInData *) 0 ;
   
@@ -18912,7 +18912,7 @@ void _wrap_XsDataPacket_setAnalogIn2Data_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-XsVector *_wrap_XsDataPacket_positionLLA_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+XsVector *_wrap_XsDataPacket_positionLLA_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   XsVector *result = 0 ;
@@ -18927,7 +18927,7 @@ XsVector *_wrap_XsDataPacket_positionLLA_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-intgo _wrap_XsDataPacket_containsPositionLLA_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsPositionLLA_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18940,7 +18940,7 @@ intgo _wrap_XsDataPacket_containsPositionLLA_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-void _wrap_XsDataPacket_setPositionLLA_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XsDataPacket_setPositionLLA_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   
@@ -18952,7 +18952,7 @@ void _wrap_XsDataPacket_setPositionLLA_mtigen_083b31a658b8ff73(XsDataPacket *_sw
 }
 
 
-XsVector *_wrap_XsDataPacket_latitudeLongitude_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+XsVector *_wrap_XsDataPacket_latitudeLongitude_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   XsVector *result = 0 ;
@@ -18967,7 +18967,7 @@ XsVector *_wrap_XsDataPacket_latitudeLongitude_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-intgo _wrap_XsDataPacket_containsLatitudeLongitude_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsLatitudeLongitude_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -18980,7 +18980,7 @@ intgo _wrap_XsDataPacket_containsLatitudeLongitude_mtigen_083b31a658b8ff73(XsDat
 }
 
 
-void _wrap_XsDataPacket_setLatitudeLongitude_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XsDataPacket_setLatitudeLongitude_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   
@@ -18992,7 +18992,7 @@ void _wrap_XsDataPacket_setLatitudeLongitude_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-double _wrap_XsDataPacket_altitude_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+double _wrap_XsDataPacket_altitude_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   double result;
   double _swig_go_result;
@@ -19005,7 +19005,7 @@ double _wrap_XsDataPacket_altitude_mtigen_083b31a658b8ff73(XsDataPacket *_swig_g
 }
 
 
-intgo _wrap_XsDataPacket_containsAltitude_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsAltitude_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19018,7 +19018,7 @@ intgo _wrap_XsDataPacket_containsAltitude_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-void _wrap_XsDataPacket_setAltitude_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, double _swig_go_1) {
+void _wrap_XsDataPacket_setAltitude_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, double _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   double arg2 ;
   
@@ -19030,7 +19030,7 @@ void _wrap_XsDataPacket_setAltitude_mtigen_083b31a658b8ff73(XsDataPacket *_swig_
 }
 
 
-double _wrap_XsDataPacket_altitudeMsl_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+double _wrap_XsDataPacket_altitudeMsl_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   double result;
   double _swig_go_result;
@@ -19043,7 +19043,7 @@ double _wrap_XsDataPacket_altitudeMsl_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-intgo _wrap_XsDataPacket_containsAltitudeMsl_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsAltitudeMsl_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19056,7 +19056,7 @@ intgo _wrap_XsDataPacket_containsAltitudeMsl_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-void _wrap_XsDataPacket_setAltitudeMsl_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, double _swig_go_1) {
+void _wrap_XsDataPacket_setAltitudeMsl_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, double _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   double arg2 ;
   
@@ -19068,7 +19068,7 @@ void _wrap_XsDataPacket_setAltitudeMsl_mtigen_083b31a658b8ff73(XsDataPacket *_sw
 }
 
 
-XsVector *_wrap_XsDataPacket_velocity_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1, XsDataIdentifier *_swig_go_2) {
+XsVector *_wrap_XsDataPacket_velocity_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1, XsDataIdentifier *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   XsDataIdentifier arg3 ;
@@ -19092,7 +19092,7 @@ XsVector *_wrap_XsDataPacket_velocity_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-intgo _wrap_XsDataPacket_containsVelocity_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsVelocity_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19105,7 +19105,7 @@ intgo _wrap_XsDataPacket_containsVelocity_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-void _wrap_XsDataPacket_setVelocity_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1, XsDataIdentifier *_swig_go_2) {
+void _wrap_XsDataPacket_setVelocity_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1, XsDataIdentifier *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   XsDataIdentifier arg3 ;
@@ -19126,7 +19126,7 @@ void _wrap_XsDataPacket_setVelocity_mtigen_083b31a658b8ff73(XsDataPacket *_swig_
 }
 
 
-XsDataIdentifier *_wrap_XsDataPacket_velocityIdentifier_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsDataIdentifier *_wrap_XsDataPacket_velocityIdentifier_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier result;
   XsDataIdentifier *_swig_go_result;
@@ -19139,7 +19139,7 @@ XsDataIdentifier *_wrap_XsDataPacket_velocityIdentifier_mtigen_083b31a658b8ff73(
 }
 
 
-XsDataIdentifier *_wrap_XsDataPacket_coordinateSystemVelocity_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsDataIdentifier *_wrap_XsDataPacket_coordinateSystemVelocity_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier result;
   XsDataIdentifier *_swig_go_result;
@@ -19152,7 +19152,7 @@ XsDataIdentifier *_wrap_XsDataPacket_coordinateSystemVelocity_mtigen_083b31a658b
 }
 
 
-XsTimeInfo *_wrap_XsDataPacket_utcTime_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsTimeInfo *_swig_go_1) {
+XsTimeInfo *_wrap_XsDataPacket_utcTime_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsTimeInfo *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsTimeInfo *arg2 = (XsTimeInfo *) 0 ;
   XsTimeInfo *result = 0 ;
@@ -19167,7 +19167,7 @@ XsTimeInfo *_wrap_XsDataPacket_utcTime_mtigen_083b31a658b8ff73(XsDataPacket *_sw
 }
 
 
-intgo _wrap_XsDataPacket_containsUtcTime_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsUtcTime_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19180,7 +19180,7 @@ intgo _wrap_XsDataPacket_containsUtcTime_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-void _wrap_XsDataPacket_setUtcTime_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsTimeInfo *_swig_go_1) {
+void _wrap_XsDataPacket_setUtcTime_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsTimeInfo *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsTimeInfo *arg2 = (XsTimeInfo *) 0 ;
   
@@ -19192,7 +19192,7 @@ void _wrap_XsDataPacket_setUtcTime_mtigen_083b31a658b8ff73(XsDataPacket *_swig_g
 }
 
 
-XsRange *_wrap_XsDataPacket_frameRange_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsRange *_swig_go_1) {
+XsRange *_wrap_XsDataPacket_frameRange_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsRange *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsRange *arg2 = (XsRange *) 0 ;
   XsRange *result = 0 ;
@@ -19207,7 +19207,7 @@ XsRange *_wrap_XsDataPacket_frameRange_mtigen_083b31a658b8ff73(XsDataPacket *_sw
 }
 
 
-intgo _wrap_XsDataPacket_containsFrameRange_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsFrameRange_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19220,7 +19220,7 @@ intgo _wrap_XsDataPacket_containsFrameRange_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-void _wrap_XsDataPacket_setFrameRange_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsRange *_swig_go_1) {
+void _wrap_XsDataPacket_setFrameRange_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsRange *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsRange *arg2 = (XsRange *) 0 ;
   
@@ -19232,7 +19232,7 @@ void _wrap_XsDataPacket_setFrameRange_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-intgo _wrap_XsDataPacket_rssi_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_rssi_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19245,7 +19245,7 @@ intgo _wrap_XsDataPacket_rssi_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) 
 }
 
 
-intgo _wrap_XsDataPacket_containsRssi_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsRssi_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19258,7 +19258,7 @@ intgo _wrap_XsDataPacket_containsRssi_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-void _wrap_XsDataPacket_setRssi_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
+void _wrap_XsDataPacket_setRssi_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int arg2 ;
   
@@ -19270,7 +19270,7 @@ void _wrap_XsDataPacket_setRssi_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0
 }
 
 
-XsRawGnssPvtData *_wrap_XsDataPacket_rawGnssPvtData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsRawGnssPvtData *_swig_go_1) {
+XsRawGnssPvtData *_wrap_XsDataPacket_rawGnssPvtData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsRawGnssPvtData *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsRawGnssPvtData *arg2 = (XsRawGnssPvtData *) 0 ;
   XsRawGnssPvtData *result = 0 ;
@@ -19285,7 +19285,7 @@ XsRawGnssPvtData *_wrap_XsDataPacket_rawGnssPvtData_mtigen_083b31a658b8ff73(XsDa
 }
 
 
-intgo _wrap_XsDataPacket_containsRawGnssPvtData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsRawGnssPvtData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19298,7 +19298,7 @@ intgo _wrap_XsDataPacket_containsRawGnssPvtData_mtigen_083b31a658b8ff73(XsDataPa
 }
 
 
-void _wrap_XsDataPacket_setRawGnssPvtData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsRawGnssPvtData *_swig_go_1) {
+void _wrap_XsDataPacket_setRawGnssPvtData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsRawGnssPvtData *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsRawGnssPvtData *arg2 = (XsRawGnssPvtData *) 0 ;
   
@@ -19310,7 +19310,7 @@ void _wrap_XsDataPacket_setRawGnssPvtData_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-char _wrap_XsDataPacket_gnssAge_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+char _wrap_XsDataPacket_gnssAge_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint8_t result;
   char _swig_go_result;
@@ -19323,7 +19323,7 @@ char _wrap_XsDataPacket_gnssAge_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0
 }
 
 
-intgo _wrap_XsDataPacket_containsGnssAge_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsGnssAge_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19336,7 +19336,7 @@ intgo _wrap_XsDataPacket_containsGnssAge_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-void _wrap_XsDataPacket_setGnssAge_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, char _swig_go_1) {
+void _wrap_XsDataPacket_setGnssAge_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, char _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint8_t arg2 ;
   
@@ -19348,7 +19348,7 @@ void _wrap_XsDataPacket_setGnssAge_mtigen_083b31a658b8ff73(XsDataPacket *_swig_g
 }
 
 
-XsRawGnssSatInfo *_wrap_XsDataPacket_rawGnssSatInfo_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsRawGnssSatInfo *_swig_go_1) {
+XsRawGnssSatInfo *_wrap_XsDataPacket_rawGnssSatInfo_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsRawGnssSatInfo *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsRawGnssSatInfo *arg2 = (XsRawGnssSatInfo *) 0 ;
   XsRawGnssSatInfo *result = 0 ;
@@ -19363,7 +19363,7 @@ XsRawGnssSatInfo *_wrap_XsDataPacket_rawGnssSatInfo_mtigen_083b31a658b8ff73(XsDa
 }
 
 
-intgo _wrap_XsDataPacket_containsRawGnssSatInfo_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsRawGnssSatInfo_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19376,7 +19376,7 @@ intgo _wrap_XsDataPacket_containsRawGnssSatInfo_mtigen_083b31a658b8ff73(XsDataPa
 }
 
 
-void _wrap_XsDataPacket_setRawGnssSatInfo_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsRawGnssSatInfo *_swig_go_1) {
+void _wrap_XsDataPacket_setRawGnssSatInfo_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsRawGnssSatInfo *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsRawGnssSatInfo *arg2 = (XsRawGnssSatInfo *) 0 ;
   
@@ -19388,7 +19388,7 @@ void _wrap_XsDataPacket_setRawGnssSatInfo_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-intgo _wrap_XsDataPacket_gnssPvtPulse_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_gnssPvtPulse_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint32_t result;
   intgo _swig_go_result;
@@ -19401,7 +19401,7 @@ intgo _wrap_XsDataPacket_gnssPvtPulse_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-intgo _wrap_XsDataPacket_containsGnssPvtPulse_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsGnssPvtPulse_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19414,7 +19414,7 @@ intgo _wrap_XsDataPacket_containsGnssPvtPulse_mtigen_083b31a658b8ff73(XsDataPack
 }
 
 
-void _wrap_XsDataPacket_setGnssPvtPulse_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
+void _wrap_XsDataPacket_setGnssPvtPulse_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint32_t arg2 ;
   
@@ -19426,7 +19426,7 @@ void _wrap_XsDataPacket_setGnssPvtPulse_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-XsDataPacket *_wrap_XsDataPacket_merge_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataPacket *_swig_go_1, intgo _swig_go_2) {
+XsDataPacket *_wrap_XsDataPacket_merge_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataPacket *_swig_go_1, intgo _swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataPacket *arg2 = (XsDataPacket *) 0 ;
   int arg3 ;
@@ -19443,7 +19443,7 @@ XsDataPacket *_wrap_XsDataPacket_merge_mtigen_083b31a658b8ff73(XsDataPacket *_sw
 }
 
 
-void _wrap_XsDataPacket_setTriggerIndication_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1, XsTriggerIndicationData *_swig_go_2) {
+void _wrap_XsDataPacket_setTriggerIndication_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1, XsTriggerIndicationData *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier arg2 ;
   XsTriggerIndicationData *arg3 = (XsTriggerIndicationData *) 0 ;
@@ -19464,7 +19464,7 @@ void _wrap_XsDataPacket_setTriggerIndication_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-XsTriggerIndicationData *_wrap_XsDataPacket_triggerIndication_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1, XsTriggerIndicationData *_swig_go_2) {
+XsTriggerIndicationData *_wrap_XsDataPacket_triggerIndication_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1, XsTriggerIndicationData *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier arg2 ;
   XsTriggerIndicationData *arg3 = (XsTriggerIndicationData *) 0 ;
@@ -19488,7 +19488,7 @@ XsTriggerIndicationData *_wrap_XsDataPacket_triggerIndication_mtigen_083b31a658b
 }
 
 
-intgo _wrap_XsDataPacket_containsTriggerIndication_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
+intgo _wrap_XsDataPacket_containsTriggerIndication_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier arg2 ;
   XsDataIdentifier *argp2 ;
@@ -19510,7 +19510,7 @@ intgo _wrap_XsDataPacket_containsTriggerIndication_mtigen_083b31a658b8ff73(XsDat
 }
 
 
-void _wrap_XsDataPacket_toMessage_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsMessage *_swig_go_1) {
+void _wrap_XsDataPacket_toMessage_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsMessage *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsMessage *arg2 = (XsMessage *) 0 ;
   
@@ -19522,7 +19522,7 @@ void _wrap_XsDataPacket_toMessage_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go
 }
 
 
-void _wrap_XsDataPacket_setAwindaSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsSnapshot *_swig_go_1, intgo _swig_go_2) {
+void _wrap_XsDataPacket_setAwindaSnapshot_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsSnapshot *_swig_go_1, intgo _swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsSnapshot *arg2 = (XsSnapshot *) 0 ;
   int arg3 ;
@@ -19536,7 +19536,7 @@ void _wrap_XsDataPacket_setAwindaSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-XsSnapshot *_wrap_XsDataPacket_awindaSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsSnapshot *_swig_go_1) {
+XsSnapshot *_wrap_XsDataPacket_awindaSnapshot_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsSnapshot *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsSnapshot *arg2 = (XsSnapshot *) 0 ;
   XsSnapshot *result = 0 ;
@@ -19551,7 +19551,7 @@ XsSnapshot *_wrap_XsDataPacket_awindaSnapshot_mtigen_083b31a658b8ff73(XsDataPack
 }
 
 
-intgo _wrap_XsDataPacket_containsAwindaSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsAwindaSnapshot_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19564,7 +19564,7 @@ intgo _wrap_XsDataPacket_containsAwindaSnapshot_mtigen_083b31a658b8ff73(XsDataPa
 }
 
 
-intgo _wrap_XsDataPacket_isAwindaSnapshotARetransmission_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_isAwindaSnapshotARetransmission_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19577,7 +19577,7 @@ intgo _wrap_XsDataPacket_isAwindaSnapshotARetransmission_mtigen_083b31a658b8ff73
 }
 
 
-void _wrap_XsDataPacket_setFullSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsSnapshot *_swig_go_1, intgo _swig_go_2) {
+void _wrap_XsDataPacket_setFullSnapshot_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsSnapshot *_swig_go_1, intgo _swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsSnapshot *arg2 = (XsSnapshot *) 0 ;
   int arg3 ;
@@ -19591,7 +19591,7 @@ void _wrap_XsDataPacket_setFullSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-XsSnapshot *_wrap_XsDataPacket_fullSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsSnapshot *_swig_go_1) {
+XsSnapshot *_wrap_XsDataPacket_fullSnapshot_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsSnapshot *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsSnapshot *arg2 = (XsSnapshot *) 0 ;
   XsSnapshot *result = 0 ;
@@ -19606,7 +19606,7 @@ XsSnapshot *_wrap_XsDataPacket_fullSnapshot_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-intgo _wrap_XsDataPacket_containsFullSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsFullSnapshot_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19619,7 +19619,7 @@ intgo _wrap_XsDataPacket_containsFullSnapshot_mtigen_083b31a658b8ff73(XsDataPack
 }
 
 
-void _wrap_XsDataPacket_setGloveSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsGloveSnapshot *_swig_go_1, intgo _swig_go_2, XsHandId *_swig_go_3) {
+void _wrap_XsDataPacket_setGloveSnapshot_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsGloveSnapshot *_swig_go_1, intgo _swig_go_2, XsHandId *_swig_go_3) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsGloveSnapshot *arg2 = (XsGloveSnapshot *) 0 ;
   int arg3 ;
@@ -19642,7 +19642,7 @@ void _wrap_XsDataPacket_setGloveSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-XsGloveSnapshot *_wrap_XsDataPacket_gloveSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsGloveSnapshot *_swig_go_1, XsHandId *_swig_go_2) {
+XsGloveSnapshot *_wrap_XsDataPacket_gloveSnapshot_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsGloveSnapshot *_swig_go_1, XsHandId *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsGloveSnapshot *arg2 = (XsGloveSnapshot *) 0 ;
   XsHandId arg3 ;
@@ -19666,7 +19666,7 @@ XsGloveSnapshot *_wrap_XsDataPacket_gloveSnapshot_mtigen_083b31a658b8ff73(XsData
 }
 
 
-intgo _wrap_XsDataPacket_containsGloveSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsHandId *_swig_go_1) {
+intgo _wrap_XsDataPacket_containsGloveSnapshot_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsHandId *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsHandId arg2 ;
   XsHandId *argp2 ;
@@ -19688,7 +19688,7 @@ intgo _wrap_XsDataPacket_containsGloveSnapshot_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-void _wrap_XsDataPacket_setRawBlob_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsByteArray *_swig_go_1) {
+void _wrap_XsDataPacket_setRawBlob_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsByteArray *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsByteArray *arg2 = (XsByteArray *) 0 ;
   
@@ -19700,7 +19700,7 @@ void _wrap_XsDataPacket_setRawBlob_mtigen_083b31a658b8ff73(XsDataPacket *_swig_g
 }
 
 
-XsByteArray *_wrap_XsDataPacket_rawBlob_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsByteArray *_swig_go_1) {
+XsByteArray *_wrap_XsDataPacket_rawBlob_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsByteArray *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsByteArray *arg2 = (XsByteArray *) 0 ;
   XsByteArray *result = 0 ;
@@ -19715,7 +19715,7 @@ XsByteArray *_wrap_XsDataPacket_rawBlob_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-intgo _wrap_XsDataPacket_containsRawBlob_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsRawBlob_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19728,7 +19728,7 @@ intgo _wrap_XsDataPacket_containsRawBlob_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-XsVector *_wrap_XsDataPacket_accelerationHR_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+XsVector *_wrap_XsDataPacket_accelerationHR_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   XsVector *result = 0 ;
@@ -19743,7 +19743,7 @@ XsVector *_wrap_XsDataPacket_accelerationHR_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-intgo _wrap_XsDataPacket_containsAccelerationHR_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsAccelerationHR_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19756,7 +19756,7 @@ intgo _wrap_XsDataPacket_containsAccelerationHR_mtigen_083b31a658b8ff73(XsDataPa
 }
 
 
-void _wrap_XsDataPacket_setAccelerationHR_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XsDataPacket_setAccelerationHR_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   
@@ -19768,7 +19768,7 @@ void _wrap_XsDataPacket_setAccelerationHR_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-XsVector *_wrap_XsDataPacket_rateOfTurnHR_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+XsVector *_wrap_XsDataPacket_rateOfTurnHR_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   XsVector *result = 0 ;
@@ -19783,7 +19783,7 @@ XsVector *_wrap_XsDataPacket_rateOfTurnHR_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-intgo _wrap_XsDataPacket_containsRateOfTurnHR_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XsDataPacket_containsRateOfTurnHR_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -19796,7 +19796,7 @@ intgo _wrap_XsDataPacket_containsRateOfTurnHR_mtigen_083b31a658b8ff73(XsDataPack
 }
 
 
-void _wrap_XsDataPacket_setRateOfTurnHR_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XsDataPacket_setRateOfTurnHR_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = (XsVector *) 0 ;
   
@@ -19808,7 +19808,7 @@ void _wrap_XsDataPacket_setRateOfTurnHR_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-intgo _wrap_XsDataPacket_privateCount_mtigen_083b31a658b8ff73() {
+intgo _wrap_XsDataPacket_privateCount_gen_58fb7b870f09ff4a() {
   int result;
   intgo _swig_go_result;
   
@@ -19819,7 +19819,7 @@ intgo _wrap_XsDataPacket_privateCount_mtigen_083b31a658b8ff73() {
 }
 
 
-XsDataPacket *_wrap_new_XSDataPacket__SWIG_0_mtigen_083b31a658b8ff73(XsMessage *_swig_go_0) {
+XsDataPacket *_wrap_new_XSDataPacket__SWIG_0_gen_58fb7b870f09ff4a(XsMessage *_swig_go_0) {
   XsMessage *arg1 = (XsMessage *) 0 ;
   XsDataPacket *result = 0 ;
   XsDataPacket *_swig_go_result;
@@ -19832,7 +19832,7 @@ XsDataPacket *_wrap_new_XSDataPacket__SWIG_0_mtigen_083b31a658b8ff73(XsMessage *
 }
 
 
-XsDataPacket *_wrap_new_XSDataPacket__SWIG_1_mtigen_083b31a658b8ff73() {
+XsDataPacket *_wrap_new_XSDataPacket__SWIG_1_gen_58fb7b870f09ff4a() {
   XsDataPacket *result = 0 ;
   XsDataPacket *_swig_go_result;
   
@@ -19843,7 +19843,7 @@ XsDataPacket *_wrap_new_XSDataPacket__SWIG_1_mtigen_083b31a658b8ff73() {
 }
 
 
-XsDataPacket *_wrap_new_XSDataPacket__SWIG_2_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsDataPacket *_wrap_new_XSDataPacket__SWIG_2_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = 0 ;
   XsDataPacket *result = 0 ;
   XsDataPacket *_swig_go_result;
@@ -19856,7 +19856,7 @@ XsDataPacket *_wrap_new_XSDataPacket__SWIG_2_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-void _wrap_delete_XSDataPacket_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+void _wrap_delete_XSDataPacket_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   
   arg1 = *(XsDataPacket **)&_swig_go_0; 
@@ -19866,7 +19866,7 @@ void _wrap_delete_XSDataPacket_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0)
 }
 
 
-XsDataPacket *_wrap_XSDataPacket_opAssign_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataPacket *_swig_go_1) {
+XsDataPacket *_wrap_XSDataPacket_opAssign_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataPacket *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataPacket *arg2 = 0 ;
   XsDataPacket *result = 0 ;
@@ -19881,7 +19881,7 @@ XsDataPacket *_wrap_XSDataPacket_opAssign_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-void _wrap_XSDataPacket_swap_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataPacket *_swig_go_1) {
+void _wrap_XSDataPacket_swap_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataPacket *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataPacket *arg2 = 0 ;
   
@@ -19893,7 +19893,7 @@ void _wrap_XSDataPacket_swap_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, X
 }
 
 
-void _wrap_XSDataPacket_clear__SWIG_0_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
+void _wrap_XSDataPacket_clear__SWIG_0_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier arg2 ;
   XsDataIdentifier *argp2 ;
@@ -19912,7 +19912,7 @@ void _wrap_XSDataPacket_clear__SWIG_0_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-void _wrap_XSDataPacket_clear__SWIG_1_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+void _wrap_XSDataPacket_clear__SWIG_1_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   
   arg1 = *(XsDataPacket **)&_swig_go_0; 
@@ -19922,7 +19922,7 @@ void _wrap_XSDataPacket_clear__SWIG_1_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-bool _wrap_XSDataPacket_empty_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_empty_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -19935,7 +19935,7 @@ bool _wrap_XSDataPacket_empty_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) 
 }
 
 
-XsDeviceId *_wrap_XSDataPacket_deviceId_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsDeviceId *_wrap_XSDataPacket_deviceId_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDeviceId result;
   XsDeviceId *_swig_go_result;
@@ -19948,7 +19948,7 @@ XsDeviceId *_wrap_XSDataPacket_deviceId_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-short _wrap_XSDataPacket_itemCount_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+short _wrap_XSDataPacket_itemCount_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint16_t result;
   short _swig_go_result;
@@ -19961,7 +19961,7 @@ short _wrap_XSDataPacket_itemCount_mtigen_083b31a658b8ff73(XsDataPacket *_swig_g
 }
 
 
-void _wrap_XSDataPacket_setMessage_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsMessage *_swig_go_1) {
+void _wrap_XSDataPacket_setMessage_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsMessage *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsMessage *arg2 = 0 ;
   
@@ -19973,7 +19973,7 @@ void _wrap_XSDataPacket_setMessage_mtigen_083b31a658b8ff73(XsDataPacket *_swig_g
 }
 
 
-XsMessage *_wrap_XSDataPacket_toMessage_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsMessage *_wrap_XSDataPacket_toMessage_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsMessage result;
   XsMessage *_swig_go_result;
@@ -19986,7 +19986,7 @@ XsMessage *_wrap_XSDataPacket_toMessage_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-void _wrap_XSDataPacket_setDeviceId_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDeviceId *_swig_go_1) {
+void _wrap_XSDataPacket_setDeviceId_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDeviceId arg2 ;
   XsDeviceId const *argp2 ;
@@ -20005,7 +20005,7 @@ void _wrap_XSDataPacket_setDeviceId_mtigen_083b31a658b8ff73(XsDataPacket *_swig_
 }
 
 
-XsDataIdentifier *_wrap_XSDataPacket_dataFormat_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
+XsDataIdentifier *_wrap_XSDataPacket_dataFormat_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier arg2 ;
   XsDataIdentifier *argp2 ;
@@ -20027,7 +20027,7 @@ XsDataIdentifier *_wrap_XSDataPacket_dataFormat_mtigen_083b31a658b8ff73(XsDataPa
 }
 
 
-XsUShortVector *_wrap_XSDataPacket_rawAcceleration_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsUShortVector *_wrap_XSDataPacket_rawAcceleration_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsUShortVector result;
   XsUShortVector *_swig_go_result;
@@ -20040,7 +20040,7 @@ XsUShortVector *_wrap_XSDataPacket_rawAcceleration_mtigen_083b31a658b8ff73(XsDat
 }
 
 
-XsVector *_wrap_XSDataPacket_rawAccelerationConverted_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsVector *_wrap_XSDataPacket_rawAccelerationConverted_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector result;
   XsVector *_swig_go_result;
@@ -20053,7 +20053,7 @@ XsVector *_wrap_XSDataPacket_rawAccelerationConverted_mtigen_083b31a658b8ff73(Xs
 }
 
 
-bool _wrap_XSDataPacket_containsRawAcceleration_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsRawAcceleration_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20066,7 +20066,7 @@ bool _wrap_XSDataPacket_containsRawAcceleration_mtigen_083b31a658b8ff73(XsDataPa
 }
 
 
-void _wrap_XSDataPacket_setRawAcceleration_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
+void _wrap_XSDataPacket_setRawAcceleration_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsUShortVector *arg2 = 0 ;
   
@@ -20078,7 +20078,7 @@ void _wrap_XSDataPacket_setRawAcceleration_mtigen_083b31a658b8ff73(XsDataPacket 
 }
 
 
-XsUShortVector *_wrap_XSDataPacket_rawGyroscopeData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsUShortVector *_wrap_XSDataPacket_rawGyroscopeData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsUShortVector result;
   XsUShortVector *_swig_go_result;
@@ -20091,7 +20091,7 @@ XsUShortVector *_wrap_XSDataPacket_rawGyroscopeData_mtigen_083b31a658b8ff73(XsDa
 }
 
 
-XsVector *_wrap_XSDataPacket_rawGyroscopeDataConverted_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsVector *_wrap_XSDataPacket_rawGyroscopeDataConverted_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector result;
   XsVector *_swig_go_result;
@@ -20104,7 +20104,7 @@ XsVector *_wrap_XSDataPacket_rawGyroscopeDataConverted_mtigen_083b31a658b8ff73(X
 }
 
 
-bool _wrap_XSDataPacket_containsRawGyroscopeData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsRawGyroscopeData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20117,7 +20117,7 @@ bool _wrap_XSDataPacket_containsRawGyroscopeData_mtigen_083b31a658b8ff73(XsDataP
 }
 
 
-void _wrap_XSDataPacket_setRawGyroscopeData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
+void _wrap_XSDataPacket_setRawGyroscopeData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsUShortVector *arg2 = 0 ;
   
@@ -20129,7 +20129,7 @@ void _wrap_XSDataPacket_setRawGyroscopeData_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-XsUShortVector *_wrap_XSDataPacket_rawGyroscopeTemperatureData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsUShortVector *_wrap_XSDataPacket_rawGyroscopeTemperatureData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsUShortVector result;
   XsUShortVector *_swig_go_result;
@@ -20142,7 +20142,7 @@ XsUShortVector *_wrap_XSDataPacket_rawGyroscopeTemperatureData_mtigen_083b31a658
 }
 
 
-XsVector *_wrap_XSDataPacket_rawGyroscopeTemperatureDataConverted_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsVector *_wrap_XSDataPacket_rawGyroscopeTemperatureDataConverted_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector result;
   XsVector *_swig_go_result;
@@ -20155,7 +20155,7 @@ XsVector *_wrap_XSDataPacket_rawGyroscopeTemperatureDataConverted_mtigen_083b31a
 }
 
 
-bool _wrap_XSDataPacket_containsRawGyroscopeTemperatureData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsRawGyroscopeTemperatureData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20168,7 +20168,7 @@ bool _wrap_XSDataPacket_containsRawGyroscopeTemperatureData_mtigen_083b31a658b8f
 }
 
 
-void _wrap_XSDataPacket_setRawGyroscopeTemperatureData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
+void _wrap_XSDataPacket_setRawGyroscopeTemperatureData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsUShortVector *arg2 = 0 ;
   
@@ -20180,7 +20180,7 @@ void _wrap_XSDataPacket_setRawGyroscopeTemperatureData_mtigen_083b31a658b8ff73(X
 }
 
 
-XsUShortVector *_wrap_XSDataPacket_rawMagneticField_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsUShortVector *_wrap_XSDataPacket_rawMagneticField_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsUShortVector result;
   XsUShortVector *_swig_go_result;
@@ -20193,7 +20193,7 @@ XsUShortVector *_wrap_XSDataPacket_rawMagneticField_mtigen_083b31a658b8ff73(XsDa
 }
 
 
-XsVector *_wrap_XSDataPacket_rawMagneticFieldConverted_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsVector *_wrap_XSDataPacket_rawMagneticFieldConverted_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector result;
   XsVector *_swig_go_result;
@@ -20206,7 +20206,7 @@ XsVector *_wrap_XSDataPacket_rawMagneticFieldConverted_mtigen_083b31a658b8ff73(X
 }
 
 
-bool _wrap_XSDataPacket_containsRawMagneticField_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsRawMagneticField_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20219,7 +20219,7 @@ bool _wrap_XSDataPacket_containsRawMagneticField_mtigen_083b31a658b8ff73(XsDataP
 }
 
 
-void _wrap_XSDataPacket_setRawMagneticField_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
+void _wrap_XSDataPacket_setRawMagneticField_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsUShortVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsUShortVector *arg2 = 0 ;
   
@@ -20231,7 +20231,7 @@ void _wrap_XSDataPacket_setRawMagneticField_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-short _wrap_XSDataPacket_rawTemperature_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+short _wrap_XSDataPacket_rawTemperature_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint16_t result;
   short _swig_go_result;
@@ -20244,7 +20244,7 @@ short _wrap_XSDataPacket_rawTemperature_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-bool _wrap_XSDataPacket_containsRawTemperature_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsRawTemperature_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20257,7 +20257,7 @@ bool _wrap_XSDataPacket_containsRawTemperature_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-void _wrap_XSDataPacket_setRawTemperature_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, short _swig_go_1) {
+void _wrap_XSDataPacket_setRawTemperature_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, short _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint16_t arg2 ;
   
@@ -20269,7 +20269,7 @@ void _wrap_XSDataPacket_setRawTemperature_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-XsScrData *_wrap_XSDataPacket_rawData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsScrData *_wrap_XSDataPacket_rawData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsScrData result;
   XsScrData *_swig_go_result;
@@ -20282,7 +20282,7 @@ XsScrData *_wrap_XSDataPacket_rawData_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-bool _wrap_XSDataPacket_containsRawData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsRawData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20295,7 +20295,7 @@ bool _wrap_XSDataPacket_containsRawData_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-void _wrap_XSDataPacket_setRawData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsScrData *_swig_go_1) {
+void _wrap_XSDataPacket_setRawData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsScrData *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsScrData *arg2 = 0 ;
   
@@ -20307,7 +20307,7 @@ void _wrap_XSDataPacket_setRawData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_g
 }
 
 
-XsVector *_wrap_XSDataPacket_velocityIncrement_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsVector *_wrap_XSDataPacket_velocityIncrement_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector result;
   XsVector *_swig_go_result;
@@ -20320,7 +20320,7 @@ XsVector *_wrap_XSDataPacket_velocityIncrement_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-bool _wrap_XSDataPacket_containsVelocityIncrement_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsVelocityIncrement_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20333,7 +20333,7 @@ bool _wrap_XSDataPacket_containsVelocityIncrement_mtigen_083b31a658b8ff73(XsData
 }
 
 
-void _wrap_XSDataPacket_setVelocityIncrement_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XSDataPacket_setVelocityIncrement_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = 0 ;
   
@@ -20345,7 +20345,7 @@ void _wrap_XSDataPacket_setVelocityIncrement_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-XsVector *_wrap_XSDataPacket_calibratedAcceleration_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsVector *_wrap_XSDataPacket_calibratedAcceleration_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector result;
   XsVector *_swig_go_result;
@@ -20358,7 +20358,7 @@ XsVector *_wrap_XSDataPacket_calibratedAcceleration_mtigen_083b31a658b8ff73(XsDa
 }
 
 
-bool _wrap_XSDataPacket_containsCalibratedAcceleration_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsCalibratedAcceleration_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20371,7 +20371,7 @@ bool _wrap_XSDataPacket_containsCalibratedAcceleration_mtigen_083b31a658b8ff73(X
 }
 
 
-void _wrap_XSDataPacket_setCalibratedAcceleration_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XSDataPacket_setCalibratedAcceleration_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = 0 ;
   
@@ -20383,7 +20383,7 @@ void _wrap_XSDataPacket_setCalibratedAcceleration_mtigen_083b31a658b8ff73(XsData
 }
 
 
-XsQuaternion *_wrap_XSDataPacket_orientationIncrement_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsQuaternion *_wrap_XSDataPacket_orientationIncrement_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsQuaternion result;
   XsQuaternion *_swig_go_result;
@@ -20396,7 +20396,7 @@ XsQuaternion *_wrap_XSDataPacket_orientationIncrement_mtigen_083b31a658b8ff73(Xs
 }
 
 
-bool _wrap_XSDataPacket_containsOrientationIncrement_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsOrientationIncrement_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20409,7 +20409,7 @@ bool _wrap_XSDataPacket_containsOrientationIncrement_mtigen_083b31a658b8ff73(XsD
 }
 
 
-void _wrap_XSDataPacket_setOrientationIncrement_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsQuaternion *_swig_go_1) {
+void _wrap_XSDataPacket_setOrientationIncrement_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsQuaternion *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsQuaternion *arg2 = 0 ;
   
@@ -20421,7 +20421,7 @@ void _wrap_XSDataPacket_setOrientationIncrement_mtigen_083b31a658b8ff73(XsDataPa
 }
 
 
-XsVector *_wrap_XSDataPacket_calibratedGyroscopeData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsVector *_wrap_XSDataPacket_calibratedGyroscopeData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector result;
   XsVector *_swig_go_result;
@@ -20434,7 +20434,7 @@ XsVector *_wrap_XSDataPacket_calibratedGyroscopeData_mtigen_083b31a658b8ff73(XsD
 }
 
 
-bool _wrap_XSDataPacket_containsCalibratedGyroscopeData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsCalibratedGyroscopeData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20447,7 +20447,7 @@ bool _wrap_XSDataPacket_containsCalibratedGyroscopeData_mtigen_083b31a658b8ff73(
 }
 
 
-void _wrap_XSDataPacket_setCalibratedGyroscopeData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XSDataPacket_setCalibratedGyroscopeData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = 0 ;
   
@@ -20459,7 +20459,7 @@ void _wrap_XSDataPacket_setCalibratedGyroscopeData_mtigen_083b31a658b8ff73(XsDat
 }
 
 
-XsVector *_wrap_XSDataPacket_calibratedMagneticField_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsVector *_wrap_XSDataPacket_calibratedMagneticField_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector result;
   XsVector *_swig_go_result;
@@ -20472,7 +20472,7 @@ XsVector *_wrap_XSDataPacket_calibratedMagneticField_mtigen_083b31a658b8ff73(XsD
 }
 
 
-bool _wrap_XSDataPacket_containsCalibratedMagneticField_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsCalibratedMagneticField_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20485,7 +20485,7 @@ bool _wrap_XSDataPacket_containsCalibratedMagneticField_mtigen_083b31a658b8ff73(
 }
 
 
-void _wrap_XSDataPacket_setCalibratedMagneticField_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XSDataPacket_setCalibratedMagneticField_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = 0 ;
   
@@ -20497,7 +20497,7 @@ void _wrap_XSDataPacket_setCalibratedMagneticField_mtigen_083b31a658b8ff73(XsDat
 }
 
 
-XsVector *_wrap_XSDataPacket_correctedMagneticField_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsVector *_wrap_XSDataPacket_correctedMagneticField_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector result;
   XsVector *_swig_go_result;
@@ -20510,7 +20510,7 @@ XsVector *_wrap_XSDataPacket_correctedMagneticField_mtigen_083b31a658b8ff73(XsDa
 }
 
 
-bool _wrap_XSDataPacket_containsCorrectedMagneticField_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsCorrectedMagneticField_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20523,7 +20523,7 @@ bool _wrap_XSDataPacket_containsCorrectedMagneticField_mtigen_083b31a658b8ff73(X
 }
 
 
-void _wrap_XSDataPacket_setCorrectedMagneticField_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XSDataPacket_setCorrectedMagneticField_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = 0 ;
   
@@ -20535,7 +20535,7 @@ void _wrap_XSDataPacket_setCorrectedMagneticField_mtigen_083b31a658b8ff73(XsData
 }
 
 
-XsCalibratedData *_wrap_XSDataPacket_calibratedData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsCalibratedData *_wrap_XSDataPacket_calibratedData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsCalibratedData result;
   XsCalibratedData *_swig_go_result;
@@ -20548,7 +20548,7 @@ XsCalibratedData *_wrap_XSDataPacket_calibratedData_mtigen_083b31a658b8ff73(XsDa
 }
 
 
-bool _wrap_XSDataPacket_containsCalibratedData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsCalibratedData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20561,7 +20561,7 @@ bool _wrap_XSDataPacket_containsCalibratedData_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-void _wrap_XSDataPacket_setCalibratedData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsCalibratedData *_swig_go_1) {
+void _wrap_XSDataPacket_setCalibratedData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsCalibratedData *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsCalibratedData *arg2 = 0 ;
   
@@ -20573,7 +20573,7 @@ void _wrap_XSDataPacket_setCalibratedData_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-XsQuaternion *_wrap_XSDataPacket_orientationQuaternion__SWIG_0_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
+XsQuaternion *_wrap_XSDataPacket_orientationQuaternion__SWIG_0_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier arg2 ;
   XsDataIdentifier *argp2 ;
@@ -20595,7 +20595,7 @@ XsQuaternion *_wrap_XSDataPacket_orientationQuaternion__SWIG_0_mtigen_083b31a658
 }
 
 
-XsQuaternion *_wrap_XSDataPacket_orientationQuaternion__SWIG_1_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsQuaternion *_wrap_XSDataPacket_orientationQuaternion__SWIG_1_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsQuaternion result;
   XsQuaternion *_swig_go_result;
@@ -20608,7 +20608,7 @@ XsQuaternion *_wrap_XSDataPacket_orientationQuaternion__SWIG_1_mtigen_083b31a658
 }
 
 
-void _wrap_XSDataPacket_setOrientationQuaternion_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsQuaternion *_swig_go_1, XsDataIdentifier *_swig_go_2) {
+void _wrap_XSDataPacket_setOrientationQuaternion_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsQuaternion *_swig_go_1, XsDataIdentifier *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsQuaternion *arg2 = 0 ;
   XsDataIdentifier arg3 ;
@@ -20629,7 +20629,7 @@ void _wrap_XSDataPacket_setOrientationQuaternion_mtigen_083b31a658b8ff73(XsDataP
 }
 
 
-XsEuler *_wrap_XSDataPacket_orientationEuler__SWIG_0_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
+XsEuler *_wrap_XSDataPacket_orientationEuler__SWIG_0_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier arg2 ;
   XsDataIdentifier *argp2 ;
@@ -20651,7 +20651,7 @@ XsEuler *_wrap_XSDataPacket_orientationEuler__SWIG_0_mtigen_083b31a658b8ff73(XsD
 }
 
 
-XsEuler *_wrap_XSDataPacket_orientationEuler__SWIG_1_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsEuler *_wrap_XSDataPacket_orientationEuler__SWIG_1_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsEuler result;
   XsEuler *_swig_go_result;
@@ -20664,7 +20664,7 @@ XsEuler *_wrap_XSDataPacket_orientationEuler__SWIG_1_mtigen_083b31a658b8ff73(XsD
 }
 
 
-void _wrap_XSDataPacket_setOrientationEuler_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsEuler *_swig_go_1, XsDataIdentifier *_swig_go_2) {
+void _wrap_XSDataPacket_setOrientationEuler_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsEuler *_swig_go_1, XsDataIdentifier *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsEuler *arg2 = 0 ;
   XsDataIdentifier arg3 ;
@@ -20685,7 +20685,7 @@ void _wrap_XSDataPacket_setOrientationEuler_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-XsMatrix *_wrap_XSDataPacket_orientationMatrix__SWIG_0_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
+XsMatrix *_wrap_XSDataPacket_orientationMatrix__SWIG_0_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier arg2 ;
   XsDataIdentifier *argp2 ;
@@ -20707,7 +20707,7 @@ XsMatrix *_wrap_XSDataPacket_orientationMatrix__SWIG_0_mtigen_083b31a658b8ff73(X
 }
 
 
-XsMatrix *_wrap_XSDataPacket_orientationMatrix__SWIG_1_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsMatrix *_wrap_XSDataPacket_orientationMatrix__SWIG_1_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsMatrix result;
   XsMatrix *_swig_go_result;
@@ -20720,7 +20720,7 @@ XsMatrix *_wrap_XSDataPacket_orientationMatrix__SWIG_1_mtigen_083b31a658b8ff73(X
 }
 
 
-void _wrap_XSDataPacket_setOrientationMatrix_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsMatrix *_swig_go_1, XsDataIdentifier *_swig_go_2) {
+void _wrap_XSDataPacket_setOrientationMatrix_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsMatrix *_swig_go_1, XsDataIdentifier *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsMatrix *arg2 = 0 ;
   XsDataIdentifier arg3 ;
@@ -20741,7 +20741,7 @@ void _wrap_XSDataPacket_setOrientationMatrix_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-bool _wrap_XSDataPacket_containsOrientation_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsOrientation_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20754,7 +20754,7 @@ bool _wrap_XSDataPacket_containsOrientation_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-XsDataIdentifier *_wrap_XSDataPacket_orientationIdentifier_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsDataIdentifier *_wrap_XSDataPacket_orientationIdentifier_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier result;
   XsDataIdentifier *_swig_go_result;
@@ -20767,7 +20767,7 @@ XsDataIdentifier *_wrap_XSDataPacket_orientationIdentifier_mtigen_083b31a658b8ff
 }
 
 
-XsDataIdentifier *_wrap_XSDataPacket_coordinateSystemOrientation_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsDataIdentifier *_wrap_XSDataPacket_coordinateSystemOrientation_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier result;
   XsDataIdentifier *_swig_go_result;
@@ -20780,7 +20780,7 @@ XsDataIdentifier *_wrap_XSDataPacket_coordinateSystemOrientation_mtigen_083b31a6
 }
 
 
-XsSdiData *_wrap_XSDataPacket_sdiData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsSdiData *_wrap_XSDataPacket_sdiData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsSdiData result;
   XsSdiData *_swig_go_result;
@@ -20793,7 +20793,7 @@ XsSdiData *_wrap_XSDataPacket_sdiData_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-bool _wrap_XSDataPacket_containsSdiData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsSdiData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20806,7 +20806,7 @@ bool _wrap_XSDataPacket_containsSdiData_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-void _wrap_XSDataPacket_setSdiData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsSdiData *_swig_go_1) {
+void _wrap_XSDataPacket_setSdiData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsSdiData *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsSdiData *arg2 = 0 ;
   
@@ -20818,7 +20818,7 @@ void _wrap_XSDataPacket_setSdiData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_g
 }
 
 
-XsGloveData *_wrap_XSDataPacket_gloveData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsHandId *_swig_go_1) {
+XsGloveData *_wrap_XSDataPacket_gloveData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsHandId *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsHandId arg2 ;
   XsHandId *argp2 ;
@@ -20840,7 +20840,7 @@ XsGloveData *_wrap_XSDataPacket_gloveData_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-bool _wrap_XSDataPacket_containsGloveData__SWIG_0_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsHandId *_swig_go_1) {
+bool _wrap_XSDataPacket_containsGloveData__SWIG_0_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsHandId *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsHandId arg2 ;
   XsHandId *argp2 ;
@@ -20862,7 +20862,7 @@ bool _wrap_XSDataPacket_containsGloveData__SWIG_0_mtigen_083b31a658b8ff73(XsData
 }
 
 
-bool _wrap_XSDataPacket_containsGloveData__SWIG_1_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsGloveData__SWIG_1_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20875,7 +20875,7 @@ bool _wrap_XSDataPacket_containsGloveData__SWIG_1_mtigen_083b31a658b8ff73(XsData
 }
 
 
-void _wrap_XSDataPacket_setGloveData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsGloveData *_swig_go_1, XsHandId *_swig_go_2) {
+void _wrap_XSDataPacket_setGloveData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsGloveData *_swig_go_1, XsHandId *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsGloveData *arg2 = 0 ;
   XsHandId arg3 ;
@@ -20896,7 +20896,7 @@ void _wrap_XSDataPacket_setGloveData_mtigen_083b31a658b8ff73(XsDataPacket *_swig
 }
 
 
-XsDeviceId *_wrap_XSDataPacket_storedDeviceId_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsDeviceId *_wrap_XSDataPacket_storedDeviceId_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDeviceId result;
   XsDeviceId *_swig_go_result;
@@ -20909,7 +20909,7 @@ XsDeviceId *_wrap_XSDataPacket_storedDeviceId_mtigen_083b31a658b8ff73(XsDataPack
 }
 
 
-bool _wrap_XSDataPacket_containsStoredDeviceId_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsStoredDeviceId_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20922,7 +20922,7 @@ bool _wrap_XSDataPacket_containsStoredDeviceId_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-void _wrap_XSDataPacket_setStoredDeviceId_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDeviceId *_swig_go_1) {
+void _wrap_XSDataPacket_setStoredDeviceId_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDeviceId *arg2 = 0 ;
   
@@ -20934,7 +20934,7 @@ void _wrap_XSDataPacket_setStoredDeviceId_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-short _wrap_XSDataPacket_storedLocationId_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+short _wrap_XSDataPacket_storedLocationId_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint16_t result;
   short _swig_go_result;
@@ -20947,7 +20947,7 @@ short _wrap_XSDataPacket_storedLocationId_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-bool _wrap_XSDataPacket_containsStoredLocationId_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsStoredLocationId_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20960,7 +20960,7 @@ bool _wrap_XSDataPacket_containsStoredLocationId_mtigen_083b31a658b8ff73(XsDataP
 }
 
 
-void _wrap_XSDataPacket_setStoredLocationId_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, short _swig_go_1) {
+void _wrap_XSDataPacket_setStoredLocationId_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, short _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint16_t arg2 ;
   
@@ -20972,7 +20972,7 @@ void _wrap_XSDataPacket_setStoredLocationId_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-intgo _wrap_XSDataPacket_status_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XSDataPacket_status_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint32_t result;
   intgo _swig_go_result;
@@ -20985,7 +20985,7 @@ intgo _wrap_XSDataPacket_status_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0
 }
 
 
-bool _wrap_XSDataPacket_containsStatus_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsStatus_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -20998,7 +20998,7 @@ bool _wrap_XSDataPacket_containsStatus_mtigen_083b31a658b8ff73(XsDataPacket *_sw
 }
 
 
-bool _wrap_XSDataPacket_containsDetailedStatus_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsDetailedStatus_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21011,7 +21011,7 @@ bool _wrap_XSDataPacket_containsDetailedStatus_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-void _wrap_XSDataPacket_setStatus_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
+void _wrap_XSDataPacket_setStatus_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint32_t arg2 ;
   
@@ -21023,7 +21023,7 @@ void _wrap_XSDataPacket_setStatus_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go
 }
 
 
-void _wrap_XSDataPacket_setStatusByte_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, char _swig_go_1) {
+void _wrap_XSDataPacket_setStatusByte_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, char _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint8_t arg2 ;
   
@@ -21035,7 +21035,7 @@ void _wrap_XSDataPacket_setStatusByte_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-char _wrap_XSDataPacket_packetCounter8_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+char _wrap_XSDataPacket_packetCounter8_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint8_t result;
   char _swig_go_result;
@@ -21048,7 +21048,7 @@ char _wrap_XSDataPacket_packetCounter8_mtigen_083b31a658b8ff73(XsDataPacket *_sw
 }
 
 
-bool _wrap_XSDataPacket_containsPacketCounter8_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsPacketCounter8_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21061,7 +21061,7 @@ bool _wrap_XSDataPacket_containsPacketCounter8_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-void _wrap_XSDataPacket_setPacketCounter8_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, char _swig_go_1) {
+void _wrap_XSDataPacket_setPacketCounter8_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, char _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint8_t arg2 ;
   
@@ -21073,7 +21073,7 @@ void _wrap_XSDataPacket_setPacketCounter8_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-short _wrap_XSDataPacket_packetCounter_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+short _wrap_XSDataPacket_packetCounter_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint16_t result;
   short _swig_go_result;
@@ -21086,7 +21086,7 @@ short _wrap_XSDataPacket_packetCounter_mtigen_083b31a658b8ff73(XsDataPacket *_sw
 }
 
 
-bool _wrap_XSDataPacket_containsPacketCounter_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsPacketCounter_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21099,7 +21099,7 @@ bool _wrap_XSDataPacket_containsPacketCounter_mtigen_083b31a658b8ff73(XsDataPack
 }
 
 
-void _wrap_XSDataPacket_setPacketCounter_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, short _swig_go_1) {
+void _wrap_XSDataPacket_setPacketCounter_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, short _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint16_t arg2 ;
   
@@ -21111,7 +21111,7 @@ void _wrap_XSDataPacket_setPacketCounter_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-intgo _wrap_XSDataPacket_sampleTimeFine_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XSDataPacket_sampleTimeFine_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint32_t result;
   intgo _swig_go_result;
@@ -21124,7 +21124,7 @@ intgo _wrap_XSDataPacket_sampleTimeFine_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-bool _wrap_XSDataPacket_containsSampleTimeFine_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsSampleTimeFine_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21137,7 +21137,7 @@ bool _wrap_XSDataPacket_containsSampleTimeFine_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-void _wrap_XSDataPacket_setSampleTimeFine_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
+void _wrap_XSDataPacket_setSampleTimeFine_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint32_t arg2 ;
   
@@ -21149,7 +21149,7 @@ void _wrap_XSDataPacket_setSampleTimeFine_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-intgo _wrap_XSDataPacket_sampleTimeCoarse_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XSDataPacket_sampleTimeCoarse_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint32_t result;
   intgo _swig_go_result;
@@ -21162,7 +21162,7 @@ intgo _wrap_XSDataPacket_sampleTimeCoarse_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-bool _wrap_XSDataPacket_containsSampleTimeCoarse_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsSampleTimeCoarse_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21175,7 +21175,7 @@ bool _wrap_XSDataPacket_containsSampleTimeCoarse_mtigen_083b31a658b8ff73(XsDataP
 }
 
 
-void _wrap_XSDataPacket_setSampleTimeCoarse_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
+void _wrap_XSDataPacket_setSampleTimeCoarse_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint32_t arg2 ;
   
@@ -21187,7 +21187,7 @@ void _wrap_XSDataPacket_setSampleTimeCoarse_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-long long _wrap_XSDataPacket_sampleTime64_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+long long _wrap_XSDataPacket_sampleTime64_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint64_t result;
   long long _swig_go_result;
@@ -21200,7 +21200,7 @@ long long _wrap_XSDataPacket_sampleTime64_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-bool _wrap_XSDataPacket_containsSampleTime64_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsSampleTime64_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21213,7 +21213,7 @@ bool _wrap_XSDataPacket_containsSampleTime64_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-void _wrap_XSDataPacket_setSampleTime64_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, long long _swig_go_1) {
+void _wrap_XSDataPacket_setSampleTime64_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, long long _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint64_t arg2 ;
   
@@ -21225,7 +21225,7 @@ void _wrap_XSDataPacket_setSampleTime64_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-XsVector *_wrap_XSDataPacket_freeAcceleration_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsVector *_wrap_XSDataPacket_freeAcceleration_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector result;
   XsVector *_swig_go_result;
@@ -21238,7 +21238,7 @@ XsVector *_wrap_XSDataPacket_freeAcceleration_mtigen_083b31a658b8ff73(XsDataPack
 }
 
 
-bool _wrap_XSDataPacket_containsFreeAcceleration_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsFreeAcceleration_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21251,7 +21251,7 @@ bool _wrap_XSDataPacket_containsFreeAcceleration_mtigen_083b31a658b8ff73(XsDataP
 }
 
 
-void _wrap_XSDataPacket_setFreeAcceleration_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XSDataPacket_setFreeAcceleration_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = 0 ;
   
@@ -21263,7 +21263,7 @@ void _wrap_XSDataPacket_setFreeAcceleration_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-double _wrap_XSDataPacket_temperature_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+double _wrap_XSDataPacket_temperature_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   double result;
   double _swig_go_result;
@@ -21276,7 +21276,7 @@ double _wrap_XSDataPacket_temperature_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-bool _wrap_XSDataPacket_containsTemperature_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsTemperature_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21289,7 +21289,7 @@ bool _wrap_XSDataPacket_containsTemperature_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-void _wrap_XSDataPacket_setTemperature_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, double _swig_go_1) {
+void _wrap_XSDataPacket_setTemperature_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, double _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   double arg2 ;
   
@@ -21301,7 +21301,7 @@ void _wrap_XSDataPacket_setTemperature_mtigen_083b31a658b8ff73(XsDataPacket *_sw
 }
 
 
-XsPressure *_wrap_XSDataPacket_pressure_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsPressure *_wrap_XSDataPacket_pressure_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsPressure result;
   XsPressure *_swig_go_result;
@@ -21314,7 +21314,7 @@ XsPressure *_wrap_XSDataPacket_pressure_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-bool _wrap_XSDataPacket_containsPressure_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsPressure_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21327,7 +21327,7 @@ bool _wrap_XSDataPacket_containsPressure_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-bool _wrap_XSDataPacket_containsPressureAge_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsPressureAge_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21340,7 +21340,7 @@ bool _wrap_XSDataPacket_containsPressureAge_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-void _wrap_XSDataPacket_setPressure_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsPressure *_swig_go_1) {
+void _wrap_XSDataPacket_setPressure_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsPressure *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsPressure *arg2 = 0 ;
   
@@ -21352,7 +21352,7 @@ void _wrap_XSDataPacket_setPressure_mtigen_083b31a658b8ff73(XsDataPacket *_swig_
 }
 
 
-XsAnalogInData *_wrap_XSDataPacket_analogIn1Data_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsAnalogInData *_wrap_XSDataPacket_analogIn1Data_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsAnalogInData result;
   XsAnalogInData *_swig_go_result;
@@ -21365,7 +21365,7 @@ XsAnalogInData *_wrap_XSDataPacket_analogIn1Data_mtigen_083b31a658b8ff73(XsDataP
 }
 
 
-bool _wrap_XSDataPacket_containsAnalogIn1Data_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsAnalogIn1Data_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21378,7 +21378,7 @@ bool _wrap_XSDataPacket_containsAnalogIn1Data_mtigen_083b31a658b8ff73(XsDataPack
 }
 
 
-void _wrap_XSDataPacket_setAnalogIn1Data_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsAnalogInData *_swig_go_1) {
+void _wrap_XSDataPacket_setAnalogIn1Data_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsAnalogInData *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsAnalogInData *arg2 = 0 ;
   
@@ -21390,7 +21390,7 @@ void _wrap_XSDataPacket_setAnalogIn1Data_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-XsAnalogInData *_wrap_XSDataPacket_analogIn2Data_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsAnalogInData *_wrap_XSDataPacket_analogIn2Data_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsAnalogInData result;
   XsAnalogInData *_swig_go_result;
@@ -21403,7 +21403,7 @@ XsAnalogInData *_wrap_XSDataPacket_analogIn2Data_mtigen_083b31a658b8ff73(XsDataP
 }
 
 
-bool _wrap_XSDataPacket_containsAnalogIn2Data_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsAnalogIn2Data_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21416,7 +21416,7 @@ bool _wrap_XSDataPacket_containsAnalogIn2Data_mtigen_083b31a658b8ff73(XsDataPack
 }
 
 
-void _wrap_XSDataPacket_setAnalogIn2Data_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsAnalogInData *_swig_go_1) {
+void _wrap_XSDataPacket_setAnalogIn2Data_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsAnalogInData *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsAnalogInData *arg2 = 0 ;
   
@@ -21428,7 +21428,7 @@ void _wrap_XSDataPacket_setAnalogIn2Data_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-XsVector *_wrap_XSDataPacket_positionLLA_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsVector *_wrap_XSDataPacket_positionLLA_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector result;
   XsVector *_swig_go_result;
@@ -21441,7 +21441,7 @@ XsVector *_wrap_XSDataPacket_positionLLA_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-bool _wrap_XSDataPacket_containsPositionLLA_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsPositionLLA_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21454,7 +21454,7 @@ bool _wrap_XSDataPacket_containsPositionLLA_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-void _wrap_XSDataPacket_setPositionLLA_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XSDataPacket_setPositionLLA_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = 0 ;
   
@@ -21466,7 +21466,7 @@ void _wrap_XSDataPacket_setPositionLLA_mtigen_083b31a658b8ff73(XsDataPacket *_sw
 }
 
 
-XsVector *_wrap_XSDataPacket_latitudeLongitude_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsVector *_wrap_XSDataPacket_latitudeLongitude_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector result;
   XsVector *_swig_go_result;
@@ -21479,7 +21479,7 @@ XsVector *_wrap_XSDataPacket_latitudeLongitude_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-bool _wrap_XSDataPacket_containsLatitudeLongitude_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsLatitudeLongitude_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21492,7 +21492,7 @@ bool _wrap_XSDataPacket_containsLatitudeLongitude_mtigen_083b31a658b8ff73(XsData
 }
 
 
-void _wrap_XSDataPacket_setLatitudeLongitude_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XSDataPacket_setLatitudeLongitude_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = 0 ;
   
@@ -21504,7 +21504,7 @@ void _wrap_XSDataPacket_setLatitudeLongitude_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-double _wrap_XSDataPacket_altitude_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+double _wrap_XSDataPacket_altitude_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   double result;
   double _swig_go_result;
@@ -21517,7 +21517,7 @@ double _wrap_XSDataPacket_altitude_mtigen_083b31a658b8ff73(XsDataPacket *_swig_g
 }
 
 
-bool _wrap_XSDataPacket_containsAltitude_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsAltitude_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21530,7 +21530,7 @@ bool _wrap_XSDataPacket_containsAltitude_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-void _wrap_XSDataPacket_setAltitude_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, double _swig_go_1) {
+void _wrap_XSDataPacket_setAltitude_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, double _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   double arg2 ;
   
@@ -21542,7 +21542,7 @@ void _wrap_XSDataPacket_setAltitude_mtigen_083b31a658b8ff73(XsDataPacket *_swig_
 }
 
 
-double _wrap_XSDataPacket_altitudeMsl_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+double _wrap_XSDataPacket_altitudeMsl_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   double result;
   double _swig_go_result;
@@ -21555,7 +21555,7 @@ double _wrap_XSDataPacket_altitudeMsl_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-bool _wrap_XSDataPacket_containsAltitudeMsl_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsAltitudeMsl_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21568,7 +21568,7 @@ bool _wrap_XSDataPacket_containsAltitudeMsl_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-void _wrap_XSDataPacket_setAltitudeMsl_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, double _swig_go_1) {
+void _wrap_XSDataPacket_setAltitudeMsl_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, double _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   double arg2 ;
   
@@ -21580,7 +21580,7 @@ void _wrap_XSDataPacket_setAltitudeMsl_mtigen_083b31a658b8ff73(XsDataPacket *_sw
 }
 
 
-XsVector *_wrap_XSDataPacket_velocity__SWIG_0_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
+XsVector *_wrap_XSDataPacket_velocity__SWIG_0_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier arg2 ;
   XsDataIdentifier *argp2 ;
@@ -21602,7 +21602,7 @@ XsVector *_wrap_XSDataPacket_velocity__SWIG_0_mtigen_083b31a658b8ff73(XsDataPack
 }
 
 
-XsVector *_wrap_XSDataPacket_velocity__SWIG_1_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsVector *_wrap_XSDataPacket_velocity__SWIG_1_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector result;
   XsVector *_swig_go_result;
@@ -21615,7 +21615,7 @@ XsVector *_wrap_XSDataPacket_velocity__SWIG_1_mtigen_083b31a658b8ff73(XsDataPack
 }
 
 
-bool _wrap_XSDataPacket_containsVelocity_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsVelocity_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21628,7 +21628,7 @@ bool _wrap_XSDataPacket_containsVelocity_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-void _wrap_XSDataPacket_setVelocity_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1, XsDataIdentifier *_swig_go_2) {
+void _wrap_XSDataPacket_setVelocity_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1, XsDataIdentifier *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = 0 ;
   XsDataIdentifier arg3 ;
@@ -21649,7 +21649,7 @@ void _wrap_XSDataPacket_setVelocity_mtigen_083b31a658b8ff73(XsDataPacket *_swig_
 }
 
 
-XsDataIdentifier *_wrap_XSDataPacket_velocityIdentifier_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsDataIdentifier *_wrap_XSDataPacket_velocityIdentifier_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier result;
   XsDataIdentifier *_swig_go_result;
@@ -21662,7 +21662,7 @@ XsDataIdentifier *_wrap_XSDataPacket_velocityIdentifier_mtigen_083b31a658b8ff73(
 }
 
 
-XsDataIdentifier *_wrap_XSDataPacket_coordinateSystemVelocity_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsDataIdentifier *_wrap_XSDataPacket_coordinateSystemVelocity_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier result;
   XsDataIdentifier *_swig_go_result;
@@ -21675,7 +21675,7 @@ XsDataIdentifier *_wrap_XSDataPacket_coordinateSystemVelocity_mtigen_083b31a658b
 }
 
 
-XsTimeInfo *_wrap_XSDataPacket_utcTime_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsTimeInfo *_wrap_XSDataPacket_utcTime_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsTimeInfo result;
   XsTimeInfo *_swig_go_result;
@@ -21688,7 +21688,7 @@ XsTimeInfo *_wrap_XSDataPacket_utcTime_mtigen_083b31a658b8ff73(XsDataPacket *_sw
 }
 
 
-bool _wrap_XSDataPacket_containsUtcTime_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsUtcTime_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21701,7 +21701,7 @@ bool _wrap_XSDataPacket_containsUtcTime_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-void _wrap_XSDataPacket_setUtcTime_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsTimeInfo *_swig_go_1) {
+void _wrap_XSDataPacket_setUtcTime_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsTimeInfo *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsTimeInfo *arg2 = 0 ;
   
@@ -21713,7 +21713,7 @@ void _wrap_XSDataPacket_setUtcTime_mtigen_083b31a658b8ff73(XsDataPacket *_swig_g
 }
 
 
-XsRange *_wrap_XSDataPacket_frameRange_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsRange *_wrap_XSDataPacket_frameRange_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsRange result;
   XsRange *_swig_go_result;
@@ -21726,7 +21726,7 @@ XsRange *_wrap_XSDataPacket_frameRange_mtigen_083b31a658b8ff73(XsDataPacket *_sw
 }
 
 
-bool _wrap_XSDataPacket_containsFrameRange_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsFrameRange_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21739,7 +21739,7 @@ bool _wrap_XSDataPacket_containsFrameRange_mtigen_083b31a658b8ff73(XsDataPacket 
 }
 
 
-void _wrap_XSDataPacket_setFrameRange_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsRange *_swig_go_1) {
+void _wrap_XSDataPacket_setFrameRange_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsRange *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsRange *arg2 = 0 ;
   
@@ -21751,7 +21751,7 @@ void _wrap_XSDataPacket_setFrameRange_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-intgo _wrap_XSDataPacket_rssi_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XSDataPacket_rssi_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -21764,7 +21764,7 @@ intgo _wrap_XSDataPacket_rssi_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) 
 }
 
 
-bool _wrap_XSDataPacket_containsRssi_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsRssi_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21777,7 +21777,7 @@ bool _wrap_XSDataPacket_containsRssi_mtigen_083b31a658b8ff73(XsDataPacket *_swig
 }
 
 
-void _wrap_XSDataPacket_setRssi_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
+void _wrap_XSDataPacket_setRssi_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int arg2 ;
   
@@ -21789,7 +21789,7 @@ void _wrap_XSDataPacket_setRssi_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0
 }
 
 
-XsRawGnssPvtData *_wrap_XSDataPacket_rawGnssPvtData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsRawGnssPvtData *_wrap_XSDataPacket_rawGnssPvtData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsRawGnssPvtData result;
   XsRawGnssPvtData *_swig_go_result;
@@ -21802,7 +21802,7 @@ XsRawGnssPvtData *_wrap_XSDataPacket_rawGnssPvtData_mtigen_083b31a658b8ff73(XsDa
 }
 
 
-bool _wrap_XSDataPacket_containsRawGnssPvtData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsRawGnssPvtData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21815,7 +21815,7 @@ bool _wrap_XSDataPacket_containsRawGnssPvtData_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-void _wrap_XSDataPacket_setRawGnssPvtData_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsRawGnssPvtData *_swig_go_1) {
+void _wrap_XSDataPacket_setRawGnssPvtData_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsRawGnssPvtData *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsRawGnssPvtData *arg2 = 0 ;
   
@@ -21827,7 +21827,7 @@ void _wrap_XSDataPacket_setRawGnssPvtData_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-char _wrap_XSDataPacket_gnssAge_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+char _wrap_XSDataPacket_gnssAge_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint8_t result;
   char _swig_go_result;
@@ -21840,7 +21840,7 @@ char _wrap_XSDataPacket_gnssAge_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0
 }
 
 
-bool _wrap_XSDataPacket_containsGnssAge_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsGnssAge_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21853,7 +21853,7 @@ bool _wrap_XSDataPacket_containsGnssAge_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-void _wrap_XSDataPacket_setGnssAge_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, char _swig_go_1) {
+void _wrap_XSDataPacket_setGnssAge_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, char _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint8_t arg2 ;
   
@@ -21865,7 +21865,7 @@ void _wrap_XSDataPacket_setGnssAge_mtigen_083b31a658b8ff73(XsDataPacket *_swig_g
 }
 
 
-XsRawGnssSatInfo *_wrap_XSDataPacket_rawGnssSatInfo_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsRawGnssSatInfo *_wrap_XSDataPacket_rawGnssSatInfo_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsRawGnssSatInfo result;
   XsRawGnssSatInfo *_swig_go_result;
@@ -21878,7 +21878,7 @@ XsRawGnssSatInfo *_wrap_XSDataPacket_rawGnssSatInfo_mtigen_083b31a658b8ff73(XsDa
 }
 
 
-bool _wrap_XSDataPacket_containsRawGnssSatInfo_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsRawGnssSatInfo_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21891,7 +21891,7 @@ bool _wrap_XSDataPacket_containsRawGnssSatInfo_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-void _wrap_XSDataPacket_setRawGnssSatInfo_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsRawGnssSatInfo *_swig_go_1) {
+void _wrap_XSDataPacket_setRawGnssSatInfo_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsRawGnssSatInfo *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsRawGnssSatInfo *arg2 = 0 ;
   
@@ -21903,7 +21903,7 @@ void _wrap_XSDataPacket_setRawGnssSatInfo_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-intgo _wrap_XSDataPacket_gnssPvtPulse_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+intgo _wrap_XSDataPacket_gnssPvtPulse_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint32_t result;
   intgo _swig_go_result;
@@ -21916,7 +21916,7 @@ intgo _wrap_XSDataPacket_gnssPvtPulse_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-bool _wrap_XSDataPacket_containsGnssPvtPulse_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsGnssPvtPulse_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21929,7 +21929,7 @@ bool _wrap_XSDataPacket_containsGnssPvtPulse_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-void _wrap_XSDataPacket_setGnssPvtPulse_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
+void _wrap_XSDataPacket_setGnssPvtPulse_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, intgo _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   uint32_t arg2 ;
   
@@ -21941,7 +21941,7 @@ void _wrap_XSDataPacket_setGnssPvtPulse_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-XsSnapshot *_wrap_XSDataPacket_fullSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsSnapshot *_wrap_XSDataPacket_fullSnapshot_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsSnapshot result;
   XsSnapshot *_swig_go_result;
@@ -21954,7 +21954,7 @@ XsSnapshot *_wrap_XSDataPacket_fullSnapshot_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-bool _wrap_XSDataPacket_containsFullSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsFullSnapshot_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -21967,7 +21967,7 @@ bool _wrap_XSDataPacket_containsFullSnapshot_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-void _wrap_XSDataPacket_setFullSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsSnapshot *_swig_go_1, bool _swig_go_2) {
+void _wrap_XSDataPacket_setFullSnapshot_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsSnapshot *_swig_go_1, bool _swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsSnapshot *arg2 = 0 ;
   bool arg3 ;
@@ -21981,7 +21981,7 @@ void _wrap_XSDataPacket_setFullSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-XsSnapshot *_wrap_XSDataPacket_awindaSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsSnapshot *_wrap_XSDataPacket_awindaSnapshot_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsSnapshot result;
   XsSnapshot *_swig_go_result;
@@ -21994,7 +21994,7 @@ XsSnapshot *_wrap_XSDataPacket_awindaSnapshot_mtigen_083b31a658b8ff73(XsDataPack
 }
 
 
-bool _wrap_XSDataPacket_containsAwindaSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsAwindaSnapshot_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -22007,7 +22007,7 @@ bool _wrap_XSDataPacket_containsAwindaSnapshot_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-void _wrap_XSDataPacket_setAwindaSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsSnapshot *_swig_go_1, bool _swig_go_2) {
+void _wrap_XSDataPacket_setAwindaSnapshot_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsSnapshot *_swig_go_1, bool _swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsSnapshot *arg2 = 0 ;
   bool arg3 ;
@@ -22021,7 +22021,7 @@ void _wrap_XSDataPacket_setAwindaSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-bool _wrap_XSDataPacket_isAwindaSnapshotARetransmission_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_isAwindaSnapshotARetransmission_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -22034,7 +22034,7 @@ bool _wrap_XSDataPacket_isAwindaSnapshotARetransmission_mtigen_083b31a658b8ff73(
 }
 
 
-XsGloveSnapshot *_wrap_XSDataPacket_gloveSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsHandId *_swig_go_1) {
+XsGloveSnapshot *_wrap_XSDataPacket_gloveSnapshot_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsHandId *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsHandId arg2 ;
   XsHandId *argp2 ;
@@ -22056,7 +22056,7 @@ XsGloveSnapshot *_wrap_XSDataPacket_gloveSnapshot_mtigen_083b31a658b8ff73(XsData
 }
 
 
-bool _wrap_XSDataPacket_containsGloveSnapshot__SWIG_0_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsHandId *_swig_go_1) {
+bool _wrap_XSDataPacket_containsGloveSnapshot__SWIG_0_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsHandId *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsHandId arg2 ;
   XsHandId *argp2 ;
@@ -22078,7 +22078,7 @@ bool _wrap_XSDataPacket_containsGloveSnapshot__SWIG_0_mtigen_083b31a658b8ff73(Xs
 }
 
 
-bool _wrap_XSDataPacket_containsGloveSnapshot__SWIG_1_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsGloveSnapshot__SWIG_1_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -22091,7 +22091,7 @@ bool _wrap_XSDataPacket_containsGloveSnapshot__SWIG_1_mtigen_083b31a658b8ff73(Xs
 }
 
 
-void _wrap_XSDataPacket_setGloveSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsGloveSnapshot *_swig_go_1, bool _swig_go_2, XsHandId *_swig_go_3) {
+void _wrap_XSDataPacket_setGloveSnapshot_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsGloveSnapshot *_swig_go_1, bool _swig_go_2, XsHandId *_swig_go_3) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsGloveSnapshot *arg2 = 0 ;
   bool arg3 ;
@@ -22114,7 +22114,7 @@ void _wrap_XSDataPacket_setGloveSnapshot_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-XsDataPacket *_wrap_XSDataPacket_merge__SWIG_0_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataPacket *_swig_go_1, bool _swig_go_2) {
+XsDataPacket *_wrap_XSDataPacket_merge__SWIG_0_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataPacket *_swig_go_1, bool _swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataPacket *arg2 = 0 ;
   bool arg3 ;
@@ -22131,7 +22131,7 @@ XsDataPacket *_wrap_XSDataPacket_merge__SWIG_0_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-XsDataPacket *_wrap_XSDataPacket_merge__SWIG_1_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataPacket *_swig_go_1) {
+XsDataPacket *_wrap_XSDataPacket_merge__SWIG_1_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataPacket *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataPacket *arg2 = 0 ;
   XsDataPacket *result = 0 ;
@@ -22146,7 +22146,7 @@ XsDataPacket *_wrap_XSDataPacket_merge__SWIG_1_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-void _wrap_XSDataPacket_setTimeOfArrival_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsTimeStamp *_swig_go_1) {
+void _wrap_XSDataPacket_setTimeOfArrival_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsTimeStamp *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsTimeStamp *arg2 = 0 ;
   
@@ -22158,7 +22158,7 @@ void _wrap_XSDataPacket_setTimeOfArrival_mtigen_083b31a658b8ff73(XsDataPacket *_
 }
 
 
-XsTimeStamp *_wrap_XSDataPacket_timeOfArrival_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsTimeStamp *_wrap_XSDataPacket_timeOfArrival_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsTimeStamp result;
   XsTimeStamp *_swig_go_result;
@@ -22171,7 +22171,7 @@ XsTimeStamp *_wrap_XSDataPacket_timeOfArrival_mtigen_083b31a658b8ff73(XsDataPack
 }
 
 
-void _wrap_XSDataPacket_setEstimatedTimeOfSampling_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsTimeStamp *_swig_go_1) {
+void _wrap_XSDataPacket_setEstimatedTimeOfSampling_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsTimeStamp *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsTimeStamp *arg2 = 0 ;
   
@@ -22183,7 +22183,7 @@ void _wrap_XSDataPacket_setEstimatedTimeOfSampling_mtigen_083b31a658b8ff73(XsDat
 }
 
 
-XsTimeStamp *_wrap_XSDataPacket_estimatedTimeOfSampling_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsTimeStamp *_wrap_XSDataPacket_estimatedTimeOfSampling_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsTimeStamp result;
   XsTimeStamp *_swig_go_result;
@@ -22196,7 +22196,7 @@ XsTimeStamp *_wrap_XSDataPacket_estimatedTimeOfSampling_mtigen_083b31a658b8ff73(
 }
 
 
-void _wrap_XSDataPacket_setPacketId_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, long long _swig_go_1) {
+void _wrap_XSDataPacket_setPacketId_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, long long _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int64_t arg2 ;
   
@@ -22208,7 +22208,7 @@ void _wrap_XSDataPacket_setPacketId_mtigen_083b31a658b8ff73(XsDataPacket *_swig_
 }
 
 
-long long _wrap_XSDataPacket_packetId_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+long long _wrap_XSDataPacket_packetId_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int64_t result;
   long long _swig_go_result;
@@ -22221,7 +22221,7 @@ long long _wrap_XSDataPacket_packetId_mtigen_083b31a658b8ff73(XsDataPacket *_swi
 }
 
 
-void _wrap_XSDataPacket_setTriggerIndication_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1, XsTriggerIndicationData *_swig_go_2) {
+void _wrap_XSDataPacket_setTriggerIndication_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1, XsTriggerIndicationData *_swig_go_2) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier arg2 ;
   XsTriggerIndicationData *arg3 = 0 ;
@@ -22242,7 +22242,7 @@ void _wrap_XSDataPacket_setTriggerIndication_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-bool _wrap_XSDataPacket_containsTriggerIndication_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
+bool _wrap_XSDataPacket_containsTriggerIndication_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier arg2 ;
   XsDataIdentifier *argp2 ;
@@ -22264,7 +22264,7 @@ bool _wrap_XSDataPacket_containsTriggerIndication_mtigen_083b31a658b8ff73(XsData
 }
 
 
-XsTriggerIndicationData *_wrap_XSDataPacket_triggerIndication_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
+XsTriggerIndicationData *_wrap_XSDataPacket_triggerIndication_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDataIdentifier *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDataIdentifier arg2 ;
   XsDataIdentifier *argp2 ;
@@ -22286,7 +22286,7 @@ XsTriggerIndicationData *_wrap_XSDataPacket_triggerIndication_mtigen_083b31a658b
 }
 
 
-XsByteArray *_wrap_XSDataPacket_rawBlob_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsByteArray *_wrap_XSDataPacket_rawBlob_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsByteArray result;
   XsByteArray *_swig_go_result;
@@ -22299,7 +22299,7 @@ XsByteArray *_wrap_XSDataPacket_rawBlob_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-bool _wrap_XSDataPacket_containsRawBlob_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsRawBlob_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -22312,7 +22312,7 @@ bool _wrap_XSDataPacket_containsRawBlob_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-void _wrap_XSDataPacket_setRawBlob_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsByteArray *_swig_go_1) {
+void _wrap_XSDataPacket_setRawBlob_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsByteArray *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsByteArray *arg2 = 0 ;
   
@@ -22324,7 +22324,7 @@ void _wrap_XSDataPacket_setRawBlob_mtigen_083b31a658b8ff73(XsDataPacket *_swig_g
 }
 
 
-XsVector *_wrap_XSDataPacket_accelerationHR_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsVector *_wrap_XSDataPacket_accelerationHR_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector result;
   XsVector *_swig_go_result;
@@ -22337,7 +22337,7 @@ XsVector *_wrap_XSDataPacket_accelerationHR_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-bool _wrap_XSDataPacket_containsAccelerationHR_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsAccelerationHR_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -22350,7 +22350,7 @@ bool _wrap_XSDataPacket_containsAccelerationHR_mtigen_083b31a658b8ff73(XsDataPac
 }
 
 
-void _wrap_XSDataPacket_setAccelerationHR_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XSDataPacket_setAccelerationHR_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = 0 ;
   
@@ -22362,7 +22362,7 @@ void _wrap_XSDataPacket_setAccelerationHR_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-XsVector *_wrap_XSDataPacket_rateOfTurnHR_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsVector *_wrap_XSDataPacket_rateOfTurnHR_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector result;
   XsVector *_swig_go_result;
@@ -22375,7 +22375,7 @@ XsVector *_wrap_XSDataPacket_rateOfTurnHR_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-bool _wrap_XSDataPacket_containsRateOfTurnHR_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+bool _wrap_XSDataPacket_containsRateOfTurnHR_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -22388,7 +22388,7 @@ bool _wrap_XSDataPacket_containsRateOfTurnHR_mtigen_083b31a658b8ff73(XsDataPacke
 }
 
 
-void _wrap_XSDataPacket_setRateOfTurnHR_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
+void _wrap_XSDataPacket_setRateOfTurnHR_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsVector *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsVector *arg2 = 0 ;
   
@@ -22400,7 +22400,7 @@ void _wrap_XSDataPacket_setRateOfTurnHR_mtigen_083b31a658b8ff73(XsDataPacket *_s
 }
 
 
-std::map< XsDataIdentifier,void * > *_wrap_XSDataPacket_simplifiedContents_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+std::map< XsDataIdentifier,void * > *_wrap_XSDataPacket_simplifiedContents_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   std::map< XsDataIdentifier,void * > result;
   std::map< XsDataIdentifier,void * > *_swig_go_result;
@@ -22413,7 +22413,7 @@ std::map< XsDataIdentifier,void * > *_wrap_XSDataPacket_simplifiedContents_mtige
 }
 
 
-void _wrap_XSDataPacket_d_set_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, DataPacketPrivate *_swig_go_1) {
+void _wrap_XSDataPacket_d_set_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, DataPacketPrivate *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   DataPacketPrivate *arg2 = (DataPacketPrivate *) 0 ;
   
@@ -22425,7 +22425,7 @@ void _wrap_XSDataPacket_d_set_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, 
 }
 
 
-DataPacketPrivate *_wrap_XSDataPacket_d_get_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+DataPacketPrivate *_wrap_XSDataPacket_d_get_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   DataPacketPrivate *result = 0 ;
   DataPacketPrivate *_swig_go_result;
@@ -22438,7 +22438,7 @@ DataPacketPrivate *_wrap_XSDataPacket_d_get_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-void _wrap_XSDataPacket_m_deviceId_set_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsDeviceId *_swig_go_1) {
+void _wrap_XSDataPacket_m_deviceId_set_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDeviceId *arg2 = (XsDeviceId *) 0 ;
   
@@ -22450,7 +22450,7 @@ void _wrap_XSDataPacket_m_deviceId_set_mtigen_083b31a658b8ff73(XsDataPacket *_sw
 }
 
 
-XsDeviceId *_wrap_XSDataPacket_m_deviceId_get_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsDeviceId *_wrap_XSDataPacket_m_deviceId_get_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsDeviceId *result = 0 ;
   XsDeviceId *_swig_go_result;
@@ -22463,7 +22463,7 @@ XsDeviceId *_wrap_XSDataPacket_m_deviceId_get_mtigen_083b31a658b8ff73(XsDataPack
 }
 
 
-void _wrap_XSDataPacket_m_toa_set_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsTimeStamp *_swig_go_1) {
+void _wrap_XSDataPacket_m_toa_set_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsTimeStamp *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsTimeStamp arg2 ;
   XsTimeStamp *argp2 ;
@@ -22482,7 +22482,7 @@ void _wrap_XSDataPacket_m_toa_set_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go
 }
 
 
-XsTimeStamp *_wrap_XSDataPacket_m_toa_get_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsTimeStamp *_wrap_XSDataPacket_m_toa_get_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsTimeStamp result;
   XsTimeStamp *_swig_go_result;
@@ -22495,7 +22495,7 @@ XsTimeStamp *_wrap_XSDataPacket_m_toa_get_mtigen_083b31a658b8ff73(XsDataPacket *
 }
 
 
-void _wrap_XSDataPacket_m_packetId_set_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, long long _swig_go_1) {
+void _wrap_XSDataPacket_m_packetId_set_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, long long _swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int64_t arg2 ;
   
@@ -22507,7 +22507,7 @@ void _wrap_XSDataPacket_m_packetId_set_mtigen_083b31a658b8ff73(XsDataPacket *_sw
 }
 
 
-long long _wrap_XSDataPacket_m_packetId_get_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+long long _wrap_XSDataPacket_m_packetId_get_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   int64_t result;
   long long _swig_go_result;
@@ -22520,7 +22520,7 @@ long long _wrap_XSDataPacket_m_packetId_get_mtigen_083b31a658b8ff73(XsDataPacket
 }
 
 
-void _wrap_XSDataPacket_m_etos_set_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0, XsTimeStamp *_swig_go_1) {
+void _wrap_XSDataPacket_m_etos_set_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0, XsTimeStamp *_swig_go_1) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsTimeStamp arg2 ;
   XsTimeStamp *argp2 ;
@@ -22539,7 +22539,7 @@ void _wrap_XSDataPacket_m_etos_set_mtigen_083b31a658b8ff73(XsDataPacket *_swig_g
 }
 
 
-XsTimeStamp *_wrap_XSDataPacket_m_etos_get_mtigen_083b31a658b8ff73(XsDataPacket *_swig_go_0) {
+XsTimeStamp *_wrap_XSDataPacket_m_etos_get_gen_58fb7b870f09ff4a(XsDataPacket *_swig_go_0) {
   XsDataPacket *arg1 = (XsDataPacket *) 0 ;
   XsTimeStamp result;
   XsTimeStamp *_swig_go_result;
@@ -22552,7 +22552,7 @@ XsTimeStamp *_wrap_XSDataPacket_m_etos_get_mtigen_083b31a658b8ff73(XsDataPacket 
 }
 
 
-void _wrap_XsQuaternion_destruct_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+void _wrap_XsQuaternion_destruct_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   
   arg1 = *(XsQuaternion **)&_swig_go_0; 
@@ -22562,7 +22562,7 @@ void _wrap_XsQuaternion_destruct_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_
 }
 
 
-intgo _wrap_XsQuaternion_empty_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+intgo _wrap_XsQuaternion_empty_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -22575,7 +22575,7 @@ intgo _wrap_XsQuaternion_empty_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0)
 }
 
 
-void _wrap_XsQuaternion_inverse_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
+void _wrap_XsQuaternion_inverse_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsQuaternion *arg2 = (XsQuaternion *) 0 ;
   
@@ -22587,7 +22587,7 @@ void _wrap_XsQuaternion_inverse_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0
 }
 
 
-double _wrap_XsQuaternion_normalized_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
+double _wrap_XsQuaternion_normalized_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsQuaternion *arg2 = (XsQuaternion *) 0 ;
   XsReal result;
@@ -22602,7 +22602,7 @@ double _wrap_XsQuaternion_normalized_mtigen_083b31a658b8ff73(XsQuaternion *_swig
 }
 
 
-double _wrap_XsQuaternion_normalize_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+double _wrap_XsQuaternion_normalize_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsReal result;
   double _swig_go_result;
@@ -22615,7 +22615,7 @@ double _wrap_XsQuaternion_normalize_mtigen_083b31a658b8ff73(XsQuaternion *_swig_
 }
 
 
-void _wrap_XsQuaternion_fromEulerAngles_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsEuler *_swig_go_1) {
+void _wrap_XsQuaternion_fromEulerAngles_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, XsEuler *_swig_go_1) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsEuler *arg2 = (XsEuler *) 0 ;
   
@@ -22627,7 +22627,7 @@ void _wrap_XsQuaternion_fromEulerAngles_mtigen_083b31a658b8ff73(XsQuaternion *_s
 }
 
 
-void _wrap_XsQuaternion_fromRotationMatrix_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsMatrix *_swig_go_1) {
+void _wrap_XsQuaternion_fromRotationMatrix_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, XsMatrix *_swig_go_1) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsMatrix *arg2 = (XsMatrix *) 0 ;
   
@@ -22639,7 +22639,7 @@ void _wrap_XsQuaternion_fromRotationMatrix_mtigen_083b31a658b8ff73(XsQuaternion 
 }
 
 
-XsQuaternion *_wrap_XsQuaternion_identity_mtigen_083b31a658b8ff73() {
+XsQuaternion *_wrap_XsQuaternion_identity_gen_58fb7b870f09ff4a() {
   XsQuaternion *result = 0 ;
   XsQuaternion *_swig_go_result;
   
@@ -22650,7 +22650,7 @@ XsQuaternion *_wrap_XsQuaternion_identity_mtigen_083b31a658b8ff73() {
 }
 
 
-void _wrap_XsQuaternion_multiply_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1, XsQuaternion *_swig_go_2) {
+void _wrap_XsQuaternion_multiply_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1, XsQuaternion *_swig_go_2) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsQuaternion *arg2 = (XsQuaternion *) 0 ;
   XsQuaternion *arg3 = (XsQuaternion *) 0 ;
@@ -22664,7 +22664,7 @@ void _wrap_XsQuaternion_multiply_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_
 }
 
 
-void _wrap_XsQuaternion_swap_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
+void _wrap_XsQuaternion_swap_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsQuaternion *arg2 = (XsQuaternion *) 0 ;
   
@@ -22676,7 +22676,7 @@ void _wrap_XsQuaternion_swap_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, X
 }
 
 
-void _wrap_XsQuaternion_copy_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
+void _wrap_XsQuaternion_copy_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsQuaternion *arg2 = (XsQuaternion *) 0 ;
   
@@ -22688,7 +22688,7 @@ void _wrap_XsQuaternion_copy_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, X
 }
 
 
-intgo _wrap_XsQuaternion_equal_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
+intgo _wrap_XsQuaternion_equal_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsQuaternion *arg2 = (XsQuaternion *) 0 ;
   int result;
@@ -22703,7 +22703,7 @@ intgo _wrap_XsQuaternion_equal_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0,
 }
 
 
-intgo _wrap_XsQuaternion_compare_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1, double _swig_go_2) {
+intgo _wrap_XsQuaternion_compare_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1, double _swig_go_2) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsQuaternion *arg2 = (XsQuaternion *) 0 ;
   XsReal arg3 ;
@@ -22720,7 +22720,7 @@ intgo _wrap_XsQuaternion_compare_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_
 }
 
 
-double _wrap_XsQuaternion_dotProduct_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
+double _wrap_XsQuaternion_dotProduct_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsQuaternion *arg2 = (XsQuaternion *) 0 ;
   XsReal result;
@@ -22735,7 +22735,7 @@ double _wrap_XsQuaternion_dotProduct_mtigen_083b31a658b8ff73(XsQuaternion *_swig
 }
 
 
-XsQuaternion *_wrap_new_XSQuaternion__SWIG_0_mtigen_083b31a658b8ff73(double _swig_go_0, double _swig_go_1, double _swig_go_2, double _swig_go_3) {
+XsQuaternion *_wrap_new_XSQuaternion__SWIG_0_gen_58fb7b870f09ff4a(double _swig_go_0, double _swig_go_1, double _swig_go_2, double _swig_go_3) {
   XsReal arg1 ;
   XsReal arg2 ;
   XsReal arg3 ;
@@ -22754,7 +22754,7 @@ XsQuaternion *_wrap_new_XSQuaternion__SWIG_0_mtigen_083b31a658b8ff73(double _swi
 }
 
 
-XsQuaternion *_wrap_new_XSQuaternion__SWIG_1_mtigen_083b31a658b8ff73(double _swig_go_0, double _swig_go_1, double _swig_go_2) {
+XsQuaternion *_wrap_new_XSQuaternion__SWIG_1_gen_58fb7b870f09ff4a(double _swig_go_0, double _swig_go_1, double _swig_go_2) {
   XsReal arg1 ;
   XsReal arg2 ;
   XsReal arg3 ;
@@ -22771,7 +22771,7 @@ XsQuaternion *_wrap_new_XSQuaternion__SWIG_1_mtigen_083b31a658b8ff73(double _swi
 }
 
 
-XsQuaternion *_wrap_new_XSQuaternion__SWIG_2_mtigen_083b31a658b8ff73(double _swig_go_0, double _swig_go_1) {
+XsQuaternion *_wrap_new_XSQuaternion__SWIG_2_gen_58fb7b870f09ff4a(double _swig_go_0, double _swig_go_1) {
   XsReal arg1 ;
   XsReal arg2 ;
   XsQuaternion *result = 0 ;
@@ -22786,7 +22786,7 @@ XsQuaternion *_wrap_new_XSQuaternion__SWIG_2_mtigen_083b31a658b8ff73(double _swi
 }
 
 
-XsQuaternion *_wrap_new_XSQuaternion__SWIG_3_mtigen_083b31a658b8ff73(double _swig_go_0) {
+XsQuaternion *_wrap_new_XSQuaternion__SWIG_3_gen_58fb7b870f09ff4a(double _swig_go_0) {
   XsReal arg1 ;
   XsQuaternion *result = 0 ;
   XsQuaternion *_swig_go_result;
@@ -22799,7 +22799,7 @@ XsQuaternion *_wrap_new_XSQuaternion__SWIG_3_mtigen_083b31a658b8ff73(double _swi
 }
 
 
-XsQuaternion *_wrap_new_XSQuaternion__SWIG_4_mtigen_083b31a658b8ff73() {
+XsQuaternion *_wrap_new_XSQuaternion__SWIG_4_gen_58fb7b870f09ff4a() {
   XsQuaternion *result = 0 ;
   XsQuaternion *_swig_go_result;
   
@@ -22810,7 +22810,7 @@ XsQuaternion *_wrap_new_XSQuaternion__SWIG_4_mtigen_083b31a658b8ff73() {
 }
 
 
-XsQuaternion *_wrap_new_XSQuaternion__SWIG_5_mtigen_083b31a658b8ff73(double _swig_go_0, double _swig_go_1, double _swig_go_2, double _swig_go_3, bool _swig_go_4) {
+XsQuaternion *_wrap_new_XSQuaternion__SWIG_5_gen_58fb7b870f09ff4a(double _swig_go_0, double _swig_go_1, double _swig_go_2, double _swig_go_3, bool _swig_go_4) {
   XsReal arg1 ;
   XsReal arg2 ;
   XsReal arg3 ;
@@ -22831,7 +22831,7 @@ XsQuaternion *_wrap_new_XSQuaternion__SWIG_5_mtigen_083b31a658b8ff73(double _swi
 }
 
 
-XsQuaternion *_wrap_new_XSQuaternion__SWIG_6_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+XsQuaternion *_wrap_new_XSQuaternion__SWIG_6_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = 0 ;
   XsQuaternion *result = 0 ;
   XsQuaternion *_swig_go_result;
@@ -22844,7 +22844,7 @@ XsQuaternion *_wrap_new_XSQuaternion__SWIG_6_mtigen_083b31a658b8ff73(XsQuaternio
 }
 
 
-XsQuaternion *_wrap_new_XSQuaternion__SWIG_7_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
+XsQuaternion *_wrap_new_XSQuaternion__SWIG_7_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0) {
   XsEuler *arg1 = 0 ;
   XsQuaternion *result = 0 ;
   XsQuaternion *_swig_go_result;
@@ -22857,7 +22857,7 @@ XsQuaternion *_wrap_new_XSQuaternion__SWIG_7_mtigen_083b31a658b8ff73(XsEuler *_s
 }
 
 
-XsQuaternion *_wrap_new_XSQuaternion__SWIG_8_mtigen_083b31a658b8ff73(XsMatrix *_swig_go_0) {
+XsQuaternion *_wrap_new_XSQuaternion__SWIG_8_gen_58fb7b870f09ff4a(XsMatrix *_swig_go_0) {
   XsMatrix *arg1 = 0 ;
   XsQuaternion *result = 0 ;
   XsQuaternion *_swig_go_result;
@@ -22870,7 +22870,7 @@ XsQuaternion *_wrap_new_XSQuaternion__SWIG_8_mtigen_083b31a658b8ff73(XsMatrix *_
 }
 
 
-void _wrap_delete_XSQuaternion_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+void _wrap_delete_XSQuaternion_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   
   arg1 = *(XsQuaternion **)&_swig_go_0; 
@@ -22880,7 +22880,7 @@ void _wrap_delete_XSQuaternion_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0)
 }
 
 
-XsQuaternion *_wrap_XSQuaternion_opAssign_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
+XsQuaternion *_wrap_XSQuaternion_opAssign_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsQuaternion *arg2 = 0 ;
   XsQuaternion *result = 0 ;
@@ -22895,7 +22895,7 @@ XsQuaternion *_wrap_XSQuaternion_opAssign_mtigen_083b31a658b8ff73(XsQuaternion *
 }
 
 
-void _wrap_XSQuaternion_assign__SWIG_0_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, double _swig_go_1, double _swig_go_2, double _swig_go_3, double _swig_go_4) {
+void _wrap_XSQuaternion_assign__SWIG_0_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, double _swig_go_1, double _swig_go_2, double _swig_go_3, double _swig_go_4) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsReal arg2 ;
   XsReal arg3 ;
@@ -22913,7 +22913,7 @@ void _wrap_XSQuaternion_assign__SWIG_0_mtigen_083b31a658b8ff73(XsQuaternion *_sw
 }
 
 
-void _wrap_XSQuaternion_assign__SWIG_1_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, double *_swig_go_1) {
+void _wrap_XSQuaternion_assign__SWIG_1_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, double *_swig_go_1) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsReal *arg2 = (XsReal *) 0 ;
   
@@ -22925,7 +22925,7 @@ void _wrap_XSQuaternion_assign__SWIG_1_mtigen_083b31a658b8ff73(XsQuaternion *_sw
 }
 
 
-XsReal *_wrap_XSQuaternion_opIndex__SWIG_0_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, long long _swig_go_1) {
+XsReal *_wrap_XSQuaternion_opIndex__SWIG_0_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, long long _swig_go_1) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsSize arg2 ;
   XsReal *result = 0 ;
@@ -22940,7 +22940,7 @@ XsReal *_wrap_XSQuaternion_opIndex__SWIG_0_mtigen_083b31a658b8ff73(XsQuaternion 
 }
 
 
-double _wrap_XSQuaternion_opIndex__SWIG_1_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, long long _swig_go_1) {
+double _wrap_XSQuaternion_opIndex__SWIG_1_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, long long _swig_go_1) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsSize arg2 ;
   XsReal result;
@@ -22955,7 +22955,7 @@ double _wrap_XSQuaternion_opIndex__SWIG_1_mtigen_083b31a658b8ff73(XsQuaternion *
 }
 
 
-double *_wrap_XSQuaternion_data_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+double *_wrap_XSQuaternion_data_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsReal *result = 0 ;
   double *_swig_go_result;
@@ -22968,7 +22968,7 @@ double *_wrap_XSQuaternion_data_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0
 }
 
 
-XsQuaternion *_wrap_XSQuaternion_inverse_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+XsQuaternion *_wrap_XSQuaternion_inverse_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsQuaternion result;
   XsQuaternion *_swig_go_result;
@@ -22981,7 +22981,7 @@ XsQuaternion *_wrap_XSQuaternion_inverse_mtigen_083b31a658b8ff73(XsQuaternion *_
 }
 
 
-XsQuaternion *_wrap_XSQuaternion_conjugate_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+XsQuaternion *_wrap_XSQuaternion_conjugate_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsQuaternion result;
   XsQuaternion *_swig_go_result;
@@ -22994,7 +22994,7 @@ XsQuaternion *_wrap_XSQuaternion_conjugate_mtigen_083b31a658b8ff73(XsQuaternion 
 }
 
 
-XsQuaternion *_wrap_XSQuaternion_normalized_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+XsQuaternion *_wrap_XSQuaternion_normalized_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsQuaternion result;
   XsQuaternion *_swig_go_result;
@@ -23007,7 +23007,7 @@ XsQuaternion *_wrap_XSQuaternion_normalized_mtigen_083b31a658b8ff73(XsQuaternion
 }
 
 
-double _wrap_XSQuaternion_normalize_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+double _wrap_XSQuaternion_normalize_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsReal result;
   double _swig_go_result;
@@ -23020,7 +23020,7 @@ double _wrap_XSQuaternion_normalize_mtigen_083b31a658b8ff73(XsQuaternion *_swig_
 }
 
 
-bool _wrap_XSQuaternion_empty_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+bool _wrap_XSQuaternion_empty_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -23033,7 +23033,7 @@ bool _wrap_XSQuaternion_empty_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) 
 }
 
 
-XsQuaternion *_wrap_XSQuaternion_fromEulerAngles_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsEuler *_swig_go_1) {
+XsQuaternion *_wrap_XSQuaternion_fromEulerAngles_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, XsEuler *_swig_go_1) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsEuler *arg2 = 0 ;
   XsQuaternion *result = 0 ;
@@ -23048,7 +23048,7 @@ XsQuaternion *_wrap_XSQuaternion_fromEulerAngles_mtigen_083b31a658b8ff73(XsQuate
 }
 
 
-XsQuaternion *_wrap_XSQuaternion_fromRotationMatrix_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsMatrix *_swig_go_1) {
+XsQuaternion *_wrap_XSQuaternion_fromRotationMatrix_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, XsMatrix *_swig_go_1) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsMatrix *arg2 = 0 ;
   XsQuaternion *result = 0 ;
@@ -23063,7 +23063,7 @@ XsQuaternion *_wrap_XSQuaternion_fromRotationMatrix_mtigen_083b31a658b8ff73(XsQu
 }
 
 
-XsQuaternion *_wrap_XSQuaternion_identity_mtigen_083b31a658b8ff73() {
+XsQuaternion *_wrap_XSQuaternion_identity_gen_58fb7b870f09ff4a() {
   XsQuaternion *result = 0 ;
   XsQuaternion *_swig_go_result;
   
@@ -23074,7 +23074,7 @@ XsQuaternion *_wrap_XSQuaternion_identity_mtigen_083b31a658b8ff73() {
 }
 
 
-double _wrap_XSQuaternion_w__SWIG_0_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+double _wrap_XSQuaternion_w__SWIG_0_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsReal result;
   double _swig_go_result;
@@ -23087,7 +23087,7 @@ double _wrap_XSQuaternion_w__SWIG_0_mtigen_083b31a658b8ff73(XsQuaternion *_swig_
 }
 
 
-double _wrap_XSQuaternion_x__SWIG_0_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+double _wrap_XSQuaternion_x__SWIG_0_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsReal result;
   double _swig_go_result;
@@ -23100,7 +23100,7 @@ double _wrap_XSQuaternion_x__SWIG_0_mtigen_083b31a658b8ff73(XsQuaternion *_swig_
 }
 
 
-double _wrap_XSQuaternion_y__SWIG_0_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+double _wrap_XSQuaternion_y__SWIG_0_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsReal result;
   double _swig_go_result;
@@ -23113,7 +23113,7 @@ double _wrap_XSQuaternion_y__SWIG_0_mtigen_083b31a658b8ff73(XsQuaternion *_swig_
 }
 
 
-double _wrap_XSQuaternion_z__SWIG_0_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+double _wrap_XSQuaternion_z__SWIG_0_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsReal result;
   double _swig_go_result;
@@ -23126,7 +23126,7 @@ double _wrap_XSQuaternion_z__SWIG_0_mtigen_083b31a658b8ff73(XsQuaternion *_swig_
 }
 
 
-XsReal *_wrap_XSQuaternion_w__SWIG_1_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+XsReal *_wrap_XSQuaternion_w__SWIG_1_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsReal *result = 0 ;
   XsReal *_swig_go_result;
@@ -23139,7 +23139,7 @@ XsReal *_wrap_XSQuaternion_w__SWIG_1_mtigen_083b31a658b8ff73(XsQuaternion *_swig
 }
 
 
-XsReal *_wrap_XSQuaternion_x__SWIG_1_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+XsReal *_wrap_XSQuaternion_x__SWIG_1_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsReal *result = 0 ;
   XsReal *_swig_go_result;
@@ -23152,7 +23152,7 @@ XsReal *_wrap_XSQuaternion_x__SWIG_1_mtigen_083b31a658b8ff73(XsQuaternion *_swig
 }
 
 
-XsReal *_wrap_XSQuaternion_y__SWIG_1_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+XsReal *_wrap_XSQuaternion_y__SWIG_1_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsReal *result = 0 ;
   XsReal *_swig_go_result;
@@ -23165,7 +23165,7 @@ XsReal *_wrap_XSQuaternion_y__SWIG_1_mtigen_083b31a658b8ff73(XsQuaternion *_swig
 }
 
 
-XsReal *_wrap_XSQuaternion_z__SWIG_1_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+XsReal *_wrap_XSQuaternion_z__SWIG_1_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsReal *result = 0 ;
   XsReal *_swig_go_result;
@@ -23178,7 +23178,7 @@ XsReal *_wrap_XSQuaternion_z__SWIG_1_mtigen_083b31a658b8ff73(XsQuaternion *_swig
 }
 
 
-void _wrap_XSQuaternion_swap_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
+void _wrap_XSQuaternion_swap_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsQuaternion *arg2 = 0 ;
   
@@ -23190,7 +23190,7 @@ void _wrap_XSQuaternion_swap_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, X
 }
 
 
-void _wrap_swap__SWIG_1_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
+void _wrap_swap__SWIG_1_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
   XsQuaternion *arg1 = 0 ;
   XsQuaternion *arg2 = 0 ;
   
@@ -23202,7 +23202,7 @@ void _wrap_swap__SWIG_1_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsQuat
 }
 
 
-bool _wrap_XSQuaternion_opEq_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
+bool _wrap_XSQuaternion_opEq_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsQuaternion *arg2 = 0 ;
   bool result;
@@ -23217,7 +23217,7 @@ bool _wrap_XSQuaternion_opEq_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, X
 }
 
 
-bool _wrap_XSQuaternion_isEqual_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1, double _swig_go_2) {
+bool _wrap_XSQuaternion_isEqual_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1, double _swig_go_2) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsQuaternion *arg2 = 0 ;
   XsReal arg3 ;
@@ -23234,7 +23234,7 @@ bool _wrap_XSQuaternion_isEqual_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0
 }
 
 
-double _wrap_XSQuaternion_dotProduct_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
+double _wrap_XSQuaternion_dotProduct_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0, XsQuaternion *_swig_go_1) {
   XsQuaternion *arg1 = (XsQuaternion *) 0 ;
   XsQuaternion *arg2 = 0 ;
   XsReal result;
@@ -23249,7 +23249,7 @@ double _wrap_XSQuaternion_dotProduct_mtigen_083b31a658b8ff73(XsQuaternion *_swig
 }
 
 
-void _wrap_XsEuler_destruct_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
+void _wrap_XsEuler_destruct_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   
   arg1 = *(XsEuler **)&_swig_go_0; 
@@ -23259,7 +23259,7 @@ void _wrap_XsEuler_destruct_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
 }
 
 
-intgo _wrap_XsEuler_empty_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
+intgo _wrap_XsEuler_empty_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -23272,7 +23272,7 @@ intgo _wrap_XsEuler_empty_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
 }
 
 
-void _wrap_XsEuler_fromQuaternion_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0, XsQuaternion *_swig_go_1) {
+void _wrap_XsEuler_fromQuaternion_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0, XsQuaternion *_swig_go_1) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   XsQuaternion *arg2 = (XsQuaternion *) 0 ;
   
@@ -23284,7 +23284,7 @@ void _wrap_XsEuler_fromQuaternion_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0, X
 }
 
 
-XsEuler *_wrap_new_XSEuler__SWIG_0_mtigen_083b31a658b8ff73() {
+XsEuler *_wrap_new_XSEuler__SWIG_0_gen_58fb7b870f09ff4a() {
   XsEuler *result = 0 ;
   XsEuler *_swig_go_result;
   
@@ -23295,7 +23295,7 @@ XsEuler *_wrap_new_XSEuler__SWIG_0_mtigen_083b31a658b8ff73() {
 }
 
 
-XsEuler *_wrap_new_XSEuler__SWIG_1_mtigen_083b31a658b8ff73(double _swig_go_0, double _swig_go_1, double _swig_go_2) {
+XsEuler *_wrap_new_XSEuler__SWIG_1_gen_58fb7b870f09ff4a(double _swig_go_0, double _swig_go_1, double _swig_go_2) {
   XsReal arg1 ;
   XsReal arg2 ;
   XsReal arg3 ;
@@ -23312,7 +23312,7 @@ XsEuler *_wrap_new_XSEuler__SWIG_1_mtigen_083b31a658b8ff73(double _swig_go_0, do
 }
 
 
-XsEuler *_wrap_new_XSEuler__SWIG_2_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
+XsEuler *_wrap_new_XSEuler__SWIG_2_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0) {
   XsEuler *arg1 = 0 ;
   XsEuler *result = 0 ;
   XsEuler *_swig_go_result;
@@ -23325,7 +23325,7 @@ XsEuler *_wrap_new_XSEuler__SWIG_2_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) 
 }
 
 
-XsEuler *_wrap_new_XSEuler__SWIG_3_mtigen_083b31a658b8ff73(XsVector *_swig_go_0) {
+XsEuler *_wrap_new_XSEuler__SWIG_3_gen_58fb7b870f09ff4a(XsVector *_swig_go_0) {
   XsVector *arg1 = 0 ;
   XsEuler *result = 0 ;
   XsEuler *_swig_go_result;
@@ -23338,7 +23338,7 @@ XsEuler *_wrap_new_XSEuler__SWIG_3_mtigen_083b31a658b8ff73(XsVector *_swig_go_0)
 }
 
 
-XsEuler *_wrap_new_XSEuler__SWIG_4_mtigen_083b31a658b8ff73(XsQuaternion *_swig_go_0) {
+XsEuler *_wrap_new_XSEuler__SWIG_4_gen_58fb7b870f09ff4a(XsQuaternion *_swig_go_0) {
   XsQuaternion *arg1 = 0 ;
   XsEuler *result = 0 ;
   XsEuler *_swig_go_result;
@@ -23351,7 +23351,7 @@ XsEuler *_wrap_new_XSEuler__SWIG_4_mtigen_083b31a658b8ff73(XsQuaternion *_swig_g
 }
 
 
-XsEuler *_wrap_XSEuler_opAssign_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0, XsEuler *_swig_go_1) {
+XsEuler *_wrap_XSEuler_opAssign_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0, XsEuler *_swig_go_1) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   XsEuler *arg2 = 0 ;
   XsEuler *result = 0 ;
@@ -23366,7 +23366,7 @@ XsEuler *_wrap_XSEuler_opAssign_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0, XsE
 }
 
 
-double _wrap_XSEuler_opIndex__SWIG_0_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0, long long _swig_go_1) {
+double _wrap_XSEuler_opIndex__SWIG_0_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0, long long _swig_go_1) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   XsSize arg2 ;
   XsReal result;
@@ -23381,7 +23381,7 @@ double _wrap_XSEuler_opIndex__SWIG_0_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0
 }
 
 
-XsReal *_wrap_XSEuler_opIndex__SWIG_1_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0, long long _swig_go_1) {
+XsReal *_wrap_XSEuler_opIndex__SWIG_1_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0, long long _swig_go_1) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   XsSize arg2 ;
   XsReal *result = 0 ;
@@ -23396,7 +23396,7 @@ XsReal *_wrap_XSEuler_opIndex__SWIG_1_mtigen_083b31a658b8ff73(XsEuler *_swig_go_
 }
 
 
-bool _wrap_XSEuler_empty_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
+bool _wrap_XSEuler_empty_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -23409,7 +23409,7 @@ bool _wrap_XSEuler_empty_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
 }
 
 
-double *_wrap_XSEuler_data_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
+double *_wrap_XSEuler_data_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   XsReal *result = 0 ;
   double *_swig_go_result;
@@ -23422,7 +23422,7 @@ double *_wrap_XSEuler_data_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
 }
 
 
-XsEuler *_wrap_XSEuler_fromQuaternion_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0, XsQuaternion *_swig_go_1) {
+XsEuler *_wrap_XSEuler_fromQuaternion_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0, XsQuaternion *_swig_go_1) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   XsQuaternion *arg2 = 0 ;
   XsEuler *result = 0 ;
@@ -23437,7 +23437,7 @@ XsEuler *_wrap_XSEuler_fromQuaternion_mtigen_083b31a658b8ff73(XsEuler *_swig_go_
 }
 
 
-bool _wrap_XSEuler_opEq_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0, XsEuler *_swig_go_1) {
+bool _wrap_XSEuler_opEq_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0, XsEuler *_swig_go_1) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   XsEuler *arg2 = 0 ;
   bool result;
@@ -23452,7 +23452,7 @@ bool _wrap_XSEuler_opEq_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0, XsEuler *_s
 }
 
 
-bool _wrap_XSEuler_opNEq_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0, XsEuler *_swig_go_1) {
+bool _wrap_XSEuler_opNEq_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0, XsEuler *_swig_go_1) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   XsEuler *arg2 = 0 ;
   bool result;
@@ -23467,7 +23467,7 @@ bool _wrap_XSEuler_opNEq_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0, XsEuler *_
 }
 
 
-double _wrap_XSEuler_roll_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
+double _wrap_XSEuler_roll_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   XsReal result;
   double _swig_go_result;
@@ -23480,7 +23480,7 @@ double _wrap_XSEuler_roll_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
 }
 
 
-double _wrap_XSEuler_pitch_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
+double _wrap_XSEuler_pitch_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   XsReal result;
   double _swig_go_result;
@@ -23493,7 +23493,7 @@ double _wrap_XSEuler_pitch_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
 }
 
 
-double _wrap_XSEuler_yaw_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
+double _wrap_XSEuler_yaw_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   XsReal result;
   double _swig_go_result;
@@ -23506,7 +23506,7 @@ double _wrap_XSEuler_yaw_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
 }
 
 
-double _wrap_XSEuler_x_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
+double _wrap_XSEuler_x_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   XsReal result;
   double _swig_go_result;
@@ -23519,7 +23519,7 @@ double _wrap_XSEuler_x_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
 }
 
 
-double _wrap_XSEuler_y_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
+double _wrap_XSEuler_y_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   XsReal result;
   double _swig_go_result;
@@ -23532,7 +23532,7 @@ double _wrap_XSEuler_y_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
 }
 
 
-double _wrap_XSEuler_z_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
+double _wrap_XSEuler_z_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   XsReal result;
   double _swig_go_result;
@@ -23545,7 +23545,7 @@ double _wrap_XSEuler_z_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
 }
 
 
-bool _wrap_XSEuler_isEqual_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0, XsEuler *_swig_go_1, double _swig_go_2) {
+bool _wrap_XSEuler_isEqual_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0, XsEuler *_swig_go_1, double _swig_go_2) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   XsEuler *arg2 = 0 ;
   XsReal arg3 ;
@@ -23562,7 +23562,7 @@ bool _wrap_XSEuler_isEqual_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0, XsEuler 
 }
 
 
-void _wrap_delete_XSEuler_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
+void _wrap_delete_XSEuler_gen_58fb7b870f09ff4a(XsEuler *_swig_go_0) {
   XsEuler *arg1 = (XsEuler *) 0 ;
   
   arg1 = *(XsEuler **)&_swig_go_0; 
@@ -23572,7 +23572,7 @@ void _wrap_delete_XSEuler_mtigen_083b31a658b8ff73(XsEuler *_swig_go_0) {
 }
 
 
-XsControl *_wrap_new_XsControl_mtigen_083b31a658b8ff73() {
+XsControl *_wrap_new_XsControl_gen_58fb7b870f09ff4a() {
   XsControl *result = 0 ;
   XsControl *_swig_go_result;
   
@@ -23583,7 +23583,7 @@ XsControl *_wrap_new_XsControl_mtigen_083b31a658b8ff73() {
 }
 
 
-void _wrap_delete_XsControl_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void _wrap_delete_XsControl_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   
   arg1 = *(XsControl **)&_swig_go_0; 
@@ -23593,7 +23593,7 @@ void _wrap_delete_XsControl_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
 }
 
 
-void _wrap_XsControl_flushInputBuffers_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void _wrap_XsControl_flushInputBuffers_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   
   arg1 = *(XsControl **)&_swig_go_0; 
@@ -23603,7 +23603,7 @@ void _wrap_XsControl_flushInputBuffers_mtigen_083b31a658b8ff73(XsControl *_swig_
 }
 
 
-XsString *_wrap_XsControl_resultText_mtigen_083b31a658b8ff73(XsResultValue *_swig_go_0) {
+XsString *_wrap_XsControl_resultText_gen_58fb7b870f09ff4a(XsResultValue *_swig_go_0) {
   XsResultValue arg1 ;
   XsResultValue *argp1 ;
   XsString result;
@@ -23623,7 +23623,7 @@ XsString *_wrap_XsControl_resultText_mtigen_083b31a658b8ff73(XsResultValue *_swi
 }
 
 
-void _wrap_XsControl_clearHardwareError_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void _wrap_XsControl_clearHardwareError_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   
   arg1 = *(XsControl **)&_swig_go_0; 
@@ -23633,7 +23633,7 @@ void _wrap_XsControl_clearHardwareError_mtigen_083b31a658b8ff73(XsControl *_swig
 }
 
 
-void _wrap_XsControl_close_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void _wrap_XsControl_close_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   
   arg1 = *(XsControl **)&_swig_go_0; 
@@ -23643,7 +23643,7 @@ void _wrap_XsControl_close_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
 }
 
 
-bool _wrap_XsControl_openPort__SWIG_0_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsString *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, bool _swig_go_4) {
+bool _wrap_XsControl_openPort__SWIG_0_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsString *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, bool _swig_go_4) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsString *arg2 = 0 ;
   XsBaudRate arg3 ;
@@ -23664,7 +23664,7 @@ bool _wrap_XsControl_openPort__SWIG_0_mtigen_083b31a658b8ff73(XsControl *_swig_g
 }
 
 
-bool _wrap_XsControl_openPort__SWIG_1_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsString *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+bool _wrap_XsControl_openPort__SWIG_1_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsString *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsString *arg2 = 0 ;
   XsBaudRate arg3 ;
@@ -23683,7 +23683,7 @@ bool _wrap_XsControl_openPort__SWIG_1_mtigen_083b31a658b8ff73(XsControl *_swig_g
 }
 
 
-bool _wrap_XsControl_openPort__SWIG_2_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsString *_swig_go_1, intgo _swig_go_2) {
+bool _wrap_XsControl_openPort__SWIG_2_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsString *_swig_go_1, intgo _swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsString *arg2 = 0 ;
   XsBaudRate arg3 ;
@@ -23700,7 +23700,7 @@ bool _wrap_XsControl_openPort__SWIG_2_mtigen_083b31a658b8ff73(XsControl *_swig_g
 }
 
 
-bool _wrap_XsControl_openPort__SWIG_3_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsPortInfo *_swig_go_1, intgo _swig_go_2, bool _swig_go_3) {
+bool _wrap_XsControl_openPort__SWIG_3_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsPortInfo *_swig_go_1, intgo _swig_go_2, bool _swig_go_3) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsPortInfo *arg2 = 0 ;
   uint32_t arg3 ;
@@ -23719,7 +23719,7 @@ bool _wrap_XsControl_openPort__SWIG_3_mtigen_083b31a658b8ff73(XsControl *_swig_g
 }
 
 
-bool _wrap_XsControl_openPort__SWIG_4_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsPortInfo *_swig_go_1, intgo _swig_go_2) {
+bool _wrap_XsControl_openPort__SWIG_4_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsPortInfo *_swig_go_1, intgo _swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsPortInfo *arg2 = 0 ;
   uint32_t arg3 ;
@@ -23736,7 +23736,7 @@ bool _wrap_XsControl_openPort__SWIG_4_mtigen_083b31a658b8ff73(XsControl *_swig_g
 }
 
 
-bool _wrap_XsControl_openPort__SWIG_5_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsPortInfo *_swig_go_1) {
+bool _wrap_XsControl_openPort__SWIG_5_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsPortInfo *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsPortInfo *arg2 = 0 ;
   bool result;
@@ -23751,7 +23751,7 @@ bool _wrap_XsControl_openPort__SWIG_5_mtigen_083b31a658b8ff73(XsControl *_swig_g
 }
 
 
-bool _wrap_XsControl_openPortWithCredentials__SWIG_0_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsPortInfo *_swig_go_1, XsString *_swig_go_2, XsString *_swig_go_3, intgo _swig_go_4) {
+bool _wrap_XsControl_openPortWithCredentials__SWIG_0_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsPortInfo *_swig_go_1, XsString *_swig_go_2, XsString *_swig_go_3, intgo _swig_go_4) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsPortInfo *arg2 = 0 ;
   XsString *arg3 = 0 ;
@@ -23772,7 +23772,7 @@ bool _wrap_XsControl_openPortWithCredentials__SWIG_0_mtigen_083b31a658b8ff73(XsC
 }
 
 
-bool _wrap_XsControl_openPortWithCredentials__SWIG_1_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsPortInfo *_swig_go_1, XsString *_swig_go_2, XsString *_swig_go_3) {
+bool _wrap_XsControl_openPortWithCredentials__SWIG_1_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsPortInfo *_swig_go_1, XsString *_swig_go_2, XsString *_swig_go_3) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsPortInfo *arg2 = 0 ;
   XsString *arg3 = 0 ;
@@ -23791,7 +23791,7 @@ bool _wrap_XsControl_openPortWithCredentials__SWIG_1_mtigen_083b31a658b8ff73(XsC
 }
 
 
-bool _wrap_XsControl_openCustomPort__SWIG_0_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, bool _swig_go_3) {
+bool _wrap_XsControl_openCustomPort__SWIG_0_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2, bool _swig_go_3) {
   XsControl *arg1 = (XsControl *) 0 ;
   int arg2 ;
   uint32_t arg3 ;
@@ -23810,7 +23810,7 @@ bool _wrap_XsControl_openCustomPort__SWIG_0_mtigen_083b31a658b8ff73(XsControl *_
 }
 
 
-bool _wrap_XsControl_openCustomPort__SWIG_1_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
+bool _wrap_XsControl_openCustomPort__SWIG_1_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, intgo _swig_go_1, intgo _swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   int arg2 ;
   uint32_t arg3 ;
@@ -23827,7 +23827,7 @@ bool _wrap_XsControl_openCustomPort__SWIG_1_mtigen_083b31a658b8ff73(XsControl *_
 }
 
 
-bool _wrap_XsControl_openImarPort_internal__SWIG_0_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsString *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
+bool _wrap_XsControl_openImarPort_internal__SWIG_0_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsString *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsString *arg2 = 0 ;
   XsBaudRate arg3 ;
@@ -23848,7 +23848,7 @@ bool _wrap_XsControl_openImarPort_internal__SWIG_0_mtigen_083b31a658b8ff73(XsCon
 }
 
 
-bool _wrap_XsControl_openImarPort_internal__SWIG_1_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsString *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
+bool _wrap_XsControl_openImarPort_internal__SWIG_1_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsString *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsString *arg2 = 0 ;
   XsBaudRate arg3 ;
@@ -23867,7 +23867,7 @@ bool _wrap_XsControl_openImarPort_internal__SWIG_1_mtigen_083b31a658b8ff73(XsCon
 }
 
 
-void _wrap_XsControl_closePort__SWIG_0_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsString *_swig_go_1) {
+void _wrap_XsControl_closePort__SWIG_0_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsString *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsString *arg2 = 0 ;
   
@@ -23879,7 +23879,7 @@ void _wrap_XsControl_closePort__SWIG_0_mtigen_083b31a658b8ff73(XsControl *_swig_
 }
 
 
-void _wrap_XsControl_closePort__SWIG_1_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDeviceId *_swig_go_1) {
+void _wrap_XsControl_closePort__SWIG_1_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDeviceId *arg2 = 0 ;
   
@@ -23891,7 +23891,7 @@ void _wrap_XsControl_closePort__SWIG_1_mtigen_083b31a658b8ff73(XsControl *_swig_
 }
 
 
-void _wrap_XsControl_closePort__SWIG_2_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsPortInfo *_swig_go_1) {
+void _wrap_XsControl_closePort__SWIG_2_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsPortInfo *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsPortInfo *arg2 = 0 ;
   
@@ -23903,7 +23903,7 @@ void _wrap_XsControl_closePort__SWIG_2_mtigen_083b31a658b8ff73(XsControl *_swig_
 }
 
 
-void _wrap_XsControl_closeCustomPort_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, intgo _swig_go_1) {
+void _wrap_XsControl_closeCustomPort_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, intgo _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   int arg2 ;
   
@@ -23915,7 +23915,7 @@ void _wrap_XsControl_closeCustomPort_mtigen_083b31a658b8ff73(XsControl *_swig_go
 }
 
 
-void _wrap_XsControl_closePort__SWIG_3_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevice *_swig_go_1) {
+void _wrap_XsControl_closePort__SWIG_3_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevice *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   
@@ -23927,7 +23927,7 @@ void _wrap_XsControl_closePort__SWIG_3_mtigen_083b31a658b8ff73(XsControl *_swig_
 }
 
 
-XsPortInfo *_wrap_XsControl_customPortInfo_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, intgo _swig_go_1) {
+XsPortInfo *_wrap_XsControl_customPortInfo_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, intgo _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   int arg2 ;
   XsPortInfo result;
@@ -23942,7 +23942,7 @@ XsPortInfo *_wrap_XsControl_customPortInfo_mtigen_083b31a658b8ff73(XsControl *_s
 }
 
 
-bool _wrap_XsControl_openLogFile_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsString *_swig_go_1) {
+bool _wrap_XsControl_openLogFile_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsString *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsString *arg2 = 0 ;
   bool result;
@@ -23957,7 +23957,7 @@ bool _wrap_XsControl_openLogFile_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, 
 }
 
 
-XsResultValue *_wrap_XsControl_lastResult_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+XsResultValue *_wrap_XsControl_lastResult_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsResultValue result;
   XsResultValue *_swig_go_result;
@@ -23970,7 +23970,7 @@ XsResultValue *_wrap_XsControl_lastResult_mtigen_083b31a658b8ff73(XsControl *_sw
 }
 
 
-XsString *_wrap_XsControl_lastResultText_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+XsString *_wrap_XsControl_lastResultText_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsString result;
   XsString *_swig_go_result;
@@ -23983,7 +23983,7 @@ XsString *_wrap_XsControl_lastResultText_mtigen_083b31a658b8ff73(XsControl *_swi
 }
 
 
-XsResultValue *_wrap_XsControl_lastHardwareError_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+XsResultValue *_wrap_XsControl_lastHardwareError_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsResultValue result;
   XsResultValue *_swig_go_result;
@@ -23996,7 +23996,7 @@ XsResultValue *_wrap_XsControl_lastHardwareError_mtigen_083b31a658b8ff73(XsContr
 }
 
 
-XsDeviceId *_wrap_XsControl_lastHardwareErrorDeviceId_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+XsDeviceId *_wrap_XsControl_lastHardwareErrorDeviceId_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDeviceId result;
   XsDeviceId *_swig_go_result;
@@ -24009,7 +24009,7 @@ XsDeviceId *_wrap_XsControl_lastHardwareErrorDeviceId_mtigen_083b31a658b8ff73(Xs
 }
 
 
-intgo _wrap_XsControl_deviceCount_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+intgo _wrap_XsControl_deviceCount_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -24022,7 +24022,7 @@ intgo _wrap_XsControl_deviceCount_mtigen_083b31a658b8ff73(XsControl *_swig_go_0)
 }
 
 
-intgo _wrap_XsControl_mainDeviceCount_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+intgo _wrap_XsControl_mainDeviceCount_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -24035,7 +24035,7 @@ intgo _wrap_XsControl_mainDeviceCount_mtigen_083b31a658b8ff73(XsControl *_swig_g
 }
 
 
-std::vector< XsDeviceId > *_wrap_XsControl_mainDeviceIds_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+std::vector< XsDeviceId > *_wrap_XsControl_mainDeviceIds_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   SwigValueWrapper< std::vector< XsDeviceId > > result;
   std::vector< XsDeviceId > *_swig_go_result;
@@ -24048,7 +24048,7 @@ std::vector< XsDeviceId > *_wrap_XsControl_mainDeviceIds_mtigen_083b31a658b8ff73
 }
 
 
-intgo _wrap_XsControl_mtCount_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+intgo _wrap_XsControl_mtCount_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   int result;
   intgo _swig_go_result;
@@ -24061,7 +24061,7 @@ intgo _wrap_XsControl_mtCount_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
 }
 
 
-std::vector< XsDeviceId > *_wrap_XsControl_mtDeviceIds_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+std::vector< XsDeviceId > *_wrap_XsControl_mtDeviceIds_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   SwigValueWrapper< std::vector< XsDeviceId > > result;
   std::vector< XsDeviceId > *_swig_go_result;
@@ -24074,7 +24074,7 @@ std::vector< XsDeviceId > *_wrap_XsControl_mtDeviceIds_mtigen_083b31a658b8ff73(X
 }
 
 
-std::vector< XsDeviceId > *_wrap_XsControl_deviceIds_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+std::vector< XsDeviceId > *_wrap_XsControl_deviceIds_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   SwigValueWrapper< std::vector< XsDeviceId > > result;
   std::vector< XsDeviceId > *_swig_go_result;
@@ -24087,7 +24087,7 @@ std::vector< XsDeviceId > *_wrap_XsControl_deviceIds_mtigen_083b31a658b8ff73(XsC
 }
 
 
-XsDevice *_wrap_XsControl_getDeviceFromLocationId_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, short _swig_go_1) {
+XsDevice *_wrap_XsControl_getDeviceFromLocationId_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, short _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   uint16_t arg2 ;
   XsDevice *result = 0 ;
@@ -24102,7 +24102,7 @@ XsDevice *_wrap_XsControl_getDeviceFromLocationId_mtigen_083b31a658b8ff73(XsCont
 }
 
 
-XsDeviceId *_wrap_XsControl_dockDeviceId_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDeviceId *_swig_go_1) {
+XsDeviceId *_wrap_XsControl_dockDeviceId_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDeviceId *arg2 = 0 ;
   XsDeviceId result;
@@ -24117,7 +24117,7 @@ XsDeviceId *_wrap_XsControl_dockDeviceId_mtigen_083b31a658b8ff73(XsControl *_swi
 }
 
 
-bool _wrap_XsControl_isDeviceWireless_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDeviceId *_swig_go_1) {
+bool _wrap_XsControl_isDeviceWireless_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDeviceId *arg2 = 0 ;
   bool result;
@@ -24132,7 +24132,7 @@ bool _wrap_XsControl_isDeviceWireless_mtigen_083b31a658b8ff73(XsControl *_swig_g
 }
 
 
-bool _wrap_XsControl_isDeviceDocked_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDeviceId *_swig_go_1) {
+bool _wrap_XsControl_isDeviceDocked_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDeviceId *arg2 = 0 ;
   bool result;
@@ -24147,7 +24147,7 @@ bool _wrap_XsControl_isDeviceDocked_mtigen_083b31a658b8ff73(XsControl *_swig_go_
 }
 
 
-bool _wrap_XsControl_loadFilterProfiles_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsString *_swig_go_1) {
+bool _wrap_XsControl_loadFilterProfiles_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsString *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsString *arg2 = 0 ;
   bool result;
@@ -24162,7 +24162,7 @@ bool _wrap_XsControl_loadFilterProfiles_mtigen_083b31a658b8ff73(XsControl *_swig
 }
 
 
-XsOption *_wrap_XsControl_enabledOptions_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+XsOption *_wrap_XsControl_enabledOptions_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsOption result;
   XsOption *_swig_go_result;
@@ -24175,7 +24175,7 @@ XsOption *_wrap_XsControl_enabledOptions_mtigen_083b31a658b8ff73(XsControl *_swi
 }
 
 
-XsOption *_wrap_XsControl_disabledOptions_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+XsOption *_wrap_XsControl_disabledOptions_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsOption result;
   XsOption *_swig_go_result;
@@ -24188,7 +24188,7 @@ XsOption *_wrap_XsControl_disabledOptions_mtigen_083b31a658b8ff73(XsControl *_sw
 }
 
 
-void _wrap_XsControl_setOptions_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsOption *_swig_go_1, XsOption *_swig_go_2) {
+void _wrap_XsControl_setOptions_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsOption *_swig_go_1, XsOption *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsOption arg2 ;
   XsOption arg3 ;
@@ -24216,7 +24216,7 @@ void _wrap_XsControl_setOptions_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, X
 }
 
 
-void _wrap_XsControl_setOptionsForce_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsOption *_swig_go_1) {
+void _wrap_XsControl_setOptionsForce_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsOption *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsOption arg2 ;
   XsOption *argp2 ;
@@ -24235,7 +24235,7 @@ void _wrap_XsControl_setOptionsForce_mtigen_083b31a658b8ff73(XsControl *_swig_go
 }
 
 
-bool _wrap_XsControl_setInitialPositionLLA_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsVector *_swig_go_1) {
+bool _wrap_XsControl_setInitialPositionLLA_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsVector *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsVector *arg2 = 0 ;
   bool result;
@@ -24250,7 +24250,7 @@ bool _wrap_XsControl_setInitialPositionLLA_mtigen_083b31a658b8ff73(XsControl *_s
 }
 
 
-XsDevice *_wrap_XsControl_device_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDeviceId *_swig_go_1) {
+XsDevice *_wrap_XsControl_device_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDeviceId *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDeviceId *arg2 = 0 ;
   XsDevice *result = 0 ;
@@ -24265,7 +24265,7 @@ XsDevice *_wrap_XsControl_device_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, 
 }
 
 
-XsDevicePtrArray *_wrap_XsControl_mainDevices_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+XsDevicePtrArray *_wrap_XsControl_mainDevices_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevicePtrArray result;
   XsDevicePtrArray *_swig_go_result;
@@ -24278,7 +24278,7 @@ XsDevicePtrArray *_wrap_XsControl_mainDevices_mtigen_083b31a658b8ff73(XsControl 
 }
 
 
-XsDevice *_wrap_XsControl_broadcast_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+XsDevice *_wrap_XsControl_broadcast_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *result = 0 ;
   XsDevice *_swig_go_result;
@@ -24291,7 +24291,7 @@ XsDevice *_wrap_XsControl_broadcast_mtigen_083b31a658b8ff73(XsControl *_swig_go_
 }
 
 
-void _wrap_XsControl_transmissionReceived_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, intgo _swig_go_1, XsByteArray *_swig_go_2) {
+void _wrap_XsControl_transmissionReceived_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, intgo _swig_go_1, XsByteArray *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   int arg2 ;
   XsByteArray *arg3 = 0 ;
@@ -24305,7 +24305,7 @@ void _wrap_XsControl_transmissionReceived_mtigen_083b31a658b8ff73(XsControl *_sw
 }
 
 
-XsControl *_wrap_XsControl_construct_mtigen_083b31a658b8ff73() {
+XsControl *_wrap_XsControl_construct_gen_58fb7b870f09ff4a() {
   XsControl *result = 0 ;
   XsControl *_swig_go_result;
   
@@ -24316,7 +24316,7 @@ XsControl *_wrap_XsControl_construct_mtigen_083b31a658b8ff73() {
 }
 
 
-void _wrap_XsControl_destruct_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void _wrap_XsControl_destruct_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   
   arg1 = *(XsControl **)&_swig_go_0; 
@@ -24326,7 +24326,7 @@ void _wrap_XsControl_destruct_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
 }
 
 
-bool _wrap_XsControl_finalizeOpenPort_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, Communicator *_swig_go_1, XsPortInfo *_swig_go_2, intgo _swig_go_3, bool _swig_go_4) {
+bool _wrap_XsControl_finalizeOpenPort_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, Communicator *_swig_go_1, XsPortInfo *_swig_go_2, intgo _swig_go_3, bool _swig_go_4) {
   XsControl *arg1 = (XsControl *) 0 ;
   Communicator *arg2 = (Communicator *) 0 ;
   XsPortInfo *arg3 = 0 ;
@@ -24347,7 +24347,7 @@ bool _wrap_XsControl_finalizeOpenPort_mtigen_083b31a658b8ff73(XsControl *_swig_g
 }
 
 
-void _wrap_XsControl_gotoConfig_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void _wrap_XsControl_gotoConfig_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   
   arg1 = *(XsControl **)&_swig_go_0; 
@@ -24357,7 +24357,7 @@ void _wrap_XsControl_gotoConfig_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
 }
 
 
-void _wrap_XsControl_gotoMeasurement_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void _wrap_XsControl_gotoMeasurement_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   
   arg1 = *(XsControl **)&_swig_go_0; 
@@ -24367,7 +24367,7 @@ void _wrap_XsControl_gotoMeasurement_mtigen_083b31a658b8ff73(XsControl *_swig_go
 }
 
 
-XsResultValue *_wrap_XsControl_startRestoreCommunication_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsString *_swig_go_1) {
+XsResultValue *_wrap_XsControl_startRestoreCommunication_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsString *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsString *arg2 = 0 ;
   XsResultValue result;
@@ -24382,7 +24382,7 @@ XsResultValue *_wrap_XsControl_startRestoreCommunication_mtigen_083b31a658b8ff73
 }
 
 
-void _wrap_XsControl_stopRestoreCommunication_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void _wrap_XsControl_stopRestoreCommunication_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   
   arg1 = *(XsControl **)&_swig_go_0; 
@@ -24392,7 +24392,7 @@ void _wrap_XsControl_stopRestoreCommunication_mtigen_083b31a658b8ff73(XsControl 
 }
 
 
-void _wrap_XsControl_onDeviceStateChanged_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsDeviceState *_swig_go_2, XsDeviceState *_swig_go_3) {
+void _wrap_XsControl_onDeviceStateChanged_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsDeviceState *_swig_go_2, XsDeviceState *_swig_go_3) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsDeviceState arg3 ;
@@ -24423,7 +24423,7 @@ void _wrap_XsControl_onDeviceStateChanged_mtigen_083b31a658b8ff73(XsControl *_sw
 }
 
 
-void _wrap_XsControl_onLiveDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
+void _wrap_XsControl_onLiveDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsDataPacket *arg3 = (XsDataPacket *) 0 ;
@@ -24438,7 +24438,7 @@ void _wrap_XsControl_onLiveDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swi
 }
 
 
-void _wrap_XsControl_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
+void _wrap_XsControl_onAllLiveDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevicePtrArray *arg2 = (XsDevicePtrArray *) 0 ;
   XsDataPacketPtrArray *arg3 = (XsDataPacketPtrArray *) 0 ;
@@ -24453,7 +24453,7 @@ void _wrap_XsControl_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(XsControl *_
 }
 
 
-void _wrap_XsControl_onMissedPackets_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevice *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
+void _wrap_XsControl_onMissedPackets_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevice *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, intgo _swig_go_4) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   int arg3 ;
@@ -24472,7 +24472,7 @@ void _wrap_XsControl_onMissedPackets_mtigen_083b31a658b8ff73(XsControl *_swig_go
 }
 
 
-void _wrap_XsControl_onDataUnavailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevice *_swig_go_1, long long _swig_go_2) {
+void _wrap_XsControl_onDataUnavailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevice *_swig_go_1, long long _swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   int64_t arg3 ;
@@ -24487,7 +24487,7 @@ void _wrap_XsControl_onDataUnavailable_mtigen_083b31a658b8ff73(XsControl *_swig_
 }
 
 
-void _wrap_XsControl_onWakeupReceived_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevice *_swig_go_1) {
+void _wrap_XsControl_onWakeupReceived_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevice *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   
@@ -24500,7 +24500,7 @@ void _wrap_XsControl_onWakeupReceived_mtigen_083b31a658b8ff73(XsControl *_swig_g
 }
 
 
-void _wrap_XsControl_onProgressUpdated_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevice *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, XsString *_swig_go_4) {
+void _wrap_XsControl_onProgressUpdated_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevice *_swig_go_1, intgo _swig_go_2, intgo _swig_go_3, XsString *_swig_go_4) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   int arg3 ;
@@ -24519,7 +24519,7 @@ void _wrap_XsControl_onProgressUpdated_mtigen_083b31a658b8ff73(XsControl *_swig_
 }
 
 
-intgo _wrap_XsControl_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
+intgo _wrap_XsControl_onWriteMessageToLogFile_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsMessage *arg3 = (XsMessage *) 0 ;
@@ -24537,7 +24537,7 @@ intgo _wrap_XsControl_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(XsControl 
 }
 
 
-void _wrap_XsControl_onBufferedDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
+void _wrap_XsControl_onBufferedDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsDataPacket *arg3 = (XsDataPacket *) 0 ;
@@ -24552,7 +24552,7 @@ void _wrap_XsControl_onBufferedDataAvailable_mtigen_083b31a658b8ff73(XsControl *
 }
 
 
-void _wrap_XsControl_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
+void _wrap_XsControl_onAllBufferedDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevicePtrArray *arg2 = (XsDevicePtrArray *) 0 ;
   XsDataPacketPtrArray *arg3 = (XsDataPacketPtrArray *) 0 ;
@@ -24567,7 +24567,7 @@ void _wrap_XsControl_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(XsContro
 }
 
 
-void _wrap_XsControl_onConnectivityChanged_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsConnectivityState *_swig_go_2) {
+void _wrap_XsControl_onConnectivityChanged_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsConnectivityState *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsConnectivityState arg3 ;
@@ -24589,7 +24589,7 @@ void _wrap_XsControl_onConnectivityChanged_mtigen_083b31a658b8ff73(XsControl *_s
 }
 
 
-void _wrap_XsControl_onInfoResponse_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsInfoRequest *_swig_go_2) {
+void _wrap_XsControl_onInfoResponse_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsInfoRequest *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsInfoRequest arg3 ;
@@ -24611,7 +24611,7 @@ void _wrap_XsControl_onInfoResponse_mtigen_083b31a658b8ff73(XsControl *_swig_go_
 }
 
 
-void _wrap_XsControl_onError_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsResultValue *_swig_go_2) {
+void _wrap_XsControl_onError_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsResultValue *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsResultValue arg3 ;
@@ -24633,7 +24633,7 @@ void _wrap_XsControl_onError_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDe
 }
 
 
-void _wrap_XsControl_onNonDataMessage_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
+void _wrap_XsControl_onNonDataMessage_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsMessage *arg3 = (XsMessage *) 0 ;
@@ -24648,7 +24648,7 @@ void _wrap_XsControl_onNonDataMessage_mtigen_083b31a658b8ff73(XsControl *_swig_g
 }
 
 
-void _wrap_XsControl_onMessageDetected_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsProtocolType *_swig_go_2, XsByteArray *_swig_go_3) {
+void _wrap_XsControl_onMessageDetected_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsProtocolType *_swig_go_2, XsByteArray *_swig_go_3) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsProtocolType arg3 ;
@@ -24672,7 +24672,7 @@ void _wrap_XsControl_onMessageDetected_mtigen_083b31a658b8ff73(XsControl *_swig_
 }
 
 
-void _wrap_XsControl_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
+void _wrap_XsControl_onMessageReceivedFromDevice_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsMessage *arg3 = (XsMessage *) 0 ;
@@ -24687,7 +24687,7 @@ void _wrap_XsControl_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(XsContr
 }
 
 
-void _wrap_XsControl_onMessageSentToDevice_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
+void _wrap_XsControl_onMessageSentToDevice_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsMessage *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsMessage *arg3 = (XsMessage *) 0 ;
@@ -24702,7 +24702,7 @@ void _wrap_XsControl_onMessageSentToDevice_mtigen_083b31a658b8ff73(XsControl *_s
 }
 
 
-void _wrap_XsControl_onDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
+void _wrap_XsControl_onDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsDataPacket *arg3 = (XsDataPacket *) 0 ;
@@ -24717,7 +24717,7 @@ void _wrap_XsControl_onDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go
 }
 
 
-void _wrap_XsControl_onAllDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
+void _wrap_XsControl_onAllDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevicePtrArray *arg2 = (XsDevicePtrArray *) 0 ;
   XsDataPacketPtrArray *arg3 = (XsDataPacketPtrArray *) 0 ;
@@ -24732,7 +24732,7 @@ void _wrap_XsControl_onAllDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig
 }
 
 
-void _wrap_XsControl_onRecordedDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
+void _wrap_XsControl_onRecordedDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevice *_swig_go_1, XsDataPacket *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   XsDataPacket *arg3 = (XsDataPacket *) 0 ;
@@ -24747,7 +24747,7 @@ void _wrap_XsControl_onRecordedDataAvailable_mtigen_083b31a658b8ff73(XsControl *
 }
 
 
-void _wrap_XsControl_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
+void _wrap_XsControl_onAllRecordedDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsDevicePtrArray *_swig_go_1, XsDataPacketPtrArray *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsDevicePtrArray *arg2 = (XsDevicePtrArray *) 0 ;
   XsDataPacketPtrArray *arg3 = (XsDataPacketPtrArray *) 0 ;
@@ -24762,7 +24762,7 @@ void _wrap_XsControl_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(XsContro
 }
 
 
-void _wrap_XsControl_onTransmissionRequest_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, intgo _swig_go_1, XsByteArray *_swig_go_2) {
+void _wrap_XsControl_onTransmissionRequest_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, intgo _swig_go_1, XsByteArray *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   int arg2 ;
   XsByteArray *arg3 = (XsByteArray *) 0 ;
@@ -24777,7 +24777,7 @@ void _wrap_XsControl_onTransmissionRequest_mtigen_083b31a658b8ff73(XsControl *_s
 }
 
 
-void _wrap_XsControl_onRestoreCommunication_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsString *_swig_go_1, XsResultValue *_swig_go_2) {
+void _wrap_XsControl_onRestoreCommunication_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsString *_swig_go_1, XsResultValue *_swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsString *arg2 = (XsString *) 0 ;
   XsResultValue arg3 ;
@@ -24799,7 +24799,7 @@ void _wrap_XsControl_onRestoreCommunication_mtigen_083b31a658b8ff73(XsControl *_
 }
 
 
-void _wrap_XsControl_clearCallbackHandlers__SWIG_0_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, bool _swig_go_1) {
+void _wrap_XsControl_clearCallbackHandlers__SWIG_0_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, bool _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   bool arg2 ;
   
@@ -24812,7 +24812,7 @@ void _wrap_XsControl_clearCallbackHandlers__SWIG_0_mtigen_083b31a658b8ff73(XsCon
 }
 
 
-void _wrap_XsControl_clearCallbackHandlers__SWIG_1_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void _wrap_XsControl_clearCallbackHandlers__SWIG_1_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   
   arg1 = *(XsControl **)&_swig_go_0; 
@@ -24823,7 +24823,7 @@ void _wrap_XsControl_clearCallbackHandlers__SWIG_1_mtigen_083b31a658b8ff73(XsCon
 }
 
 
-void _wrap_XsControl_addCallbackHandler__SWIG_0_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsCallbackPlainC *_swig_go_1, bool _swig_go_2) {
+void _wrap_XsControl_addCallbackHandler__SWIG_0_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsCallbackPlainC *_swig_go_1, bool _swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsCallbackPlainC *arg2 = (XsCallbackPlainC *) 0 ;
   bool arg3 ;
@@ -24838,7 +24838,7 @@ void _wrap_XsControl_addCallbackHandler__SWIG_0_mtigen_083b31a658b8ff73(XsContro
 }
 
 
-void _wrap_XsControl_addCallbackHandler__SWIG_1_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsCallbackPlainC *_swig_go_1) {
+void _wrap_XsControl_addCallbackHandler__SWIG_1_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsCallbackPlainC *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsCallbackPlainC *arg2 = (XsCallbackPlainC *) 0 ;
   
@@ -24851,7 +24851,7 @@ void _wrap_XsControl_addCallbackHandler__SWIG_1_mtigen_083b31a658b8ff73(XsContro
 }
 
 
-void _wrap_XsControl_removeCallbackHandler__SWIG_0_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsCallbackPlainC *_swig_go_1, bool _swig_go_2) {
+void _wrap_XsControl_removeCallbackHandler__SWIG_0_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsCallbackPlainC *_swig_go_1, bool _swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsCallbackPlainC *arg2 = (XsCallbackPlainC *) 0 ;
   bool arg3 ;
@@ -24866,7 +24866,7 @@ void _wrap_XsControl_removeCallbackHandler__SWIG_0_mtigen_083b31a658b8ff73(XsCon
 }
 
 
-void _wrap_XsControl_removeCallbackHandler__SWIG_1_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, XsCallbackPlainC *_swig_go_1) {
+void _wrap_XsControl_removeCallbackHandler__SWIG_1_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, XsCallbackPlainC *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   XsCallbackPlainC *arg2 = (XsCallbackPlainC *) 0 ;
   
@@ -24879,7 +24879,7 @@ void _wrap_XsControl_removeCallbackHandler__SWIG_1_mtigen_083b31a658b8ff73(XsCon
 }
 
 
-void _wrap_XsControl_clearChainedManagers_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void _wrap_XsControl_clearChainedManagers_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   
   arg1 = *(XsControl **)&_swig_go_0; 
@@ -24890,7 +24890,7 @@ void _wrap_XsControl_clearChainedManagers_mtigen_083b31a658b8ff73(XsControl *_sw
 }
 
 
-void _wrap_XsControl_addChainedManager_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, CallbackManagerXda *_swig_go_1) {
+void _wrap_XsControl_addChainedManager_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, CallbackManagerXda *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   CallbackManagerXda *arg2 = (CallbackManagerXda *) 0 ;
   
@@ -24903,7 +24903,7 @@ void _wrap_XsControl_addChainedManager_mtigen_083b31a658b8ff73(XsControl *_swig_
 }
 
 
-void _wrap_XsControl_removeChainedManager_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, CallbackManagerXda *_swig_go_1) {
+void _wrap_XsControl_removeChainedManager_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, CallbackManagerXda *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   CallbackManagerXda *arg2 = (CallbackManagerXda *) 0 ;
   
@@ -24916,7 +24916,7 @@ void _wrap_XsControl_removeChainedManager_mtigen_083b31a658b8ff73(XsControl *_sw
 }
 
 
-void _wrap_XsControl_copyCallbackHandlersTo__SWIG_0_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, CallbackManagerXda *_swig_go_1, bool _swig_go_2) {
+void _wrap_XsControl_copyCallbackHandlersTo__SWIG_0_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, CallbackManagerXda *_swig_go_1, bool _swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   CallbackManagerXda *arg2 = (CallbackManagerXda *) 0 ;
   bool arg3 ;
@@ -24931,7 +24931,7 @@ void _wrap_XsControl_copyCallbackHandlersTo__SWIG_0_mtigen_083b31a658b8ff73(XsCo
 }
 
 
-void _wrap_XsControl_copyCallbackHandlersTo__SWIG_1_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, CallbackManagerXda *_swig_go_1) {
+void _wrap_XsControl_copyCallbackHandlersTo__SWIG_1_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, CallbackManagerXda *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   CallbackManagerXda *arg2 = (CallbackManagerXda *) 0 ;
   
@@ -24944,7 +24944,7 @@ void _wrap_XsControl_copyCallbackHandlersTo__SWIG_1_mtigen_083b31a658b8ff73(XsCo
 }
 
 
-void _wrap_XsControl_copyCallbackHandlersFrom__SWIG_0_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, CallbackManagerXda *_swig_go_1, bool _swig_go_2) {
+void _wrap_XsControl_copyCallbackHandlersFrom__SWIG_0_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, CallbackManagerXda *_swig_go_1, bool _swig_go_2) {
   XsControl *arg1 = (XsControl *) 0 ;
   CallbackManagerXda *arg2 = (CallbackManagerXda *) 0 ;
   bool arg3 ;
@@ -24959,7 +24959,7 @@ void _wrap_XsControl_copyCallbackHandlersFrom__SWIG_0_mtigen_083b31a658b8ff73(Xs
 }
 
 
-void _wrap_XsControl_copyCallbackHandlersFrom__SWIG_1_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, CallbackManagerXda *_swig_go_1) {
+void _wrap_XsControl_copyCallbackHandlersFrom__SWIG_1_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, CallbackManagerXda *_swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   CallbackManagerXda *arg2 = (CallbackManagerXda *) 0 ;
   
@@ -24972,7 +24972,7 @@ void _wrap_XsControl_copyCallbackHandlersFrom__SWIG_1_mtigen_083b31a658b8ff73(Xs
 }
 
 
-void _wrap_SetXsControl_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onDeviceStateChanged_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDeviceState,XsDeviceState) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDeviceState,XsDeviceState)) 0 ;
   
@@ -24987,7 +24987,7 @@ void _wrap_SetXsControl_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(XsControl
 }
 
 
-void* _wrap_GetXsControl_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onDeviceStateChanged_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDeviceState,XsDeviceState) = 0 ;
   void* _swig_go_result;
@@ -25003,7 +25003,7 @@ void* _wrap_GetXsControl_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(XsContro
 }
 
 
-void _wrap_SetXsControl_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onLiveDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -25018,7 +25018,7 @@ void _wrap_SetXsControl_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(XsControl 
 }
 
 
-void* _wrap_GetXsControl_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onLiveDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -25034,7 +25034,7 @@ void* _wrap_GetXsControl_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(XsControl
 }
 
 
-void _wrap_SetXsControl_M_onMissedPackets_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onMissedPackets_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,int,int,int) = (void (*)(XsCallbackPlainC *,XsDevice *,int,int,int)) 0 ;
   
@@ -25049,7 +25049,7 @@ void _wrap_SetXsControl_M_onMissedPackets_mtigen_083b31a658b8ff73(XsControl *_sw
 }
 
 
-void* _wrap_GetXsControl_M_onMissedPackets_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onMissedPackets_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,int,int,int) = 0 ;
   void* _swig_go_result;
@@ -25065,7 +25065,7 @@ void* _wrap_GetXsControl_M_onMissedPackets_mtigen_083b31a658b8ff73(XsControl *_s
 }
 
 
-void _wrap_SetXsControl_M_onWakeupReceived_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onWakeupReceived_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *) = (void (*)(XsCallbackPlainC *,XsDevice *)) 0 ;
   
@@ -25080,7 +25080,7 @@ void _wrap_SetXsControl_M_onWakeupReceived_mtigen_083b31a658b8ff73(XsControl *_s
 }
 
 
-void* _wrap_GetXsControl_M_onWakeupReceived_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onWakeupReceived_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *) = 0 ;
   void* _swig_go_result;
@@ -25096,7 +25096,7 @@ void* _wrap_GetXsControl_M_onWakeupReceived_mtigen_083b31a658b8ff73(XsControl *_
 }
 
 
-void _wrap_SetXsControl_M_onProgressUpdated_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onProgressUpdated_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,int,int,XsString const *) = (void (*)(XsCallbackPlainC *,XsDevice *,int,int,XsString const *)) 0 ;
   
@@ -25111,7 +25111,7 @@ void _wrap_SetXsControl_M_onProgressUpdated_mtigen_083b31a658b8ff73(XsControl *_
 }
 
 
-void* _wrap_GetXsControl_M_onProgressUpdated_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onProgressUpdated_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,int,int,XsString const *) = 0 ;
   void* _swig_go_result;
@@ -25127,7 +25127,7 @@ void* _wrap_GetXsControl_M_onProgressUpdated_mtigen_083b31a658b8ff73(XsControl *
 }
 
 
-void _wrap_SetXsControl_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onWriteMessageToLogFile_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   int (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (int (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -25142,7 +25142,7 @@ void _wrap_SetXsControl_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(XsCont
 }
 
 
-void* _wrap_GetXsControl_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onWriteMessageToLogFile_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   int (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -25158,7 +25158,7 @@ void* _wrap_GetXsControl_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(XsCon
 }
 
 
-void _wrap_SetXsControl_M_onBufferedDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onBufferedDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -25173,7 +25173,7 @@ void _wrap_SetXsControl_M_onBufferedDataAvailable_mtigen_083b31a658b8ff73(XsCont
 }
 
 
-void* _wrap_GetXsControl_M_onBufferedDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onBufferedDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -25189,7 +25189,7 @@ void* _wrap_GetXsControl_M_onBufferedDataAvailable_mtigen_083b31a658b8ff73(XsCon
 }
 
 
-void _wrap_SetXsControl_M_onConnectivityChanged_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onConnectivityChanged_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsConnectivityState) = (void (*)(XsCallbackPlainC *,XsDevice *,XsConnectivityState)) 0 ;
   
@@ -25204,7 +25204,7 @@ void _wrap_SetXsControl_M_onConnectivityChanged_mtigen_083b31a658b8ff73(XsContro
 }
 
 
-void* _wrap_GetXsControl_M_onConnectivityChanged_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onConnectivityChanged_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsConnectivityState) = 0 ;
   void* _swig_go_result;
@@ -25220,7 +25220,7 @@ void* _wrap_GetXsControl_M_onConnectivityChanged_mtigen_083b31a658b8ff73(XsContr
 }
 
 
-void _wrap_SetXsControl_M_onInfoResponse_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onInfoResponse_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsInfoRequest) = (void (*)(XsCallbackPlainC *,XsDevice *,XsInfoRequest)) 0 ;
   
@@ -25235,7 +25235,7 @@ void _wrap_SetXsControl_M_onInfoResponse_mtigen_083b31a658b8ff73(XsControl *_swi
 }
 
 
-void* _wrap_GetXsControl_M_onInfoResponse_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onInfoResponse_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsInfoRequest) = 0 ;
   void* _swig_go_result;
@@ -25251,7 +25251,7 @@ void* _wrap_GetXsControl_M_onInfoResponse_mtigen_083b31a658b8ff73(XsControl *_sw
 }
 
 
-void _wrap_SetXsControl_M_onError_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onError_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsResultValue) = (void (*)(XsCallbackPlainC *,XsDevice *,XsResultValue)) 0 ;
   
@@ -25266,7 +25266,7 @@ void _wrap_SetXsControl_M_onError_mtigen_083b31a658b8ff73(XsControl *_swig_go_0,
 }
 
 
-void* _wrap_GetXsControl_M_onError_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onError_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsResultValue) = 0 ;
   void* _swig_go_result;
@@ -25282,7 +25282,7 @@ void* _wrap_GetXsControl_M_onError_mtigen_083b31a658b8ff73(XsControl *_swig_go_0
 }
 
 
-void _wrap_SetXsControl_M_onNonDataMessage_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onNonDataMessage_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -25297,7 +25297,7 @@ void _wrap_SetXsControl_M_onNonDataMessage_mtigen_083b31a658b8ff73(XsControl *_s
 }
 
 
-void* _wrap_GetXsControl_M_onNonDataMessage_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onNonDataMessage_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -25313,7 +25313,7 @@ void* _wrap_GetXsControl_M_onNonDataMessage_mtigen_083b31a658b8ff73(XsControl *_
 }
 
 
-void _wrap_SetXsControl_M_onMessageDetected_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onMessageDetected_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsProtocolType,XsByteArray const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsProtocolType,XsByteArray const *)) 0 ;
   
@@ -25328,7 +25328,7 @@ void _wrap_SetXsControl_M_onMessageDetected_mtigen_083b31a658b8ff73(XsControl *_
 }
 
 
-void* _wrap_GetXsControl_M_onMessageDetected_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onMessageDetected_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsProtocolType,XsByteArray const *) = 0 ;
   void* _swig_go_result;
@@ -25344,7 +25344,7 @@ void* _wrap_GetXsControl_M_onMessageDetected_mtigen_083b31a658b8ff73(XsControl *
 }
 
 
-void _wrap_SetXsControl_M_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onMessageReceivedFromDevice_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -25359,7 +25359,7 @@ void _wrap_SetXsControl_M_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(Xs
 }
 
 
-void* _wrap_GetXsControl_M_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onMessageReceivedFromDevice_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -25375,7 +25375,7 @@ void* _wrap_GetXsControl_M_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(X
 }
 
 
-void _wrap_SetXsControl_M_onMessageSentToDevice_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onMessageSentToDevice_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -25390,7 +25390,7 @@ void _wrap_SetXsControl_M_onMessageSentToDevice_mtigen_083b31a658b8ff73(XsContro
 }
 
 
-void* _wrap_GetXsControl_M_onMessageSentToDevice_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onMessageSentToDevice_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -25406,7 +25406,7 @@ void* _wrap_GetXsControl_M_onMessageSentToDevice_mtigen_083b31a658b8ff73(XsContr
 }
 
 
-void _wrap_SetXsControl_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onAllLiveDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -25421,7 +25421,7 @@ void _wrap_SetXsControl_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(XsContr
 }
 
 
-void* _wrap_GetXsControl_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onAllLiveDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -25437,7 +25437,7 @@ void* _wrap_GetXsControl_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(XsCont
 }
 
 
-void _wrap_SetXsControl_M_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onAllBufferedDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -25452,7 +25452,7 @@ void _wrap_SetXsControl_M_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(XsC
 }
 
 
-void* _wrap_GetXsControl_M_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onAllBufferedDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -25468,7 +25468,7 @@ void* _wrap_GetXsControl_M_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(Xs
 }
 
 
-void _wrap_SetXsControl_M_onDataUnavailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onDataUnavailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,int64_t) = (void (*)(XsCallbackPlainC *,XsDevice *,int64_t)) 0 ;
   
@@ -25483,7 +25483,7 @@ void _wrap_SetXsControl_M_onDataUnavailable_mtigen_083b31a658b8ff73(XsControl *_
 }
 
 
-void* _wrap_GetXsControl_M_onDataUnavailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onDataUnavailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,int64_t) = 0 ;
   void* _swig_go_result;
@@ -25499,7 +25499,7 @@ void* _wrap_GetXsControl_M_onDataUnavailable_mtigen_083b31a658b8ff73(XsControl *
 }
 
 
-void _wrap_SetXsControl_M_onDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -25514,7 +25514,7 @@ void _wrap_SetXsControl_M_onDataAvailable_mtigen_083b31a658b8ff73(XsControl *_sw
 }
 
 
-void* _wrap_GetXsControl_M_onDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -25530,7 +25530,7 @@ void* _wrap_GetXsControl_M_onDataAvailable_mtigen_083b31a658b8ff73(XsControl *_s
 }
 
 
-void _wrap_SetXsControl_M_onAllDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onAllDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -25545,7 +25545,7 @@ void _wrap_SetXsControl_M_onAllDataAvailable_mtigen_083b31a658b8ff73(XsControl *
 }
 
 
-void* _wrap_GetXsControl_M_onAllDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onAllDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -25561,7 +25561,7 @@ void* _wrap_GetXsControl_M_onAllDataAvailable_mtigen_083b31a658b8ff73(XsControl 
 }
 
 
-void _wrap_SetXsControl_M_onRecordedDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onRecordedDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -25576,7 +25576,7 @@ void _wrap_SetXsControl_M_onRecordedDataAvailable_mtigen_083b31a658b8ff73(XsCont
 }
 
 
-void* _wrap_GetXsControl_M_onRecordedDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onRecordedDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -25592,7 +25592,7 @@ void* _wrap_GetXsControl_M_onRecordedDataAvailable_mtigen_083b31a658b8ff73(XsCon
 }
 
 
-void _wrap_SetXsControl_M_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onAllRecordedDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -25607,7 +25607,7 @@ void _wrap_SetXsControl_M_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(XsC
 }
 
 
-void* _wrap_GetXsControl_M_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onAllRecordedDataAvailable_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -25623,7 +25623,7 @@ void* _wrap_GetXsControl_M_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(Xs
 }
 
 
-void _wrap_SetXsControl_M_onTransmissionRequest_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onTransmissionRequest_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,int,XsByteArray const *) = (void (*)(XsCallbackPlainC *,int,XsByteArray const *)) 0 ;
   
@@ -25638,7 +25638,7 @@ void _wrap_SetXsControl_M_onTransmissionRequest_mtigen_083b31a658b8ff73(XsContro
 }
 
 
-void* _wrap_GetXsControl_M_onTransmissionRequest_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onTransmissionRequest_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,int,XsByteArray const *) = 0 ;
   void* _swig_go_result;
@@ -25654,7 +25654,7 @@ void* _wrap_GetXsControl_M_onTransmissionRequest_mtigen_083b31a658b8ff73(XsContr
 }
 
 
-void _wrap_SetXsControl_M_onRestoreCommunication_mtigen_083b31a658b8ff73(XsControl *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetXsControl_M_onRestoreCommunication_gen_58fb7b870f09ff4a(XsControl *_swig_go_0, void* _swig_go_1) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsString const *,XsResultValue) = (void (*)(XsCallbackPlainC *,XsString const *,XsResultValue)) 0 ;
   
@@ -25669,7 +25669,7 @@ void _wrap_SetXsControl_M_onRestoreCommunication_mtigen_083b31a658b8ff73(XsContr
 }
 
 
-void* _wrap_GetXsControl_M_onRestoreCommunication_mtigen_083b31a658b8ff73(XsControl *_swig_go_0) {
+void* _wrap_GetXsControl_M_onRestoreCommunication_gen_58fb7b870f09ff4a(XsControl *_swig_go_0) {
   XsControl *arg1 = (XsControl *) 0 ;
   void (*result)(XsCallbackPlainC *,XsString const *,XsResultValue) = 0 ;
   void* _swig_go_result;
@@ -25685,7 +25685,7 @@ void* _wrap_GetXsControl_M_onRestoreCommunication_mtigen_083b31a658b8ff73(XsCont
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_wrap_new_XsArrayImplXsOutput__SWIG_0_mtigen_083b31a658b8ff73(long long _swig_go_0, XsOutputConfiguration *_swig_go_1) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_wrap_new_XsArrayImplXsOutput__SWIG_0_gen_58fb7b870f09ff4a(long long _swig_go_0, XsOutputConfiguration *_swig_go_1) {
   XsSize arg1 ;
   XsOutputConfiguration *arg2 = (XsOutputConfiguration *) 0 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *result = 0 ;
@@ -25700,7 +25700,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_wrap_new_XsArrayImplXsOutput__SWIG_1_mtigen_083b31a658b8ff73(long long _swig_go_0) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_wrap_new_XsArrayImplXsOutput__SWIG_1_gen_58fb7b870f09ff4a(long long _swig_go_0) {
   XsSize arg1 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *result = 0 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_result;
@@ -25713,7 +25713,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_wrap_new_XsArrayImplXsOutput__SWIG_2_mtigen_083b31a658b8ff73() {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_wrap_new_XsArrayImplXsOutput__SWIG_2_gen_58fb7b870f09ff4a() {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *result = 0 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_result;
   
@@ -25724,7 +25724,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_wrap_new_XsArrayImplXsOutput__SWIG_3_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_wrap_new_XsArrayImplXsOutput__SWIG_3_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::ArrayImpl *arg1 = 0 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *result = 0 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_result;
@@ -25737,7 +25737,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_wrap_new_XsArrayImplXsOutput__SWIG_4_mtigen_083b31a658b8ff73(XsOutputConfiguration *_swig_go_0, long long _swig_go_1, intgo _swig_go_2) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_wrap_new_XsArrayImplXsOutput__SWIG_4_gen_58fb7b870f09ff4a(XsOutputConfiguration *_swig_go_0, long long _swig_go_1, intgo _swig_go_2) {
   XsOutputConfiguration *arg1 = (XsOutputConfiguration *) 0 ;
   XsSize arg2 ;
   XsDataFlags arg3 ;
@@ -25754,7 +25754,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-void _wrap_delete_XsArrayImplXsOutput_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+void _wrap_delete_XsArrayImplXsOutput_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > **)&_swig_go_0; 
@@ -25764,7 +25764,7 @@ void _wrap_delete_XsArrayImplXsOutput_mtigen_083b31a658b8ff73(XsArrayImpl< XsOut
 }
 
 
-void _wrap_XsArrayImplXsOutput_clear_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+void _wrap_XsArrayImplXsOutput_clear_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > **)&_swig_go_0; 
@@ -25774,7 +25774,7 @@ void _wrap_XsArrayImplXsOutput_clear_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutp
 }
 
 
-bool _wrap_XsArrayImplXsOutput_opEq_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
+bool _wrap_XsArrayImplXsOutput_opEq_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::ArrayImpl *arg2 = 0 ;
   bool result;
@@ -25789,7 +25789,7 @@ bool _wrap_XsArrayImplXsOutput_opEq_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutpu
 }
 
 
-bool _wrap_XsArrayImplXsOutput_opNEq_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
+bool _wrap_XsArrayImplXsOutput_opNEq_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::ArrayImpl *arg2 = 0 ;
   bool result;
@@ -25804,7 +25804,7 @@ bool _wrap_XsArrayImplXsOutput_opNEq_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutp
 }
 
 
-void _wrap_XsArrayImplXsOutput_reserve_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayImplXsOutput_reserve_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsSize arg2 ;
   
@@ -25816,7 +25816,7 @@ void _wrap_XsArrayImplXsOutput_reserve_mtigen_083b31a658b8ff73(XsArrayImpl< XsOu
 }
 
 
-long long _wrap_XsArrayImplXsOutput_reserved_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+long long _wrap_XsArrayImplXsOutput_reserved_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -25829,7 +25829,7 @@ long long _wrap_XsArrayImplXsOutput_reserved_mtigen_083b31a658b8ff73(XsArrayImpl
 }
 
 
-XsArrayDescriptor *_wrap_XsArrayImplXsOutput_descriptor_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+XsArrayDescriptor *_wrap_XsArrayImplXsOutput_descriptor_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsArrayDescriptor *result = 0 ;
   XsArrayDescriptor *_swig_go_result;
@@ -25842,7 +25842,7 @@ XsArrayDescriptor *_wrap_XsArrayImplXsOutput_descriptor_mtigen_083b31a658b8ff73(
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_wrap_XsArrayImplXsOutput_begin__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_wrap_XsArrayImplXsOutput_begin__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > > result;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_swig_go_result;
@@ -25855,7 +25855,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_wrap_XsArrayImplXsOutput_end__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_wrap_XsArrayImplXsOutput_end__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > > result;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_swig_go_result;
@@ -25868,7 +25868,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_wrap_XsArrayImplXsOutput_rbegin__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_wrap_XsArrayImplXsOutput_rbegin__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > > result;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_swig_go_result;
@@ -25881,7 +25881,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_wrap_XsArrayImplXsOutput_rend__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_wrap_XsArrayImplXsOutput_rend__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > > result;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_swig_go_result;
@@ -25894,7 +25894,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_wrap_XsArrayImplXsOutput_begin__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_wrap_XsArrayImplXsOutput_begin__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > > result;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_swig_go_result;
@@ -25907,7 +25907,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_wrap_XsArrayImplXsOutput_end__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_wrap_XsArrayImplXsOutput_end__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > > result;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_swig_go_result;
@@ -25920,7 +25920,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_wrap_XsArrayImplXsOutput_rbegin__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_wrap_XsArrayImplXsOutput_rbegin__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > > result;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_swig_go_result;
@@ -25933,7 +25933,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_wrap_XsArrayImplXsOutput_rend__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_wrap_XsArrayImplXsOutput_rend__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > > result;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_swig_go_result;
@@ -25946,7 +25946,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsOutputConfiguration *_wrap_XsArrayImplXsOutput_opIndex__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
+XsOutputConfiguration *_wrap_XsArrayImplXsOutput_opIndex__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsSize arg2 ;
   XsOutputConfiguration *result = 0 ;
@@ -25961,7 +25961,7 @@ XsOutputConfiguration *_wrap_XsArrayImplXsOutput_opIndex__SWIG_0_mtigen_083b31a6
 }
 
 
-XsOutputConfiguration *_wrap_XsArrayImplXsOutput_opIndex__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
+XsOutputConfiguration *_wrap_XsArrayImplXsOutput_opIndex__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsSize arg2 ;
   XsOutputConfiguration *result = 0 ;
@@ -25976,7 +25976,7 @@ XsOutputConfiguration *_wrap_XsArrayImplXsOutput_opIndex__SWIG_1_mtigen_083b31a6
 }
 
 
-XsOutputConfiguration *_wrap_XsArrayImplXsOutput_value_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
+XsOutputConfiguration *_wrap_XsArrayImplXsOutput_value_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsSize arg2 ;
   XsOutputConfiguration result;
@@ -25991,7 +25991,7 @@ XsOutputConfiguration *_wrap_XsArrayImplXsOutput_value_mtigen_083b31a658b8ff73(X
 }
 
 
-XsOutputConfiguration *_wrap_XsArrayImplXsOutput_first_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+XsOutputConfiguration *_wrap_XsArrayImplXsOutput_first_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsOutputConfiguration result;
   XsOutputConfiguration *_swig_go_result;
@@ -26004,7 +26004,7 @@ XsOutputConfiguration *_wrap_XsArrayImplXsOutput_first_mtigen_083b31a658b8ff73(X
 }
 
 
-XsOutputConfiguration *_wrap_XsArrayImplXsOutput_last_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+XsOutputConfiguration *_wrap_XsArrayImplXsOutput_last_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsOutputConfiguration result;
   XsOutputConfiguration *_swig_go_result;
@@ -26017,7 +26017,7 @@ XsOutputConfiguration *_wrap_XsArrayImplXsOutput_last_mtigen_083b31a658b8ff73(Xs
 }
 
 
-XsOutputConfiguration *_wrap_XsArrayImplXsOutput_at__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
+XsOutputConfiguration *_wrap_XsArrayImplXsOutput_at__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsSize arg2 ;
   XsOutputConfiguration *result = 0 ;
@@ -26032,7 +26032,7 @@ XsOutputConfiguration *_wrap_XsArrayImplXsOutput_at__SWIG_0_mtigen_083b31a658b8f
 }
 
 
-XsOutputConfiguration *_wrap_XsArrayImplXsOutput_at__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
+XsOutputConfiguration *_wrap_XsArrayImplXsOutput_at__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsSize arg2 ;
   XsOutputConfiguration *result = 0 ;
@@ -26047,7 +26047,7 @@ XsOutputConfiguration *_wrap_XsArrayImplXsOutput_at__SWIG_1_mtigen_083b31a658b8f
 }
 
 
-void _wrap_XsArrayImplXsOutput_insert__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1, long long _swig_go_2) {
+void _wrap_XsArrayImplXsOutput_insert__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1, long long _swig_go_2) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsOutputConfiguration *arg2 = 0 ;
   XsSize arg3 ;
@@ -26061,7 +26061,7 @@ void _wrap_XsArrayImplXsOutput_insert__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImp
 }
 
 
-void _wrap_XsArrayImplXsOutput_insert__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1, long long _swig_go_2, long long _swig_go_3) {
+void _wrap_XsArrayImplXsOutput_insert__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1, long long _swig_go_2, long long _swig_go_3) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsOutputConfiguration *arg2 = (XsOutputConfiguration *) 0 ;
   XsSize arg3 ;
@@ -26077,7 +26077,7 @@ void _wrap_XsArrayImplXsOutput_insert__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImp
 }
 
 
-void _wrap_XsArrayImplXsOutput_insert__SWIG_2_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_swig_go_2) {
+void _wrap_XsArrayImplXsOutput_insert__SWIG_2_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_swig_go_2) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsOutputConfiguration *arg2 = 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > > arg3 ;
@@ -26098,7 +26098,7 @@ void _wrap_XsArrayImplXsOutput_insert__SWIG_2_mtigen_083b31a658b8ff73(XsArrayImp
 }
 
 
-void _wrap_XsArrayImplXsOutput_insert__SWIG_3_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_swig_go_2) {
+void _wrap_XsArrayImplXsOutput_insert__SWIG_3_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_swig_go_2) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsOutputConfiguration *arg2 = 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > > arg3 ;
@@ -26119,7 +26119,7 @@ void _wrap_XsArrayImplXsOutput_insert__SWIG_3_mtigen_083b31a658b8ff73(XsArrayImp
 }
 
 
-void _wrap_XsArrayImplXsOutput_insert__SWIG_4_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_swig_go_2, long long _swig_go_3) {
+void _wrap_XsArrayImplXsOutput_insert__SWIG_4_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_swig_go_2, long long _swig_go_3) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsOutputConfiguration *arg2 = (XsOutputConfiguration *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > > arg3 ;
@@ -26142,7 +26142,7 @@ void _wrap_XsArrayImplXsOutput_insert__SWIG_4_mtigen_083b31a658b8ff73(XsArrayImp
 }
 
 
-void _wrap_XsArrayImplXsOutput_insert__SWIG_5_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_swig_go_2, long long _swig_go_3) {
+void _wrap_XsArrayImplXsOutput_insert__SWIG_5_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_swig_go_2, long long _swig_go_3) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsOutputConfiguration *arg2 = (XsOutputConfiguration *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > > arg3 ;
@@ -26165,7 +26165,7 @@ void _wrap_XsArrayImplXsOutput_insert__SWIG_5_mtigen_083b31a658b8ff73(XsArrayImp
 }
 
 
-void _wrap_XsArrayImplXsOutput_push_back_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1) {
+void _wrap_XsArrayImplXsOutput_push_back_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsOutputConfiguration *arg2 = 0 ;
   
@@ -26177,7 +26177,7 @@ void _wrap_XsArrayImplXsOutput_push_back_mtigen_083b31a658b8ff73(XsArrayImpl< Xs
 }
 
 
-void _wrap_XsArrayImplXsOutput_pop_back__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayImplXsOutput_pop_back__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsSize arg2 ;
   
@@ -26189,7 +26189,7 @@ void _wrap_XsArrayImplXsOutput_pop_back__SWIG_0_mtigen_083b31a658b8ff73(XsArrayI
 }
 
 
-void _wrap_XsArrayImplXsOutput_pop_back__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+void _wrap_XsArrayImplXsOutput_pop_back__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > **)&_swig_go_0; 
@@ -26199,7 +26199,7 @@ void _wrap_XsArrayImplXsOutput_pop_back__SWIG_1_mtigen_083b31a658b8ff73(XsArrayI
 }
 
 
-void _wrap_XsArrayImplXsOutput_push_front_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1) {
+void _wrap_XsArrayImplXsOutput_push_front_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsOutputConfiguration *arg2 = 0 ;
   
@@ -26211,7 +26211,7 @@ void _wrap_XsArrayImplXsOutput_push_front_mtigen_083b31a658b8ff73(XsArrayImpl< X
 }
 
 
-void _wrap_XsArrayImplXsOutput_pop_front__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayImplXsOutput_pop_front__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsSize arg2 ;
   
@@ -26223,7 +26223,7 @@ void _wrap_XsArrayImplXsOutput_pop_front__SWIG_0_mtigen_083b31a658b8ff73(XsArray
 }
 
 
-void _wrap_XsArrayImplXsOutput_pop_front__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+void _wrap_XsArrayImplXsOutput_pop_front__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > **)&_swig_go_0; 
@@ -26233,7 +26233,7 @@ void _wrap_XsArrayImplXsOutput_pop_front__SWIG_1_mtigen_083b31a658b8ff73(XsArray
 }
 
 
-long long _wrap_XsArrayImplXsOutput_size_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+long long _wrap_XsArrayImplXsOutput_size_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -26246,7 +26246,7 @@ long long _wrap_XsArrayImplXsOutput_size_mtigen_083b31a658b8ff73(XsArrayImpl< Xs
 }
 
 
-void _wrap_XsArrayImplXsOutput_erase__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_XsArrayImplXsOutput_erase__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsSize arg2 ;
   XsSize arg3 ;
@@ -26260,7 +26260,7 @@ void _wrap_XsArrayImplXsOutput_erase__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl
 }
 
 
-void _wrap_XsArrayImplXsOutput_erase__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayImplXsOutput_erase__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsSize arg2 ;
   
@@ -26272,7 +26272,7 @@ void _wrap_XsArrayImplXsOutput_erase__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_wrap_XsArrayImplXsOutput_erase__SWIG_2_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_swig_go_1) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_wrap_XsArrayImplXsOutput_erase__SWIG_2_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > > arg2 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::iterator *argp2 ;
@@ -26294,7 +26294,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_wrap_XsArrayImplXsOutput_erase__SWIG_3_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_swig_go_1) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_wrap_XsArrayImplXsOutput_erase__SWIG_3_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > > arg2 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::reverse_iterator *argp2 ;
@@ -26316,7 +26316,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-void _wrap_XsArrayImplXsOutput_assign_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1, XsOutputConfiguration *_swig_go_2) {
+void _wrap_XsArrayImplXsOutput_assign_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1, XsOutputConfiguration *_swig_go_2) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsSize arg2 ;
   XsOutputConfiguration *arg3 = (XsOutputConfiguration *) 0 ;
@@ -26330,7 +26330,7 @@ void _wrap_XsArrayImplXsOutput_assign_mtigen_083b31a658b8ff73(XsArrayImpl< XsOut
 }
 
 
-void _wrap_XsArrayImplXsOutput_resize_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayImplXsOutput_resize_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsSize arg2 ;
   
@@ -26342,7 +26342,7 @@ void _wrap_XsArrayImplXsOutput_resize_mtigen_083b31a658b8ff73(XsArrayImpl< XsOut
 }
 
 
-void _wrap_XsArrayImplXsOutput_setSize_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsArrayImplXsOutput_setSize_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsSize arg2 ;
   
@@ -26354,7 +26354,7 @@ void _wrap_XsArrayImplXsOutput_setSize_mtigen_083b31a658b8ff73(XsArrayImpl< XsOu
 }
 
 
-void _wrap_XsArrayImplXsOutput_append_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
+void _wrap_XsArrayImplXsOutput_append_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::ArrayImpl *arg2 = 0 ;
   
@@ -26366,7 +26366,7 @@ void _wrap_XsArrayImplXsOutput_append_mtigen_083b31a658b8ff73(XsArrayImpl< XsOut
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_wrap_XsArrayImplXsOutput_opAssign_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_wrap_XsArrayImplXsOutput_opAssign_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::ArrayImpl *arg2 = 0 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::ArrayImpl *result = 0 ;
@@ -26381,7 +26381,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-bool _wrap_XsArrayImplXsOutput_empty_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+bool _wrap_XsArrayImplXsOutput_empty_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -26394,7 +26394,7 @@ bool _wrap_XsArrayImplXsOutput_empty_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutp
 }
 
 
-XsOutputConfigurationArray *_wrap_XsArrayImplXsOutput_inherited__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+XsOutputConfigurationArray *_wrap_XsArrayImplXsOutput_inherited__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsOutputConfigurationArray *result = 0 ;
   XsOutputConfigurationArray *_swig_go_result;
@@ -26407,7 +26407,7 @@ XsOutputConfigurationArray *_wrap_XsArrayImplXsOutput_inherited__SWIG_0_mtigen_0
 }
 
 
-XsOutputConfigurationArray *_wrap_XsArrayImplXsOutput_inherited__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+XsOutputConfigurationArray *_wrap_XsArrayImplXsOutput_inherited__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsOutputConfigurationArray *result = 0 ;
   XsOutputConfigurationArray *_swig_go_result;
@@ -26420,7 +26420,7 @@ XsOutputConfigurationArray *_wrap_XsArrayImplXsOutput_inherited__SWIG_1_mtigen_0
 }
 
 
-void _wrap_XsArrayImplXsOutput_swap__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
+void _wrap_XsArrayImplXsOutput_swap__SWIG_0_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::ArrayImpl *arg2 = 0 ;
   
@@ -26432,7 +26432,7 @@ void _wrap_XsArrayImplXsOutput_swap__SWIG_0_mtigen_083b31a658b8ff73(XsArrayImpl<
 }
 
 
-void _wrap_XsArrayImplXsOutput_swap__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_XsArrayImplXsOutput_swap__SWIG_1_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsSize arg2 ;
   XsSize arg3 ;
@@ -26446,7 +26446,7 @@ void _wrap_XsArrayImplXsOutput_swap__SWIG_1_mtigen_083b31a658b8ff73(XsArrayImpl<
 }
 
 
-XsOutputConfigurationArray *_wrap_XsArrayImplXsOutput_opLeftShift_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1) {
+XsOutputConfigurationArray *_wrap_XsArrayImplXsOutput_opLeftShift_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsOutputConfiguration *arg2 = 0 ;
   XsOutputConfigurationArray *result = 0 ;
@@ -26461,7 +26461,7 @@ XsOutputConfigurationArray *_wrap_XsArrayImplXsOutput_opLeftShift_mtigen_083b31a
 }
 
 
-intgo _wrap_XsArrayImplXsOutput_find_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1) {
+intgo _wrap_XsArrayImplXsOutput_find_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, XsOutputConfiguration *_swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsOutputConfiguration *arg2 = 0 ;
   int result;
@@ -26476,7 +26476,7 @@ intgo _wrap_XsArrayImplXsOutput_find_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutp
 }
 
 
-void _wrap_XsArrayImplXsOutput_removeDuplicates_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+void _wrap_XsArrayImplXsOutput_removeDuplicates_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > **)&_swig_go_0; 
@@ -26486,7 +26486,7 @@ void _wrap_XsArrayImplXsOutput_removeDuplicates_mtigen_083b31a658b8ff73(XsArrayI
 }
 
 
-void _wrap_XsArrayImplXsOutput_removeDuplicatesPredicate_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsArrayImplXsOutput_removeDuplicatesPredicate_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0, void* _swig_go_1) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   XsArrayItemCompareFunc arg2 = (XsArrayItemCompareFunc) 0 ;
   
@@ -26498,7 +26498,7 @@ void _wrap_XsArrayImplXsOutput_removeDuplicatesPredicate_mtigen_083b31a658b8ff73
 }
 
 
-void _wrap_XsArrayImplXsOutput_sort_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+void _wrap_XsArrayImplXsOutput_sort_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > **)&_swig_go_0; 
@@ -26508,7 +26508,7 @@ void _wrap_XsArrayImplXsOutput_sort_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutpu
 }
 
 
-void _wrap_XsArrayImplXsOutput_reverse_mtigen_083b31a658b8ff73(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
+void _wrap_XsArrayImplXsOutput_reverse_gen_58fb7b870f09ff4a(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_0) {
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *arg1 = (XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *) 0 ;
   
   arg1 = *(XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > **)&_swig_go_0; 
@@ -26518,7 +26518,7 @@ void _wrap_XsArrayImplXsOutput_reverse_mtigen_083b31a658b8ff73(XsArrayImpl< XsOu
 }
 
 
-XsArrayDescriptor *_wrap_g_xsOutputConfigurationArrayDescriptor_get_mtigen_083b31a658b8ff73() {
+XsArrayDescriptor *_wrap_g_xsOutputConfigurationArrayDescriptor_get_gen_58fb7b870f09ff4a() {
   XsArrayDescriptor *result = 0 ;
   XsArrayDescriptor *_swig_go_result;
   
@@ -26529,7 +26529,7 @@ XsArrayDescriptor *_wrap_g_xsOutputConfigurationArrayDescriptor_get_mtigen_083b3
 }
 
 
-XsOutputConfigurationArray *_wrap_new_XsOutputConfigurationArray__SWIG_0_mtigen_083b31a658b8ff73(long long _swig_go_0, XsOutputConfiguration *_swig_go_1) {
+XsOutputConfigurationArray *_wrap_new_XsOutputConfigurationArray__SWIG_0_gen_58fb7b870f09ff4a(long long _swig_go_0, XsOutputConfiguration *_swig_go_1) {
   XsSize arg1 ;
   XsOutputConfiguration *arg2 = (XsOutputConfiguration *) 0 ;
   XsOutputConfigurationArray *result = 0 ;
@@ -26544,7 +26544,7 @@ XsOutputConfigurationArray *_wrap_new_XsOutputConfigurationArray__SWIG_0_mtigen_
 }
 
 
-XsOutputConfigurationArray *_wrap_new_XsOutputConfigurationArray__SWIG_1_mtigen_083b31a658b8ff73(long long _swig_go_0) {
+XsOutputConfigurationArray *_wrap_new_XsOutputConfigurationArray__SWIG_1_gen_58fb7b870f09ff4a(long long _swig_go_0) {
   XsSize arg1 ;
   XsOutputConfigurationArray *result = 0 ;
   XsOutputConfigurationArray *_swig_go_result;
@@ -26557,7 +26557,7 @@ XsOutputConfigurationArray *_wrap_new_XsOutputConfigurationArray__SWIG_1_mtigen_
 }
 
 
-XsOutputConfigurationArray *_wrap_new_XsOutputConfigurationArray__SWIG_2_mtigen_083b31a658b8ff73() {
+XsOutputConfigurationArray *_wrap_new_XsOutputConfigurationArray__SWIG_2_gen_58fb7b870f09ff4a() {
   XsOutputConfigurationArray *result = 0 ;
   XsOutputConfigurationArray *_swig_go_result;
   
@@ -26568,7 +26568,7 @@ XsOutputConfigurationArray *_wrap_new_XsOutputConfigurationArray__SWIG_2_mtigen_
 }
 
 
-XsOutputConfigurationArray *_wrap_new_XsOutputConfigurationArray__SWIG_3_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+XsOutputConfigurationArray *_wrap_new_XsOutputConfigurationArray__SWIG_3_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = 0 ;
   XsOutputConfigurationArray *result = 0 ;
   XsOutputConfigurationArray *_swig_go_result;
@@ -26581,7 +26581,7 @@ XsOutputConfigurationArray *_wrap_new_XsOutputConfigurationArray__SWIG_3_mtigen_
 }
 
 
-XsOutputConfigurationArray *_wrap_new_XsOutputConfigurationArray__SWIG_4_mtigen_083b31a658b8ff73(XsOutputConfiguration *_swig_go_0, long long _swig_go_1, intgo _swig_go_2) {
+XsOutputConfigurationArray *_wrap_new_XsOutputConfigurationArray__SWIG_4_gen_58fb7b870f09ff4a(XsOutputConfiguration *_swig_go_0, long long _swig_go_1, intgo _swig_go_2) {
   XsOutputConfiguration *arg1 = (XsOutputConfiguration *) 0 ;
   XsSize arg2 ;
   XsDataFlags arg3 ;
@@ -26598,7 +26598,7 @@ XsOutputConfigurationArray *_wrap_new_XsOutputConfigurationArray__SWIG_4_mtigen_
 }
 
 
-void _wrap_delete_XsOutputConfigurationArray_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+void _wrap_delete_XsOutputConfigurationArray_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   
   arg1 = *(XsOutputConfigurationArray **)&_swig_go_0; 
@@ -26608,7 +26608,7 @@ void _wrap_delete_XsOutputConfigurationArray_mtigen_083b31a658b8ff73(XsOutputCon
 }
 
 
-void _wrap_XsOutputConfigurationArray_clear_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+void _wrap_XsOutputConfigurationArray_clear_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   
   arg1 = *(XsOutputConfigurationArray **)&_swig_go_0; 
@@ -26619,7 +26619,7 @@ void _wrap_XsOutputConfigurationArray_clear_mtigen_083b31a658b8ff73(XsOutputConf
 }
 
 
-bool _wrap_XsOutputConfigurationArray_opEq_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
+bool _wrap_XsOutputConfigurationArray_opEq_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::ArrayImpl *arg2 = 0 ;
   bool result;
@@ -26635,7 +26635,7 @@ bool _wrap_XsOutputConfigurationArray_opEq_mtigen_083b31a658b8ff73(XsOutputConfi
 }
 
 
-bool _wrap_XsOutputConfigurationArray_opNEq_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
+bool _wrap_XsOutputConfigurationArray_opNEq_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::ArrayImpl *arg2 = 0 ;
   bool result;
@@ -26651,7 +26651,7 @@ bool _wrap_XsOutputConfigurationArray_opNEq_mtigen_083b31a658b8ff73(XsOutputConf
 }
 
 
-void _wrap_XsOutputConfigurationArray_reserve_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsOutputConfigurationArray_reserve_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsSize arg2 ;
   
@@ -26664,7 +26664,7 @@ void _wrap_XsOutputConfigurationArray_reserve_mtigen_083b31a658b8ff73(XsOutputCo
 }
 
 
-long long _wrap_XsOutputConfigurationArray_reserved_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+long long _wrap_XsOutputConfigurationArray_reserved_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -26678,7 +26678,7 @@ long long _wrap_XsOutputConfigurationArray_reserved_mtigen_083b31a658b8ff73(XsOu
 }
 
 
-XsArrayDescriptor *_wrap_XsOutputConfigurationArray_descriptor_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+XsArrayDescriptor *_wrap_XsOutputConfigurationArray_descriptor_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsArrayDescriptor *result = 0 ;
   XsArrayDescriptor *_swig_go_result;
@@ -26692,7 +26692,7 @@ XsArrayDescriptor *_wrap_XsOutputConfigurationArray_descriptor_mtigen_083b31a658
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_wrap_XsOutputConfigurationArray_begin__SWIG_0_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_wrap_XsOutputConfigurationArray_begin__SWIG_0_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > > result;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_swig_go_result;
@@ -26706,7 +26706,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_wrap_XsOutputConfigurationArray_begin__SWIG_1_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_wrap_XsOutputConfigurationArray_begin__SWIG_1_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > > result;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_swig_go_result;
@@ -26720,7 +26720,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_wrap_XsOutputConfigurationArray_end__SWIG_0_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_wrap_XsOutputConfigurationArray_end__SWIG_0_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > > result;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_swig_go_result;
@@ -26734,7 +26734,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_wrap_XsOutputConfigurationArray_end__SWIG_1_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_wrap_XsOutputConfigurationArray_end__SWIG_1_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > > result;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_swig_go_result;
@@ -26748,7 +26748,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_wrap_XsOutputConfigurationArray_rbegin__SWIG_0_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_wrap_XsOutputConfigurationArray_rbegin__SWIG_0_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > > result;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_swig_go_result;
@@ -26762,7 +26762,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_wrap_XsOutputConfigurationArray_rbegin__SWIG_1_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_wrap_XsOutputConfigurationArray_rbegin__SWIG_1_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > > result;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_swig_go_result;
@@ -26776,7 +26776,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_wrap_XsOutputConfigurationArray_rend__SWIG_0_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_wrap_XsOutputConfigurationArray_rend__SWIG_0_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > > result;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_swig_go_result;
@@ -26790,7 +26790,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_wrap_XsOutputConfigurationArray_rend__SWIG_1_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_wrap_XsOutputConfigurationArray_rend__SWIG_1_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > > result;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_swig_go_result;
@@ -26804,7 +26804,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsOutputConfiguration *_wrap_XsOutputConfigurationArray_opIndex__SWIG_0_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
+XsOutputConfiguration *_wrap_XsOutputConfigurationArray_opIndex__SWIG_0_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsSize arg2 ;
   XsOutputConfiguration *result = 0 ;
@@ -26820,7 +26820,7 @@ XsOutputConfiguration *_wrap_XsOutputConfigurationArray_opIndex__SWIG_0_mtigen_0
 }
 
 
-XsOutputConfiguration *_wrap_XsOutputConfigurationArray_opIndex__SWIG_1_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
+XsOutputConfiguration *_wrap_XsOutputConfigurationArray_opIndex__SWIG_1_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsSize arg2 ;
   XsOutputConfiguration *result = 0 ;
@@ -26836,7 +26836,7 @@ XsOutputConfiguration *_wrap_XsOutputConfigurationArray_opIndex__SWIG_1_mtigen_0
 }
 
 
-XsOutputConfiguration *_wrap_XsOutputConfigurationArray_value_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
+XsOutputConfiguration *_wrap_XsOutputConfigurationArray_value_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsSize arg2 ;
   XsOutputConfiguration result;
@@ -26852,7 +26852,7 @@ XsOutputConfiguration *_wrap_XsOutputConfigurationArray_value_mtigen_083b31a658b
 }
 
 
-XsOutputConfiguration *_wrap_XsOutputConfigurationArray_first_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+XsOutputConfiguration *_wrap_XsOutputConfigurationArray_first_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsOutputConfiguration result;
   XsOutputConfiguration *_swig_go_result;
@@ -26866,7 +26866,7 @@ XsOutputConfiguration *_wrap_XsOutputConfigurationArray_first_mtigen_083b31a658b
 }
 
 
-XsOutputConfiguration *_wrap_XsOutputConfigurationArray_last_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+XsOutputConfiguration *_wrap_XsOutputConfigurationArray_last_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsOutputConfiguration result;
   XsOutputConfiguration *_swig_go_result;
@@ -26880,7 +26880,7 @@ XsOutputConfiguration *_wrap_XsOutputConfigurationArray_last_mtigen_083b31a658b8
 }
 
 
-XsOutputConfiguration *_wrap_XsOutputConfigurationArray_at__SWIG_0_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
+XsOutputConfiguration *_wrap_XsOutputConfigurationArray_at__SWIG_0_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsSize arg2 ;
   XsOutputConfiguration *result = 0 ;
@@ -26896,7 +26896,7 @@ XsOutputConfiguration *_wrap_XsOutputConfigurationArray_at__SWIG_0_mtigen_083b31
 }
 
 
-XsOutputConfiguration *_wrap_XsOutputConfigurationArray_at__SWIG_1_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
+XsOutputConfiguration *_wrap_XsOutputConfigurationArray_at__SWIG_1_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsSize arg2 ;
   XsOutputConfiguration *result = 0 ;
@@ -26912,7 +26912,7 @@ XsOutputConfiguration *_wrap_XsOutputConfigurationArray_at__SWIG_1_mtigen_083b31
 }
 
 
-void _wrap_XsOutputConfigurationArray_insert__SWIG_0_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1, long long _swig_go_2) {
+void _wrap_XsOutputConfigurationArray_insert__SWIG_0_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1, long long _swig_go_2) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsOutputConfiguration *arg2 = 0 ;
   XsSize arg3 ;
@@ -26927,7 +26927,7 @@ void _wrap_XsOutputConfigurationArray_insert__SWIG_0_mtigen_083b31a658b8ff73(XsO
 }
 
 
-void _wrap_XsOutputConfigurationArray_insert__SWIG_1_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1, long long _swig_go_2, long long _swig_go_3) {
+void _wrap_XsOutputConfigurationArray_insert__SWIG_1_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1, long long _swig_go_2, long long _swig_go_3) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsOutputConfiguration *arg2 = (XsOutputConfiguration *) 0 ;
   XsSize arg3 ;
@@ -26944,7 +26944,7 @@ void _wrap_XsOutputConfigurationArray_insert__SWIG_1_mtigen_083b31a658b8ff73(XsO
 }
 
 
-void _wrap_XsOutputConfigurationArray_insert__SWIG_2_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_swig_go_2) {
+void _wrap_XsOutputConfigurationArray_insert__SWIG_2_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_swig_go_2) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsOutputConfiguration *arg2 = 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > > arg3 ;
@@ -26966,7 +26966,7 @@ void _wrap_XsOutputConfigurationArray_insert__SWIG_2_mtigen_083b31a658b8ff73(XsO
 }
 
 
-void _wrap_XsOutputConfigurationArray_insert__SWIG_3_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_swig_go_2) {
+void _wrap_XsOutputConfigurationArray_insert__SWIG_3_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_swig_go_2) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsOutputConfiguration *arg2 = 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > > arg3 ;
@@ -26988,7 +26988,7 @@ void _wrap_XsOutputConfigurationArray_insert__SWIG_3_mtigen_083b31a658b8ff73(XsO
 }
 
 
-void _wrap_XsOutputConfigurationArray_insert__SWIG_4_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_swig_go_2, long long _swig_go_3) {
+void _wrap_XsOutputConfigurationArray_insert__SWIG_4_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > *_swig_go_2, long long _swig_go_3) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsOutputConfiguration *arg2 = (XsOutputConfiguration *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< 1 > > arg3 ;
@@ -27012,7 +27012,7 @@ void _wrap_XsOutputConfigurationArray_insert__SWIG_4_mtigen_083b31a658b8ff73(XsO
 }
 
 
-void _wrap_XsOutputConfigurationArray_insert__SWIG_5_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_swig_go_2, long long _swig_go_3) {
+void _wrap_XsOutputConfigurationArray_insert__SWIG_5_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > *_swig_go_2, long long _swig_go_3) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsOutputConfiguration *arg2 = (XsOutputConfiguration *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImplConst< -1 > > arg3 ;
@@ -27036,7 +27036,7 @@ void _wrap_XsOutputConfigurationArray_insert__SWIG_5_mtigen_083b31a658b8ff73(XsO
 }
 
 
-void _wrap_XsOutputConfigurationArray_push_back_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1) {
+void _wrap_XsOutputConfigurationArray_push_back_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsOutputConfiguration *arg2 = 0 ;
   
@@ -27049,7 +27049,7 @@ void _wrap_XsOutputConfigurationArray_push_back_mtigen_083b31a658b8ff73(XsOutput
 }
 
 
-void _wrap_XsOutputConfigurationArray_pop_back__SWIG_0_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsOutputConfigurationArray_pop_back__SWIG_0_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsSize arg2 ;
   
@@ -27062,7 +27062,7 @@ void _wrap_XsOutputConfigurationArray_pop_back__SWIG_0_mtigen_083b31a658b8ff73(X
 }
 
 
-void _wrap_XsOutputConfigurationArray_pop_back__SWIG_1_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+void _wrap_XsOutputConfigurationArray_pop_back__SWIG_1_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   
   arg1 = *(XsOutputConfigurationArray **)&_swig_go_0; 
@@ -27073,7 +27073,7 @@ void _wrap_XsOutputConfigurationArray_pop_back__SWIG_1_mtigen_083b31a658b8ff73(X
 }
 
 
-void _wrap_XsOutputConfigurationArray_push_front_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1) {
+void _wrap_XsOutputConfigurationArray_push_front_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsOutputConfiguration *arg2 = 0 ;
   
@@ -27086,7 +27086,7 @@ void _wrap_XsOutputConfigurationArray_push_front_mtigen_083b31a658b8ff73(XsOutpu
 }
 
 
-void _wrap_XsOutputConfigurationArray_pop_front__SWIG_0_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsOutputConfigurationArray_pop_front__SWIG_0_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsSize arg2 ;
   
@@ -27099,7 +27099,7 @@ void _wrap_XsOutputConfigurationArray_pop_front__SWIG_0_mtigen_083b31a658b8ff73(
 }
 
 
-void _wrap_XsOutputConfigurationArray_pop_front__SWIG_1_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+void _wrap_XsOutputConfigurationArray_pop_front__SWIG_1_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   
   arg1 = *(XsOutputConfigurationArray **)&_swig_go_0; 
@@ -27110,7 +27110,7 @@ void _wrap_XsOutputConfigurationArray_pop_front__SWIG_1_mtigen_083b31a658b8ff73(
 }
 
 
-long long _wrap_XsOutputConfigurationArray_size_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+long long _wrap_XsOutputConfigurationArray_size_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsSize result;
   long long _swig_go_result;
@@ -27124,7 +27124,7 @@ long long _wrap_XsOutputConfigurationArray_size_mtigen_083b31a658b8ff73(XsOutput
 }
 
 
-void _wrap_XsOutputConfigurationArray_erase__SWIG_0_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_XsOutputConfigurationArray_erase__SWIG_0_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsSize arg2 ;
   XsSize arg3 ;
@@ -27139,7 +27139,7 @@ void _wrap_XsOutputConfigurationArray_erase__SWIG_0_mtigen_083b31a658b8ff73(XsOu
 }
 
 
-void _wrap_XsOutputConfigurationArray_erase__SWIG_1_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsOutputConfigurationArray_erase__SWIG_1_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsSize arg2 ;
   
@@ -27152,7 +27152,7 @@ void _wrap_XsOutputConfigurationArray_erase__SWIG_1_mtigen_083b31a658b8ff73(XsOu
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_wrap_XsOutputConfigurationArray_erase__SWIG_2_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_swig_go_1) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_wrap_XsOutputConfigurationArray_erase__SWIG_2_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > *_swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< 1 > > arg2 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::iterator *argp2 ;
@@ -27175,7 +27175,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_wrap_XsOutputConfigurationArray_erase__SWIG_3_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_swig_go_1) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_wrap_XsOutputConfigurationArray_erase__SWIG_3_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > *_swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   SwigValueWrapper< XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::IteratorImpl< -1 > > arg2 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::reverse_iterator *argp2 ;
@@ -27198,7 +27198,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-void _wrap_XsOutputConfigurationArray_assign_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1, XsOutputConfiguration *_swig_go_2) {
+void _wrap_XsOutputConfigurationArray_assign_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1, XsOutputConfiguration *_swig_go_2) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsSize arg2 ;
   XsOutputConfiguration *arg3 = (XsOutputConfiguration *) 0 ;
@@ -27213,7 +27213,7 @@ void _wrap_XsOutputConfigurationArray_assign_mtigen_083b31a658b8ff73(XsOutputCon
 }
 
 
-void _wrap_XsOutputConfigurationArray_resize_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsOutputConfigurationArray_resize_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsSize arg2 ;
   
@@ -27226,7 +27226,7 @@ void _wrap_XsOutputConfigurationArray_resize_mtigen_083b31a658b8ff73(XsOutputCon
 }
 
 
-void _wrap_XsOutputConfigurationArray_setSize_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
+void _wrap_XsOutputConfigurationArray_setSize_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsSize arg2 ;
   
@@ -27239,7 +27239,7 @@ void _wrap_XsOutputConfigurationArray_setSize_mtigen_083b31a658b8ff73(XsOutputCo
 }
 
 
-void _wrap_XsOutputConfigurationArray_append_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
+void _wrap_XsOutputConfigurationArray_append_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::ArrayImpl *arg2 = 0 ;
   
@@ -27252,7 +27252,7 @@ void _wrap_XsOutputConfigurationArray_append_mtigen_083b31a658b8ff73(XsOutputCon
 }
 
 
-XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_wrap_XsOutputConfigurationArray_opAssign_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
+XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_wrap_XsOutputConfigurationArray_opAssign_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::ArrayImpl *arg2 = 0 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::ArrayImpl *result = 0 ;
@@ -27268,7 +27268,7 @@ XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutp
 }
 
 
-bool _wrap_XsOutputConfigurationArray_empty_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+bool _wrap_XsOutputConfigurationArray_empty_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -27282,7 +27282,7 @@ bool _wrap_XsOutputConfigurationArray_empty_mtigen_083b31a658b8ff73(XsOutputConf
 }
 
 
-XsOutputConfigurationArray *_wrap_XsOutputConfigurationArray_inherited__SWIG_0_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+XsOutputConfigurationArray *_wrap_XsOutputConfigurationArray_inherited__SWIG_0_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsOutputConfigurationArray *result = 0 ;
   XsOutputConfigurationArray *_swig_go_result;
@@ -27296,7 +27296,7 @@ XsOutputConfigurationArray *_wrap_XsOutputConfigurationArray_inherited__SWIG_0_m
 }
 
 
-XsOutputConfigurationArray *_wrap_XsOutputConfigurationArray_inherited__SWIG_1_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+XsOutputConfigurationArray *_wrap_XsOutputConfigurationArray_inherited__SWIG_1_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsOutputConfigurationArray *result = 0 ;
   XsOutputConfigurationArray *_swig_go_result;
@@ -27310,7 +27310,7 @@ XsOutputConfigurationArray *_wrap_XsOutputConfigurationArray_inherited__SWIG_1_m
 }
 
 
-void _wrap_XsOutputConfigurationArray_swap__SWIG_0_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
+void _wrap_XsOutputConfigurationArray_swap__SWIG_0_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray > *_swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsArrayImpl< XsOutputConfiguration,g_xsOutputConfigurationArrayDescriptor,XsOutputConfigurationArray >::ArrayImpl *arg2 = 0 ;
   
@@ -27323,7 +27323,7 @@ void _wrap_XsOutputConfigurationArray_swap__SWIG_0_mtigen_083b31a658b8ff73(XsOut
 }
 
 
-void _wrap_XsOutputConfigurationArray_swap__SWIG_1_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
+void _wrap_XsOutputConfigurationArray_swap__SWIG_1_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, long long _swig_go_1, long long _swig_go_2) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsSize arg2 ;
   XsSize arg3 ;
@@ -27338,7 +27338,7 @@ void _wrap_XsOutputConfigurationArray_swap__SWIG_1_mtigen_083b31a658b8ff73(XsOut
 }
 
 
-XsOutputConfigurationArray *_wrap_XsOutputConfigurationArray_opLeftShift_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1) {
+XsOutputConfigurationArray *_wrap_XsOutputConfigurationArray_opLeftShift_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsOutputConfiguration *arg2 = 0 ;
   XsOutputConfigurationArray *result = 0 ;
@@ -27354,7 +27354,7 @@ XsOutputConfigurationArray *_wrap_XsOutputConfigurationArray_opLeftShift_mtigen_
 }
 
 
-intgo _wrap_XsOutputConfigurationArray_find_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1) {
+intgo _wrap_XsOutputConfigurationArray_find_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, XsOutputConfiguration *_swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsOutputConfiguration *arg2 = 0 ;
   int result;
@@ -27370,7 +27370,7 @@ intgo _wrap_XsOutputConfigurationArray_find_mtigen_083b31a658b8ff73(XsOutputConf
 }
 
 
-void _wrap_XsOutputConfigurationArray_removeDuplicates_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+void _wrap_XsOutputConfigurationArray_removeDuplicates_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   
   arg1 = *(XsOutputConfigurationArray **)&_swig_go_0; 
@@ -27381,7 +27381,7 @@ void _wrap_XsOutputConfigurationArray_removeDuplicates_mtigen_083b31a658b8ff73(X
 }
 
 
-void _wrap_XsOutputConfigurationArray_removeDuplicatesPredicate_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0, void* _swig_go_1) {
+void _wrap_XsOutputConfigurationArray_removeDuplicatesPredicate_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0, void* _swig_go_1) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   XsArrayItemCompareFunc arg2 = (XsArrayItemCompareFunc) 0 ;
   
@@ -27394,7 +27394,7 @@ void _wrap_XsOutputConfigurationArray_removeDuplicatesPredicate_mtigen_083b31a65
 }
 
 
-void _wrap_XsOutputConfigurationArray_sort_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+void _wrap_XsOutputConfigurationArray_sort_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   
   arg1 = *(XsOutputConfigurationArray **)&_swig_go_0; 
@@ -27405,7 +27405,7 @@ void _wrap_XsOutputConfigurationArray_sort_mtigen_083b31a658b8ff73(XsOutputConfi
 }
 
 
-void _wrap_XsOutputConfigurationArray_reverse_mtigen_083b31a658b8ff73(XsOutputConfigurationArray *_swig_go_0) {
+void _wrap_XsOutputConfigurationArray_reverse_gen_58fb7b870f09ff4a(XsOutputConfigurationArray *_swig_go_0) {
   XsOutputConfigurationArray *arg1 = (XsOutputConfigurationArray *) 0 ;
   
   arg1 = *(XsOutputConfigurationArray **)&_swig_go_0; 
@@ -27416,7 +27416,7 @@ void _wrap_XsOutputConfigurationArray_reverse_mtigen_083b31a658b8ff73(XsOutputCo
 }
 
 
-CallbackHandler *_wrap_new_CallbackHandler__SWIG_0_mtigen_083b31a658b8ff73(long long _swig_go_0) {
+CallbackHandler *_wrap_new_CallbackHandler__SWIG_0_gen_58fb7b870f09ff4a(long long _swig_go_0) {
   size_t arg1 ;
   CallbackHandler *result = 0 ;
   CallbackHandler *_swig_go_result;
@@ -27429,7 +27429,7 @@ CallbackHandler *_wrap_new_CallbackHandler__SWIG_0_mtigen_083b31a658b8ff73(long 
 }
 
 
-CallbackHandler *_wrap_new_CallbackHandler__SWIG_1_mtigen_083b31a658b8ff73() {
+CallbackHandler *_wrap_new_CallbackHandler__SWIG_1_gen_58fb7b870f09ff4a() {
   CallbackHandler *result = 0 ;
   CallbackHandler *_swig_go_result;
   
@@ -27440,7 +27440,7 @@ CallbackHandler *_wrap_new_CallbackHandler__SWIG_1_mtigen_083b31a658b8ff73() {
 }
 
 
-void _wrap_delete_CallbackHandler_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void _wrap_delete_CallbackHandler_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   
   arg1 = *(CallbackHandler **)&_swig_go_0; 
@@ -27450,7 +27450,7 @@ void _wrap_delete_CallbackHandler_mtigen_083b31a658b8ff73(CallbackHandler *_swig
 }
 
 
-bool _wrap_CallbackHandler_packetAvailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+bool _wrap_CallbackHandler_packetAvailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   bool result;
   bool _swig_go_result;
@@ -27463,7 +27463,7 @@ bool _wrap_CallbackHandler_packetAvailable_mtigen_083b31a658b8ff73(CallbackHandl
 }
 
 
-XsDataPacket *_wrap_CallbackHandler_getNextPacket_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+XsDataPacket *_wrap_CallbackHandler_getNextPacket_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   XsDataPacket result;
   XsDataPacket *_swig_go_result;
@@ -27476,7 +27476,7 @@ XsDataPacket *_wrap_CallbackHandler_getNextPacket_mtigen_083b31a658b8ff73(Callba
 }
 
 
-void _wrap_SetCallbackHandler_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onDeviceStateChanged_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDeviceState,XsDeviceState) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDeviceState,XsDeviceState)) 0 ;
   
@@ -27490,7 +27490,7 @@ void _wrap_SetCallbackHandler_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(Cal
 }
 
 
-void* _wrap_GetCallbackHandler_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onDeviceStateChanged_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDeviceState,XsDeviceState) = 0 ;
   void* _swig_go_result;
@@ -27505,7 +27505,7 @@ void* _wrap_GetCallbackHandler_M_onDeviceStateChanged_mtigen_083b31a658b8ff73(Ca
 }
 
 
-void _wrap_SetCallbackHandler_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onLiveDataAvailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -27519,7 +27519,7 @@ void _wrap_SetCallbackHandler_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(Call
 }
 
 
-void* _wrap_GetCallbackHandler_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onLiveDataAvailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -27534,7 +27534,7 @@ void* _wrap_GetCallbackHandler_M_onLiveDataAvailable_mtigen_083b31a658b8ff73(Cal
 }
 
 
-void _wrap_SetCallbackHandler_M_onMissedPackets_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onMissedPackets_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,int,int,int) = (void (*)(XsCallbackPlainC *,XsDevice *,int,int,int)) 0 ;
   
@@ -27548,7 +27548,7 @@ void _wrap_SetCallbackHandler_M_onMissedPackets_mtigen_083b31a658b8ff73(Callback
 }
 
 
-void* _wrap_GetCallbackHandler_M_onMissedPackets_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onMissedPackets_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,int,int,int) = 0 ;
   void* _swig_go_result;
@@ -27563,7 +27563,7 @@ void* _wrap_GetCallbackHandler_M_onMissedPackets_mtigen_083b31a658b8ff73(Callbac
 }
 
 
-void _wrap_SetCallbackHandler_M_onWakeupReceived_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onWakeupReceived_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *) = (void (*)(XsCallbackPlainC *,XsDevice *)) 0 ;
   
@@ -27577,7 +27577,7 @@ void _wrap_SetCallbackHandler_M_onWakeupReceived_mtigen_083b31a658b8ff73(Callbac
 }
 
 
-void* _wrap_GetCallbackHandler_M_onWakeupReceived_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onWakeupReceived_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *) = 0 ;
   void* _swig_go_result;
@@ -27592,7 +27592,7 @@ void* _wrap_GetCallbackHandler_M_onWakeupReceived_mtigen_083b31a658b8ff73(Callba
 }
 
 
-void _wrap_SetCallbackHandler_M_onProgressUpdated_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onProgressUpdated_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,int,int,XsString const *) = (void (*)(XsCallbackPlainC *,XsDevice *,int,int,XsString const *)) 0 ;
   
@@ -27606,7 +27606,7 @@ void _wrap_SetCallbackHandler_M_onProgressUpdated_mtigen_083b31a658b8ff73(Callba
 }
 
 
-void* _wrap_GetCallbackHandler_M_onProgressUpdated_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onProgressUpdated_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,int,int,XsString const *) = 0 ;
   void* _swig_go_result;
@@ -27621,7 +27621,7 @@ void* _wrap_GetCallbackHandler_M_onProgressUpdated_mtigen_083b31a658b8ff73(Callb
 }
 
 
-void _wrap_SetCallbackHandler_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onWriteMessageToLogFile_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   int (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (int (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -27635,7 +27635,7 @@ void _wrap_SetCallbackHandler_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(
 }
 
 
-void* _wrap_GetCallbackHandler_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onWriteMessageToLogFile_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   int (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -27650,7 +27650,7 @@ void* _wrap_GetCallbackHandler_M_onWriteMessageToLogFile_mtigen_083b31a658b8ff73
 }
 
 
-void _wrap_SetCallbackHandler_M_onBufferedDataAvailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onBufferedDataAvailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -27664,7 +27664,7 @@ void _wrap_SetCallbackHandler_M_onBufferedDataAvailable_mtigen_083b31a658b8ff73(
 }
 
 
-void* _wrap_GetCallbackHandler_M_onBufferedDataAvailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onBufferedDataAvailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -27679,7 +27679,7 @@ void* _wrap_GetCallbackHandler_M_onBufferedDataAvailable_mtigen_083b31a658b8ff73
 }
 
 
-void _wrap_SetCallbackHandler_M_onConnectivityChanged_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onConnectivityChanged_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsConnectivityState) = (void (*)(XsCallbackPlainC *,XsDevice *,XsConnectivityState)) 0 ;
   
@@ -27693,7 +27693,7 @@ void _wrap_SetCallbackHandler_M_onConnectivityChanged_mtigen_083b31a658b8ff73(Ca
 }
 
 
-void* _wrap_GetCallbackHandler_M_onConnectivityChanged_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onConnectivityChanged_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsConnectivityState) = 0 ;
   void* _swig_go_result;
@@ -27708,7 +27708,7 @@ void* _wrap_GetCallbackHandler_M_onConnectivityChanged_mtigen_083b31a658b8ff73(C
 }
 
 
-void _wrap_SetCallbackHandler_M_onInfoResponse_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onInfoResponse_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsInfoRequest) = (void (*)(XsCallbackPlainC *,XsDevice *,XsInfoRequest)) 0 ;
   
@@ -27722,7 +27722,7 @@ void _wrap_SetCallbackHandler_M_onInfoResponse_mtigen_083b31a658b8ff73(CallbackH
 }
 
 
-void* _wrap_GetCallbackHandler_M_onInfoResponse_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onInfoResponse_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsInfoRequest) = 0 ;
   void* _swig_go_result;
@@ -27737,7 +27737,7 @@ void* _wrap_GetCallbackHandler_M_onInfoResponse_mtigen_083b31a658b8ff73(Callback
 }
 
 
-void _wrap_SetCallbackHandler_M_onError_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onError_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsResultValue) = (void (*)(XsCallbackPlainC *,XsDevice *,XsResultValue)) 0 ;
   
@@ -27751,7 +27751,7 @@ void _wrap_SetCallbackHandler_M_onError_mtigen_083b31a658b8ff73(CallbackHandler 
 }
 
 
-void* _wrap_GetCallbackHandler_M_onError_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onError_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsResultValue) = 0 ;
   void* _swig_go_result;
@@ -27766,7 +27766,7 @@ void* _wrap_GetCallbackHandler_M_onError_mtigen_083b31a658b8ff73(CallbackHandler
 }
 
 
-void _wrap_SetCallbackHandler_M_onNonDataMessage_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onNonDataMessage_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -27780,7 +27780,7 @@ void _wrap_SetCallbackHandler_M_onNonDataMessage_mtigen_083b31a658b8ff73(Callbac
 }
 
 
-void* _wrap_GetCallbackHandler_M_onNonDataMessage_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onNonDataMessage_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -27795,7 +27795,7 @@ void* _wrap_GetCallbackHandler_M_onNonDataMessage_mtigen_083b31a658b8ff73(Callba
 }
 
 
-void _wrap_SetCallbackHandler_M_onMessageDetected_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onMessageDetected_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsProtocolType,XsByteArray const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsProtocolType,XsByteArray const *)) 0 ;
   
@@ -27809,7 +27809,7 @@ void _wrap_SetCallbackHandler_M_onMessageDetected_mtigen_083b31a658b8ff73(Callba
 }
 
 
-void* _wrap_GetCallbackHandler_M_onMessageDetected_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onMessageDetected_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsProtocolType,XsByteArray const *) = 0 ;
   void* _swig_go_result;
@@ -27824,7 +27824,7 @@ void* _wrap_GetCallbackHandler_M_onMessageDetected_mtigen_083b31a658b8ff73(Callb
 }
 
 
-void _wrap_SetCallbackHandler_M_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onMessageReceivedFromDevice_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -27838,7 +27838,7 @@ void _wrap_SetCallbackHandler_M_onMessageReceivedFromDevice_mtigen_083b31a658b8f
 }
 
 
-void* _wrap_GetCallbackHandler_M_onMessageReceivedFromDevice_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onMessageReceivedFromDevice_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -27853,7 +27853,7 @@ void* _wrap_GetCallbackHandler_M_onMessageReceivedFromDevice_mtigen_083b31a658b8
 }
 
 
-void _wrap_SetCallbackHandler_M_onMessageSentToDevice_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onMessageSentToDevice_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsMessage const *)) 0 ;
   
@@ -27867,7 +27867,7 @@ void _wrap_SetCallbackHandler_M_onMessageSentToDevice_mtigen_083b31a658b8ff73(Ca
 }
 
 
-void* _wrap_GetCallbackHandler_M_onMessageSentToDevice_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onMessageSentToDevice_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsMessage const *) = 0 ;
   void* _swig_go_result;
@@ -27882,7 +27882,7 @@ void* _wrap_GetCallbackHandler_M_onMessageSentToDevice_mtigen_083b31a658b8ff73(C
 }
 
 
-void _wrap_SetCallbackHandler_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onAllLiveDataAvailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -27896,7 +27896,7 @@ void _wrap_SetCallbackHandler_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(C
 }
 
 
-void* _wrap_GetCallbackHandler_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onAllLiveDataAvailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -27911,7 +27911,7 @@ void* _wrap_GetCallbackHandler_M_onAllLiveDataAvailable_mtigen_083b31a658b8ff73(
 }
 
 
-void _wrap_SetCallbackHandler_M_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onAllBufferedDataAvailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -27925,7 +27925,7 @@ void _wrap_SetCallbackHandler_M_onAllBufferedDataAvailable_mtigen_083b31a658b8ff
 }
 
 
-void* _wrap_GetCallbackHandler_M_onAllBufferedDataAvailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onAllBufferedDataAvailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -27940,7 +27940,7 @@ void* _wrap_GetCallbackHandler_M_onAllBufferedDataAvailable_mtigen_083b31a658b8f
 }
 
 
-void _wrap_SetCallbackHandler_M_onDataUnavailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onDataUnavailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,int64_t) = (void (*)(XsCallbackPlainC *,XsDevice *,int64_t)) 0 ;
   
@@ -27954,7 +27954,7 @@ void _wrap_SetCallbackHandler_M_onDataUnavailable_mtigen_083b31a658b8ff73(Callba
 }
 
 
-void* _wrap_GetCallbackHandler_M_onDataUnavailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onDataUnavailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,int64_t) = 0 ;
   void* _swig_go_result;
@@ -27969,7 +27969,7 @@ void* _wrap_GetCallbackHandler_M_onDataUnavailable_mtigen_083b31a658b8ff73(Callb
 }
 
 
-void _wrap_SetCallbackHandler_M_onDataAvailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onDataAvailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -27983,7 +27983,7 @@ void _wrap_SetCallbackHandler_M_onDataAvailable_mtigen_083b31a658b8ff73(Callback
 }
 
 
-void* _wrap_GetCallbackHandler_M_onDataAvailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onDataAvailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -27998,7 +27998,7 @@ void* _wrap_GetCallbackHandler_M_onDataAvailable_mtigen_083b31a658b8ff73(Callbac
 }
 
 
-void _wrap_SetCallbackHandler_M_onAllDataAvailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onAllDataAvailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -28012,7 +28012,7 @@ void _wrap_SetCallbackHandler_M_onAllDataAvailable_mtigen_083b31a658b8ff73(Callb
 }
 
 
-void* _wrap_GetCallbackHandler_M_onAllDataAvailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onAllDataAvailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -28027,7 +28027,7 @@ void* _wrap_GetCallbackHandler_M_onAllDataAvailable_mtigen_083b31a658b8ff73(Call
 }
 
 
-void _wrap_SetCallbackHandler_M_onRecordedDataAvailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onRecordedDataAvailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = (void (*)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *)) 0 ;
   
@@ -28041,7 +28041,7 @@ void _wrap_SetCallbackHandler_M_onRecordedDataAvailable_mtigen_083b31a658b8ff73(
 }
 
 
-void* _wrap_GetCallbackHandler_M_onRecordedDataAvailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onRecordedDataAvailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevice *,XsDataPacket const *) = 0 ;
   void* _swig_go_result;
@@ -28056,7 +28056,7 @@ void* _wrap_GetCallbackHandler_M_onRecordedDataAvailable_mtigen_083b31a658b8ff73
 }
 
 
-void _wrap_SetCallbackHandler_M_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onAllRecordedDataAvailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = (void (*)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *)) 0 ;
   
@@ -28070,7 +28070,7 @@ void _wrap_SetCallbackHandler_M_onAllRecordedDataAvailable_mtigen_083b31a658b8ff
 }
 
 
-void* _wrap_GetCallbackHandler_M_onAllRecordedDataAvailable_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onAllRecordedDataAvailable_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsDevicePtrArray *,XsDataPacketPtrArray const *) = 0 ;
   void* _swig_go_result;
@@ -28085,7 +28085,7 @@ void* _wrap_GetCallbackHandler_M_onAllRecordedDataAvailable_mtigen_083b31a658b8f
 }
 
 
-void _wrap_SetCallbackHandler_M_onTransmissionRequest_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onTransmissionRequest_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,int,XsByteArray const *) = (void (*)(XsCallbackPlainC *,int,XsByteArray const *)) 0 ;
   
@@ -28099,7 +28099,7 @@ void _wrap_SetCallbackHandler_M_onTransmissionRequest_mtigen_083b31a658b8ff73(Ca
 }
 
 
-void* _wrap_GetCallbackHandler_M_onTransmissionRequest_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onTransmissionRequest_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,int,XsByteArray const *) = 0 ;
   void* _swig_go_result;
@@ -28114,7 +28114,7 @@ void* _wrap_GetCallbackHandler_M_onTransmissionRequest_mtigen_083b31a658b8ff73(C
 }
 
 
-void _wrap_SetCallbackHandler_M_onRestoreCommunication_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, void* _swig_go_1) {
+void _wrap_SetCallbackHandler_M_onRestoreCommunication_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, void* _swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*arg2)(XsCallbackPlainC *,XsString const *,XsResultValue) = (void (*)(XsCallbackPlainC *,XsString const *,XsResultValue)) 0 ;
   
@@ -28128,7 +28128,7 @@ void _wrap_SetCallbackHandler_M_onRestoreCommunication_mtigen_083b31a658b8ff73(C
 }
 
 
-void* _wrap_GetCallbackHandler_M_onRestoreCommunication_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0) {
+void* _wrap_GetCallbackHandler_M_onRestoreCommunication_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   void (*result)(XsCallbackPlainC *,XsString const *,XsResultValue) = 0 ;
   void* _swig_go_result;
@@ -28143,7 +28143,7 @@ void* _wrap_GetCallbackHandler_M_onRestoreCommunication_mtigen_083b31a658b8ff73(
 }
 
 
-void _wrap_addCallbackHandler_mtigen_083b31a658b8ff73(CallbackHandler *_swig_go_0, XsDevice *_swig_go_1) {
+void _wrap_addCallbackHandler_gen_58fb7b870f09ff4a(CallbackHandler *_swig_go_0, XsDevice *_swig_go_1) {
   CallbackHandler *arg1 = (CallbackHandler *) 0 ;
   XsDevice *arg2 = (XsDevice *) 0 ;
   

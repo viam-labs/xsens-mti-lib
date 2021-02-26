@@ -11,9 +11,8 @@ import (
 	"strconv"
 	"time"
 
-	mtiws "github.com/viamrobotics/mti/ws"
-
 	"github.com/edaniels/golog"
+	"go.viam.com/robotcore/sensor/compass"
 )
 
 func main() {
@@ -26,7 +25,7 @@ func main() {
 		port = int(portParsed)
 	}
 
-	dev, err := mtiws.NewDevice(context.Background(), fmt.Sprintf("ws://localhost:%d", port))
+	dev, err := compass.NewWSDevice(context.Background(), fmt.Sprintf("ws://localhost:%d", port))
 	if err != nil {
 		golog.Global.Fatal(err)
 	}
