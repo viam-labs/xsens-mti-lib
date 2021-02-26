@@ -15,7 +15,6 @@ import (
 	"github.com/edaniels/golog"
 	"github.com/edaniels/wsapi"
 	"go.viam.com/robotcore/sensor/compass"
-	"nhooyr.io/websocket"
 )
 
 func main() {
@@ -42,41 +41,9 @@ func main() {
 		MaxHeaderBytes: 1 << 20,
 	}
 
-	httpServer.Handler = http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
-		conn, err := websocket.Accept(w, r, nil)
-		if err != nil {
-			golog.Global.Error("error making websocket connection", "error", err)
-			return
-		}
-		defer conn.Close(websocket.StatusNormalClosure, "")
-
-		for {
-			select {
-			case <-r.Context().Done():
-				return
-			default:
-			}
-
-			cmd, err := wsapi.ReadCommand(r.Context(), conn)
-			if err != nil {
-				golog.Global.Errorw("error reading command", "error", err)
-				return
-			}
-			result, err := processCommand(r.Context(), cmd, sensor)
-			if err != nil {
-				resp := wsapi.NewErrorCommandResponse(err)
-				if err := wsapi.WriteJSONCommandResponse(r.Context(), resp, conn); err != nil {
-					golog.Global.Errorw("error writing", "error", err)
-					continue
-				}
-				continue
-			}
-			if err := wsapi.WriteJSONCommandResponse(r.Context(), wsapi.NewSuccessfulCommandResponse(result), conn); err != nil {
-				golog.Global.Errorw("error writing", "error", err)
-				continue
-			}
-		}
-	})
+	wsServer := wsapi.NewServer()
+	registerCommands(wsServer, sensor)
+	httpServer.Handler = wsServer.HTTPHandler()
 
 	errChan := make(chan error, 1)
 	go func() {
@@ -99,11 +66,8 @@ func main() {
 	}
 }
 
-func processCommand(ctx context.Context, cmd *wsapi.Command, sensor compass.Device) (interface{}, error) {
-	switch cmd.Name {
-	case compass.WSCommandHeading:
+func registerCommands(server wsapi.Server, sensor compass.Device) {
+	server.RegisterCommand(compass.WSCommandHeading, wsapi.CommandHandlerFunc(func(ctx context.Context, cmd *wsapi.Command) (interface{}, error) {
 		return sensor.Heading(ctx)
-	default:
-		return nil, fmt.Errorf("unknown command %s", cmd.Name)
-	}
+	}))
 }
