@@ -18,6 +18,8 @@ import (
 )
 
 func main() {
+	var devicePath string
+	flag.StringVar(&devicePath, "device", "/dev/ttyUSB0", "device path")
 	flag.Parse()
 
 	port := 4444
@@ -29,7 +31,7 @@ func main() {
 		port = int(portParsed)
 	}
 
-	sensor, err := serial.NewDevice("02782090", "/dev/ttyUSB0", 115200)
+	sensor, err := serial.NewDevice("02782090", devicePath, 115200)
 	if err != nil {
 		golog.Global.Fatal(err)
 	}

@@ -35,11 +35,15 @@ func NewDevice(deviceID string, path string, baudRate int) (compass.Device, erro
 	}
 	mtPort := portInfoArrayPtr.First()
 
+	foundPath := mtPort.PortName().ToStdString()
 	golog.Global.Infow("found device",
 		"id", mtPort.DeviceId().ToString().ToStdString(),
-		"port", mtPort.PortName().ToStdString(),
+		"port", foundPath,
 		"baudrate", mtPort.Baudrate(),
 	)
+	if foundPath != path {
+		return nil, fmt.Errorf("found device at %q but not %q", foundPath, path)
+	}
 
 	var useBaudRate gen.XsBaudRate
 	switch baudRate {
