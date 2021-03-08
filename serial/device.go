@@ -72,6 +72,8 @@ func NewDevice(deviceID string, path string, baudRate int) (compass.Device, erro
 		return nil, errors.New("expected device")
 	}
 
+	device.SetDeviceOptionFlags(gen.XDOF_EnableContinuousZRU, gen.XDOF_None)
+
 	callback := gen.NewCallbackHandler()
 	gen.AddCallbackHandler(callback, device)
 

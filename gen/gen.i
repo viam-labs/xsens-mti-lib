@@ -43,6 +43,7 @@
 %include "third_party/xspublic/xstypes/xstypesconfig.h"
 %include "third_party/xspublic/xstypes/xstypedefs.h"
 %include "third_party/xspublic/xstypes/xsarray.h"
+%include "third_party/xspublic/xstypes/xsdeviceoptionflag.h"
 
 %template(XsArrayXsPortInfo) XsArrayImpl<XsPortInfo, g_xsPortInfoArrayDescriptor, XsPortInfoArray>;
 %include "third_party/xspublic/xstypes/xsportinfo.h"
