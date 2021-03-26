@@ -3,54 +3,74 @@ package main
 import (
 	"context"
 	"errors"
-	"flag"
-	"fmt"
 	"io"
 	"os"
 	"os/signal"
-	"strconv"
 	"time"
 
 	"github.com/edaniels/golog"
+	"go.uber.org/multierr"
+	"go.viam.com/robotcore/rlog"
 	"go.viam.com/robotcore/sensor/compass"
+	"go.viam.com/robotcore/utils"
 )
 
 func main() {
-	flag.Parse()
+	utils.ContextualMain(mainWithArgs, logger)
+}
 
-	port := 4444
-	if flag.NArg() >= 1 {
-		portParsed, err := strconv.ParseInt(flag.Arg(0), 10, 32)
-		if err != nil {
-			golog.Global.Fatal(err)
-		}
-		port = int(portParsed)
+var logger = rlog.Logger.Named("client")
+
+// Arguments for the command.
+type Arguments struct {
+	DeviceAddress string `flag:"device,required,default=localhost:4444,usage=device address"`
+}
+
+func mainWithArgs(ctx context.Context, args []string, logger golog.Logger) error {
+	var argsParsed Arguments
+	if err := utils.ParseFlags(args, &argsParsed); err != nil {
+		return err
 	}
 
-	dev, err := compass.NewWSDevice(context.Background(), fmt.Sprintf("ws://localhost:%d", port))
+	return runClient(ctx, argsParsed.DeviceAddress, logger)
+}
+
+func runClient(ctx context.Context, deviceAddress string, logger golog.Logger) (err error) {
+	client, err := compass.NewClient(ctx, deviceAddress)
 	if err != nil {
-		golog.Global.Fatal(err)
+		return err
 	}
+
+	defer func() {
+		err = multierr.Combine(err, client.Close(context.Background()))
+	}()
 
 	sig := make(chan os.Signal, 1)
 	signal.Notify(sig, os.Interrupt)
 
-READ:
+	ticker := time.NewTicker(time.Second)
+	defer ticker.Stop()
+	utils.ContextMainReadyFunc(ctx)()
 	for {
-		time.Sleep(time.Second)
 		select {
-		case <-sig:
-			break READ
+		case <-ctx.Done():
+			return ctx.Err()
 		default:
 		}
 
-		heading, err := dev.Heading(context.Background())
+		select {
+		case <-ctx.Done():
+			return ctx.Err()
+		case <-ticker.C:
+		}
+
+		heading, err := client.Heading(ctx)
 		if err != nil {
 			if errors.Is(err, io.EOF) {
-				break READ
+				return nil
 			}
-			golog.Global.Fatal(err)
+			return err
 		}
-		golog.Global.Infow("heading", "data", heading)
+		logger.Infow("heading", "data", heading)
 	}
 }
