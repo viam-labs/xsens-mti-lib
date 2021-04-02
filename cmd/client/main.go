@@ -8,11 +8,12 @@ import (
 	"os/signal"
 	"time"
 
+	"go.viam.com/robotcore/rlog"
+	"go.viam.com/robotcore/sensor/compass/client"
+	"go.viam.com/robotcore/utils"
+
 	"github.com/edaniels/golog"
 	"go.uber.org/multierr"
-	"go.viam.com/robotcore/rlog"
-	"go.viam.com/robotcore/sensor/compass"
-	"go.viam.com/robotcore/utils"
 )
 
 func main() {
@@ -36,7 +37,7 @@ func mainWithArgs(ctx context.Context, args []string, logger golog.Logger) error
 }
 
 func runClient(ctx context.Context, deviceAddress string, logger golog.Logger) (err error) {
-	client, err := compass.NewClient(ctx, deviceAddress)
+	client, err := client.New(ctx, deviceAddress, logger)
 	if err != nil {
 		return err
 	}

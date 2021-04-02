@@ -9,10 +9,12 @@ import (
 
 	"github.com/edaniels/golog"
 	"go.uber.org/multierr"
-	pb "go.viam.com/robotcore/proto/sensor/compass/v1"
+	"go.viam.com/robotcore/api"
+	apiserver "go.viam.com/robotcore/api/server"
+	pb "go.viam.com/robotcore/proto/api/v1"
 	"go.viam.com/robotcore/rlog"
+	"go.viam.com/robotcore/robot"
 	"go.viam.com/robotcore/rpc"
-	"go.viam.com/robotcore/sensor/compass"
 	"go.viam.com/robotcore/utils"
 )
 
@@ -63,11 +65,14 @@ func runServer(ctx context.Context, port int, devicePath, deviceID string, logge
 		err = multierr.Combine(err, rpcServer.Stop())
 	}()
 
+	r := robot.NewBlankRobot(logger)
+	r.AddSensor(sensor, api.Component{})
+
 	if err := rpcServer.RegisterServiceServer(
 		ctx,
-		&pb.CompassService_ServiceDesc,
-		compass.NewServer(sensor),
-		pb.RegisterCompassServiceHandlerFromEndpoint,
+		&pb.RobotService_ServiceDesc,
+		apiserver.New(r),
+		pb.RegisterRobotServiceHandlerFromEndpoint,
 	); err != nil {
 		return err
 	}
