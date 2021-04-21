@@ -12,6 +12,7 @@ import (
 	"go.viam.com/mti/gen"
 
 	"github.com/edaniels/golog"
+	"go.viam.com/robotcore/sensor"
 	"go.viam.com/robotcore/sensor/compass"
 )
 
@@ -128,6 +129,12 @@ func (d *Device) Readings(ctx context.Context) ([]interface{}, error) {
 		return nil, err
 	}
 	return []interface{}{heading}, nil
+}
+
+func (d *Device) Desc() sensor.DeviceDescription {
+	return sensor.DeviceDescription{
+		Type: compass.DeviceType,
+	}
 }
 
 func (d *Device) Heading(ctx context.Context) (float64, error) {

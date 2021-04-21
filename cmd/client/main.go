@@ -43,7 +43,7 @@ func runClient(ctx context.Context, deviceAddress string, logger golog.Logger) (
 	}
 
 	defer func() {
-		err = multierr.Combine(err, client.Close(context.Background()))
+		err = multierr.Combine(err, utils.TryClose(client))
 	}()
 
 	sig := make(chan os.Signal, 1)
