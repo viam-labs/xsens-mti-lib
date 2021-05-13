@@ -12,11 +12,11 @@ import (
 	"go.viam.com/mti/gen"
 
 	"github.com/edaniels/golog"
-	"go.viam.com/robotcore/sensor"
-	"go.viam.com/robotcore/sensor/compass"
+	"go.viam.com/core/sensor"
+	"go.viam.com/core/sensor/compass"
 )
 
-type Device struct {
+type Compass struct {
 	control   gen.XsControl
 	device    gen.XSDevice
 	callback  gen.CallbackHandler
@@ -25,7 +25,7 @@ type Device struct {
 	closeOnce sync.Once
 }
 
-func NewDevice(deviceID string, path string, baudRate int) (compass.Device, error) {
+func NewCompass(deviceID string, path string, baudRate int) (compass.Compass, error) {
 	control := gen.XsControlConstruct()
 
 	portInfoArray := gen.XSScannerScanPorts()
@@ -82,20 +82,20 @@ func NewDevice(deviceID string, path string, baudRate int) (compass.Device, erro
 		return nil, errors.New("failed to go to measurement mode")
 	}
 
-	d := &Device{
+	c := &Compass{
 		control:  control,
 		device:   device,
 		callback: callback,
 	}
-	d.heading.Store(math.NaN())
+	c.heading.Store(math.NaN())
 
-	d.closeCh = make(chan struct{})
+	c.closeCh = make(chan struct{})
 	go func() {
 		ticker := time.NewTicker(time.Millisecond)
 		defer ticker.Stop()
 		for {
 			select {
-			case <-d.closeCh:
+			case <-c.closeCh:
 				return
 			case <-ticker.C:
 			}
@@ -105,47 +105,47 @@ func NewDevice(deviceID string, path string, baudRate int) (compass.Device, erro
 				if packet.ContainsOrientation() {
 					euler := packet.OrientationEuler()
 					if yaw := euler.Yaw(); !math.IsNaN(yaw) {
-						d.heading.Store(yaw)
+						c.heading.Store(yaw)
 					}
 				}
 			}
 
 		}
 	}()
-	return d, nil
+	return c, nil
 }
 
-func (d *Device) StartCalibration(ctx context.Context) error {
+func (c *Compass) StartCalibration(ctx context.Context) error {
 	return nil
 }
 
-func (d *Device) StopCalibration(ctx context.Context) error {
+func (c *Compass) StopCalibration(ctx context.Context) error {
 	return nil
 }
 
-func (d *Device) Readings(ctx context.Context) ([]interface{}, error) {
-	heading, err := d.Heading(ctx)
+func (c *Compass) Readings(ctx context.Context) ([]interface{}, error) {
+	heading, err := c.Heading(ctx)
 	if err != nil {
 		return nil, err
 	}
 	return []interface{}{heading}, nil
 }
 
-func (d *Device) Desc() sensor.DeviceDescription {
-	return sensor.DeviceDescription{
-		Type: compass.DeviceType,
+func (c *Compass) Desc() sensor.Description {
+	return sensor.Description{
+		Type: compass.Type,
 	}
 }
 
-func (d *Device) Heading(ctx context.Context) (float64, error) {
-	return d.heading.Load().(float64), nil
+func (c *Compass) Heading(ctx context.Context) (float64, error) {
+	return c.heading.Load().(float64), nil
 }
 
-func (d *Device) Close(ctx context.Context) error {
-	d.closeOnce.Do(func() {
-		close(d.closeCh)
-		defer d.control.Destruct()
-		defer gen.DeleteCallbackHandler(d.callback)
+func (c *Compass) Close(ctx context.Context) error {
+	c.closeOnce.Do(func() {
+		close(c.closeCh)
+		defer c.control.Destruct()
+		defer gen.DeleteCallbackHandler(c.callback)
 	})
 	return nil
 }

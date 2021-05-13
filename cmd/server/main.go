@@ -9,13 +9,13 @@ import (
 
 	"github.com/edaniels/golog"
 	"go.uber.org/multierr"
-	"go.viam.com/robotcore/api"
-	apiserver "go.viam.com/robotcore/api/server"
-	pb "go.viam.com/robotcore/proto/api/v1"
-	"go.viam.com/robotcore/rlog"
-	"go.viam.com/robotcore/robot"
-	"go.viam.com/robotcore/rpc"
-	"go.viam.com/robotcore/utils"
+	"go.viam.com/core/config"
+	"go.viam.com/core/grpc/server"
+	pb "go.viam.com/core/proto/api/v1"
+	"go.viam.com/core/rlog"
+	robotimpl "go.viam.com/core/robot/impl"
+	"go.viam.com/core/rpc"
+	"go.viam.com/core/utils"
 )
 
 func main() {
@@ -47,7 +47,7 @@ func mainWithArgs(ctx context.Context, args []string, logger golog.Logger) error
 }
 
 func runServer(ctx context.Context, port int, devicePath, deviceID string, logger golog.Logger) (err error) {
-	sensor, err := serial.NewDevice(deviceID, devicePath, 115200)
+	sensor, err := serial.NewCompass(deviceID, devicePath, 115200)
 	if err != nil {
 		return err
 	}
@@ -65,13 +65,13 @@ func runServer(ctx context.Context, port int, devicePath, deviceID string, logge
 		err = multierr.Combine(err, rpcServer.Stop())
 	}()
 
-	r := robot.NewBlankRobot(logger)
-	r.AddSensor(sensor, api.Component{})
+	r := robotimpl.NewBlankRobot(logger)
+	r.AddSensor(sensor, config.Component{})
 
 	if err := rpcServer.RegisterServiceServer(
 		ctx,
 		&pb.RobotService_ServiceDesc,
-		apiserver.New(r),
+		server.New(r),
 		pb.RegisterRobotServiceHandlerFromEndpoint,
 	); err != nil {
 		return err

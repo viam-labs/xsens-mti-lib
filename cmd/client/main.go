@@ -8,9 +8,9 @@ import (
 	"os/signal"
 	"time"
 
-	"go.viam.com/robotcore/rlog"
-	"go.viam.com/robotcore/sensor/compass/client"
-	"go.viam.com/robotcore/utils"
+	"go.viam.com/core/rlog"
+	"go.viam.com/core/sensor/compass/client"
+	"go.viam.com/core/utils"
 
 	"github.com/edaniels/golog"
 	"go.uber.org/multierr"
