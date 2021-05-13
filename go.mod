@@ -7,5 +7,5 @@ require (
 	github.com/edaniels/golog v0.0.0-20210326173913-16d408aa7a5e
 	github.com/golangci/golangci-lint v1.39.0
 	go.uber.org/multierr v1.6.0
-	go.viam.com/core v0.0.0-20210513171229-3abcf098d5c7
+	go.viam.com/core v0.0.0-20210513171625-437068d81cfd
 )

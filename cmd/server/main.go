@@ -65,7 +65,7 @@ func runServer(ctx context.Context, port int, devicePath, deviceID string, logge
 		err = multierr.Combine(err, rpcServer.Stop())
 	}()
 
-	r := robotimpl.NewBlankRobot(logger)
+	r := robotimpl.NewBlank(logger)
 	r.AddSensor(sensor, config.Component{})
 
 	if err := rpcServer.RegisterServiceServer(
