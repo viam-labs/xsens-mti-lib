@@ -5,8 +5,6 @@ import (
 	"fmt"
 	"net"
 
-	"go.viam.com/mti/serial"
-
 	"github.com/edaniels/golog"
 	"go.uber.org/multierr"
 	"go.viam.com/core/config"
@@ -14,8 +12,9 @@ import (
 	pb "go.viam.com/core/proto/api/v1"
 	"go.viam.com/core/rlog"
 	robotimpl "go.viam.com/core/robot/impl"
-	"go.viam.com/core/rpc"
-	"go.viam.com/core/utils"
+	"go.viam.com/mti/serial"
+	"go.viam.com/utils"
+	rpcserver "go.viam.com/utils/rpc/server"
 )
 
 func main() {
@@ -57,7 +56,7 @@ func runServer(ctx context.Context, port int, devicePath, deviceID string, logge
 		return err
 	}
 
-	rpcServer, err := rpc.NewServer()
+	rpcServer, err := rpcserver.New(logger)
 	if err != nil {
 		return err
 	}
@@ -65,7 +64,10 @@ func runServer(ctx context.Context, port int, devicePath, deviceID string, logge
 		err = multierr.Combine(err, rpcServer.Stop())
 	}()
 
-	r := robotimpl.NewBlank(logger)
+	r, err := robotimpl.New(ctx, &config.Config{}, logger)
+	if err != nil {
+		return err
+	}
 	r.AddSensor(sensor, config.Component{})
 
 	if err := rpcServer.RegisterServiceServer(
