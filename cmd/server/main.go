@@ -57,7 +57,7 @@ func runServer(ctx context.Context, port int, devicePath, deviceID string, logge
 		return err
 	}
 
-	listener, err := net.Listen("tcp", fmt.Sprintf("localhost:%d", port))
+	listener, err := net.Listen("tcp", fmt.Sprintf(":%d", port))
 	if err != nil {
 		return err
 	}
