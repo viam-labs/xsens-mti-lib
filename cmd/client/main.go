@@ -10,14 +10,14 @@ import (
 
 	"go.viam.com/core/rlog"
 	"go.viam.com/core/sensor/compass/client"
-	"go.viam.com/core/utils"
+	goutils "go.viam.com/utils"
 
 	"github.com/edaniels/golog"
 	"go.uber.org/multierr"
 )
 
 func main() {
-	utils.ContextualMain(mainWithArgs, logger)
+	goutils.ContextualMain(mainWithArgs, logger)
 }
 
 var logger = rlog.Logger.Named("client")
@@ -29,7 +29,7 @@ type Arguments struct {
 
 func mainWithArgs(ctx context.Context, args []string, logger golog.Logger) error {
 	var argsParsed Arguments
-	if err := utils.ParseFlags(args, &argsParsed); err != nil {
+	if err := goutils.ParseFlags(args, &argsParsed); err != nil {
 		return err
 	}
 
@@ -43,7 +43,7 @@ func runClient(ctx context.Context, deviceAddress string, logger golog.Logger) (
 	}
 
 	defer func() {
-		err = multierr.Combine(err, utils.TryClose(client))
+		err = multierr.Combine(err, goutils.TryClose(client))
 	}()
 
 	sig := make(chan os.Signal, 1)
@@ -51,7 +51,7 @@ func runClient(ctx context.Context, deviceAddress string, logger golog.Logger) (
 
 	ticker := time.NewTicker(time.Second)
 	defer ticker.Stop()
-	utils.ContextMainReadyFunc(ctx)()
+	goutils.ContextMainReadyFunc(ctx)()
 	for {
 		select {
 		case <-ctx.Done():

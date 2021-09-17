@@ -9,4 +9,5 @@ require (
 	go.uber.org/multierr v1.6.0
 	go.viam.com/core v0.0.0-20210917180845-8bc026cb650c
 	go.viam.com/utils v0.0.2-0.20210811153755-ce34fa7eadb4
+	goji.io v2.0.2+incompatible
 )
