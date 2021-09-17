@@ -74,7 +74,7 @@ func runServer(ctx context.Context, port int, devicePath, deviceID string, logge
 	if err != nil {
 		return err
 	}
-	r.AddSensor(sensor, config.Component{})
+	r.AddSensor(sensor, config.Component{Name: "compass"})
 
 	if err := rpcServer.RegisterServiceServer(
 		ctx,
