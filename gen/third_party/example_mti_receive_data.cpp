@@ -273,7 +273,7 @@ int main(void)
 				cout << "1: " << vel[0]
 					<< ", 2: " << vel[1]
 					<< ", 3: " << vel[2];
-				cout << "Vector: " << vel;
+				cout << "Vector size: " << vel.size();
 			}
 			
 			cout << flush;
