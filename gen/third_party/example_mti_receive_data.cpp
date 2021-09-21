@@ -173,11 +173,19 @@ int main(void)
 	}
 	else if (device->deviceId().isVru() || device->deviceId().isAhrs())
 	{
-		cout << "Is Vru";
+		if (device->deviceId().isAhrs()) {
+			cout << "Is AHRS";
+		}
+		else {
+			cout << "Is Vru";
+		}
 		configArray.push_back(XsOutputConfiguration(XDI_Quaternion, 0));
 		configArray.push_back(XsOutputConfiguration(XDI_RateOfTurn, 0));
 		configArray.push_back(XsOutputConfiguration(XDI_MagneticField, 0));
 		configArray.push_back(XsOutputConfiguration(XDI_Acceleration, 0));
+		configArray.push_back(XsOutputConfiguration(XDI_LatLon, 0));
+		configArray.push_back(XsOutputConfiguration(XDI_AltitudeEllipsoid, 0));
+		configArray.push_back(XsOutputConfiguration(XDI_VelocityXYZ, 0));
 	}
 	else if (device->deviceId().isGnss())
 	{
