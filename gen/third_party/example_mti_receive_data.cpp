@@ -166,6 +166,7 @@ int main(void)
 
 	if (device->deviceId().isImu())
 	{
+		cout << "Is Imu";
 		configArray.push_back(XsOutputConfiguration(XDI_Acceleration, 0));
 		configArray.push_back(XsOutputConfiguration(XDI_RateOfTurn, 0));
 		configArray.push_back(XsOutputConfiguration(XDI_MagneticField, 0));
@@ -176,6 +177,7 @@ int main(void)
 	}
 	else if (device->deviceId().isGnss())
 	{
+		cout << "Is Gnss";
 		configArray.push_back(XsOutputConfiguration(XDI_Quaternion, 0));
 		configArray.push_back(XsOutputConfiguration(XDI_LatLon, 0));
 		configArray.push_back(XsOutputConfiguration(XDI_AltitudeEllipsoid, 0));
