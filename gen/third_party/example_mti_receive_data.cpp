@@ -252,11 +252,11 @@ int main(void)
 			if (packet.containsOrientation())
 			{
 				XsQuaternion quaternion = packet.orientationQuaternion();
-				cout << "\r"
-					<< "q0:" << quaternion.w()
-					<< ", q1:" << quaternion.x()
-					<< ", q2:" << quaternion.y()
-					<< ", q3:" << quaternion.z();
+				// cout << "\r"
+				// 	<< "q0:" << quaternion.w()
+				// 	<< ", q1:" << quaternion.x()
+				// 	<< ", q2:" << quaternion.y()
+				// 	<< ", q3:" << quaternion.z();
 
 				XsEuler euler = packet.orientationEuler();
 				cout << " |Roll:" << euler.roll()
