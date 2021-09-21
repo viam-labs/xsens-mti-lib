@@ -173,6 +173,7 @@ int main(void)
 	}
 	else if (device->deviceId().isVru() || device->deviceId().isAhrs())
 	{
+		cout << "Is Vru";
 		configArray.push_back(XsOutputConfiguration(XDI_Quaternion, 0));
 	}
 	else if (device->deviceId().isGnss())
