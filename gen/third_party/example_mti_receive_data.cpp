@@ -222,7 +222,7 @@ int main(void)
 	cout << string(79, '-') << endl;
 
 	int64_t startTime = XsTime::timeStampNow();
-	while (XsTime::timeStampNow() - startTime <= 10000)
+	while (XsTime::timeStampNow() - startTime <= 100000)
 	{
 		if (callback.packetAvailable())
 		{
