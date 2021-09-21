@@ -175,6 +175,9 @@ int main(void)
 	{
 		cout << "Is Vru";
 		configArray.push_back(XsOutputConfiguration(XDI_Quaternion, 0));
+		configArray.push_back(XsOutputConfiguration(XDI_RateOfTurn, 0));
+		configArray.push_back(XsOutputConfiguration(XDI_MagneticField, 0));
+		configArray.push_back(XsOutputConfiguration(XDI_Acceleration, 0));
 	}
 	else if (device->deviceId().isGnss())
 	{
