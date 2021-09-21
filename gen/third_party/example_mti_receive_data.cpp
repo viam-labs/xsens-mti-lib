@@ -267,6 +267,14 @@ int main(void)
 					<< ", N:" << vel[1]
 					<< ", U:" << vel[2];
 			}
+			if (packet.containsRateOfTurnHR())
+			{
+				XsVector vel = packet.rateOfTurnHR();
+				cout << "1: " << vel[0]
+					<< ", 2: " << vel[1]
+					<< ", 3: " << vel[2];
+				cout << "Vector: " << vel;
+			}
 			
 			cout << flush;
 		}
