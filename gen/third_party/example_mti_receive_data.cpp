@@ -275,6 +275,10 @@ int main(void)
 					<< ", 3: " << vel[2];
 				cout << "Vector size: " << vel.size();
 			}
+			else
+			{
+				cout << "No rate of turn!";
+			}
 			
 			cout << flush;
 		}
