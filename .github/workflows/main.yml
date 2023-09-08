@@ -1,0 +1,15 @@
+name: Test Licensing
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main, license-check ]
+    paths-ignore:
+      - 'README.md'
+
+jobs:
+    license_finder:
+        uses: viamrobotics/mti/.github/workflows/license_finder.yml@main
