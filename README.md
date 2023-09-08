@@ -1,2 +1,2 @@
 # Xsens MTi Library
-Library and utilities for conneting to Xsens MTi series IMUs.
+Library and utilities for connecting to Xsens MTi series IMUs.
