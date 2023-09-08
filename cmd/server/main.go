@@ -15,7 +15,7 @@ import (
 	"go.viam.com/core/rlog"
 	robotimpl "go.viam.com/core/robot/impl"
 
-	"go.viam.com/mti/serial"
+	"github.com/viam-labs/xsens-mti-lib/serial"
 	"go.viam.com/utils"
 	goutils "go.viam.com/utils"
 	rpcserver "go.viam.com/utils/rpc/server"

@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	mtigen "go.viam.com/mti/gen"
+	mtigen "github.com/viam-labs/xsens-mti-lib/gen"
 
 	"github.com/edaniels/golog"
 )
