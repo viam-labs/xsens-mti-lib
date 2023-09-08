@@ -22,3 +22,6 @@ lint: goformat
 
 test:
 	go test -v -coverprofile=coverage.txt -covermode=atomic ./...
+
+license-check:
+	license_finder
