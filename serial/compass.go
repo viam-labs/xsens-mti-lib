@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"go.viam.com/mti/gen"
+	"github.com/viam-labs/xsens-mti-lib/gen"
 
 	"github.com/edaniels/golog"
 	"go.viam.com/core/sensor"

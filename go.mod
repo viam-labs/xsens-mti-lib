@@ -1,4 +1,4 @@
-module go.viam.com/mti
+module github.com/viam-labs/xsens-mti-lib
 
 go 1.16
 
