@@ -45,6 +45,7 @@ func init() {
 type Config struct {
 	SerialPath     string `json:"serial_path"`
 	SerialBaudRate int    `json:"serial_baud_rate,omitempty"`
+	DeviceID       string `json:"device_id"`
 }
 
 // Validate ensures all parts of the config are valid.
@@ -151,5 +152,5 @@ func newXsens(
 	newConf *Config,
 	logger golog.Logger,
 ) (movementsensor.MovementSensor, error) {
-	return mtilib.NewCompass("deviceID", newConf.SerialPath, newConf.SerialBaudRate)
+	return mtilib.NewCompass(newConf.DeviceID, newConf.SerialPath, newConf.SerialBaudRate)
 }
