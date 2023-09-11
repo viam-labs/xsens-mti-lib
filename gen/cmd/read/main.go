@@ -16,28 +16,28 @@ func main() {
 	portInfoArrayPtr := mtigen.SwigcptrXsArrayXsPortInfo(portInfoArray.Swigcptr())
 
 	if portInfoArrayPtr.Empty() {
-		golog.Global.Fatal("no devices found")
+		golog.Global().Fatal("no devices found")
 		return
 	}
 
 	mtPort := portInfoArrayPtr.First()
 
-	golog.Global.Infow("found device",
+	golog.Global().Info("found device",
 		"id", mtPort.DeviceId().ToString().ToStdString(),
 		"port", mtPort.PortName().ToStdString(),
 		"baudrate", mtPort.Baudrate(),
 	)
 	if mtPort.Baudrate() != mtigen.XBR_115k2 {
-		golog.Global.Fatalf("unknown baudrate %d", mtPort.Baudrate())
+		golog.Global().Fatalf("unknown baudrate %d", mtPort.Baudrate())
 	}
 
 	if !control.OpenPort(mtPort.PortName(), mtPort.Baudrate()) {
-		golog.Global.Fatal("failed to open port")
+		golog.Global().Fatal("failed to open port")
 	}
 
 	device := control.Device(mtPort.DeviceId())
 	if device.Swigcptr() == 0 {
-		golog.Global.Fatal("expected device")
+		golog.Global().Fatal("expected device")
 	}
 
 	callback := mtigen.NewCallbackHandler()
@@ -46,7 +46,7 @@ func main() {
 	mtigen.AddCallbackHandler(callback, device)
 
 	if !device.GotoMeasurement() {
-		golog.Global.Fatal("failed to go to measurement mode")
+		golog.Global().Fatal("failed to go to measurement mode")
 	}
 
 	for {
