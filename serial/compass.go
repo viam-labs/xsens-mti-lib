@@ -9,11 +9,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/viam-labs/xsens-mti-lib/gen"
-
 	"github.com/edaniels/golog"
-	"go.viam.com/core/sensor"
-	"go.viam.com/core/sensor/compass"
+	"github.com/golang/geo/r3"
+	geo "github.com/kellydunn/golang-geo"
+	"github.com/viam-labs/xsens-mti-lib/gen"
+	"go.viam.com/rdk/components/movementsensor"
+	"go.viam.com/rdk/resource"
+	"go.viam.com/rdk/spatialmath"
 )
 
 type Compass struct {
@@ -23,9 +25,10 @@ type Compass struct {
 	heading   atomic.Value
 	closeCh   chan struct{}
 	closeOnce sync.Once
+	mu        sync.Mutex
 }
 
-func NewCompass(deviceID string, path string, baudRate int) (compass.Compass, error) {
+func NewCompass(deviceID string, path string, baudRate int) (movementsensor.MovementSensor, error) {
 	control := gen.XsControlConstruct()
 
 	portInfoArray := gen.XSScannerScanPorts()
@@ -37,7 +40,7 @@ func NewCompass(deviceID string, path string, baudRate int) (compass.Compass, er
 	mtPort := portInfoArrayPtr.First()
 
 	foundPath := mtPort.PortName().ToStdString()
-	golog.Global.Infow("found device",
+	golog.Global().Infof("found device",
 		"id", mtPort.DeviceId().ToString().ToStdString(),
 		"port", foundPath,
 		"baudrate", mtPort.Baudrate(),
@@ -115,37 +118,92 @@ func NewCompass(deviceID string, path string, baudRate int) (compass.Compass, er
 	return c, nil
 }
 
-func (c *Compass) StartCalibration(ctx context.Context) error {
-	return nil
-}
-
-func (c *Compass) StopCalibration(ctx context.Context) error {
-	return nil
-}
-
-func (c *Compass) Readings(ctx context.Context) ([]interface{}, error) {
-	heading, err := c.Heading(ctx)
-	if err != nil {
-		return nil, err
-	}
-	return []interface{}{heading}, nil
-}
-
-func (c *Compass) Desc() sensor.Description {
-	return sensor.Description{
-		Type: compass.Type,
-	}
-}
-
-func (c *Compass) Heading(ctx context.Context) (float64, error) {
+func (c *Compass) CompassHeading(ctx context.Context, extra map[string]interface{}) (float64, error) {
+	c.mu.Lock()
+	defer c.mu.Unlock()
 	return c.heading.Load().(float64), nil
 }
 
 func (c *Compass) Close(ctx context.Context) error {
+	c.mu.Lock()
+	defer c.mu.Unlock()
 	c.closeOnce.Do(func() {
 		close(c.closeCh)
 		defer c.control.Destruct()
 		defer gen.DeleteCallbackHandler(c.callback)
 	})
 	return nil
+}
+
+func (c *Compass) Accuracy(ctx context.Context, extra map[string]interface{}) (map[string]float32, error) {
+	c.mu.Lock()
+	defer c.mu.Unlock()
+	return nil, nil
+}
+
+// AngularVelocity unimplemented
+func (c *Compass) AngularVelocity(ctx context.Context, extra map[string]interface{}) (spatialmath.AngularVelocity, error) {
+	c.mu.Lock()
+	defer c.mu.Unlock()
+	return spatialmath.AngularVelocity{}, nil
+}
+
+// LinearAcceleration unimplemented
+func (c *Compass) LinearAcceleration(ctx context.Context, extra map[string]interface{}) (r3.Vector, error) {
+	c.mu.Lock()
+	defer c.mu.Unlock()
+	return r3.Vector{}, nil
+}
+
+// LinearVelocity unimplemented
+func (c *Compass) LinearVelocity(ctx context.Context, extra map[string]interface{}) (r3.Vector, error) {
+	c.mu.Lock()
+	defer c.mu.Unlock()
+	return r3.Vector{}, nil
+}
+
+// Orientation unimplemented
+func (c *Compass) Orientation(ctx context.Context, extra map[string]interface{}) (spatialmath.Orientation, error) {
+	c.mu.Lock()
+	defer c.mu.Unlock()
+	return spatialmath.NewZeroOrientation(), nil
+}
+
+// Position unimplemented
+func (c *Compass) Position(ctx context.Context, extra map[string]interface{}) (*geo.Point, float64, error) {
+	c.mu.Lock()
+	defer c.mu.Unlock()
+	return nil, 0, nil
+}
+
+// Properties
+func (c *Compass) Properties(ctx context.Context, extra map[string]interface{}) (*movementsensor.Properties, error) {
+	c.mu.Lock()
+	defer c.mu.Unlock()
+	return &movementsensor.Properties{
+		CompassHeadingSupported: true,
+	}, nil
+}
+
+// Readings
+func (c *Compass) Readings(ctx context.Context, extra map[string]interface{}) (map[string]interface{}, error) {
+	c.mu.Lock()
+	defer c.mu.Unlock()
+	readings := make(map[string]interface{})
+	return readings, nil
+}
+
+// DoCommand implements movementsensor.MovementSensor.
+func (*Compass) DoCommand(ctx context.Context, cmd map[string]interface{}) (map[string]interface{}, error) {
+	return nil, nil
+}
+
+// Name implements movementsensor.MovementSensor.
+func (*Compass) Name() resource.Name {
+	panic("unimplemented")
+}
+
+// Reconfigure implements movementsensor.MovementSensor.
+func (*Compass) Reconfigure(ctx context.Context, deps resource.Dependencies, conf resource.Config) error {
+	panic("unimplemented")
 }
