@@ -118,14 +118,6 @@ func NewCompass(deviceID string, path string, baudRate int) (movementsensor.Move
 	return c, nil
 }
 
-// func (c *Compass) Readings(ctx context.Context) ([]interface{}, error) {
-// 	heading, err := c.Heading(ctx)
-// 	if err != nil {
-// 		return nil, err
-// 	}
-// 	return []interface{}{heading}, nil
-// }
-
 func (c *Compass) CompassHeading(ctx context.Context, extra map[string]interface{}) (float64, error) {
 	c.mu.Lock()
 	defer c.mu.Unlock()
