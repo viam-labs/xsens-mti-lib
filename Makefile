@@ -1,3 +1,6 @@
+CGO_LDFLAGS=""
+GO_BUILD_LDFLAGS = -ldflags "'main.Version=${TAG_VERSION}' -X 'main.GitRevision=${GIT_REVISION}'"
+
 OS=$(shell uname)
 
 all: sdk swig
@@ -22,3 +25,7 @@ lint: goformat
 
 test:
 	go test -v -coverprofile=coverage.txt -covermode=atomic ./...
+
+.PHONY: build
+build:
+	mkdir -p bin && rm -rf bin; CGO_ENABLED=0 CGO_LDFLAGS=${CGO_LDFLAGS} go build $(GO_BUILD_LDFLAGS) -o bin/module main.go
