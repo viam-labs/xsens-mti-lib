@@ -121,7 +121,10 @@ func NewCompass(deviceID string, path string, baudRate int) (movementsensor.Move
 func (c *Compass) CompassHeading(ctx context.Context, extra map[string]interface{}) (float64, error) {
 	c.mu.Lock()
 	defer c.mu.Unlock()
-	return c.heading.Load().(float64), nil
+	compass := c.heading.Load().(float64)
+	compass = math.Mod(compass, 360)
+	compass = math.Mod(compass+360, 360)
+	return compass, nil
 }
 
 func (c *Compass) Close(ctx context.Context) error {
