@@ -58,6 +58,9 @@ func (cfg *Config) Validate(path string) ([]string, error) {
 		return nil, utils.NewConfigValidationError(path, errors.Errorf("Baud rate is not in %v", baudRateList))
 	}
 
+	if cfg.DeviceID == "" {
+		return nil, utils.NewConfigValidationFieldRequiredError(path, "serial_number")
+	}
 	return deps, nil
 }
 
