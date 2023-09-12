@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-	utils.ContextualMain(mainWithArgs, golog.NewDevelopmentLogger("mti-xsense"))
+	utils.ContextualMain(mainWithArgs, golog.NewDevelopmentLogger("mti-xsens"))
 }
 
 func mainWithArgs(ctx context.Context, args []string, logger golog.Logger) error {
