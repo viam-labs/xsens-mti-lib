@@ -1,5 +1,4 @@
-CGO_LDFLAGS=""
-GO_BUILD_LDFLAGS = -ldflags "'main.Version=${TAG_VERSION}' -X 'main.GitRevision=${GIT_REVISION}'"
+GO_BUILD_LDFLAGS = -ldflags "-X 'main.Version=${TAG_VERSION}' -X 'main.GitRevision=${GIT_REVISION}'"
 
 OS=$(shell uname)
 
@@ -14,6 +13,7 @@ swig:
 
 clean:
 	cd gen/third_party && $(MAKE) clean
+	rm -rf bin
 
 goformat:
 	gofmt -s -w .
@@ -28,4 +28,4 @@ test:
 
 .PHONY: build
 build:
-	mkdir -p bin && rm -rf bin; CGO_ENABLED=0 CGO_LDFLAGS=${CGO_LDFLAGS} go build $(GO_BUILD_LDFLAGS) -o bin/module main.go
+	mkdir -p bin && rm -rf bin; go build $(GO_BUILD_LDFLAGS) -o bin/xsens-mti-lib main.go

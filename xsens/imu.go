@@ -13,7 +13,6 @@ import (
 
 	mtilib "github.com/viam-labs/xsens-mti-lib/serial"
 	"go.viam.com/rdk/components/movementsensor"
-	"go.viam.com/rdk/components/sensor"
 	"go.viam.com/rdk/resource"
 	"go.viam.com/rdk/spatialmath"
 	rutils "go.viam.com/rdk/utils"
@@ -26,13 +25,13 @@ func init() {
 	resource.RegisterComponent(
 		movementsensor.API,
 		Model,
-		resource.Registration[sensor.Sensor, *Config]{
+		resource.Registration[movementsensor.MovementSensor, *Config]{
 			Constructor: func(
 				ctx context.Context,
 				deps resource.Dependencies,
 				conf resource.Config,
 				logger golog.Logger,
-			) (sensor.Sensor, error) {
+			) (movementsensor.MovementSensor, error) {
 				newConf, err := resource.NativeConfig[*Config](conf)
 				if err != nil {
 					return nil, err
@@ -131,9 +130,9 @@ func (i *xsense) Position(ctx context.Context, extra map[string]interface{}) (*g
 }
 
 // Properties
-func (mti *xsense) Properties(ctx context.Context, extra map[string]interface{}) (*movementsensor.Properties, error) {
-	mti.mu.Lock()
-	defer mti.mu.Unlock()
+func (i *xsense) Properties(ctx context.Context, extra map[string]interface{}) (*movementsensor.Properties, error) {
+	i.mu.Lock()
+	defer i.mu.Unlock()
 	return &movementsensor.Properties{
 		CompassHeadingSupported: true,
 	}, nil

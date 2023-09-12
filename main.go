@@ -5,7 +5,7 @@ import (
 
 	"github.com/edaniels/golog"
 	"github.com/viam-labs/xsens-mti-lib/xsens"
-	"go.viam.com/rdk/components/sensor"
+	"go.viam.com/rdk/components/movementsensor"
 	"go.viam.com/rdk/module"
 	"go.viam.com/utils"
 )
@@ -20,7 +20,7 @@ func mainWithArgs(ctx context.Context, args []string, logger golog.Logger) error
 		return err
 	}
 
-	imu.AddModelFromRegistry(ctx, sensor.API, xsens.Model)
+	imu.AddModelFromRegistry(ctx, movementsensor.API, xsens.Model)
 
 	err = imu.Start(ctx)
 	defer imu.Close(ctx)
