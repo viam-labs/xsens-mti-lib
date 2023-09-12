@@ -2,9 +2,9 @@ package main
 
 import (
 	"context"
-	"xsens"
 
 	"github.com/edaniels/golog"
+	"github.com/viam-labs/xsens-mti-lib/xsens"
 	"go.viam.com/rdk/components/sensor"
 	"go.viam.com/rdk/module"
 	"go.viam.com/utils"
