@@ -44,7 +44,7 @@ func init() {
 type Config struct {
 	SerialPath     string `json:"serial_path"`
 	SerialBaudRate int    `json:"serial_baud_rate,omitempty"`
-	DeviceID       string `json:"device_id"`
+	DeviceID       string `json:"serial_number"`
 }
 
 // Validate ensures all parts of the config are valid.
