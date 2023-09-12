@@ -18,7 +18,7 @@ import (
 	rutils "go.viam.com/rdk/utils"
 )
 
-var Model = resource.NewModel("viam", "sensor", "mti-xsense-200")
+var Model = resource.NewModel("viam", "sensor", "mti-xsens-200")
 var baudRateList = []uint{115200}
 
 func init() {
@@ -61,7 +61,7 @@ func (cfg *Config) Validate(path string) ([]string, error) {
 	return deps, nil
 }
 
-type xsense struct {
+type xsens struct {
 	resource.Named
 	resource.AlwaysRebuild
 	magnetometer            r3.Vector
@@ -78,59 +78,59 @@ type xsense struct {
 }
 
 // Close
-func (i *xsense) Close(ctx context.Context) error {
+func (i *xsens) Close(ctx context.Context) error {
 	return i.imu.Close(ctx)
 }
 
 // CompassHeading
-func (i *xsense) CompassHeading(ctx context.Context, extra map[string]interface{}) (float64, error) {
+func (i *xsens) CompassHeading(ctx context.Context, extra map[string]interface{}) (float64, error) {
 	return i.imu.CompassHeading(ctx, extra)
 }
 
 // Accuracy unimplemented
-func (i *xsense) Accuracy(ctx context.Context, extra map[string]interface{}) (map[string]float32, error) {
+func (i *xsens) Accuracy(ctx context.Context, extra map[string]interface{}) (map[string]float32, error) {
 	i.mu.Lock()
 	defer i.mu.Unlock()
 	return nil, nil
 }
 
 // AngularVelocity unimplemented
-func (i *xsense) AngularVelocity(ctx context.Context, extra map[string]interface{}) (spatialmath.AngularVelocity, error) {
+func (i *xsens) AngularVelocity(ctx context.Context, extra map[string]interface{}) (spatialmath.AngularVelocity, error) {
 	i.mu.Lock()
 	defer i.mu.Unlock()
 	return spatialmath.AngularVelocity{}, nil
 }
 
 // LinearAcceleration unimplemented
-func (i *xsense) LinearAcceleration(ctx context.Context, extra map[string]interface{}) (r3.Vector, error) {
+func (i *xsens) LinearAcceleration(ctx context.Context, extra map[string]interface{}) (r3.Vector, error) {
 	i.mu.Lock()
 	defer i.mu.Unlock()
 	return r3.Vector{}, nil
 }
 
 // LinearVelocity unimplemented
-func (i *xsense) LinearVelocity(ctx context.Context, extra map[string]interface{}) (r3.Vector, error) {
+func (i *xsens) LinearVelocity(ctx context.Context, extra map[string]interface{}) (r3.Vector, error) {
 	i.mu.Lock()
 	defer i.mu.Unlock()
 	return r3.Vector{}, nil
 }
 
 // Orientation unimplemented
-func (i *xsense) Orientation(ctx context.Context, extra map[string]interface{}) (spatialmath.Orientation, error) {
+func (i *xsens) Orientation(ctx context.Context, extra map[string]interface{}) (spatialmath.Orientation, error) {
 	i.mu.Lock()
 	defer i.mu.Unlock()
 	return spatialmath.NewZeroOrientation(), nil
 }
 
 // Position unimplemented
-func (i *xsense) Position(ctx context.Context, extra map[string]interface{}) (*geo.Point, float64, error) {
+func (i *xsens) Position(ctx context.Context, extra map[string]interface{}) (*geo.Point, float64, error) {
 	i.mu.Lock()
 	defer i.mu.Unlock()
 	return nil, 0, nil
 }
 
 // Properties
-func (i *xsense) Properties(ctx context.Context, extra map[string]interface{}) (*movementsensor.Properties, error) {
+func (i *xsens) Properties(ctx context.Context, extra map[string]interface{}) (*movementsensor.Properties, error) {
 	i.mu.Lock()
 	defer i.mu.Unlock()
 	return &movementsensor.Properties{
@@ -139,7 +139,7 @@ func (i *xsense) Properties(ctx context.Context, extra map[string]interface{}) (
 }
 
 // Readings
-func (i *xsense) Readings(ctx context.Context, extra map[string]interface{}) (map[string]interface{}, error) {
+func (i *xsens) Readings(ctx context.Context, extra map[string]interface{}) (map[string]interface{}, error) {
 	readings := make(map[string]interface{})
 	return readings, nil
 }
