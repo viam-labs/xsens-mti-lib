@@ -121,8 +121,17 @@ func NewCompass(deviceID string, path string, baudRate int) (movementsensor.Move
 func (c *Compass) CompassHeading(ctx context.Context, extra map[string]interface{}) (float64, error) {
 	c.mu.Lock()
 	defer c.mu.Unlock()
+	// compass is set to 0 when facing north
+	// 180 when facing south
+	// 90 when facing west
+	// -90 when facing east
 	compass := c.heading.Load().(float64)
-	compass = math.Mod(compass, 360)
+	// sign flip & mod math is to ensure that
+	// the compass heading conforms to the
+	// motionservice.GetCompassHeading proto
+	// which expects:
+	// 0 is North, 90 is East, 180 is South, and 270 is   West
+	compass = math.Mod(-compass, 360)
 	compass = math.Mod(compass+360, 360)
 	return compass, nil
 }
